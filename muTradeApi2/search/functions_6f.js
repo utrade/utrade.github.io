@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['oncanceled',['onCanceled',['../class_a_p_i2_1_1_s_g_context.html#add684084c3684e8034cea65cb35b0b6f',1,'API2::SGContext']]],
+  ['oncancelrejected',['onCancelRejected',['../class_a_p_i2_1_1_s_g_context.html#ae4ad928457b9cb3d5defaa44640b41d3',1,'API2::SGContext']]],
+  ['oncommandpausestartegy',['onCommandPauseStartegy',['../class_a_p_i2_1_1_s_g_context.html#a0a5fe07c99f6552a5fca285d5ee4cacd',1,'API2::SGContext']]],
+  ['oncommandrunstrategy',['onCommandRunStrategy',['../class_a_p_i2_1_1_s_g_context.html#a401a5daadf6b23661671a36c8de5b7e1',1,'API2::SGContext']]],
+  ['oncommandterminatesqoffstrategy',['onCommandTerminateSqOffStrategy',['../class_a_p_i2_1_1_s_g_context.html#a5ec31bc87d26adcc8ad2674de078404d',1,'API2::SGContext']]],
+  ['oncommandterminatestartegy',['onCommandTerminateStartegy',['../class_a_p_i2_1_1_s_g_context.html#a85d7ac789482c407911a66055690a76c',1,'API2::SGContext']]],
+  ['onderivedmarketdataevent',['onDerivedMarketDataEvent',['../class_a_p_i2_1_1_s_g_context.html#a03606cff5f8b0488e6a14fd937df47a9',1,'API2::SGContext']]],
+  ['onfilled',['onFilled',['../class_a_p_i2_1_1_s_g_context.html#a6731a9753ec762623eb9737aaae97432',1,'API2::SGContext']]],
+  ['onioccanceled',['onIOCCanceled',['../class_a_p_i2_1_1_s_g_context.html#af4705af6aa2806b16882028cb3b85fd6',1,'API2::SGContext']]],
+  ['onmodifystrategy',['onModifyStrategy',['../class_a_p_i2_1_1_s_g_context.html#afcf2afb6a7ee4528832a529e20b57f5d',1,'API2::SGContext']]],
+  ['onnewconfirmed',['onNewConfirmed',['../class_a_p_i2_1_1_s_g_context.html#a7aea075d2b1b88e18b0708a05ce0a60c',1,'API2::SGContext']]],
+  ['onnewreject',['onNewReject',['../class_a_p_i2_1_1_s_g_context.html#aa74aca215d051a9dbf1d5e8ee9c1c837',1,'API2::SGContext']]],
+  ['onpartialfill',['onPartialFill',['../class_a_p_i2_1_1_s_g_context.html#a87e382522bc0622fdbe00ff598dfecaa',1,'API2::SGContext']]],
+  ['onreplaced',['onReplaced',['../class_a_p_i2_1_1_s_g_context.html#a702a97361711e4454518e657d9733ab6',1,'API2::SGContext']]],
+  ['onreplacerejected',['onReplaceRejected',['../class_a_p_i2_1_1_s_g_context.html#a3628f6c31070455a4b994e1b6e763ebe',1,'API2::SGContext']]],
+  ['operator_28_29',['operator()',['../class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a8dc2f4c75526506d70d3149a5212d17f',1,'API2::COMMON::MktData']]],
+  ['operator_3d_3d',['operator==',['../class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_data_wrapper.html#a92c80aea8b9dc7c934f18e52b76fcbc8',1,'API2::DATA_STRUCTS::MarketDataWrapper']]],
+  ['orderconfirmation',['OrderConfirmation',['../class_a_p_i2_1_1_order_confirmation.html#a8b959a4ef931b3bce6f78eb1794b0663',1,'API2::OrderConfirmation']]]
+];
