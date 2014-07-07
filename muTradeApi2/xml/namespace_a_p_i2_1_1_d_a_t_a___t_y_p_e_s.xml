@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s" kind="namespace">
+    <compoundname>API2::DATA_TYPES</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1ac2b7dc34bcf2cd998e4dc0962f90011e" prot="public" static="no">
+        <type>SIGNED_LONG</type>
+        <definition>typedef SIGNED_LONG API2::DATA_TYPES::PRICE</definition>
+        <argsstring></argsstring>
+        <name>PRICE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="14" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a31789b54989538d48065e1da06886360" prot="public" static="no">
+        <type>SIGNED_LONG</type>
+        <definition>typedef SIGNED_LONG API2::DATA_TYPES::QTY</definition>
+        <argsstring></argsstring>
+        <name>QTY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1af178f17599fd5ab45c29ba0bbff4674e" prot="public" static="no">
+        <type>SIGNED_LONG</type>
+        <definition>typedef SIGNED_LONG API2::DATA_TYPES::VOLUME</definition>
+        <argsstring></argsstring>
+        <name>VOLUME</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="26" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1aa28a85ababb3a7d62d9b2a9b8fc9b8b5" prot="public" static="no">
+        <type>SIGNED_LONG</type>
+        <definition>typedef SIGNED_LONG API2::DATA_TYPES::SYMBOL_ID</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="32" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1ad7b23807d0d291ac49bba5fc5b3ff554" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::CLORDER_ID</definition>
+        <argsstring></argsstring>
+        <name>CLORDER_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="39" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a89aefb7ec219f37693a1ee2c430dd468" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::EXCHANGE_TIME</definition>
+        <argsstring></argsstring>
+        <name>EXCHANGE_TIME</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="45" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a27e9cbb664c18e117795baea4e1d1a68" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::STRATEGY_ID</definition>
+        <argsstring></argsstring>
+        <name>STRATEGY_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="51" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a0611d7f484fbf3085e78251dfe8bac59" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::CLIENT_ID</definition>
+        <argsstring></argsstring>
+        <name>CLIENT_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="57" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1afe4567ff1318528ca994eaf9b66ebef7" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::DEPTH_POSITION</definition>
+        <argsstring></argsstring>
+        <name>DEPTH_POSITION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="63" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a4cecb0baab5f6545b081836f9c6e73df" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::SEQUENCE_NUMBER</definition>
+        <argsstring></argsstring>
+        <name>SEQUENCE_NUMBER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="75" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a16e67a171496be3da63ff3a60d8f52d2" prot="public" static="no">
+        <type>SIGNED_LONG</type>
+        <definition>typedef SIGNED_LONG API2::DATA_TYPES::TRADER_ID</definition>
+        <argsstring></argsstring>
+        <name>TRADER_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="81" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1ae8a40b76ff57c80cce80392677273748" prot="public" static="no">
+        <type>UNSIGNED_LONG</type>
+        <definition>typedef UNSIGNED_LONG API2::DATA_TYPES::ERROR_CODE</definition>
+        <argsstring></argsstring>
+        <name>ERROR_CODE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="87" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1ac8930f5fa3f03a053992bca5b4254eb1" prot="public" static="no">
+        <type>UNSIGNED_INTEGER</type>
+        <definition>typedef UNSIGNED_INTEGER API2::DATA_TYPES::EXPIRY_DATE</definition>
+        <argsstring></argsstring>
+        <name>EXPIRY_DATE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="93" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a5e96090298f9592607755c4f996b8eb7" prot="public" static="no">
+        <type>UNSIGNED_CHARACTER</type>
+        <definition>typedef UNSIGNED_CHARACTER API2::DATA_TYPES::ENUM</definition>
+        <argsstring></argsstring>
+        <name>ENUM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="99" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a9dd6dc7238500a92f4c7aab69b7eee29" prot="public" static="no">
+        <type>UNSIGNED_CHARACTER</type>
+        <definition>typedef UNSIGNED_CHARACTER API2::DATA_TYPES::SETTLEMENT_PERIOD</definition>
+        <argsstring></argsstring>
+        <name>SETTLEMENT_PERIOD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="105" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1aa53356373a86a25ed960786a02fb6703" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OrderStatus</definition>
+        <argsstring></argsstring>
+        <name>OrderStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="111" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a4b79daee989a0c2045b02cec8f7da242" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::StrategyComment</definition>
+        <argsstring></argsstring>
+        <name>StrategyComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="117" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a94cc8aeb47e6f22888f9c7fc551472e7" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::ResponseType</definition>
+        <argsstring></argsstring>
+        <name>ResponseType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="123" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a11a4417f49bafdee37c54d9043fbeb80" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::RiskStatus</definition>
+        <argsstring></argsstring>
+        <name>RiskStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="129" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1aba5b63dc8347bef641de141e745b91ef" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::ResponseCategory</definition>
+        <argsstring></argsstring>
+        <name>ResponseCategory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="135" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a96c5e868e848935fc82710ccfcd7f9ed" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OrderMode</definition>
+        <argsstring></argsstring>
+        <name>OrderMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="142" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a374403afdfb8b8effa929ce0dad1fa5c" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::ExchangeId</definition>
+        <argsstring></argsstring>
+        <name>ExchangeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="148" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a8d52a2dba4aaa28cba826f3dd3014b8b" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::SecurityType</definition>
+        <argsstring></argsstring>
+        <name>SecurityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="154" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a868468553fbb010dea153421434b1fee" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OrderType</definition>
+        <argsstring></argsstring>
+        <name>OrderType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="160" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1ae25784bb4260806c28adfbb27011feb8" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OrderValidity</definition>
+        <argsstring></argsstring>
+        <name>OrderValidity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="166" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a651e19b5be3fde9b64acabe4b25b2a58" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::ProductType</definition>
+        <argsstring></argsstring>
+        <name>ProductType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="172" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a5e12d940c06874941f9535ae414b9241" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OptionMode</definition>
+        <argsstring></argsstring>
+        <name>OptionMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="178" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1acc76fb4b23842061df3796e9e242279f" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::OptionAttribute</definition>
+        <argsstring></argsstring>
+        <name>OptionAttribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="184" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1aac648aee82d2792fa40709282bf982dc" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::InstrumentType</definition>
+        <argsstring></argsstring>
+        <name>InstrumentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="190" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1adce16a0536fafdd6523b1bd235c5cdc3" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::TransactionType</definition>
+        <argsstring></argsstring>
+        <name>TransactionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="196" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a7eab3aa31872c20fe7e22345e64ab6d3" prot="public" static="no">
+        <type>UNSIGNED_SHORT</type>
+        <definition>typedef UNSIGNED_SHORT API2::DATA_TYPES::CommandCategory</definition>
+        <argsstring></argsstring>
+        <name>CommandCategory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="202" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s_1a5bea4ad688712c2b9327a0a0e68bff2c" prot="public" static="no">
+        <type>std::string</type>
+        <definition>typedef std::string API2::DATA_TYPES::String</definition>
+        <argsstring></argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="208" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h" line="8"/>
+  </compounddef>
+</doxygen>

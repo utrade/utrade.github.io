@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="namespace_a_p_i2_1_1_serialization" kind="namespace">
+    <compoundname>API2::Serialization</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a3615401a10ce212bb91956c659009afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const UNSIGNED_LONG &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const UNSIGNED_LONG &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a2482439fb7fa04d2e7b6438748ea9d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const UNSIGNED_CHARACTER &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const UNSIGNED_CHARACTER &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1ac854b9584ab783a186decf67d1496f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const char &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const char &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1ad385f9bf85679d35c59c1ef96f696f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const UNSIGNED_INTEGER &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const UNSIGNED_INTEGER &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a9f7ac613a8efe1cb31fdac6f3777839a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const int &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a524c827d9292d99e4168e8df085491d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const UNSIGNED_SHORT &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const UNSIGNED_SHORT &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a94869656b9d20ce3e41e36bd6d01e98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const short &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const short &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1ae12f07dc91f691c02e05dfb47bddc2c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const SIGNED_LONG &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const SIGNED_LONG &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a8fdac9fe3c6403d871231c668ea4de73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::serialize</definition>
+        <argsstring>(const std::string &amp;val, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize will serialize the long value and append to buf and auto-increment bytes with size of data serialized </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be serialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after serialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a33006802430b81411f06027bf7e29f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(UNSIGNED_LONG &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>UNSIGNED_LONG &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a6d7265687dc5759dab631cc297287824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(UNSIGNED_CHARACTER &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>UNSIGNED_CHARACTER &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1ac8191698020bada4fe8ab23aa27d09c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(char &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>char &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a3dd8319cb47fefb9013db6639264fc83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(UNSIGNED_INTEGER &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>UNSIGNED_INTEGER &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="119"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a4476dfef6593a3d3ad4d50f7dbf1dcaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(int &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="127"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a13e018cb23188e06a8d4e15242ed748c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(UNSIGNED_SHORT &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>UNSIGNED_SHORT &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a5620fb78dea2784f22a30b7f81f7b86d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(short &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>short &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1af4a554febb1e7503b995a8259871684b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(SIGNED_LONG &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>SIGNED_LONG &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_a_p_i2_1_1_serialization_1a716fe4ad48c84a23df1d6749cc58f0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::Serialization::deSerialize</definition>
+        <argsstring>(std::string &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize overloaded function, deserializes to val from buf, and adjusts offset to bytes read for deserialization. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be deserialized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array pointer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start index of char, auto adjusted according to size of val after deserialization </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="159"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/serializeCommands.h" line="7"/>
+  </compounddef>
+</doxygen>

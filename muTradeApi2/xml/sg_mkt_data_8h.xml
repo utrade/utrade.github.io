@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="sg_mkt_data_8h" kind="file">
+    <compoundname>sgMktData.h</compoundname>
+    <includes local="no">cmdDefines.h</includes>
+    <includes refid="api_structs_8h" local="no">apiStructs.h</includes>
+    <includes refid="shared_commands_8h" local="no">sharedCommands.h</includes>
+    <includes local="no">boost/date_time/gregorian/gregorian.hpp</includes>
+    <includes local="no">boost/date_time/posix_time/posix_time.hpp</includes>
+    <includedby refid="sg_common_8h" local="no">sgLib/sgCommon.h</includedby>
+    <incdepgraph>
+      <node id="109">
+        <label>stdint.h</label>
+      </node>
+      <node id="113">
+        <label>boost/date_time/gregorian/gregorian.hpp</label>
+      </node>
+      <node id="103">
+        <label>cmdDefines.h</label>
+      </node>
+      <node id="111">
+        <label>string</label>
+      </node>
+      <node id="110">
+        <label>map</label>
+      </node>
+      <node id="106">
+        <label>stddef.h</label>
+      </node>
+      <node id="104">
+        <label>apiStructs.h</label>
+        <link refid="api_structs_8h_source"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="105">
+        <label>apiConstants.h</label>
+        <link refid="api_constants_8h_source"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sgMktData.h"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="117">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="115">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sgMktData.h"/>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="117" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" prot="public">API2::COMMON::MktData</innerclass>
+    <innernamespace refid="namespace_t_b_t_d_a_t_a">TBTDATA</innernamespace>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_c_o_m_m_o_n">API2::COMMON</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SG_COMMON_MKDATAH</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SG_COMMON_MKDATAH</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmdDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiStructs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;volumeProfile/defines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedCommands.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/date_time/gregorian/gregorian.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/date_time/posix_time/posix_time.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">TBTDATA<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SymbolData<sp/>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2<sp/>{<sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">COMMON<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound" tooltip="The MktData class, The wrapper class for getting Market Feed for both Snapshot and Tick-By-Tick...">MktData</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::SYMBOL_ID<sp/>_symbolId;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>CREATE_FIELD(<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound" tooltip="The MarketDataWrapper class will contain the Snapshot/TBT Market Data.">COMMON::MarketDataWrapper</ref>,<sp/>Quote);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>CREATE_FIELD(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>IsSnapShot);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>CREATE_FIELD(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>multiplier);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>TBTDATA::SymbolData<sp/>*_tbtData;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><sp/>getPrice(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound" tooltip="The MarketDepthWrapper class will store Bid Ask Price at particular level.">COMMON::MarketDepthWrapper</ref><sp/>&amp;wrapper,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;<sp/>mode);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><sp/>getQty(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound" tooltip="The MarketDepthWrapper class will store Bid Ask Price at particular level.">COMMON::MarketDepthWrapper</ref><sp/>&amp;wrapper,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;<sp/>mode);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateTbt();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateMcl();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8211f710536b63d9314b784b1ee7fbd6" kindref="member" tooltip="getOpenPrice">getOpenPrice</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a5e19df584bf4ab79a98ffd56bb10c1ae" kindref="member" tooltip="getHighPrice">getHighPrice</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a1356652aa23866fd25bcaadda01d8889" kindref="member" tooltip="getLowPrice">getLowPrice</ref>();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a575943cc7e3a507003973f96e9eb1b52" kindref="member" tooltip="getClosePrice">getClosePrice</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::VOLUME<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aaf5521f2f0225420a1a630c77c9e586f" kindref="member" tooltip="getVolume">getVolume</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab153a1910684543f3482e8cb3118c919" kindref="member" tooltip="getLastTradeQty">getLastTradeQty</ref>();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a77c7ab13a4bcd33586d534b9170503f4" kindref="member" tooltip="getLastTradePrice">getLastTradePrice</ref>();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/>getPrice(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;<sp/>mode);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/>getQty(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;<sp/>mode);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a162e50a3d866561b2143dbd260d68bb4" kindref="member" tooltip="getBidPrice">getBidPrice</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a4cdac77ae6e740962ac4bf67cda226f1" kindref="member" tooltip="getBidQty">getBidQty</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab986bba84db8307d955aa31bdd327e22" kindref="member" tooltip="getAskPrice">getAskPrice</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac7e2e92d87bd2645a719c8dd51246fa2" kindref="member" tooltip="getAskQty">getAskQty</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pos);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a10582f954576088dd45580b7aef78a32" kindref="member" tooltip="subscribe">subscribe</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbol,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSnapshot);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a7f5dceb2456e460d7c21604985e1eecd" kindref="member" tooltip="unsubscribe">unsubscribe</ref>();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a794cd4472c438d19b21f93d610295508" kindref="member" tooltip="MktData.">MktData</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbolId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSnapshot<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//MktData();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound" tooltip="The MktData class, The wrapper class for getting Market Feed for both Snapshot and Tick-By-Tick...">MktData</ref>();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a052019c5bc3e099d4806c3f666d855e0" kindref="member" tooltip="update">update</ref>();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight></codeline>
+<codeline lineno="192"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>checkUpdateStatus(time_t<sp/>lastProcessTime);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>checkUpdateStatus(boost::posix_time::ptime<sp/>lastProcessTime);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="206"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8dc2f4c75526506d70d3149a5212d17f" kindref="member" tooltip="operator ()">operator ()</ref>();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aefb6ba524d176aa2a87adfdae54b6c85" kindref="member" tooltip="dump">dump</ref>();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h"/>
+  </compounddef>
+</doxygen>

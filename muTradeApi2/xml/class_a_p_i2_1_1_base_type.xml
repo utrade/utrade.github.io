@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_base_type" kind="class" prot="public" abstract="yes">
+    <compoundname>API2::BaseType</compoundname>
+    <derivedcompoundref refid="class_a_p_i2_1_1_derived_type" prot="public" virt="non-virtual">API2::DerivedType&lt; T &gt;</derivedcompoundref>
+    <includes refid="base_commands_8h" local="no">baseCommands.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a96394079d83dfa76b4c671564e654024" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::BaseType::CREATE_FIELD</definition>
+        <argsstring>(std::string, String)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type>std::string</type>
+        </param>
+        <param>
+          <type>String</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a3fca51717876f50b1c9b800b3eab147a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::BaseType::serializeFun</definition>
+        <argsstring>(char *buf, int &amp;bytes)=0</argsstring>
+        <name>serializeFun</name>
+        <reimplementedby refid="class_a_p_i2_1_1_derived_type_1a52d318a8f7b1044f2230098e01443c09">serializeFun</reimplementedby>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serializeFun </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a61b22ca8dbcfce462770ae926c0e1896" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::BaseType::deSerializeFun</definition>
+        <argsstring>(const char *buf, int &amp;offset)=0</argsstring>
+        <name>deSerializeFun</name>
+        <reimplementedby refid="class_a_p_i2_1_1_derived_type_1a8642ff2eae11343e908d2f65f083050f">deSerializeFun</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerializeFun </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a1601c3b7107c242a4d7fda1bd3747cb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::BaseType::dump</definition>
+        <argsstring>()=0</argsstring>
+        <name>dump</name>
+        <reimplementedby refid="class_a_p_i2_1_1_derived_type_1ac0d22377803e953a28f69dcd468f3f0b">dump</reimplementedby>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a1095fa68c69967bf9fd295289c7b47f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::BaseType::printType</definition>
+        <argsstring>()=0</argsstring>
+        <name>printType</name>
+        <reimplementedby refid="class_a_p_i2_1_1_derived_type_1aefe2b5f9a59fe42cfaa11325e29c06c8">printType</reimplementedby>
+        <briefdescription>
+<para>printType </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1a91077bf00ade01f2922c8503e061d711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>API2::BaseType::BaseType</definition>
+        <argsstring>(const std::string &amp;stringType)</argsstring>
+        <name>BaseType</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>stringType</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_base_type" kindref="compound">BaseType</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stringType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="51" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_base_type_1abace02477dc49b409d2e5cdad941e362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>API2::BaseType::BaseType</definition>
+        <argsstring>()</argsstring>
+        <name>BaseType</name>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_base_type" kindref="compound">BaseType</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="59" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_base_type" kindref="compound">BaseType</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>API2::BaseType</label>
+        <link refid="class_a_p_i2_1_1_base_type"/>
+      </node>
+      <node id="4">
+        <label>API2::DerivedType&lt; T &gt;</label>
+        <link refid="class_a_p_i2_1_1_derived_type"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="19" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="18" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_base_type_1a91077bf00ade01f2922c8503e061d711" prot="public" virt="non-virtual"><scope>API2::BaseType</scope><name>BaseType</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1abace02477dc49b409d2e5cdad941e362" prot="public" virt="non-virtual"><scope>API2::BaseType</scope><name>BaseType</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1a96394079d83dfa76b4c671564e654024" prot="private" virt="non-virtual"><scope>API2::BaseType</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1a61b22ca8dbcfce462770ae926c0e1896" prot="public" virt="pure-virtual"><scope>API2::BaseType</scope><name>deSerializeFun</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1a1601c3b7107c242a4d7fda1bd3747cb4" prot="public" virt="pure-virtual"><scope>API2::BaseType</scope><name>dump</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1a1095fa68c69967bf9fd295289c7b47f6" prot="public" virt="pure-virtual"><scope>API2::BaseType</scope><name>printType</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1a3fca51717876f50b1c9b800b3eab147a" prot="public" virt="pure-virtual"><scope>API2::BaseType</scope><name>serializeFun</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

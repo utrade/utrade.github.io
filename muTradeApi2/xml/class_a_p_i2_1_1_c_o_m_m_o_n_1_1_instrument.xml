@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kind="class" prot="public">
+    <compoundname>API2::COMMON::Instrument</compoundname>
+    <includes refid="sg_common_8h" local="no">sgCommon.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a8cac1a5b65b1356e27d2b49e0f70247f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound">SymbolStaticData</ref> *</type>
+        <definition>SymbolStaticData* API2::COMMON::Instrument::getStaticData</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticData</name>
+        <briefdescription>
+<para>getStaticData To get the static details of a tradable <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Static Data about the instrument as <ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound">API2::SymbolStaticData</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a0c89f63049388223a0d1c78f0cfe93c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t API2::COMMON::Instrument::getLastQuoteUpdateTime</definition>
+        <argsstring>()</argsstring>
+        <name>getLastQuoteUpdateTime</name>
+        <briefdescription>
+<para>getLastQuoteUpdateTime To get Last time when the Quote for the <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref> was updated </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Time when Quote was last Updated, in time_t </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a76b20f2b97286709e9dc005020ace814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SYMBOL_ID</type>
+        <definition>SYMBOL_ID API2::COMMON::Instrument::getSymbolId</definition>
+        <argsstring>()</argsstring>
+        <name>getSymbolId</name>
+        <briefdescription>
+<para>getSymbolId To get The System unique ID of the <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a1da59722fd5bb50700be03771b03c2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound">InstrumentPosition</ref> *</type>
+        <definition>InstrumentPosition* API2::COMMON::Instrument::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+<para>getPosition To get Pointer to the <ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound">API2::COMMON::InstrumentPosition</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Pointer to <ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound">InstrumentPosition</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1ac6727da5584746a474938d42ede3b82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UNSIGNED_LONG</type>
+        <definition>UNSIGNED_LONG API2::COMMON::Instrument::getLastQuotedPrice</definition>
+        <argsstring>(const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getLastQuotedPrice</name>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getLastQuotedPrice To get last quoted price from this <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Price as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref> class Provides all the information about Market <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">Instrument</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="89" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" bodystart="88" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1ac6727da5584746a474938d42ede3b82a" prot="public" virt="non-virtual"><scope>API2::COMMON::Instrument</scope><name>getLastQuotedPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a0c89f63049388223a0d1c78f0cfe93c3" prot="public" virt="non-virtual"><scope>API2::COMMON::Instrument</scope><name>getLastQuoteUpdateTime</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a1da59722fd5bb50700be03771b03c2bb" prot="public" virt="non-virtual"><scope>API2::COMMON::Instrument</scope><name>getPosition</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a8cac1a5b65b1356e27d2b49e0f70247f" prot="public" virt="non-virtual"><scope>API2::COMMON::Instrument</scope><name>getStaticData</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a76b20f2b97286709e9dc005020ace814" prot="public" virt="non-virtual"><scope>API2::COMMON::Instrument</scope><name>getSymbolId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

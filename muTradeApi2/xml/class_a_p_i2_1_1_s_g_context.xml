@@ -1,0 +1,2229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_s_g_context" kind="class" prot="public" abstract="yes">
+    <compoundname>API2::SGContext</compoundname>
+    <includes refid="sg_context_8h" local="no">sgContext.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_s_g_context_1a0ae11311e88eb4428907de32b76e2322" prot="private" static="no" mutable="no">
+        <type>SGContextImpl *</type>
+        <definition>SGContextImpl* API2::SGContext::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+<para>pimpl </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="585" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a4d2ddbdd3e8a4a96ad52b90a1c0ef33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual API2::SGContext::~SGContext</definition>
+        <argsstring>()</argsstring>
+        <name>~SGContext</name>
+        <briefdescription>
+<para>~SGContext A destructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aebf22dc8466ec0f3d31e7993a3f5540d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SGContext::SGContext</definition>
+        <argsstring>(StrategyParameters *params, const std::string sgName)</argsstring>
+        <name>SGContext</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">StrategyParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>sgName</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref>, Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+<parametername><ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">API2::StrategyParameters</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sgName</parametername>
+<parametername>Unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String for Strategy Name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a01c0a9513e75bf9230c714ccbe03ce46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::terminateSquareOffStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>terminateSquareOffStrategy</name>
+        <briefdescription>
+<para>terminateSquareOffStrategy, Called to Terminate strategy and Square-Off all Positions<linebreak/>
+ Can be overriden <linebreak/>
+ Default behaviour: <linebreak/>
+ 1) Cancel All Orders <linebreak/>
+ 2) Send Opposite Orders for closing Position <linebreak/>
+ 3) Terminate the strategy <linebreak/>
+ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a1958accbe8625d491878add4bf5533d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::terminateStrategy</definition>
+        <argsstring>(bool cancelOrders=true)</argsstring>
+        <name>terminateStrategy</name>
+        <param>
+          <type>bool</type>
+          <declname>cancelOrders</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>terminateStrategy, Called to Terminate Strategy<linebreak/>
+ Can be overriden <linebreak/>
+ Default behaviour: <linebreak/>
+ 1) Cancel All Pending Orders <linebreak/>
+ 3) Terminate the strategy <linebreak/>
+ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a8afc5581b6574466fe9fe502245b930d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool API2::SGContext::recoverInstrumentOrderId</definition>
+        <argsstring>(const OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>recoverInstrumentOrderId</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>recoverInstrumentOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a6abdff23ca1cd361f618c4bf84cfec0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool API2::SGContext::usingSegment</definition>
+        <argsstring>(const DATA_TYPES::ExchangeId &amp;exch, const DATA_TYPES::SecurityType &amp;securityType=CONSTANTS::CMD_SecurityType_MAX)</argsstring>
+        <name>usingSegment</name>
+        <param>
+          <type>const DATA_TYPES::ExchangeId &amp;</type>
+          <declname>exch</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::SecurityType &amp;</type>
+          <declname>securityType</declname>
+          <defval>CONSTANTS::CMD_SecurityType_MAX</defval>
+        </param>
+        <briefdescription>
+<para>usingSegment, To know whether a given exchange segment is being used in the strategy or not </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exch</parametername>
+<parametername>The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DATA_TYPES::ExchangeId </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>securityType</parametername>
+<parametername>The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DATA_TYPES::SecurityType </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* API2::SGContext::startAlgo</definition>
+        <argsstring>(bool marketDataEventRequired)</argsstring>
+        <name>startAlgo</name>
+        <param>
+          <type>bool</type>
+          <declname>marketDataEventRequired</declname>
+        </param>
+        <briefdescription>
+<para>startAlgo, function call to Start the Strategy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>marketDataEventRequired</parametername>
+<parametername>Set</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to register for call-backs on Market-Data Event on registered Instruments </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aee86b97a48929d22d5c6afd9c5d68838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::SGContext::getClientId</definition>
+        <argsstring>()</argsstring>
+        <name>getClientId</name>
+        <briefdescription>
+<para>getClientId, To get ClientId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a653537350a6cc355bf79564b33dbba92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">StrategyParameters</ref> *</type>
+        <definition>StrategyParameters* API2::SGContext::getParams</definition>
+        <argsstring>()</argsstring>
+        <name>getParams</name>
+        <briefdescription>
+<para>getParams, To get StartegyParameters </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a976152e42455f8ea52f2bdee052f3c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">COMMON::MktData</ref> *</type>
+        <definition>COMMON::MktData* API2::SGContext::getUpdateMktData</definition>
+        <argsstring>(SYMBOL_ID symbolId)</argsstring>
+        <name>getUpdateMktData</name>
+        <param>
+          <type>SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>getUpdateMktData, This function call will return the Pointer to <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">API2::COMMON::MktData</ref> structure after updating it.<linebreak/>
+ Not required if marketDataEventRequired is set to be True while starting the strategy using <ref refid="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" kindref="member">API2::SGContext::startAlgo()</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>SymbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for which MarketData is required </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ae699404b321162a301789572fc0ebabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">COMMON::MktData</ref> *</type>
+        <definition>COMMON::MktData* API2::SGContext::getMktData</definition>
+        <argsstring>(SYMBOL_ID symbolId)</argsstring>
+        <name>getMktData</name>
+        <param>
+          <type>SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>getMktData, This function call will return the Pointer to <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">API2::COMMON::MktData</ref> structure <linebreak/>
+ Here it will contain the last updated Market Snapshot </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a5143f1432d2b423420f6405a934ea0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::SGContext::getNetMTM</definition>
+        <argsstring>()</argsstring>
+        <name>getNetMTM</name>
+        <briefdescription>
+<para>getNetMTM, This function will return net Mark To Market Profit and Loss for the strategy( sum of all Instruments being traded) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1af6870dd712538b752eab69b935c7583b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::SGContext::getNetBookedPnl</definition>
+        <argsstring>()</argsstring>
+        <name>getNetBookedPnl</name>
+        <briefdescription>
+<para>getNetBookedPnl, This function will return net Booked Profit and Loss for the strategy( sum of all Instruments being traded) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1af8c29693539afd24c6dd420972c8871e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::getAddInstrument</definition>
+        <argsstring>(COMMON::Instrument *&amp;instrument, UNSIGNED_LONG symbolId, bool regMktData=false, bool useSnapShot=true)</argsstring>
+        <name>getAddInstrument</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *&amp;</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>symbolId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>regMktData</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useSnapShot</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>getAddInstrument, To add a new Instrument in the strategy <linebreak/>
+ The Pointer to the added Instrument is set in instrument, passed as reference </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+<parametername>Reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the pointer to <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">API2::COMMON::Instrument</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>System</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique ID for the Instrument as API2::DATA_TYPES::SYMBOL_ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>regMktData</parametername>
+<parametername>set</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to register for Market Data for the Instrument </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useSnapShot</parametername>
+<parametername>Set</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if Snapshot Feed is to be used and False to use TBT-Feed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" kindref="compound">MarketDataSubscriptionFailedException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ae7ae8c2b8c3b50861706d749bcceb77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::addInstrument</definition>
+        <argsstring>(UNSIGNED_LONG symbolId, bool regMktData=false)</argsstring>
+        <name>addInstrument</name>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>symbolId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>regMktData</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>addInstrument, To add a new Instrument in the strategy <linebreak/>
+ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>System</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique ID for the Instrument </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>regMktData</parametername>
+<parametername>If</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Market Feed required </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" kindref="compound">MarketDataSubscriptionFailedException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a19cdaf5b68ddbd2632749dcc4b65cce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::addInstrument</definition>
+        <argsstring>(COMMON::Instrument *instrument, bool regMktData=false)</argsstring>
+        <name>addInstrument</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>regMktData</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>addInstrument, To add Instrument, Internal Method,not to be used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>regMktData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" kindref="compound">MarketDataSubscriptionFailedException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a456d032ab4229a08bfa237b33ffec76b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::getInstrumentList</definition>
+        <argsstring>(std::list&lt; COMMON::Instrument * &gt; &amp;instrumentList, UNSIGNED_LONG symbolId)</argsstring>
+        <name>getInstrumentList</name>
+        <param>
+          <type>std::list&lt; <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> * &gt; &amp;</type>
+          <declname>instrumentList</declname>
+        </param>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>getInstrumentList, To get list of all Instruments added for the requested SymbolId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrumentList</parametername>
+<parametername>reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to List of <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">API2::COMMON::Instrument</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>System</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique Id for the Instrument </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a0a40d0076984c9579847bf350628bea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::removeInstrument</definition>
+        <argsstring>(COMMON::Instrument *instrument)</argsstring>
+        <name>removeInstrument</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <briefdescription>
+<para>removeInstrument, To remove Instrument from the context. <linebreak/>
+ Removing will remove all the data relating the Instrument&apos;s Position </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aa1290b0ce36edd31bea8615555f97f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::removeAllInstruments</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllInstruments</name>
+        <briefdescription>
+<para>removeAllInstruments, This will remove all Instrument from the registered Instrument list </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a5fc0688752b90e7366524b83d3a70c93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::registerSymbol</definition>
+        <argsstring>(SYMBOL_ID symbolID, bool isSnapshot=true)</argsstring>
+        <name>registerSymbol</name>
+        <param>
+          <type>SYMBOL_ID</type>
+          <declname>symbolID</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSnapshot</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>registerSymbol, Register a API2::DATA_TYPES::SYMBOL_ID for market Data </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>System</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique Id for the Instrument </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isSnapShot</parametername>
+<parametername>Set</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if Snapshot Feed is to be used and False to use TBT-Feed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a082c5a756706517153acf2e4a635ae25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::unregisterSymbol</definition>
+        <argsstring>(SYMBOL_ID symbolId)</argsstring>
+        <name>unregisterSymbol</name>
+        <param>
+          <type>SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>registerSymbol, UnRegister a API2::DATA_TYPES::SYMBOL_ID for market Data </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+<parametername>System</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique Id for the Instrument </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" kindref="compound">MarketDataSubscriptionFailedException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a1af0e0e9693eb410378d1e29947ca35d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::unregisterAllSymbols</definition>
+        <argsstring>()</argsstring>
+        <name>unregisterAllSymbols</name>
+        <briefdescription>
+<para>unregisterAllSymbols, To unregister all Instruments for market feed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a6041b2e2653f2f7d0fd86b253abad209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::updateQuote</definition>
+        <argsstring>()</argsstring>
+        <name>updateQuote</name>
+        <briefdescription>
+<para>updateQuote, To manually update Market Feed for all registered Instruments.<linebreak/>
+ Not required if marketDataEventRequired is set to be True while starting the strategy using <ref refid="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" kindref="member">API2::SGContext::startAlgo()</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>, return True if there is a new updation in Market Data. False if no new updation. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1abff1974dcd281fe856a0d81399d548b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::updateQuote</definition>
+        <argsstring>(UNSIGNED_LONG symbolId)</argsstring>
+        <name>updateQuote</name>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>updateQuote, To manually update Market Feed for requested API2::DATA_TYPES::SYMBOL_ID.<linebreak/>
+ Not required if marketDataEventRequired is set to be True while starting the strategy using <ref refid="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" kindref="member">API2::SGContext::startAlgo()</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>, return True if there is a new updation in Market Data. False if no new updation. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ae49290cac1f27ba3049f1f5f5075cc49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_a_p_i2_1_1_single_order" kindref="compound">API2::SingleOrder</ref> *</type>
+        <definition>API2::SingleOrder* API2::SGContext::getOrder</definition>
+        <argsstring>(long clOrderId)</argsstring>
+        <name>getOrder</name>
+        <param>
+          <type>long</type>
+          <declname>clOrderId</declname>
+        </param>
+        <briefdescription>
+<para>getOrder, To get Pointer to Single Order using a clientOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1abffd48797b85fe57108f02ad77f3c009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>API2::DATA_TYPES::STRATEGY_ID</type>
+        <definition>API2::DATA_TYPES::STRATEGY_ID API2::SGContext::getStrategyId</definition>
+        <argsstring>()</argsstring>
+        <name>getStrategyId</name>
+        <briefdescription>
+<para>getStrategyId, To get StartegyId of current running Strategy. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1afe58c09f474cdfabc70c81b51e30acca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::setSGParameters</definition>
+        <argsstring>(StrategyParameters *params)</argsstring>
+        <name>setSGParameters</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">StrategyParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>setSGParameters, To set the pointer to <ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">StrategyParameters</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to <ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">API2::StrategyParameters</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1af3455b23fcf0866bbd7634fff735e9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UNSIGNED_LONG</type>
+        <definition>UNSIGNED_LONG API2::SGContext::getAdminTokenId</definition>
+        <argsstring>()</argsstring>
+        <name>getAdminTokenId</name>
+        <briefdescription>
+<para>getAdminTokenId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1abc5afbec664b4d30d6700195e4de0927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::setAdminTokenId</definition>
+        <argsstring>(UNSIGNED_LONG id)</argsstring>
+        <name>setAdminTokenId</name>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>setAdminTokenId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a214587777e22c6238afebc381069a96b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::sendStrategyResponse</definition>
+        <argsstring>(DATA_TYPES::ResponseType responseType, DATA_TYPES::RiskStatus riskStatus, DATA_TYPES::StrategyComment strategyComment=CONSTANTS::RSP_StrategyComment_MAX)</argsstring>
+        <name>sendStrategyResponse</name>
+        <param>
+          <type>DATA_TYPES::ResponseType</type>
+          <declname>responseType</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::RiskStatus</type>
+          <declname>riskStatus</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::StrategyComment</type>
+          <declname>strategyComment</declname>
+          <defval>CONSTANTS::RSP_StrategyComment_MAX</defval>
+        </param>
+        <briefdescription>
+<para>sendStrategyResponse, To send a Response to the frontend </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>responseType</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>response Type as DATA_TYPES::ResponseType </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>riskStatus</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Risk Status as DATA_TYPES::RiskStatus </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>strategyComment</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Strategy Comment as DATA_TYPES::StrategyComment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a6bd0841e7c06539eeaaf04e174882cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::exitStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>exitStrategy</name>
+        <briefdescription>
+<para>exitStrategy, To exit a strategy, terminates the Strategy thread and returns the StrategyDriver. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1adf0389e54a6dec09889cd219521a1b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DebugLog *</type>
+        <definition>DebugLog* API2::SGContext::getDebugLog</definition>
+        <argsstring>()</argsstring>
+        <name>getDebugLog</name>
+        <briefdescription>
+<para>getDebugLog, To get Pointer to the DebugLog Object, used to dump debug messages. <linebreak/>
+ Sample Usage:<linebreak/>
+ DEBUG_MESSAGE(<ref refid="class_a_p_i2_1_1_s_g_context_1adf0389e54a6dec09889cd219521a1b87" kindref="member">getDebugLog()</ref>,&quot;&lt;Message&gt;&quot;); </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a7153ac0ed3d06ff7b670d2667c0878c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UNSIGNED_LONG</type>
+        <definition>UNSIGNED_LONG API2::SGContext::getPendingQty</definition>
+        <argsstring>(COMMON::Instrument *instrument, DATA_TYPES::OrderMode mode)</argsstring>
+        <name>getPendingQty</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getPendingQty, To get Pending Quantity of an Instrument </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+<parametername><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">API2::COMMON::Instrument</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+<parametername>Ordermode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as API2::CONSTANTS::CMD_OrderMode_BUY or API2::CONSTANTS::CMD_OrderMode_SELL </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a3e769f6514bc235a16c7495b9d8c70e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::SGContext::getPendingQty</definition>
+        <argsstring>(COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>getPendingQty</name>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>getPendingQty, To get Pending Quantity of requested Order as orderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a4eb246662184d5dbbfd1694279bb4b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLORDER_ID</type>
+        <definition>DATA_TYPES::CLORDER_ID API2::SGContext::getClientOrderId</definition>
+        <argsstring>(COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>getClientOrderId</name>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>getClientOrderId, To get ClientOrderId of requested Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a908e0a9ae6e276117fa661957b2cfa1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderStatus</type>
+        <definition>DATA_TYPES::OrderStatus API2::SGContext::getOrderStatus</definition>
+        <argsstring>(COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>getOrderStatus</name>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>getOrderStatus, To get OrderStatus of requested Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a1f069a29ffd8d51cd8bbb512f9d57406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::String</type>
+        <definition>DATA_TYPES::String API2::SGContext::getExchangeOrderId</definition>
+        <argsstring>(COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>getExchangeOrderId</name>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>getExchangeOrderId, To get Exchange OrderId of requested Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a526eb681e4458ff0855195dbf360e5dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* API2::SGContext::run</definition>
+        <argsstring>(bool marketDataEventRequired)</argsstring>
+        <name>run</name>
+        <param>
+          <type>bool</type>
+          <declname>marketDataEventRequired</declname>
+        </param>
+        <briefdescription>
+<para>run </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>marketDataEventRequired</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ab141f05e2a0d8a51fdadc57bf53d2cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::createNewOrder</definition>
+        <argsstring>(SingleOrder *&amp;order, COMMON::Instrument *instrument, const UNSIGNED_LONG &amp;qty=0, const UNSIGNED_LONG &amp;discQty=0, const DATA_TYPES::OrderMode &amp;mode=CONSTANTS::CMD_OrderMode_BUY, const DATA_TYPES::OrderType &amp;type=CONSTANTS::CMD_OrderType_LIMIT, const DATA_TYPES::OrderValidity &amp;validity=CONSTANTS::CMD_OrderValidity_DAY, const DATA_TYPES::ProductType &amp;product=CONSTANTS::CMD_ProductType_DELIVERY, const UNSIGNED_LONG &amp;price=0, const UNSIGNED_LONG &amp;stopPrice=0)</argsstring>
+        <name>createNewOrder</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> *&amp;</type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type>const UNSIGNED_LONG &amp;</type>
+          <declname>qty</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const UNSIGNED_LONG &amp;</type>
+          <declname>discQty</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+          <defval>CONSTANTS::CMD_OrderMode_BUY</defval>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderType &amp;</type>
+          <declname>type</declname>
+          <defval>CONSTANTS::CMD_OrderType_LIMIT</defval>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderValidity &amp;</type>
+          <declname>validity</declname>
+          <defval>CONSTANTS::CMD_OrderValidity_DAY</defval>
+        </param>
+        <param>
+          <type>const DATA_TYPES::ProductType &amp;</type>
+          <declname>product</declname>
+          <defval>CONSTANTS::CMD_ProductType_DELIVERY</defval>
+        </param>
+        <param>
+          <type>const UNSIGNED_LONG &amp;</type>
+          <declname>price</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const UNSIGNED_LONG &amp;</type>
+          <declname>stopPrice</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>createNewOrder, To create a New Order for an instrument </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+<parametername>Reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to Pointer of <ref refid="class_a_p_i2_1_1_single_order" kindref="compound">API2::SingleOrder</ref>, Pointer to created object will be set into this. For creating an Order </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the Instrument for which a new <ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> is to be created </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>qty</parametername>
+<parametername>Order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>discQty</parametername>
+<parametername>Diclosed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Order Quantity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+<parametername>OrderMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as API2::CONSTANTS::CMD_OrderMode_BUY or API2::CONSTANTS::CMD_OrderMode_SELL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+<parametername>OrderType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as API2::DATA_TYPES::OrderType </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>validity</parametername>
+<parametername>Order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Validity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>product</parametername>
+<parametername>Product</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+<parametername>Price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopPrice</parametername>
+<parametername>Stop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Price </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a09b8988f91af279b0adab42363dad20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::setStrategyComment</definition>
+        <argsstring>(DATA_TYPES::StrategyComment com)</argsstring>
+        <name>setStrategyComment</name>
+        <param>
+          <type>DATA_TYPES::StrategyComment</type>
+          <declname>com</declname>
+        </param>
+        <briefdescription>
+<para>setStrategyComment, To set the current Startegy Comment, Whenever a strategy Response is sent to frontend, this will be the sent as the strategy Comment </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>com</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a13e9de988513ba35eb22950c70c9f7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::sendNewOrder</definition>
+        <argsstring>(DATA_TYPES::RiskStatus &amp;riskStatus, COMMON::Instrument *instrument, SingleOrder *&amp;order, COMMON::InstrumentOrderId *orderId=0)</argsstring>
+        <name>sendNewOrder</name>
+        <param>
+          <type>DATA_TYPES::RiskStatus &amp;</type>
+          <declname>riskStatus</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> *&amp;</type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>sendNewOrder, To Send a new Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>riskStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a969d2c63a85582133beeb6c657727ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::sendReplaceOrder</definition>
+        <argsstring>(DATA_TYPES::RiskStatus &amp;riskStatus, COMMON::Instrument *instrument, SingleOrder *&amp;order, bool updateQuantity=true, COMMON::InstrumentOrderId *orderId=0)</argsstring>
+        <name>sendReplaceOrder</name>
+        <param>
+          <type>DATA_TYPES::RiskStatus &amp;</type>
+          <declname>riskStatus</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> *&amp;</type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateQuantity</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>sendReplaceOrder, To send a replace Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>riskStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>updateQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ae919ca5df7d0e8ecd686e5be7e24d737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::cancelOrder</definition>
+        <argsstring>(COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>cancelOrder</name>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>cancelOrder, To cancel an Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a639ea0f4f942043c2dbf3992d4fd8a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::cancelOrders</definition>
+        <argsstring>()</argsstring>
+        <name>cancelOrders</name>
+        <briefdescription>
+<para>cancelOrders, To cancel all Orders ( Confirmed or Partial Filled ) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a1845d09e0349a9988e9fc1fcb5f31940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::SGContext::sendCancelOrder</definition>
+        <argsstring>(DATA_TYPES::RiskStatus &amp;riskStatus, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>sendCancelOrder</name>
+        <param>
+          <type>DATA_TYPES::RiskStatus &amp;</type>
+          <declname>riskStatus</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>sendCancelOrder, To Cancel Order </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>riskStatus</parametername>
+<parametername>passed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>by reference, This is the risk status for sending Canceled Order </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ad77850025e1e3f2b7f1dca5490126190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::insertNewOrderId</definition>
+        <argsstring>(COMMON::Instrument *instrument, COMMON::InstrumentOrderId *&amp;orderId, const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>insertNewOrderId</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound">COMMON::Instrument</ref> *</type>
+          <declname>instrument</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *&amp;</type>
+          <declname>orderId</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>insertNewOrderId, Creates and Inserts a new InstrumentOrderId Instance to the Instrument <linebreak/>
+ for the requested OrderMode and sets the pointer to orderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrument</parametername>
+<parametername>should</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>be valid and Not null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>should</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>be NULL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+<parametername>should</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>be valid API2::CONSTANTS::CMD_OrderMode_BUY or API2::CONSTANTS::CMD_OrderMode_SELL </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a6f8f354555be544b381f9553d6ac05f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::dumpLogOrderConfirmation</definition>
+        <argsstring>(const OrderConfirmation &amp;confirmation)</argsstring>
+        <name>dumpLogOrderConfirmation</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <briefdescription>
+<para>dumpLogOrderConfirmation. Prints <ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> fields </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a904408111683cd8301ee1e364cd6011a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::dumpLogSingleOrder</definition>
+        <argsstring>(SingleOrder *order)</argsstring>
+        <name>dumpLogSingleOrder</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> *</type>
+          <declname>order</declname>
+        </param>
+        <briefdescription>
+<para>dumpLogSingleOrder. Prints Single Order fields </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1af669043763cb2f3b9faafd640a6c3557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SGContext::dumpLogInstrumentOrderId</definition>
+        <argsstring>(const COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>dumpLogInstrumentOrderId</name>
+        <param>
+          <type>const COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>dumpLogInstrumentOrderId. Prints InstrumentOrderId Fields </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a8153eaa080b3a20c8e55a7c018979e0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::processCurrentState</definition>
+        <argsstring>()</argsstring>
+        <name>processCurrentState</name>
+        <briefdescription>
+<para>processCurrentState Called as an event if Not configured to received marketData Event while Running Algo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a03606cff5f8b0488e6a14fd937df47a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onDerivedMarketDataEvent</definition>
+        <argsstring>(UNSIGNED_LONG symbolId)</argsstring>
+        <name>onDerivedMarketDataEvent</name>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>onDerivedMarketDataEvent Called if Configured to received marketData Event while Running Algo </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SymbolId of the Instrument that received marketData, SymbolId should be subscribed for Market Data while initializing </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a97093f90d86c4d3f8ca00fc6a7c593b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::processAdminCommand</definition>
+        <argsstring>(DATA_TYPES::CommandCategory command)</argsstring>
+        <name>processAdminCommand</name>
+        <param>
+          <type>DATA_TYPES::CommandCategory</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>processAdminCommand Called when ever a command from frontend is issued. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="447" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="447" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a3e87d0c000fd0770a13ce27d6ff662d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::processDisconnection</definition>
+        <argsstring>(const DATA_TYPES::CommandCategory &amp;command)</argsstring>
+        <name>processDisconnection</name>
+        <param>
+          <type>const DATA_TYPES::CommandCategory &amp;</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>processDisconnection Called whenever a disconnection is received, disconnected entity to be determined from CommandCategory </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1afcf2afb6a7ee4528832a529e20b57f5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onModifyStrategy</definition>
+        <argsstring>(AbstractUserParams *newParams)=0</argsstring>
+        <name>onModifyStrategy</name>
+        <param>
+          <type>AbstractUserParams *</type>
+          <declname>newParams</declname>
+        </param>
+        <briefdescription>
+<para>onModifyStrategy Called when strategy modify command is received </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="460"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a85d7ac789482c407911a66055690a76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCommandTerminateStartegy</definition>
+        <argsstring>()</argsstring>
+        <name>onCommandTerminateStartegy</name>
+        <briefdescription>
+<para>onCommandTerminateStartegy Called when strategy receives Terminate Command from Frontend </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a5ec31bc87d26adcc8ad2674de078404d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCommandTerminateSqOffStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>onCommandTerminateSqOffStrategy</name>
+        <briefdescription>
+<para>onCommandTerminateSqOffStrategy Called when strategy receives Terminate SqOff Command from Frontend </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a0a5fe07c99f6552a5fca285d5ee4cacd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCommandPauseStartegy</definition>
+        <argsstring>()</argsstring>
+        <name>onCommandPauseStartegy</name>
+        <briefdescription>
+<para>onCommandPauseStartegy Called when strategy receives Pause Command from Frontend </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="475"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a401a5daadf6b23661671a36c8de5b7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCommandRunStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>onCommandRunStrategy</name>
+        <briefdescription>
+<para>onCommandRunStrategy Called when strategy receives Run Command from Frontend </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a3702772e298bb872981d4dd982ccb9a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::setInitState</definition>
+        <argsstring>()</argsstring>
+        <name>setInitState</name>
+        <briefdescription>
+<para>setInitState, To Set Initial state of the algo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="485" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="485" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a7659de89afb69a32e1e2934d9d620429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::processOrderConfirmation</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation)</argsstring>
+        <name>processOrderConfirmation</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <briefdescription>
+<para>processOrderConfirmation, Call back after <ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> Processing is done, <linebreak/>
+ Not necessary to override this, <linebreak/>
+ To be overridden only If any additional Processing is reqd at the algo end </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::OrderConformation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="493" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="493" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a7aea075d2b1b88e18b0708a05ce0a60c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onNewConfirmed</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onNewConfirmed</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onNewConfirmed, Call back when a new Order gets confirmed by exchange. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="501" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="501" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a3628f6c31070455a4b994e1b6e763ebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onReplaceRejected</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onReplaceRejected</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onReplaceRejected, Call back when a replace order gets rejected by the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="508" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="508" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1add684084c3684e8034cea65cb35b0b6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCanceled</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onCanceled</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onCanceled, Call back when a cancel order gets accepted by the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="515" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="515" bodyend="515"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ae4ad928457b9cb3d5defaa44640b41d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onCancelRejected</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onCancelRejected</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onCancelRejected, Call back when a cancel order gets rejected by the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="522" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="522" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a702a97361711e4454518e657d9733ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onReplaced</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onReplaced</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onReplaced, Call back when a Order gets replaced sucessfully at the exchange. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="529" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="529" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aa74aca215d051a9dbf1d5e8ee9c1c837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onNewReject</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onNewReject</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onNewRejected, Call back when a new order gets rejected by the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="536" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="536" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1af4705af6aa2806b16882028cb3b85fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onIOCCanceled</definition>
+        <argsstring>(OrderConfirmation &amp;Confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onIOCCanceled</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>Confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onIOCCanceled, Call back when an IOC order gets canceled the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="543" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="543" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a6731a9753ec762623eb9737aaae97432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onFilled</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onFilled</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onFilled, Call back when an order gets filled at the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="550" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="550" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1a87e382522bc0622fdbe00ff598dfecaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void API2::SGContext::onPartialFill</definition>
+        <argsstring>(OrderConfirmation &amp;confirmation, COMMON::InstrumentOrderId *orderId)</argsstring>
+        <name>onPartialFill</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> &amp;</type>
+          <declname>confirmation</declname>
+        </param>
+        <param>
+          <type>COMMON::InstrumentOrderId *</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription>
+<para>onPartialFill, Call back when an order gets partially filled at the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>confirmation</parametername>
+<parametername>Contains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the information received from Exchange </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderId</parametername>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the API2::COMMON::InstrumentOrderId type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="557" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="557" bodyend="557"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aedfaa5f1698d523ce22f10654f9e2dec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SGContext::SGContext</definition>
+        <argsstring>()</argsstring>
+        <name>SGContext</name>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref>, Private Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="568"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1ab4565be2acea06f752ee3c69d32f22ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SGContext::SGContext</definition>
+        <argsstring>(const SGContext &amp;other)</argsstring>
+        <name>SGContext</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref>, Private Copy Constructor, Non-Construction-Copyable. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_s_g_context_1aa996d29e40b877345d123c7e857be253" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref> &amp;</type>
+        <definition>SGContext&amp; API2::SGContext::operator=</definition>
+        <argsstring>(const SGContext &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>operator =, Non copyable </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="580"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound">SGContext</ref> class The main class to be inherited for creating a new Strategy. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" line="29" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h" bodystart="28" bodyend="588"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ae7ae8c2b8c3b50861706d749bcceb77a" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>addInstrument</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a19cdaf5b68ddbd2632749dcc4b65cce6" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>addInstrument</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ae919ca5df7d0e8ecd686e5be7e24d737" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>cancelOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a639ea0f4f942043c2dbf3992d4fd8a96" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>cancelOrders</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ab141f05e2a0d8a51fdadc57bf53d2cd8" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>createNewOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1af669043763cb2f3b9faafd640a6c3557" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>dumpLogInstrumentOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a6f8f354555be544b381f9553d6ac05f8" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>dumpLogOrderConfirmation</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a904408111683cd8301ee1e364cd6011a" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>dumpLogSingleOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a6bd0841e7c06539eeaaf04e174882cda" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>exitStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1af8c29693539afd24c6dd420972c8871e" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getAddInstrument</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1af3455b23fcf0866bbd7634fff735e9b6" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getAdminTokenId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aee86b97a48929d22d5c6afd9c5d68838" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getClientId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a4eb246662184d5dbbfd1694279bb4b9b" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getClientOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1adf0389e54a6dec09889cd219521a1b87" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getDebugLog</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a1f069a29ffd8d51cd8bbb512f9d57406" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a456d032ab4229a08bfa237b33ffec76b" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getInstrumentList</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ae699404b321162a301789572fc0ebabe" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getMktData</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1af6870dd712538b752eab69b935c7583b" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getNetBookedPnl</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a5143f1432d2b423420f6405a934ea0be" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getNetMTM</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ae49290cac1f27ba3049f1f5f5075cc49" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a908e0a9ae6e276117fa661957b2cfa1f" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getOrderStatus</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a653537350a6cc355bf79564b33dbba92" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getParams</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a7153ac0ed3d06ff7b670d2667c0878c3" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getPendingQty</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a3e769f6514bc235a16c7495b9d8c70e9" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getPendingQty</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1abffd48797b85fe57108f02ad77f3c009" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getStrategyId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a976152e42455f8ea52f2bdee052f3c39" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>getUpdateMktData</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ad77850025e1e3f2b7f1dca5490126190" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>insertNewOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1add684084c3684e8034cea65cb35b0b6f" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCanceled</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ae4ad928457b9cb3d5defaa44640b41d3" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCancelRejected</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a0a5fe07c99f6552a5fca285d5ee4cacd" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCommandPauseStartegy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a401a5daadf6b23661671a36c8de5b7e1" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCommandRunStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a5ec31bc87d26adcc8ad2674de078404d" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCommandTerminateSqOffStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a85d7ac789482c407911a66055690a76c" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onCommandTerminateStartegy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a03606cff5f8b0488e6a14fd937df47a9" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onDerivedMarketDataEvent</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a6731a9753ec762623eb9737aaae97432" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onFilled</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1af4705af6aa2806b16882028cb3b85fd6" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onIOCCanceled</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1afcf2afb6a7ee4528832a529e20b57f5d" prot="public" virt="pure-virtual"><scope>API2::SGContext</scope><name>onModifyStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a7aea075d2b1b88e18b0708a05ce0a60c" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onNewConfirmed</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aa74aca215d051a9dbf1d5e8ee9c1c837" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onNewReject</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a87e382522bc0622fdbe00ff598dfecaa" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onPartialFill</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a702a97361711e4454518e657d9733ab6" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onReplaced</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a3628f6c31070455a4b994e1b6e763ebe" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>onReplaceRejected</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aa996d29e40b877345d123c7e857be253" prot="private" virt="non-virtual"><scope>API2::SGContext</scope><name>operator=</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a0ae11311e88eb4428907de32b76e2322" prot="private" virt="non-virtual"><scope>API2::SGContext</scope><name>pimpl</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a97093f90d86c4d3f8ca00fc6a7c593b6" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>processAdminCommand</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a8153eaa080b3a20c8e55a7c018979e0d" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>processCurrentState</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a3e87d0c000fd0770a13ce27d6ff662d4" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>processDisconnection</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a7659de89afb69a32e1e2934d9d620429" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>processOrderConfirmation</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a8afc5581b6574466fe9fe502245b930d" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>recoverInstrumentOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a5fc0688752b90e7366524b83d3a70c93" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>registerSymbol</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aa1290b0ce36edd31bea8615555f97f05" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>removeAllInstruments</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a0a40d0076984c9579847bf350628bea9" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>removeInstrument</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a526eb681e4458ff0855195dbf360e5dd" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>run</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a1845d09e0349a9988e9fc1fcb5f31940" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>sendCancelOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a13e9de988513ba35eb22950c70c9f7f0" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>sendNewOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a969d2c63a85582133beeb6c657727ec7" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>sendReplaceOrder</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a214587777e22c6238afebc381069a96b" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>sendStrategyResponse</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1abc5afbec664b4d30d6700195e4de0927" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>setAdminTokenId</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a3702772e298bb872981d4dd982ccb9a1" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>setInitState</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1afe58c09f474cdfabc70c81b51e30acca" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>setSGParameters</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a09b8988f91af279b0adab42363dad20d" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>setStrategyComment</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aebf22dc8466ec0f3d31e7993a3f5540d" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>SGContext</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1aedfaa5f1698d523ce22f10654f9e2dec" prot="private" virt="non-virtual"><scope>API2::SGContext</scope><name>SGContext</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1ab4565be2acea06f752ee3c69d32f22ce" prot="private" virt="non-virtual"><scope>API2::SGContext</scope><name>SGContext</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>startAlgo</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a01c0a9513e75bf9230c714ccbe03ce46" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>terminateSquareOffStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a1958accbe8625d491878add4bf5533d2" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>terminateStrategy</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a1af0e0e9693eb410378d1e29947ca35d" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>unregisterAllSymbols</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a082c5a756706517153acf2e4a635ae25" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>unregisterSymbol</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a6041b2e2653f2f7d0fd86b253abad209" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>updateQuote</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1abff1974dcd281fe856a0d81399d548b8" prot="public" virt="non-virtual"><scope>API2::SGContext</scope><name>updateQuote</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a6abdff23ca1cd361f618c4bf84cfec0c" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>usingSegment</name></member>
+      <member refid="class_a_p_i2_1_1_s_g_context_1a4d2ddbdd3e8a4a96ad52b90a1c0ef33e" prot="public" virt="virtual"><scope>API2::SGContext</scope><name>~SGContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

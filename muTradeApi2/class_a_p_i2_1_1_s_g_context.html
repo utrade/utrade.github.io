@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -313,7 +308,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memdesc:a3e87d0c000fd0770a13ce27d6ff662d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">processDisconnection Called whenever a disconnection is received, disconnected entity to be determined from CommandCategory  <a href="#a3e87d0c000fd0770a13ce27d6ff662d4">More...</a><br/></td></tr>
 <tr class="separator:a3e87d0c000fd0770a13ce27d6ff662d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcf2afb6a7ee4528832a529e20b57f5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcf2afb6a7ee4528832a529e20b57f5d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_s_g_context.html#afcf2afb6a7ee4528832a529e20b57f5d">onModifyStrategy</a> (AbstractUserParams *newParams)=0</td></tr>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_s_g_context.html#afcf2afb6a7ee4528832a529e20b57f5d">onModifyStrategy</a> (<a class="el" href="class_a_p_i2_1_1_abstract_user_params.html">AbstractUserParams</a> *newParams)=0</td></tr>
 <tr class="memdesc:afcf2afb6a7ee4528832a529e20b57f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">onModifyStrategy Called when strategy modify command is received <br/></td></tr>
 <tr class="separator:afcf2afb6a7ee4528832a529e20b57f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85d7ac789482c407911a66055690a76c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85d7ac789482c407911a66055690a76c"></a>
@@ -441,6 +436,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html" title="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -473,6 +474,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   <table class="params">
     <tr><td class="paramname">instrument</td><td></td></tr>
     <tr><td class="paramname">regMktData</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html" title="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</a></td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -579,8 +586,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>createNewOrder, To create a New Order for an instrument </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">order,Reference</td><td>to Pointer of <a class="el" href="class_a_p_i2_1_1_single_order.html">API2::SingleOrder</a>, Pointer to created object will be set into this. For creating an Order </td></tr>
-    <tr><td class="paramname">instrument,Pointer</td><td>to the Instrument for which a new <a class="el" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a> is to be created </td></tr>
+    <tr><td class="paramname">order,Reference</td><td>to Pointer of <a class="el" href="class_a_p_i2_1_1_single_order.html" title="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">API2::SingleOrder</a>, Pointer to created object will be set into this. For creating an Order </td></tr>
+    <tr><td class="paramname">instrument,Pointer</td><td>to the Instrument for which a new <a class="el" href="class_a_p_i2_1_1_single_order.html" title="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</a> is to be created </td></tr>
     <tr><td class="paramname">qty,Order</td><td>Quantity </td></tr>
     <tr><td class="paramname">discQty,Diclosed</td><td>Order Quantity </td></tr>
     <tr><td class="paramname">mode,OrderMode</td><td>as API2::CONSTANTS::CMD_OrderMode_BUY or API2::CONSTANTS::CMD_OrderMode_SELL </td></tr>
@@ -711,6 +718,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
     <tr><td class="paramname">symbolId,System</td><td>Unique ID for the Instrument as API2::DATA_TYPES::SYMBOL_ID </td></tr>
     <tr><td class="paramname">regMktData,set</td><td>True to register for Market Data for the Instrument </td></tr>
     <tr><td class="paramname">useSnapShot,Set</td><td>True if Snapshot Feed is to be used and False to use TBT-Feed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html" title="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</a></td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2086,6 +2099,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html" title="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2173,7 +2192,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/utrade/Trinity/code/trunk-2/api2/headers/sgLib/<a class="el" href="sg_context_8h_source.html">sgContext.h</a></li>
+<li>sgLib/<a class="el" href="sg_context_8h_source.html">sgContext.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -2181,7 +2200,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>API2</b></li><li class="navelem"><a class="el" href="class_a_p_i2_1_1_s_g_context.html">SGContext</a></li>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:29 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:05 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

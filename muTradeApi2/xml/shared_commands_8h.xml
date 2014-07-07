@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="shared_commands_8h" kind="file">
+    <compoundname>sharedCommands.h</compoundname>
+    <includes refid="shared_defines_8h" local="no">sharedDefines.h</includes>
+    <includedby refid="shared_response_8h" local="no">sharedResponse.h</includedby>
+    <includedby refid="sg_common_8h" local="no">sgLib/sgCommon.h</includedby>
+    <includedby refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includedby>
+    <includedby refid="sg_mkt_data_8h" local="no">sgLib/sgMktData.h</includedby>
+    <incdepgraph>
+      <node id="126">
+        <label>stdint.h</label>
+      </node>
+      <node id="127">
+        <label>map</label>
+      </node>
+      <node id="124">
+        <label>sharedCommands.h</label>
+        <link refid="sharedCommands.h"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="131">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="132">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>sharedCommands.h</label>
+        <link refid="sharedCommands.h"/>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="shared_commands_8h_1a1dd872f60e5f390602b7379cf9d1d4a1" prot="public" static="no">
+        <name>EXCHANGE_ID_BASE</name>
+        <initializer>10000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" line="4" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_commands_8h_1ae10cbd89a47dd2a680983c32ba26c763" prot="public" static="no">
+        <name>GET_SYMBOL_ID</name>
+        <param><defname>scripCode</defname></param>
+        <param><defname>exchangeId</defname></param>
+        <initializer>((exchangeId)*EXCHANGE_ID_BASE + scripCode)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" line="6" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_commands_8h_1ad5d276f0a1e8f384c9f4dadbce88096c" prot="public" static="no">
+        <name>GET_SCRIP_CODE</name>
+        <param><defname>symbolId</defname></param>
+        <initializer>(symbolId % EXCHANGE_ID_BASE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" line="8" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_commands_8h_1af16b347cf448fe29a17fa1301e621a66" prot="public" static="no">
+        <name>GET_EXCHANGE_ID</name>
+        <param><defname>symbolId</defname></param>
+        <initializer>((CMD::ExchangeId)(symbolId/EXCHANGE_ID_BASE))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" line="10" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SHARED_COMMANDS_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SHARED_COMMANDS_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXCHANGE_ID_BASE<sp/>10000000</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_SYMBOL_ID(scripCode,<sp/>exchangeId)<sp/>((exchangeId)*EXCHANGE_ID_BASE<sp/>+<sp/>scripCode)</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_SCRIP_CODE(symbolId)<sp/>(symbolId<sp/>%<sp/>EXCHANGE_ID_BASE)</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_EXCHANGE_ID(symbolId)<sp/>((CMD::ExchangeId)(symbolId/EXCHANGE_ID_BASE))</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedCommands.h"/>
+  </compounddef>
+</doxygen>

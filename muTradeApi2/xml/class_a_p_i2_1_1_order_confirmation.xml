@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_order_confirmation" kind="class" prot="public">
+    <compoundname>API2::OrderConfirmation</compoundname>
+    <includes refid="shared_response_8h" local="no">sharedResponse.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_order_confirmation_1aac1484e2863df0a4304e3b8106d7f840" prot="private" static="no" mutable="no">
+        <type>OrderConfirmationImpl *</type>
+        <definition>OrderConfirmationImpl* API2::OrderConfirmation::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+<para>pimpl </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a8b959a4ef931b3bce6f78eb1794b0663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::OrderConfirmation::OrderConfirmation</definition>
+        <argsstring>()</argsstring>
+        <name>OrderConfirmation</name>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a2e41bd57155237425fc227f9ead45ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+<para>initialize </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ac927e0347cdc6686a89478626c979a35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLORDER_ID</type>
+        <definition>DATA_TYPES::CLORDER_ID API2::OrderConfirmation::getClOrderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getClOrderId</name>
+        <briefdescription>
+<para>getClOrderId To get Unique Client Order Id, sent to exchange at the time of Order Sending </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ClientOrderId as API2::DATA_TYPES::CLORDER_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a092cb6b14b04e741f1dedd08ef5af5ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::String</type>
+        <definition>DATA_TYPES::String API2::OrderConfirmation::getExchangeOrderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeOrderId</name>
+        <briefdescription>
+<para>getExchangeOrderId To get Exchange Order Id of the Order. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>exchangeOrderId as API2::DATA_TYPES::String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a8d8956358d47151e1df3314a6e95aa90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::SYMBOL_ID</type>
+        <definition>DATA_TYPES::SYMBOL_ID API2::OrderConfirmation::getSymbolId</definition>
+        <argsstring>() const </argsstring>
+        <name>getSymbolId</name>
+        <briefdescription>
+<para>getSymbolId To get unique SymbolID, which is a unique Identifier for an Instrument in the system. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>SymbolId as API2::DATA_TYPES::SYMBOL_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ad43d155099d9eaa786e028bffc872fc9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::OrderConfirmation::getLastFillQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastFillQuantity</name>
+        <briefdescription>
+<para>getLastFillQuantity To get Last filled quantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>LastFillQuantity as API2::DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a60b3c4bb35cf21fe9545a33d806757f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::OrderConfirmation::getLastFillPrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastFillPrice</name>
+        <briefdescription>
+<para>getLastFillPrice To get last filled Price </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>LastFillPrice as API2::DATA_TYPES::PRICE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1aacc316a7bfbf7b821b7826e364b60d2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::EXCHANGE_TIME</type>
+        <definition>DATA_TYPES::EXCHANGE_TIME API2::OrderConfirmation::getExchangeEntryTime</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeEntryTime</name>
+        <briefdescription>
+<para>getExchangeEntryTime To get Time of Order Entry in the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ExchangeEntryTime as API2::DATA_TYPES::EXCHANGE_TIME </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a9b3ecf482b70d0c11f6d4fc05363668e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::EXCHANGE_TIME</type>
+        <definition>DATA_TYPES::EXCHANGE_TIME API2::OrderConfirmation::getExchangeModifyTime</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeModifyTime</name>
+        <briefdescription>
+<para>getExchangeModifyTime To get Time of Order Modification in the exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ExchangeModifyTime as API2::DATA_TYPES::EXCHANGE_TIME </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ac3be746c6becde4ddfeab316a41120d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::STRATEGY_ID</type>
+        <definition>DATA_TYPES::STRATEGY_ID API2::OrderConfirmation::getStrategyId</definition>
+        <argsstring>() const </argsstring>
+        <name>getStrategyId</name>
+        <briefdescription>
+<para>getStrategyId To get The Strategy Id to which this Order belongs to </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>StrategyId as API2::DATA_TYPES::STRATEGY_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1adc0c80bcf4d99437b26e482143dc4b45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLIENT_ID</type>
+        <definition>DATA_TYPES::CLIENT_ID API2::OrderConfirmation::getClientId</definition>
+        <argsstring>() const </argsstring>
+        <name>getClientId</name>
+        <briefdescription>
+<para>getClientId To get the client Id for which this Order belongs </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ClientId as API2::DATA_TYPES::CLIENT_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a7452a5686513c6ee0805716f13247e9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::OrderConfirmation::getLimitPrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getLimitPrice</name>
+        <briefdescription>
+<para>getLimitPrice To get Limit Price set for Order </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>LimitPrice as API2::DATA_TYPES::PRICE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a5d6785788ff0b6417297b2afc185b3c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderStatus</type>
+        <definition>DATA_TYPES::OrderStatus API2::OrderConfirmation::getOrderStatus</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderStatus</name>
+        <briefdescription>
+<para>getOrderStatus To get the OrderStatus </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns OrderStatus as API2::DATA_TYPES::OrderStatus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a92038ac1d484df2fad5cc699e0698c4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderMode</type>
+        <definition>DATA_TYPES::OrderMode API2::OrderConfirmation::getOrderMode</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderMode</name>
+        <briefdescription>
+<para>getOrderMode To getOrderMode (Buy/Sell) for the order </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>OrderMode as API2::DATA_TYPES::OrderMode </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1acc2bb9c798b238e7fc6b7323eaa47bcf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::OrderConfirmation::getOrderQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderQuantity</name>
+        <briefdescription>
+<para>getOrderQuantity To get th Order Quantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>OrderQuantity as API2::DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a079670d134b29954bd78921d139c4710" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::OrderConfirmation::getOrderPrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderPrice</name>
+        <briefdescription>
+<para>getOrderPrice To get the Order Price </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>OrderPrice as API2::DATA_TYPES::PRICE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1acb9b362eaf01e028846e68bdfeec3bb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::OrderConfirmation::getIOCCanceledQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getIOCCanceledQuantity</name>
+        <briefdescription>
+<para>getIOCCanceledQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1acdadf079c62a8a29a657f261a8927e08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLORDER_ID</type>
+        <definition>DATA_TYPES::CLORDER_ID API2::OrderConfirmation::getOriginalClOrderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getOriginalClOrderId</name>
+        <briefdescription>
+<para>getOriginalClOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a0e7ca21c48f80d2df2f69d71d1e732d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::String</type>
+        <definition>DATA_TYPES::String API2::OrderConfirmation::getTradeId</definition>
+        <argsstring>() const </argsstring>
+        <name>getTradeId</name>
+        <briefdescription>
+<para>getTradeId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Trade Id as API2::DATA_TYPES::String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1aa638e6d385ce1ddb9a4c26af6f2254bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::ERROR_CODE</type>
+        <definition>DATA_TYPES::ERROR_CODE API2::OrderConfirmation::getErrorCode</definition>
+        <argsstring>() const </argsstring>
+        <name>getErrorCode</name>
+        <briefdescription>
+<para>getErrorCode </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a4f2027253fd1322358ecf3a11f9c492b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::TRADER_ID</type>
+        <definition>DATA_TYPES::TRADER_ID API2::OrderConfirmation::getTraderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getTraderId</name>
+        <briefdescription>
+<para>getTraderId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a7ad42f541a28d3d09ce63fb8600ca9c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setClOrderId</definition>
+        <argsstring>(DATA_TYPES::CLORDER_ID clOrderId)</argsstring>
+        <name>setClOrderId</name>
+        <param>
+          <type>DATA_TYPES::CLORDER_ID</type>
+          <declname>clOrderId</declname>
+        </param>
+        <briefdescription>
+<para>setClOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ac53d93c019ae49913ebd9e0c199721c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setExchangeOrderId</definition>
+        <argsstring>(char exchangeOrderId[])</argsstring>
+        <name>setExchangeOrderId</name>
+        <param>
+          <type>char</type>
+          <declname>exchangeOrderId</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>setExchangeOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ae5e62817cdc0a80f0fe205d912135126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setExchangeOrderId</definition>
+        <argsstring>(std::string exchangeOrderId)</argsstring>
+        <name>setExchangeOrderId</name>
+        <param>
+          <type>std::string</type>
+          <declname>exchangeOrderId</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1aaff6a5823a933417bb4de245e48f12e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setSymbolId</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbolId)</argsstring>
+        <name>setSymbolId</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>setSymbolId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a6adc28f68e6fdd7148b259b3ec6838fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setLastFillQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY qty)</argsstring>
+        <name>setLastFillQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>qty</declname>
+        </param>
+        <briefdescription>
+<para>setLastFillQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>qty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a5f5e55d7d02d6d45f6a536b140fe8d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setLastFillPrice</definition>
+        <argsstring>(DATA_TYPES::PRICE price)</argsstring>
+        <name>setLastFillPrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>setLastFillPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ad38f4ef7be23cfa5da1f6a29b5930430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setExchangeEntryTime</definition>
+        <argsstring>(DATA_TYPES::EXCHANGE_TIME exchangeEntryTime)</argsstring>
+        <name>setExchangeEntryTime</name>
+        <param>
+          <type>DATA_TYPES::EXCHANGE_TIME</type>
+          <declname>exchangeEntryTime</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeEntryTime </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeEntryTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ab94a69f628a2242c95f3dc6f044e5382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setExchangeModifyTime</definition>
+        <argsstring>(DATA_TYPES::EXCHANGE_TIME exchangeModifyTime)</argsstring>
+        <name>setExchangeModifyTime</name>
+        <param>
+          <type>DATA_TYPES::EXCHANGE_TIME</type>
+          <declname>exchangeModifyTime</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeModifyTime </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeModifyTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a765247f634969cae00acbe03f25e7723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setStrategyId</definition>
+        <argsstring>(DATA_TYPES::STRATEGY_ID strategyId)</argsstring>
+        <name>setStrategyId</name>
+        <param>
+          <type>DATA_TYPES::STRATEGY_ID</type>
+          <declname>strategyId</declname>
+        </param>
+        <briefdescription>
+<para>setStrategyId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strategyId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a59c762761ec0e600a3e4cc7a3aa9cded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setClientId</definition>
+        <argsstring>(DATA_TYPES::CLIENT_ID clientId)</argsstring>
+        <name>setClientId</name>
+        <param>
+          <type>DATA_TYPES::CLIENT_ID</type>
+          <declname>clientId</declname>
+        </param>
+        <briefdescription>
+<para>setClientId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clientId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1abe10f6a4ceadb9bf7f79de449fb21729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setLimitPrice</definition>
+        <argsstring>(DATA_TYPES::PRICE limitPrice)</argsstring>
+        <name>setLimitPrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>limitPrice</declname>
+        </param>
+        <briefdescription>
+<para>setLimitPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limitPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a731a3c8676e9ed9f13d36e3762669d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setOrderStatus</definition>
+        <argsstring>(DATA_TYPES::OrderStatus orderStatus)</argsstring>
+        <name>setOrderStatus</name>
+        <param>
+          <type>DATA_TYPES::OrderStatus</type>
+          <declname>orderStatus</declname>
+        </param>
+        <briefdescription>
+<para>setOrderStatus </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1aa99bfe0369031b37ffe971dd6f83360f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setOrderMode</definition>
+        <argsstring>(DATA_TYPES::OrderMode orderMode)</argsstring>
+        <name>setOrderMode</name>
+        <param>
+          <type>DATA_TYPES::OrderMode</type>
+          <declname>orderMode</declname>
+        </param>
+        <briefdescription>
+<para>setOrderMode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a790aff62038e36957f681f7bf1b01a18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setOrderQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY quantity)</argsstring>
+        <name>setOrderQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+<para>setOrderQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a4acf4ab9f114698fe9f3cf4adee7045c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setOrderPrice</definition>
+        <argsstring>(DATA_TYPES::PRICE price)</argsstring>
+        <name>setOrderPrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>setOrderPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a4b758c54de6098c38aee7a49402bd38a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setIOCCanceledQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY quantity)</argsstring>
+        <name>setIOCCanceledQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+<para>setIOCCanceledQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1aca1e77ca293afe948872e706ff7cccb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setOriginalClOrderId</definition>
+        <argsstring>(DATA_TYPES::CLORDER_ID originalClOrderId)</argsstring>
+        <name>setOriginalClOrderId</name>
+        <param>
+          <type>DATA_TYPES::CLORDER_ID</type>
+          <declname>originalClOrderId</declname>
+        </param>
+        <briefdescription>
+<para>setOriginalClOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>originalClOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a5ace7f295f651520dfc58d8ab4a74645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setSequenceNumber</definition>
+        <argsstring>(DATA_TYPES::SEQUENCE_NUMBER sequenceNumber)</argsstring>
+        <name>setSequenceNumber</name>
+        <param>
+          <type>DATA_TYPES::SEQUENCE_NUMBER</type>
+          <declname>sequenceNumber</declname>
+        </param>
+        <briefdescription>
+<para>setSequenceNumber </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sequenceNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a562db0db2564d8a18e3ae6f4a7d5f409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setTradeId</definition>
+        <argsstring>(char tradeId[])</argsstring>
+        <name>setTradeId</name>
+        <param>
+          <type>char</type>
+          <declname>tradeId</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>setTradeId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tradeId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1ad9348d10f63cce30b7804daaba9b515d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setTradeId</definition>
+        <argsstring>(std::string tradeId)</argsstring>
+        <name>setTradeId</name>
+        <param>
+          <type>std::string</type>
+          <declname>tradeId</declname>
+        </param>
+        <briefdescription>
+<para>setTradeId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tradeId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a42a225988e7b4107812ffc7a23ad541f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setErrorCode</definition>
+        <argsstring>(DATA_TYPES::ERROR_CODE errorCode)</argsstring>
+        <name>setErrorCode</name>
+        <param>
+          <type>DATA_TYPES::ERROR_CODE</type>
+          <declname>errorCode</declname>
+        </param>
+        <briefdescription>
+<para>setErrorCode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>errorCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1af8c85eec5585dc344b9654c2c5f7935f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::setTraderId</definition>
+        <argsstring>(DATA_TYPES::TRADER_ID traderId)</argsstring>
+        <name>setTraderId</name>
+        <param>
+          <type>DATA_TYPES::TRADER_ID</type>
+          <declname>traderId</declname>
+        </param>
+        <briefdescription>
+<para>setTraderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>traderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_order_confirmation_1a02ece472ddc1d59ca477db219838866a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::OrderConfirmation::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="283"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound">OrderConfirmation</ref> class contains the Exchange Order Confirmation Message data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" line="16" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h" bodystart="15" bodyend="284"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a02ece472ddc1d59ca477db219838866a" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>dump</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1adc0c80bcf4d99437b26e482143dc4b45" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getClientId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ac927e0347cdc6686a89478626c979a35" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getClOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aa638e6d385ce1ddb9a4c26af6f2254bd" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getErrorCode</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aacc316a7bfbf7b821b7826e364b60d2c" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getExchangeEntryTime</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a9b3ecf482b70d0c11f6d4fc05363668e" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getExchangeModifyTime</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a092cb6b14b04e741f1dedd08ef5af5ab" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1acb9b362eaf01e028846e68bdfeec3bb4" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getIOCCanceledQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a60b3c4bb35cf21fe9545a33d806757f4" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getLastFillPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ad43d155099d9eaa786e028bffc872fc9" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getLastFillQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a7452a5686513c6ee0805716f13247e9c" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getLimitPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a92038ac1d484df2fad5cc699e0698c4c" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getOrderMode</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a079670d134b29954bd78921d139c4710" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getOrderPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1acc2bb9c798b238e7fc6b7323eaa47bcf" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getOrderQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a5d6785788ff0b6417297b2afc185b3c9" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getOrderStatus</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1acdadf079c62a8a29a657f261a8927e08" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getOriginalClOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ac3be746c6becde4ddfeab316a41120d0" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getStrategyId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a8d8956358d47151e1df3314a6e95aa90" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getSymbolId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a0e7ca21c48f80d2df2f69d71d1e732d6" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getTradeId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a4f2027253fd1322358ecf3a11f9c492b" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>getTraderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a2e41bd57155237425fc227f9ead45ba7" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>initialize</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a8b959a4ef931b3bce6f78eb1794b0663" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>OrderConfirmation</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aac1484e2863df0a4304e3b8106d7f840" prot="private" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>pimpl</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a59c762761ec0e600a3e4cc7a3aa9cded" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setClientId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a7ad42f541a28d3d09ce63fb8600ca9c7" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setClOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a42a225988e7b4107812ffc7a23ad541f" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setErrorCode</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ad38f4ef7be23cfa5da1f6a29b5930430" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setExchangeEntryTime</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ab94a69f628a2242c95f3dc6f044e5382" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setExchangeModifyTime</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ac53d93c019ae49913ebd9e0c199721c0" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ae5e62817cdc0a80f0fe205d912135126" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a4b758c54de6098c38aee7a49402bd38a" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setIOCCanceledQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a5f5e55d7d02d6d45f6a536b140fe8d46" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setLastFillPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a6adc28f68e6fdd7148b259b3ec6838fd" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setLastFillQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1abe10f6a4ceadb9bf7f79de449fb21729" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setLimitPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aa99bfe0369031b37ffe971dd6f83360f" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setOrderMode</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a4acf4ab9f114698fe9f3cf4adee7045c" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setOrderPrice</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a790aff62038e36957f681f7bf1b01a18" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setOrderQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a731a3c8676e9ed9f13d36e3762669d43" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setOrderStatus</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aca1e77ca293afe948872e706ff7cccb9" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setOriginalClOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a5ace7f295f651520dfc58d8ab4a74645" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setSequenceNumber</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a765247f634969cae00acbe03f25e7723" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setStrategyId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1aaff6a5823a933417bb4de245e48f12e2" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setSymbolId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1a562db0db2564d8a18e3ae6f4a7d5f409" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setTradeId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1ad9348d10f63cce30b7804daaba9b515d" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setTradeId</name></member>
+      <member refid="class_a_p_i2_1_1_order_confirmation_1af8c85eec5585dc344b9654c2c5f7935f" prot="public" virt="non-virtual"><scope>API2::OrderConfirmation</scope><name>setTraderId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

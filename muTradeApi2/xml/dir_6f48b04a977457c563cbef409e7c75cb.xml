@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dir_6f48b04a977457c563cbef409e7c75cb" kind="dir">
+    <compoundname>sgLib</compoundname>
+    <innerfile refid="sg_api_parameters_8h">sgApiParameters.h</innerfile>
+    <innerfile refid="sg_common_8h">sgCommon.h</innerfile>
+    <innerfile refid="sg_context_8h">sgContext.h</innerfile>
+    <innerfile refid="sg_mkt_data_8h">sgMktData.h</innerfile>
+    <innerfile refid="sg_symbol_data_defines_8h">sgSymbolDataDefines.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/"/>
+  </compounddef>
+</doxygen>

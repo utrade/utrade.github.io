@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="sg_common_8h" kind="file">
+    <compoundname>sgCommon.h</compoundname>
+    <includes local="yes">time.h</includes>
+    <includes refid="shared_defines_8h" local="no">sharedDefines.h</includes>
+    <includes refid="shared_response_8h" local="no">sharedResponse.h</includes>
+    <includes refid="shared_commands_8h" local="no">sharedCommands.h</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">list</includes>
+    <includes refid="sg_mkt_data_8h" local="no">sgMktData.h</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">cmdDefines.h</includes>
+    <includes refid="api_constants_8h" local="no">apiConstants.h</includes>
+    <includes refid="sg_symbol_data_defines_8h" local="no">sgSymbolDataDefines.h</includes>
+    <includedby refid="sg_context_8h" local="yes">sgLib/sgContext.h</includedby>
+    <incdepgraph>
+      <node id="64">
+        <label>list</label>
+      </node>
+      <node id="73">
+        <label>sgSymbolDataDefines.h</label>
+        <link refid="sg_symbol_data_defines_8h_source"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>stdint.h</label>
+      </node>
+      <node id="70">
+        <label>boost/date_time/gregorian/gregorian.hpp</label>
+      </node>
+      <node id="66">
+        <label>cmdDefines.h</label>
+      </node>
+      <node id="61">
+        <label>string</label>
+      </node>
+      <node id="58">
+        <label>map</label>
+      </node>
+      <node id="69">
+        <label>stddef.h</label>
+      </node>
+      <node id="63">
+        <label>fstream</label>
+      </node>
+      <node id="67">
+        <label>apiStructs.h</label>
+        <link refid="api_structs_8h_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="68">
+        <label>apiConstants.h</label>
+        <link refid="api_constants_8h_source"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>time.h</label>
+      </node>
+      <node id="62">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>memory</label>
+      </node>
+      <node id="54">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sgCommon.h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="75">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="74">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sgCommon.h"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" prot="public">API2::COMMON::InstrumentPosition</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" prot="public">API2::COMMON::Instrument</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_c_o_m_m_o_n">API2::COMMON</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="sg_common_8h_1afc369406581f1895fbadfa0af7f5ac94" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t SYMBOL_ID</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="21" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SG_COMMON_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SG_COMMON_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;time.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedResponse.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedCommands.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sgMktData.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmdDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiConstants.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sgSymbolDataDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/>SYMBOL_ID;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">COMMON<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">InstrumentOrderId;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Position;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Instrument;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound" tooltip="The InstrumentPosition struct Provides the basic information like Open Qty, OpenSide, Traded Quantity in Buy/Sell Side,   Average traded Price in Buy/Sell Side, Booked and Mark-To-Market Profit and loss.">InstrumentPosition</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a6bd5cf326e5317a97e5bb940e7639059" kindref="member" tooltip="getOpenQty, To get the Open Quantity i,e Buy Qty-Sell Qty">getOpenQty</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a061e14d8ea0f660c3e742c2b306a0323" kindref="member" tooltip="getTradedQty To get Traded Quantity at requested OrderMode">getTradedQty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a4b437e372244c4a85e8407535907ac78" kindref="member" tooltip="getOpenSide, To get Open Side Position, if BuyQty&amp;gt;SellQty, returns API2::CONSTANTS::CMD_OrderMode_BUY...">getOpenSide</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a5c6d74ae6c4d08deb1d9670bbb615044" kindref="member" tooltip="getBookedPnl, To get Booked Pnl">getBookedPnl</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8" kindref="member" tooltip="getMtmPnl, To get Mark to Market Pnl">getMtmPnl</ref>(UNSIGNED_LONG<sp/>ltp);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a7615e0a698a69edbb9124796d6c77e15" kindref="member" tooltip="getAvgPrice, Get Average Trade Price at requested OrderMode">getAvgPrice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>UNSIGNED_LONG<sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a146408733d0fbe9d8b3e565ed63a79fc" kindref="member" tooltip="getPendingQty, To get Quantity Pending (or not filled)">getPendingQty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">Instrument</ref></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound" tooltip="The API_SymbolStaticData struct.">SymbolStaticData</ref><sp/>*<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a8cac1a5b65b1356e27d2b49e0f70247f" kindref="member" tooltip="getStaticData To get the static details of a tradable Instrument">getStaticData</ref>();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>time_t<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a0c89f63049388223a0d1c78f0cfe93c3" kindref="member" tooltip="getLastQuoteUpdateTime To get Last time when the Quote for the Instrument was updated">getLastQuoteUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>SYMBOL_ID<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a76b20f2b97286709e9dc005020ace814" kindref="member" tooltip="getSymbolId To get The System unique ID of the Instrument">getSymbolId</ref>();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound" tooltip="The InstrumentPosition struct Provides the basic information like Open Qty, OpenSide, Traded Quantity in Buy/Sell Side,   Average traded Price in Buy/Sell Side, Booked and Mark-To-Market Profit and loss.">InstrumentPosition</ref><sp/>*<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1a1da59722fd5bb50700be03771b03c2bb" kindref="member" tooltip="getPosition To get Pointer to the API2::COMMON::InstrumentPosition">getPosition</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UNSIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_1ac6727da5584746a474938d42ede3b82a" kindref="member" tooltip="getLastQuotedPrice To get last quoted price from this Instrument">getLastQuotedPrice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//namspace<sp/>COMMON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight><highlight class="comment">//namspace<sp/>SG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SGCOMMON_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h"/>
+  </compounddef>
+</doxygen>

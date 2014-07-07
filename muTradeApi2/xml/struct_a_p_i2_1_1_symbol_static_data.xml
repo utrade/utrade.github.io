@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="struct_a_p_i2_1_1_symbol_static_data" kind="struct" prot="public">
+    <compoundname>API2::SymbolStaticData</compoundname>
+    <includes refid="sg_symbol_data_defines_8h" local="no">sgSymbolDataDefines.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a89420b9c2d781cd16fd43faa01edd014" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::marketId</definition>
+        <argsstring></argsstring>
+        <name>marketId</name>
+        <briefdescription>
+<para>marketId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="15" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a346f41eae161558bd9e76c945f5a84eb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::securityId</definition>
+        <argsstring></argsstring>
+        <name>securityId</name>
+        <briefdescription>
+<para>securityId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a130e9b7d4c4b0adafb85ad196031d6ed" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::symbol</definition>
+        <argsstring></argsstring>
+        <name>symbol</name>
+        <briefdescription>
+<para>symbol </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="25" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a7be09e8ee8f02b8abe44aebe1d4a8aa9" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::securityType</definition>
+        <argsstring></argsstring>
+        <name>securityType</name>
+        <briefdescription>
+<para>securityType </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="30" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a18007d0742e90640aea50d299954d771" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::scripName</definition>
+        <argsstring></argsstring>
+        <name>scripName</name>
+        <briefdescription>
+<para>scripName </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="35" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a76a2935e930075691fe0db69809a59ad" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::groupName</definition>
+        <argsstring></argsstring>
+        <name>groupName</name>
+        <briefdescription>
+<para>groupName </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="40" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a2bfdd16ce191e722e6fffa507a734a89" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int API2::SymbolStaticData::maturityYearmon</definition>
+        <argsstring></argsstring>
+        <name>maturityYearmon</name>
+        <briefdescription>
+<para>maturityYearmon </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="45" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1add7ecc3468f973a995fba0e043840d8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::maturityDay</definition>
+        <argsstring></argsstring>
+        <name>maturityDay</name>
+        <briefdescription>
+<para>maturityDay </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="50" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1aa54ffeca8c5a56e2ed366a22365a4f8a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::optionMode</definition>
+        <argsstring></argsstring>
+        <name>optionMode</name>
+        <briefdescription>
+<para>optionMode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="55" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1ab739d8b9668dd297bf1bc0db596f018e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::optionAttribute</definition>
+        <argsstring></argsstring>
+        <name>optionAttribute</name>
+        <briefdescription>
+<para>optionAttribute </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="60" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a9367d90fa114992ba08df34d526d5d5f" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::timeElapsedBse</definition>
+        <argsstring></argsstring>
+        <name>timeElapsedBse</name>
+        <briefdescription>
+<para>timeElapsedBse </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="65" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1ae7b83f77daaf19818c519c33cc69c01c" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::timeElapsedNse</definition>
+        <argsstring></argsstring>
+        <name>timeElapsedNse</name>
+        <briefdescription>
+<para>timeElapsedNse </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="70" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a22c77b88766cbfa82992037960f873a0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::instrumentType</definition>
+        <argsstring></argsstring>
+        <name>instrumentType</name>
+        <briefdescription>
+<para>instrumentType </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="75" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a99b31e957c49137d25da5db1a50b6a38" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::strikePrice</definition>
+        <argsstring></argsstring>
+        <name>strikePrice</name>
+        <briefdescription>
+<para>strikePrice </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="80" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1aec76a85e37759fad4c76f987a35e8013" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::noDelivery</definition>
+        <argsstring></argsstring>
+        <name>noDelivery</name>
+        <briefdescription>
+<para>noDelivery </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="85" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a9ff0bb6b69d83bb67acc6f95de2c9174" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::marketLot</definition>
+        <argsstring></argsstring>
+        <name>marketLot</name>
+        <briefdescription>
+<para>marketLot </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="90" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1ad3500151e30f2bf6b2f0b432827a4a99" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::tickSize</definition>
+        <argsstring></argsstring>
+        <name>tickSize</name>
+        <briefdescription>
+<para>tickSize </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="95" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1acfd902f02faa050ccffe562a39226647" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::suspended</definition>
+        <argsstring></argsstring>
+        <name>suspended</name>
+        <briefdescription>
+<para>suspended </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="100" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1acf3a126860815033610095a1ae3d0a97" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::avmFlag</definition>
+        <argsstring></argsstring>
+        <name>avmFlag</name>
+        <briefdescription>
+<para>avmFlag </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="105" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1aaba3bbb295f09ae1f9684088d78506f1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::avmBuyMargin</definition>
+        <argsstring></argsstring>
+        <name>avmBuyMargin</name>
+        <briefdescription>
+<para>avmBuyMargin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="110" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a48d65db76074d4944d654152f99aeaea" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::avmSellMargin</definition>
+        <argsstring></argsstring>
+        <name>avmSellMargin</name>
+        <briefdescription>
+<para>avmSellMargin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="115" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1afa802ea60e35b764f191adc471027eaf" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::spanMargin</definition>
+        <argsstring></argsstring>
+        <name>spanMargin</name>
+        <briefdescription>
+<para>spanMargin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="120" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a1031357524a5983bc061c69d30abd5c4" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::exposureMargin</definition>
+        <argsstring></argsstring>
+        <name>exposureMargin</name>
+        <briefdescription>
+<para>exposureMargin </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="125" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a75bb50fdb1d72e456b45adffed3545ce" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char API2::SymbolStaticData::settlementType</definition>
+        <argsstring></argsstring>
+        <name>settlementType</name>
+        <briefdescription>
+<para>settlementType </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="130" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a49d3933b9a3d9785393fad2ccbc96860" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::isinNumber</definition>
+        <argsstring></argsstring>
+        <name>isinNumber</name>
+        <briefdescription>
+<para>isinNumber </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="135" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a1b0693e0c4d0a262b8fe1d09702a0194" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::haircut</definition>
+        <argsstring></argsstring>
+        <name>haircut</name>
+        <briefdescription>
+<para>haircut </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="140" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1adfd310479425bef20910b763a4d355a1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::bcastFlag</definition>
+        <argsstring></argsstring>
+        <name>bcastFlag</name>
+        <briefdescription>
+<para>bcastFlag </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="145" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a1d5b87bc3f923de4a0edea226816d7c4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::mktPicBcastFlag</definition>
+        <argsstring></argsstring>
+        <name>mktPicBcastFlag</name>
+        <briefdescription>
+<para>mktPicBcastFlag </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="150" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a35e67a465cbb7c509a204bb3b61765cb" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::productCode</definition>
+        <argsstring></argsstring>
+        <name>productCode</name>
+        <briefdescription>
+<para>productCode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="155" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1aee9b3ceff5b2e836a08a11013126fa52" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::underlyingId</definition>
+        <argsstring></argsstring>
+        <name>underlyingId</name>
+        <briefdescription>
+<para>underlyingId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="160" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a472f5fbdd843f4ed795eb185d6f75a28" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::is_auction_eligible</definition>
+        <argsstring></argsstring>
+        <name>is_auction_eligible</name>
+        <briefdescription>
+<para>is_auction_eligible </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="165" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a713d24246789d1c2162498e084e7bb8d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::hi_52_wk</definition>
+        <argsstring></argsstring>
+        <name>hi_52_wk</name>
+        <briefdescription>
+<para>hi_52_wk </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="170" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a24630a05fb861c173b798070e9ab96d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::lo_52_wk</definition>
+        <argsstring></argsstring>
+        <name>lo_52_wk</name>
+        <briefdescription>
+<para>lo_52_wk </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="175" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1ab9215bde7f0f352dffd599a05db87c9e" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::lowerBandPrice</definition>
+        <argsstring></argsstring>
+        <name>lowerBandPrice</name>
+        <briefdescription>
+<para>lowerBandPrice </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="180" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a9c1ebb725b17b0908408ff462b64acb1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::upperBandPrice</definition>
+        <argsstring></argsstring>
+        <name>upperBandPrice</name>
+        <briefdescription>
+<para>upperBandPrice </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="185" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1ada5ac23aa7596dec098fa482e0bf5dc0" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::freezeQuantity</definition>
+        <argsstring></argsstring>
+        <name>freezeQuantity</name>
+        <briefdescription>
+<para>freezeQuantity </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="190" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a0f93c2fb95f2623ca5826a5fb705a8f3" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::closePrice</definition>
+        <argsstring></argsstring>
+        <name>closePrice</name>
+        <briefdescription>
+<para>closePrice </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="195" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a7cddd330b1a2fad9f4113488ba0839ba" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long API2::SymbolStaticData::symbolId</definition>
+        <argsstring></argsstring>
+        <name>symbolId</name>
+        <briefdescription>
+<para>symbolId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="200" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1a32fecd3d7339e805752719516154c977" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::SymbolStaticData::scripPrecision</definition>
+        <argsstring></argsstring>
+        <name>scripPrecision</name>
+        <briefdescription>
+<para>scripPrecision </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="205" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_p_i2_1_1_symbol_static_data_1aa2e596d4cbc7828ecc96e9ab55c86f54" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string API2::SymbolStaticData::symbolAlias</definition>
+        <argsstring></argsstring>
+        <name>symbolAlias</name>
+        <briefdescription>
+<para>symbolAlias </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="210" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_a_p_i2_1_1_symbol_static_data_1a5ef1fdea553d2b4671968a7f8c4e4ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SymbolStaticData::SymbolStaticData</definition>
+        <argsstring>()</argsstring>
+        <name>SymbolStaticData</name>
+        <briefdescription>
+<para>API_SymbolStaticData. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="215"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_symbol_static_data_1a07b71fafcd8de5f381348df218c6fd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SymbolStaticData::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="220"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The API_SymbolStaticData struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" line="10" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h" bodystart="9" bodyend="221"/>
+    <listofallmembers>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1aaba3bbb295f09ae1f9684088d78506f1" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>avmBuyMargin</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1acf3a126860815033610095a1ae3d0a97" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>avmFlag</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a48d65db76074d4944d654152f99aeaea" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>avmSellMargin</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1adfd310479425bef20910b763a4d355a1" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>bcastFlag</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a0f93c2fb95f2623ca5826a5fb705a8f3" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>closePrice</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a07b71fafcd8de5f381348df218c6fd85" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>dump</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a1031357524a5983bc061c69d30abd5c4" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>exposureMargin</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1ada5ac23aa7596dec098fa482e0bf5dc0" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>freezeQuantity</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a76a2935e930075691fe0db69809a59ad" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>groupName</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a1b0693e0c4d0a262b8fe1d09702a0194" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>haircut</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a713d24246789d1c2162498e084e7bb8d" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>hi_52_wk</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a22c77b88766cbfa82992037960f873a0" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>instrumentType</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a472f5fbdd843f4ed795eb185d6f75a28" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>is_auction_eligible</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a49d3933b9a3d9785393fad2ccbc96860" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>isinNumber</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a24630a05fb861c173b798070e9ab96d2" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>lo_52_wk</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1ab9215bde7f0f352dffd599a05db87c9e" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>lowerBandPrice</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a89420b9c2d781cd16fd43faa01edd014" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>marketId</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a9ff0bb6b69d83bb67acc6f95de2c9174" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>marketLot</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1add7ecc3468f973a995fba0e043840d8c" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>maturityDay</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a2bfdd16ce191e722e6fffa507a734a89" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>maturityYearmon</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a1d5b87bc3f923de4a0edea226816d7c4" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>mktPicBcastFlag</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1aec76a85e37759fad4c76f987a35e8013" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>noDelivery</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1ab739d8b9668dd297bf1bc0db596f018e" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>optionAttribute</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1aa54ffeca8c5a56e2ed366a22365a4f8a" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>optionMode</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a35e67a465cbb7c509a204bb3b61765cb" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>productCode</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a18007d0742e90640aea50d299954d771" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>scripName</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a32fecd3d7339e805752719516154c977" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>scripPrecision</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a346f41eae161558bd9e76c945f5a84eb" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>securityId</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a7be09e8ee8f02b8abe44aebe1d4a8aa9" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>securityType</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a75bb50fdb1d72e456b45adffed3545ce" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>settlementType</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1afa802ea60e35b764f191adc471027eaf" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>spanMargin</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a99b31e957c49137d25da5db1a50b6a38" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>strikePrice</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1acfd902f02faa050ccffe562a39226647" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>suspended</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a130e9b7d4c4b0adafb85ad196031d6ed" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>symbol</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1aa2e596d4cbc7828ecc96e9ab55c86f54" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>symbolAlias</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a7cddd330b1a2fad9f4113488ba0839ba" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>symbolId</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a5ef1fdea553d2b4671968a7f8c4e4ec6" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>SymbolStaticData</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1ad3500151e30f2bf6b2f0b432827a4a99" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>tickSize</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a9367d90fa114992ba08df34d526d5d5f" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>timeElapsedBse</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1ae7b83f77daaf19818c519c33cc69c01c" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>timeElapsedNse</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1aee9b3ceff5b2e836a08a11013126fa52" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>underlyingId</name></member>
+      <member refid="struct_a_p_i2_1_1_symbol_static_data_1a9c1ebb725b17b0908408ff462b64acb1" prot="public" virt="non-virtual"><scope>API2::SymbolStaticData</scope><name>upperBandPrice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

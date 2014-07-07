@@ -1,0 +1,1272 @@
+\hypertarget{class_a_p_i2_1_1_s_g_context}{\section{A\-P\-I2\-:\-:S\-G\-Context Class Reference}
+\label{class_a_p_i2_1_1_s_g_context}\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}}
+}
+
+
+The \hyperlink{class_a_p_i2_1_1_s_g_context}{S\-G\-Context} class The main class to be inherited for creating a new Strategy.  
+
+
+
+
+{\ttfamily \#include $<$sg\-Context.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a4d2ddbdd3e8a4a96ad52b90a1c0ef33e}{virtual \hyperlink{class_a_p_i2_1_1_s_g_context_a4d2ddbdd3e8a4a96ad52b90a1c0ef33e}{$\sim$\-S\-G\-Context} ()}\label{class_a_p_i2_1_1_s_g_context_a4d2ddbdd3e8a4a96ad52b90a1c0ef33e}
+
+\begin{DoxyCompactList}\small\item\em $\sim$\-S\-G\-Context A destructor \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_s_g_context_aebf22dc8466ec0f3d31e7993a3f5540d}{S\-G\-Context} (\hyperlink{class_a_p_i2_1_1_strategy_parameters}{Strategy\-Parameters} $\ast$params, const std\-::string sg\-Name)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_a_p_i2_1_1_s_g_context}{S\-G\-Context}, Constructor. \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a01c0a9513e75bf9230c714ccbe03ce46}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a01c0a9513e75bf9230c714ccbe03ce46}{terminate\-Square\-Off\-Strategy} ()}\label{class_a_p_i2_1_1_s_g_context_a01c0a9513e75bf9230c714ccbe03ce46}
+
+\begin{DoxyCompactList}\small\item\em terminate\-Square\-Off\-Strategy, Called to Terminate strategy and Square-\/\-Off all Positions\par
+ Can be overriden \par
+ Default behaviour\-: \par
+ 1) Cancel All Orders \par
+ 2) Send Opposite Orders for closing Position \par
+ 3) Terminate the strategy \par
+ \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a1958accbe8625d491878add4bf5533d2}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a1958accbe8625d491878add4bf5533d2}{terminate\-Strategy} (bool \hyperlink{class_a_p_i2_1_1_s_g_context_a639ea0f4f942043c2dbf3992d4fd8a96}{cancel\-Orders}=true)}\label{class_a_p_i2_1_1_s_g_context_a1958accbe8625d491878add4bf5533d2}
+
+\begin{DoxyCompactList}\small\item\em terminate\-Strategy, Called to Terminate Strategy\par
+ Can be overriden \par
+ Default behaviour\-: \par
+ 1) Cancel All Pending Orders \par
+ 3) Terminate the strategy \par
+ \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_a_p_i2_1_1_s_g_context_a8afc5581b6574466fe9fe502245b930d}{recover\-Instrument\-Order\-Id} (const \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em recover\-Instrument\-Order\-Id \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_a_p_i2_1_1_s_g_context_a6abdff23ca1cd361f618c4bf84cfec0c}{using\-Segment} (const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Exchange\-Id \&exch, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Security\-Type \&security\-Type=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Security\-Type\-\_\-\-M\-A\-X)
+\begin{DoxyCompactList}\small\item\em using\-Segment, To know whether a given exchange segment is being used in the strategy or not \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{start\-Algo} (bool market\-Data\-Event\-Required)
+\begin{DoxyCompactList}\small\item\em start\-Algo, function call to Start the Strategy \end{DoxyCompactList}\item 
+int \hyperlink{class_a_p_i2_1_1_s_g_context_aee86b97a48929d22d5c6afd9c5d68838}{get\-Client\-Id} ()
+\begin{DoxyCompactList}\small\item\em get\-Client\-Id, To get Client\-Id \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_strategy_parameters}{Strategy\-Parameters} $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_a653537350a6cc355bf79564b33dbba92}{get\-Params} ()
+\begin{DoxyCompactList}\small\item\em get\-Params, To get Startegy\-Parameters \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_a976152e42455f8ea52f2bdee052f3c39}{get\-Update\-Mkt\-Data} (S\-Y\-M\-B\-O\-L\-\_\-\-I\-D symbol\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Update\-Mkt\-Data, This function call will return the Pointer to \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} structure after updating it.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_ae699404b321162a301789572fc0ebabe}{get\-Mkt\-Data} (S\-Y\-M\-B\-O\-L\-\_\-\-I\-D symbol\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Mkt\-Data, This function call will return the Pointer to \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} structure \par
+ Here it will contain the last updated Market Snapshot \end{DoxyCompactList}\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{class_a_p_i2_1_1_s_g_context_a5143f1432d2b423420f6405a934ea0be}{get\-Net\-M\-T\-M} ()
+\begin{DoxyCompactList}\small\item\em get\-Net\-M\-T\-M, This function will return net Mark To Market Profit and Loss for the strategy( sum of all Instruments being traded) \end{DoxyCompactList}\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{class_a_p_i2_1_1_s_g_context_af6870dd712538b752eab69b935c7583b}{get\-Net\-Booked\-Pnl} ()
+\begin{DoxyCompactList}\small\item\em get\-Net\-Booked\-Pnl, This function will return net Booked Profit and Loss for the strategy( sum of all Instruments being traded) \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_af8c29693539afd24c6dd420972c8871e}{get\-Add\-Instrument} (\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$\&instrument, U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G symbol\-Id, bool reg\-Mkt\-Data=false, bool use\-Snap\-Shot=true)
+\begin{DoxyCompactList}\small\item\em get\-Add\-Instrument, To add a new Instrument in the strategy \par
+ The Pointer to the added Instrument is set in instrument, passed as reference \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_ae7ae8c2b8c3b50861706d749bcceb77a}{add\-Instrument} (U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G symbol\-Id, bool reg\-Mkt\-Data=false)
+\begin{DoxyCompactList}\small\item\em add\-Instrument, To add a new Instrument in the strategy \par
+ \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a19cdaf5b68ddbd2632749dcc4b65cce6}{add\-Instrument} (\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, bool reg\-Mkt\-Data=false)
+\begin{DoxyCompactList}\small\item\em add\-Instrument, To add Instrument, Internal Method,not to be used. \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_a456d032ab4229a08bfa237b33ffec76b}{get\-Instrument\-List} (std\-::list$<$ \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$ $>$ \&instrument\-List, U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G symbol\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Instrument\-List, To get list of all Instruments added for the requested Symbol\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a0a40d0076984c9579847bf350628bea9}{remove\-Instrument} (\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument)
+\begin{DoxyCompactList}\small\item\em remove\-Instrument, To remove Instrument from the context. \par
+ Removing will remove all the data relating the Instrument's Position \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_aa1290b0ce36edd31bea8615555f97f05}{void \hyperlink{class_a_p_i2_1_1_s_g_context_aa1290b0ce36edd31bea8615555f97f05}{remove\-All\-Instruments} ()}\label{class_a_p_i2_1_1_s_g_context_aa1290b0ce36edd31bea8615555f97f05}
+
+\begin{DoxyCompactList}\small\item\em remove\-All\-Instruments, This will remove all Instrument from the registered Instrument list \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a5fc0688752b90e7366524b83d3a70c93}{register\-Symbol} (S\-Y\-M\-B\-O\-L\-\_\-\-I\-D symbol\-I\-D, bool is\-Snapshot=true)
+\begin{DoxyCompactList}\small\item\em register\-Symbol, Register a A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D for market Data \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a082c5a756706517153acf2e4a635ae25}{unregister\-Symbol} (S\-Y\-M\-B\-O\-L\-\_\-\-I\-D symbol\-Id)
+\begin{DoxyCompactList}\small\item\em register\-Symbol, Un\-Register a A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D for market Data \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a1af0e0e9693eb410378d1e29947ca35d}{void \hyperlink{class_a_p_i2_1_1_s_g_context_a1af0e0e9693eb410378d1e29947ca35d}{unregister\-All\-Symbols} ()}\label{class_a_p_i2_1_1_s_g_context_a1af0e0e9693eb410378d1e29947ca35d}
+
+\begin{DoxyCompactList}\small\item\em unregister\-All\-Symbols, To unregister all Instruments for market feed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_a6041b2e2653f2f7d0fd86b253abad209}{update\-Quote} ()
+\begin{DoxyCompactList}\small\item\em update\-Quote, To manually update Market Feed for all registered Instruments.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_abff1974dcd281fe856a0d81399d548b8}{update\-Quote} (U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G symbol\-Id)
+\begin{DoxyCompactList}\small\item\em update\-Quote, To manually update Market Feed for requested A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_single_order}{A\-P\-I2\-::\-Single\-Order} $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_ae49290cac1f27ba3049f1f5f5075cc49}{get\-Order} (long cl\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Order, To get Pointer to Single Order using a client\-Order\-Id \end{DoxyCompactList}\item 
+A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_s_g_context_abffd48797b85fe57108f02ad77f3c009}{get\-Strategy\-Id} ()
+\begin{DoxyCompactList}\small\item\em get\-Strategy\-Id, To get Startegy\-Id of current running Strategy. \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_afe58c09f474cdfabc70c81b51e30acca}{set\-S\-G\-Parameters} (\hyperlink{class_a_p_i2_1_1_strategy_parameters}{Strategy\-Parameters} $\ast$params)
+\begin{DoxyCompactList}\small\item\em set\-S\-G\-Parameters, To set the pointer to \hyperlink{class_a_p_i2_1_1_strategy_parameters}{Strategy\-Parameters} \end{DoxyCompactList}\item 
+U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{class_a_p_i2_1_1_s_g_context_af3455b23fcf0866bbd7634fff735e9b6}{get\-Admin\-Token\-Id} ()
+\begin{DoxyCompactList}\small\item\em get\-Admin\-Token\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_abc5afbec664b4d30d6700195e4de0927}{set\-Admin\-Token\-Id} (U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G id)
+\begin{DoxyCompactList}\small\item\em set\-Admin\-Token\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a214587777e22c6238afebc381069a96b}{send\-Strategy\-Response} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Response\-Type response\-Type, D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status risk\-Status, D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Strategy\-Comment strategy\-Comment=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-R\-S\-P\-\_\-\-Strategy\-Comment\-\_\-\-M\-A\-X)
+\begin{DoxyCompactList}\small\item\em send\-Strategy\-Response, To send a Response to the frontend \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a6bd0841e7c06539eeaaf04e174882cda}{void \hyperlink{class_a_p_i2_1_1_s_g_context_a6bd0841e7c06539eeaaf04e174882cda}{exit\-Strategy} ()}\label{class_a_p_i2_1_1_s_g_context_a6bd0841e7c06539eeaaf04e174882cda}
+
+\begin{DoxyCompactList}\small\item\em exit\-Strategy, To exit a strategy, terminates the Strategy thread and returns the Strategy\-Driver. \end{DoxyCompactList}\item 
+Debug\-Log $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_adf0389e54a6dec09889cd219521a1b87}{get\-Debug\-Log} ()
+\begin{DoxyCompactList}\small\item\em get\-Debug\-Log, To get Pointer to the Debug\-Log Object, used to dump debug messages. \par
+ Sample Usage\-:\par
+ D\-E\-B\-U\-G\-\_\-\-M\-E\-S\-S\-A\-G\-E(\hyperlink{class_a_p_i2_1_1_s_g_context_adf0389e54a6dec09889cd219521a1b87}{get\-Debug\-Log()},\char`\"{}$<$\-Message$>$\char`\"{}); \end{DoxyCompactList}\item 
+U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{class_a_p_i2_1_1_s_g_context_a7153ac0ed3d06ff7b670d2667c0878c3}{get\-Pending\-Qty} (\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode mode)
+\begin{DoxyCompactList}\small\item\em get\-Pending\-Qty, To get Pending Quantity of an Instrument \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y \hyperlink{class_a_p_i2_1_1_s_g_context_a3e769f6514bc235a16c7495b9d8c70e9}{get\-Pending\-Qty} (C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Pending\-Qty, To get Pending Quantity of requested Order as order\-Id \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_s_g_context_a4eb246662184d5dbbfd1694279bb4b9b}{get\-Client\-Order\-Id} (C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Client\-Order\-Id, To get Client\-Order\-Id of requested Order \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status \hyperlink{class_a_p_i2_1_1_s_g_context_a908e0a9ae6e276117fa661957b2cfa1f}{get\-Order\-Status} (C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Order\-Status, To get Order\-Status of requested Order \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String \hyperlink{class_a_p_i2_1_1_s_g_context_a1f069a29ffd8d51cd8bbb512f9d57406}{get\-Exchange\-Order\-Id} (C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Exchange\-Order\-Id, To get Exchange Order\-Id of requested Order \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_a_p_i2_1_1_s_g_context_a526eb681e4458ff0855195dbf360e5dd}{run} (bool market\-Data\-Event\-Required)
+\begin{DoxyCompactList}\small\item\em run \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_ab141f05e2a0d8a51fdadc57bf53d2cd8}{create\-New\-Order} (\hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$\&order, \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&qty=0, const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&disc\-Qty=0, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&mode=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Type \&type=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Type\-\_\-\-L\-I\-M\-I\-T, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Validity \&validity=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Validity\-\_\-\-D\-A\-Y, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Product\-Type \&product=C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Product\-Type\-\_\-\-D\-E\-L\-I\-V\-E\-R\-Y, const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&price=0, const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&stop\-Price=0)
+\begin{DoxyCompactList}\small\item\em create\-New\-Order, To create a New Order for an instrument \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a09b8988f91af279b0adab42363dad20d}{set\-Strategy\-Comment} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Strategy\-Comment com)
+\begin{DoxyCompactList}\small\item\em set\-Strategy\-Comment, To set the current Startegy Comment, Whenever a strategy Response is sent to frontend, this will be the sent as the strategy Comment \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_a13e9de988513ba35eb22950c70c9f7f0}{send\-New\-Order} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&risk\-Status, \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, \hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$\&order, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id=0)
+\begin{DoxyCompactList}\small\item\em send\-New\-Order, To Send a new Order \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_a969d2c63a85582133beeb6c657727ec7}{send\-Replace\-Order} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&risk\-Status, \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, \hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$\&order, bool update\-Quantity=true, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id=0)
+\begin{DoxyCompactList}\small\item\em send\-Replace\-Order, To send a replace Order \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_ae919ca5df7d0e8ecd686e5be7e24d737}{cancel\-Order} (C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em cancel\-Order, To cancel an Order \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a639ea0f4f942043c2dbf3992d4fd8a96}{void \hyperlink{class_a_p_i2_1_1_s_g_context_a639ea0f4f942043c2dbf3992d4fd8a96}{cancel\-Orders} ()}\label{class_a_p_i2_1_1_s_g_context_a639ea0f4f942043c2dbf3992d4fd8a96}
+
+\begin{DoxyCompactList}\small\item\em cancel\-Orders, To cancel all Orders ( Confirmed or Partial Filled ) \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_p_i2_1_1_s_g_context_a1845d09e0349a9988e9fc1fcb5f31940}{send\-Cancel\-Order} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&risk\-Status, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em send\-Cancel\-Order, To Cancel Order \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_ad77850025e1e3f2b7f1dca5490126190}{insert\-New\-Order\-Id} (\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$instrument, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$\&order\-Id, const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&mode)
+\begin{DoxyCompactList}\small\item\em insert\-New\-Order\-Id, Creates and Inserts a new Instrument\-Order\-Id Instance to the Instrument \par
+ for the requested Order\-Mode and sets the pointer to order\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a6f8f354555be544b381f9553d6ac05f8}{dump\-Log\-Order\-Confirmation} (const \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation)
+\begin{DoxyCompactList}\small\item\em dump\-Log\-Order\-Confirmation. Prints \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} fields \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_a904408111683cd8301ee1e364cd6011a}{dump\-Log\-Single\-Order} (\hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$order)
+\begin{DoxyCompactList}\small\item\em dump\-Log\-Single\-Order. Prints Single Order fields \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_s_g_context_af669043763cb2f3b9faafd640a6c3557}{dump\-Log\-Instrument\-Order\-Id} (const C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em dump\-Log\-Instrument\-Order\-Id. Prints Instrument\-Order\-Id Fields \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a8153eaa080b3a20c8e55a7c018979e0d}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a8153eaa080b3a20c8e55a7c018979e0d}{process\-Current\-State} ()}\label{class_a_p_i2_1_1_s_g_context_a8153eaa080b3a20c8e55a7c018979e0d}
+
+\begin{DoxyCompactList}\small\item\em process\-Current\-State Called as an event if Not configured to received market\-Data Event while Running Algo \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a03606cff5f8b0488e6a14fd937df47a9}{on\-Derived\-Market\-Data\-Event} (U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G symbol\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Derived\-Market\-Data\-Event Called if Configured to received market\-Data Event while Running Algo \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a97093f90d86c4d3f8ca00fc6a7c593b6}{process\-Admin\-Command} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Command\-Category command)
+\begin{DoxyCompactList}\small\item\em process\-Admin\-Command Called when ever a command from frontend is issued. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a3e87d0c000fd0770a13ce27d6ff662d4}{process\-Disconnection} (const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Command\-Category \&command)
+\begin{DoxyCompactList}\small\item\em process\-Disconnection Called whenever a disconnection is received, disconnected entity to be determined from Command\-Category \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_afcf2afb6a7ee4528832a529e20b57f5d}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_afcf2afb6a7ee4528832a529e20b57f5d}{on\-Modify\-Strategy} (Abstract\-User\-Params $\ast$new\-Params)=0}\label{class_a_p_i2_1_1_s_g_context_afcf2afb6a7ee4528832a529e20b57f5d}
+
+\begin{DoxyCompactList}\small\item\em on\-Modify\-Strategy Called when strategy modify command is received \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a85d7ac789482c407911a66055690a76c}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a85d7ac789482c407911a66055690a76c}{on\-Command\-Terminate\-Startegy} ()}\label{class_a_p_i2_1_1_s_g_context_a85d7ac789482c407911a66055690a76c}
+
+\begin{DoxyCompactList}\small\item\em on\-Command\-Terminate\-Startegy Called when strategy receives Terminate Command from Frontend \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a5ec31bc87d26adcc8ad2674de078404d}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a5ec31bc87d26adcc8ad2674de078404d}{on\-Command\-Terminate\-Sq\-Off\-Strategy} ()}\label{class_a_p_i2_1_1_s_g_context_a5ec31bc87d26adcc8ad2674de078404d}
+
+\begin{DoxyCompactList}\small\item\em on\-Command\-Terminate\-Sq\-Off\-Strategy Called when strategy receives Terminate Sq\-Off Command from Frontend \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a0a5fe07c99f6552a5fca285d5ee4cacd}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a0a5fe07c99f6552a5fca285d5ee4cacd}{on\-Command\-Pause\-Startegy} ()}\label{class_a_p_i2_1_1_s_g_context_a0a5fe07c99f6552a5fca285d5ee4cacd}
+
+\begin{DoxyCompactList}\small\item\em on\-Command\-Pause\-Startegy Called when strategy receives Pause Command from Frontend \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a401a5daadf6b23661671a36c8de5b7e1}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a401a5daadf6b23661671a36c8de5b7e1}{on\-Command\-Run\-Strategy} ()}\label{class_a_p_i2_1_1_s_g_context_a401a5daadf6b23661671a36c8de5b7e1}
+
+\begin{DoxyCompactList}\small\item\em on\-Command\-Run\-Strategy Called when strategy receives Run Command from Frontend \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_s_g_context_a3702772e298bb872981d4dd982ccb9a1}{virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a3702772e298bb872981d4dd982ccb9a1}{set\-Init\-State} ()}\label{class_a_p_i2_1_1_s_g_context_a3702772e298bb872981d4dd982ccb9a1}
+
+\begin{DoxyCompactList}\small\item\em set\-Init\-State, To Set Initial state of the algo \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a7659de89afb69a32e1e2934d9d620429}{process\-Order\-Confirmation} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation)
+\begin{DoxyCompactList}\small\item\em process\-Order\-Confirmation, Call back after \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} Processing is done, \par
+ Not necessary to override this, \par
+ To be overridden only If any additional Processing is reqd at the algo end \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a7aea075d2b1b88e18b0708a05ce0a60c}{on\-New\-Confirmed} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-New\-Confirmed, Call back when a new Order gets confirmed by exchange. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a3628f6c31070455a4b994e1b6e763ebe}{on\-Replace\-Rejected} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Replace\-Rejected, Call back when a replace order gets rejected by the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_add684084c3684e8034cea65cb35b0b6f}{on\-Canceled} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Canceled, Call back when a cancel order gets accepted by the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_ae4ad928457b9cb3d5defaa44640b41d3}{on\-Cancel\-Rejected} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Cancel\-Rejected, Call back when a cancel order gets rejected by the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a702a97361711e4454518e657d9733ab6}{on\-Replaced} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Replaced, Call back when a Order gets replaced sucessfully at the exchange. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_aa74aca215d051a9dbf1d5e8ee9c1c837}{on\-New\-Reject} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-New\-Rejected, Call back when a new order gets rejected by the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_af4705af6aa2806b16882028cb3b85fd6}{on\-I\-O\-C\-Canceled} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&Confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-I\-O\-C\-Canceled, Call back when an I\-O\-C order gets canceled the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a6731a9753ec762623eb9737aaae97432}{on\-Filled} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Filled, Call back when an order gets filled at the exchange \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_a_p_i2_1_1_s_g_context_a87e382522bc0622fdbe00ff598dfecaa}{on\-Partial\-Fill} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$order\-Id)
+\begin{DoxyCompactList}\small\item\em on\-Partial\-Fill, Call back when an order gets partially filled at the exchange \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_a_p_i2_1_1_s_g_context}{S\-G\-Context} class The main class to be inherited for creating a new Strategy. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_a_p_i2_1_1_s_g_context_aebf22dc8466ec0f3d31e7993a3f5540d}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!S\-G\-Context@{S\-G\-Context}}
+\index{S\-G\-Context@{S\-G\-Context}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{S\-G\-Context}]{\setlength{\rightskip}{0pt plus 5cm}A\-P\-I2\-::\-S\-G\-Context\-::\-S\-G\-Context (
+\begin{DoxyParamCaption}
+\item[{{\bf Strategy\-Parameters} $\ast$}]{params, }
+\item[{const std\-::string}]{sg\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_aebf22dc8466ec0f3d31e7993a3f5540d}
+
+
+\hyperlink{class_a_p_i2_1_1_s_g_context}{S\-G\-Context}, Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em params,\hyperlink{class_a_p_i2_1_1_strategy_parameters}{A\-P\-I2\-::\-Strategy\-Parameters}} & \\
+\hline
+{\em sg\-Name,Unique} & String for Strategy Name \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ae7ae8c2b8c3b50861706d749bcceb77a}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!add\-Instrument@{add\-Instrument}}
+\index{add\-Instrument@{add\-Instrument}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{add\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::add\-Instrument (
+\begin{DoxyParamCaption}
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{symbol\-Id, }
+\item[{bool}]{reg\-Mkt\-Data = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ae7ae8c2b8c3b50861706d749bcceb77a}
+
+
+add\-Instrument, To add a new Instrument in the strategy \par
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id,System} & Unique I\-D for the Instrument \\
+\hline
+{\em reg\-Mkt\-Data,If} & Market Feed required \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{struct_a_p_i2_1_1_market_data_subscription_failed_exception}{Market\-Data\-Subscription\-Failed\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a19cdaf5b68ddbd2632749dcc4b65cce6}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!add\-Instrument@{add\-Instrument}}
+\index{add\-Instrument@{add\-Instrument}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{add\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::add\-Instrument (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{bool}]{reg\-Mkt\-Data = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a19cdaf5b68ddbd2632749dcc4b65cce6}
+
+
+add\-Instrument, To add Instrument, Internal Method,not to be used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument} & \\
+\hline
+{\em reg\-Mkt\-Data} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{struct_a_p_i2_1_1_market_data_subscription_failed_exception}{Market\-Data\-Subscription\-Failed\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ae919ca5df7d0e8ecd686e5be7e24d737}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!cancel\-Order@{cancel\-Order}}
+\index{cancel\-Order@{cancel\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{cancel\-Order}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::cancel\-Order (
+\begin{DoxyParamCaption}
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ae919ca5df7d0e8ecd686e5be7e24d737}
+
+
+cancel\-Order, To cancel an Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ab141f05e2a0d8a51fdadc57bf53d2cd8}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!create\-New\-Order@{create\-New\-Order}}
+\index{create\-New\-Order@{create\-New\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{create\-New\-Order}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::create\-New\-Order (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Order} $\ast$\&}]{order, }
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&}]{qty = {\ttfamily 0}, }
+\item[{const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&}]{disc\-Qty = {\ttfamily 0}, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&}]{mode = {\ttfamily CONSTANTS\-:\-:CMD\-\_\-OrderMode\-\_\-BUY}, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Type \&}]{type = {\ttfamily CONSTANTS\-:\-:CMD\-\_\-OrderType\-\_\-LIMIT}, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Validity \&}]{validity = {\ttfamily CONSTANTS\-:\-:CMD\-\_\-OrderValidity\-\_\-DAY}, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Product\-Type \&}]{product = {\ttfamily CONSTANTS\-:\-:CMD\-\_\-ProductType\-\_\-DELIVERY}, }
+\item[{const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&}]{price = {\ttfamily 0}, }
+\item[{const U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \&}]{stop\-Price = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ab141f05e2a0d8a51fdadc57bf53d2cd8}
+
+
+create\-New\-Order, To create a New Order for an instrument 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order,Reference} & to Pointer of \hyperlink{class_a_p_i2_1_1_single_order}{A\-P\-I2\-::\-Single\-Order}, Pointer to created object will be set into this. For creating an Order \\
+\hline
+{\em instrument,Pointer} & to the Instrument for which a new \hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} is to be created \\
+\hline
+{\em qty,Order} & Quantity \\
+\hline
+{\em disc\-Qty,Diclosed} & Order Quantity \\
+\hline
+{\em mode,Order\-Mode} & as A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y or A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-S\-E\-L\-L \\
+\hline
+{\em type,Order\-Type} & as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Type \\
+\hline
+{\em validity,Order} & Validity \\
+\hline
+{\em product,Product} & \\
+\hline
+{\em price,Price} & \\
+\hline
+{\em stop\-Price,Stop} & Price \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_af669043763cb2f3b9faafd640a6c3557}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!dump\-Log\-Instrument\-Order\-Id@{dump\-Log\-Instrument\-Order\-Id}}
+\index{dump\-Log\-Instrument\-Order\-Id@{dump\-Log\-Instrument\-Order\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{dump\-Log\-Instrument\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::dump\-Log\-Instrument\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{const C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_af669043763cb2f3b9faafd640a6c3557}
+
+
+dump\-Log\-Instrument\-Order\-Id. Prints Instrument\-Order\-Id Fields 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a6f8f354555be544b381f9553d6ac05f8}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!dump\-Log\-Order\-Confirmation@{dump\-Log\-Order\-Confirmation}}
+\index{dump\-Log\-Order\-Confirmation@{dump\-Log\-Order\-Confirmation}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{dump\-Log\-Order\-Confirmation}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::dump\-Log\-Order\-Confirmation (
+\begin{DoxyParamCaption}
+\item[{const {\bf Order\-Confirmation} \&}]{confirmation}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a6f8f354555be544b381f9553d6ac05f8}
+
+
+dump\-Log\-Order\-Confirmation. Prints \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} fields 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a904408111683cd8301ee1e364cd6011a}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!dump\-Log\-Single\-Order@{dump\-Log\-Single\-Order}}
+\index{dump\-Log\-Single\-Order@{dump\-Log\-Single\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{dump\-Log\-Single\-Order}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::dump\-Log\-Single\-Order (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Order} $\ast$}]{order}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a904408111683cd8301ee1e364cd6011a}
+
+
+dump\-Log\-Single\-Order. Prints Single Order fields 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_af8c29693539afd24c6dd420972c8871e}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Add\-Instrument@{get\-Add\-Instrument}}
+\index{get\-Add\-Instrument@{get\-Add\-Instrument}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Add\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::get\-Add\-Instrument (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$\&}]{instrument, }
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{symbol\-Id, }
+\item[{bool}]{reg\-Mkt\-Data = {\ttfamily false}, }
+\item[{bool}]{use\-Snap\-Shot = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_af8c29693539afd24c6dd420972c8871e}
+
+
+get\-Add\-Instrument, To add a new Instrument in the strategy \par
+ The Pointer to the added Instrument is set in instrument, passed as reference 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument,Reference} & to the pointer to \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument} \\
+\hline
+{\em symbol\-Id,System} & Unique I\-D for the Instrument as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D \\
+\hline
+{\em reg\-Mkt\-Data,set} & True to register for Market Data for the Instrument \\
+\hline
+{\em use\-Snap\-Shot,Set} & True if Snapshot Feed is to be used and False to use T\-B\-T-\/\-Feed \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{struct_a_p_i2_1_1_market_data_subscription_failed_exception}{Market\-Data\-Subscription\-Failed\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_a_p_i2_1_1_s_g_context_af3455b23fcf0866bbd7634fff735e9b6}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Admin\-Token\-Id@{get\-Admin\-Token\-Id}}
+\index{get\-Admin\-Token\-Id@{get\-Admin\-Token\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Admin\-Token\-Id}]{\setlength{\rightskip}{0pt plus 5cm}U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-S\-G\-Context\-::get\-Admin\-Token\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_af3455b23fcf0866bbd7634fff735e9b6}
+
+
+get\-Admin\-Token\-Id 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_aee86b97a48929d22d5c6afd9c5d68838}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Client\-Id@{get\-Client\-Id}}
+\index{get\-Client\-Id@{get\-Client\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Client\-Id}]{\setlength{\rightskip}{0pt plus 5cm}int A\-P\-I2\-::\-S\-G\-Context\-::get\-Client\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_aee86b97a48929d22d5c6afd9c5d68838}
+
+
+get\-Client\-Id, To get Client\-Id 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a4eb246662184d5dbbfd1694279bb4b9b}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Client\-Order\-Id@{get\-Client\-Order\-Id}}
+\index{get\-Client\-Order\-Id@{get\-Client\-Order\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Client\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D A\-P\-I2\-::\-S\-G\-Context\-::get\-Client\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a4eb246662184d5dbbfd1694279bb4b9b}
+
+
+get\-Client\-Order\-Id, To get Client\-Order\-Id of requested Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_adf0389e54a6dec09889cd219521a1b87}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Debug\-Log@{get\-Debug\-Log}}
+\index{get\-Debug\-Log@{get\-Debug\-Log}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Debug\-Log}]{\setlength{\rightskip}{0pt plus 5cm}Debug\-Log$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::get\-Debug\-Log (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_adf0389e54a6dec09889cd219521a1b87}
+
+
+get\-Debug\-Log, To get Pointer to the Debug\-Log Object, used to dump debug messages. \par
+ Sample Usage\-:\par
+ D\-E\-B\-U\-G\-\_\-\-M\-E\-S\-S\-A\-G\-E(\hyperlink{class_a_p_i2_1_1_s_g_context_adf0389e54a6dec09889cd219521a1b87}{get\-Debug\-Log()},\char`\"{}$<$\-Message$>$\char`\"{}); 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a1f069a29ffd8d51cd8bbb512f9d57406}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Exchange\-Order\-Id@{get\-Exchange\-Order\-Id}}
+\index{get\-Exchange\-Order\-Id@{get\-Exchange\-Order\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Exchange\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String A\-P\-I2\-::\-S\-G\-Context\-::get\-Exchange\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a1f069a29ffd8d51cd8bbb512f9d57406}
+
+
+get\-Exchange\-Order\-Id, To get Exchange Order\-Id of requested Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a456d032ab4229a08bfa237b33ffec76b}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Instrument\-List@{get\-Instrument\-List}}
+\index{get\-Instrument\-List@{get\-Instrument\-List}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Instrument\-List}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::get\-Instrument\-List (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ {\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$ $>$ \&}]{instrument\-List, }
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a456d032ab4229a08bfa237b33ffec76b}
+
+
+get\-Instrument\-List, To get list of all Instruments added for the requested Symbol\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument\-List,reference} & to List of \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument} \\
+\hline
+{\em symbol\-Id,System} & Unique Id for the Instrument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ae699404b321162a301789572fc0ebabe}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Mkt\-Data@{get\-Mkt\-Data}}
+\index{get\-Mkt\-Data@{get\-Mkt\-Data}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Mkt\-Data}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-O\-M\-M\-O\-N\-::\-Mkt\-Data}$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::get\-Mkt\-Data (
+\begin{DoxyParamCaption}
+\item[{S\-Y\-M\-B\-O\-L\-\_\-\-I\-D}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ae699404b321162a301789572fc0ebabe}
+
+
+get\-Mkt\-Data, This function call will return the Pointer to \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} structure \par
+ Here it will contain the last updated Market Snapshot 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_af6870dd712538b752eab69b935c7583b}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Net\-Booked\-Pnl@{get\-Net\-Booked\-Pnl}}
+\index{get\-Net\-Booked\-Pnl@{get\-Net\-Booked\-Pnl}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Net\-Booked\-Pnl}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-S\-G\-Context\-::get\-Net\-Booked\-Pnl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_af6870dd712538b752eab69b935c7583b}
+
+
+get\-Net\-Booked\-Pnl, This function will return net Booked Profit and Loss for the strategy( sum of all Instruments being traded) 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a5143f1432d2b423420f6405a934ea0be}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Net\-M\-T\-M@{get\-Net\-M\-T\-M}}
+\index{get\-Net\-M\-T\-M@{get\-Net\-M\-T\-M}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Net\-M\-T\-M}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-S\-G\-Context\-::get\-Net\-M\-T\-M (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a5143f1432d2b423420f6405a934ea0be}
+
+
+get\-Net\-M\-T\-M, This function will return net Mark To Market Profit and Loss for the strategy( sum of all Instruments being traded) 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ae49290cac1f27ba3049f1f5f5075cc49}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Order@{get\-Order}}
+\index{get\-Order@{get\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Order}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\-P\-I2\-::\-Single\-Order}$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::get\-Order (
+\begin{DoxyParamCaption}
+\item[{long}]{cl\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ae49290cac1f27ba3049f1f5f5075cc49}
+
+
+get\-Order, To get Pointer to Single Order using a client\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cl\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a908e0a9ae6e276117fa661957b2cfa1f}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Order\-Status@{get\-Order\-Status}}
+\index{get\-Order\-Status@{get\-Order\-Status}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Order\-Status}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status A\-P\-I2\-::\-S\-G\-Context\-::get\-Order\-Status (
+\begin{DoxyParamCaption}
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a908e0a9ae6e276117fa661957b2cfa1f}
+
+
+get\-Order\-Status, To get Order\-Status of requested Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a653537350a6cc355bf79564b33dbba92}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Params@{get\-Params}}
+\index{get\-Params@{get\-Params}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Params}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Strategy\-Parameters}$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::get\-Params (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a653537350a6cc355bf79564b33dbba92}
+
+
+get\-Params, To get Startegy\-Parameters 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a7153ac0ed3d06ff7b670d2667c0878c3}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Pending\-Qty@{get\-Pending\-Qty}}
+\index{get\-Pending\-Qty@{get\-Pending\-Qty}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Pending\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-S\-G\-Context\-::get\-Pending\-Qty (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode}]{mode}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a7153ac0ed3d06ff7b670d2667c0878c3}
+
+
+get\-Pending\-Qty, To get Pending Quantity of an Instrument 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument,\hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument}} & \\
+\hline
+{\em mode,Ordermode} & as A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y or A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-S\-E\-L\-L \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a3e769f6514bc235a16c7495b9d8c70e9}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Pending\-Qty@{get\-Pending\-Qty}}
+\index{get\-Pending\-Qty@{get\-Pending\-Qty}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Pending\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y A\-P\-I2\-::\-S\-G\-Context\-::get\-Pending\-Qty (
+\begin{DoxyParamCaption}
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a3e769f6514bc235a16c7495b9d8c70e9}
+
+
+get\-Pending\-Qty, To get Pending Quantity of requested Order as order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_abffd48797b85fe57108f02ad77f3c009}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Strategy\-Id@{get\-Strategy\-Id}}
+\index{get\-Strategy\-Id@{get\-Strategy\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Strategy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D A\-P\-I2\-::\-S\-G\-Context\-::get\-Strategy\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_abffd48797b85fe57108f02ad77f3c009}
+
+
+get\-Strategy\-Id, To get Startegy\-Id of current running Strategy. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a976152e42455f8ea52f2bdee052f3c39}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!get\-Update\-Mkt\-Data@{get\-Update\-Mkt\-Data}}
+\index{get\-Update\-Mkt\-Data@{get\-Update\-Mkt\-Data}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{get\-Update\-Mkt\-Data}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-O\-M\-M\-O\-N\-::\-Mkt\-Data}$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::get\-Update\-Mkt\-Data (
+\begin{DoxyParamCaption}
+\item[{S\-Y\-M\-B\-O\-L\-\_\-\-I\-D}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a976152e42455f8ea52f2bdee052f3c39}
+
+
+get\-Update\-Mkt\-Data, This function call will return the Pointer to \hyperlink{class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data}{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Mkt\-Data} structure after updating it.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id,Symbol\-Id} & for which Market\-Data is required \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ad77850025e1e3f2b7f1dca5490126190}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!insert\-New\-Order\-Id@{insert\-New\-Order\-Id}}
+\index{insert\-New\-Order\-Id@{insert\-New\-Order\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{insert\-New\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::insert\-New\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$\&}]{order\-Id, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&}]{mode}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_ad77850025e1e3f2b7f1dca5490126190}
+
+
+insert\-New\-Order\-Id, Creates and Inserts a new Instrument\-Order\-Id Instance to the Instrument \par
+ for the requested Order\-Mode and sets the pointer to order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument,should} & be valid and Not null \\
+\hline
+{\em order\-Id,should} & be N\-U\-L\-L \\
+\hline
+{\em mode,should} & be valid A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y or A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-S\-E\-L\-L \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_add684084c3684e8034cea65cb35b0b6f}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Canceled@{on\-Canceled}}
+\index{on\-Canceled@{on\-Canceled}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Canceled}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Canceled (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_add684084c3684e8034cea65cb35b0b6f}
+
+
+on\-Canceled, Call back when a cancel order gets accepted by the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_ae4ad928457b9cb3d5defaa44640b41d3}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Cancel\-Rejected@{on\-Cancel\-Rejected}}
+\index{on\-Cancel\-Rejected@{on\-Cancel\-Rejected}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Cancel\-Rejected}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Cancel\-Rejected (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_ae4ad928457b9cb3d5defaa44640b41d3}
+
+
+on\-Cancel\-Rejected, Call back when a cancel order gets rejected by the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a03606cff5f8b0488e6a14fd937df47a9}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Derived\-Market\-Data\-Event@{on\-Derived\-Market\-Data\-Event}}
+\index{on\-Derived\-Market\-Data\-Event@{on\-Derived\-Market\-Data\-Event}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Derived\-Market\-Data\-Event}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Derived\-Market\-Data\-Event (
+\begin{DoxyParamCaption}
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{symbol\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a03606cff5f8b0488e6a14fd937df47a9}
+
+
+on\-Derived\-Market\-Data\-Event Called if Configured to received market\-Data Event while Running Algo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id} & Symbol\-Id of the Instrument that received market\-Data, Symbol\-Id should be subscribed for Market Data while initializing \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a6731a9753ec762623eb9737aaae97432}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Filled@{on\-Filled}}
+\index{on\-Filled@{on\-Filled}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Filled}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Filled (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a6731a9753ec762623eb9737aaae97432}
+
+
+on\-Filled, Call back when an order gets filled at the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_af4705af6aa2806b16882028cb3b85fd6}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-I\-O\-C\-Canceled@{on\-I\-O\-C\-Canceled}}
+\index{on\-I\-O\-C\-Canceled@{on\-I\-O\-C\-Canceled}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-I\-O\-C\-Canceled}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-I\-O\-C\-Canceled (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{Confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_af4705af6aa2806b16882028cb3b85fd6}
+
+
+on\-I\-O\-C\-Canceled, Call back when an I\-O\-C order gets canceled the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a7aea075d2b1b88e18b0708a05ce0a60c}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-New\-Confirmed@{on\-New\-Confirmed}}
+\index{on\-New\-Confirmed@{on\-New\-Confirmed}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-New\-Confirmed}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-New\-Confirmed (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a7aea075d2b1b88e18b0708a05ce0a60c}
+
+
+on\-New\-Confirmed, Call back when a new Order gets confirmed by exchange. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_aa74aca215d051a9dbf1d5e8ee9c1c837}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-New\-Reject@{on\-New\-Reject}}
+\index{on\-New\-Reject@{on\-New\-Reject}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-New\-Reject}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-New\-Reject (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_aa74aca215d051a9dbf1d5e8ee9c1c837}
+
+
+on\-New\-Rejected, Call back when a new order gets rejected by the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a87e382522bc0622fdbe00ff598dfecaa}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Partial\-Fill@{on\-Partial\-Fill}}
+\index{on\-Partial\-Fill@{on\-Partial\-Fill}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Partial\-Fill}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Partial\-Fill (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a87e382522bc0622fdbe00ff598dfecaa}
+
+
+on\-Partial\-Fill, Call back when an order gets partially filled at the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a702a97361711e4454518e657d9733ab6}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Replaced@{on\-Replaced}}
+\index{on\-Replaced@{on\-Replaced}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Replaced}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Replaced (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a702a97361711e4454518e657d9733ab6}
+
+
+on\-Replaced, Call back when a Order gets replaced sucessfully at the exchange. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a3628f6c31070455a4b994e1b6e763ebe}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!on\-Replace\-Rejected@{on\-Replace\-Rejected}}
+\index{on\-Replace\-Rejected@{on\-Replace\-Rejected}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{on\-Replace\-Rejected}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::on\-Replace\-Rejected (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a3628f6c31070455a4b994e1b6e763ebe}
+
+
+on\-Replace\-Rejected, Call back when a replace order gets rejected by the exchange 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Contains} & the information received from Exchange \\
+\hline
+{\em order\-Id,Pointer} & to the A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id type \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a97093f90d86c4d3f8ca00fc6a7c593b6}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!process\-Admin\-Command@{process\-Admin\-Command}}
+\index{process\-Admin\-Command@{process\-Admin\-Command}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{process\-Admin\-Command}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::process\-Admin\-Command (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Command\-Category}]{command}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a97093f90d86c4d3f8ca00fc6a7c593b6}
+
+
+process\-Admin\-Command Called when ever a command from frontend is issued. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a3e87d0c000fd0770a13ce27d6ff662d4}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!process\-Disconnection@{process\-Disconnection}}
+\index{process\-Disconnection@{process\-Disconnection}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{process\-Disconnection}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::process\-Disconnection (
+\begin{DoxyParamCaption}
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Command\-Category \&}]{command}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a3e87d0c000fd0770a13ce27d6ff662d4}
+
+
+process\-Disconnection Called whenever a disconnection is received, disconnected entity to be determined from Command\-Category 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a7659de89afb69a32e1e2934d9d620429}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!process\-Order\-Confirmation@{process\-Order\-Confirmation}}
+\index{process\-Order\-Confirmation@{process\-Order\-Confirmation}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{process\-Order\-Confirmation}]{\setlength{\rightskip}{0pt plus 5cm}virtual void A\-P\-I2\-::\-S\-G\-Context\-::process\-Order\-Confirmation (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a7659de89afb69a32e1e2934d9d620429}
+
+
+process\-Order\-Confirmation, Call back after \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} Processing is done, \par
+ Not necessary to override this, \par
+ To be overridden only If any additional Processing is reqd at the algo end 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation,Reference} & to the A\-P\-I2\-::\-Order\-Conformation \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a8afc5581b6574466fe9fe502245b930d}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!recover\-Instrument\-Order\-Id@{recover\-Instrument\-Order\-Id}}
+\index{recover\-Instrument\-Order\-Id@{recover\-Instrument\-Order\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{recover\-Instrument\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool A\-P\-I2\-::\-S\-G\-Context\-::recover\-Instrument\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{const {\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a8afc5581b6574466fe9fe502245b930d}
+
+
+recover\-Instrument\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation} & \\
+\hline
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a5fc0688752b90e7366524b83d3a70c93}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!register\-Symbol@{register\-Symbol}}
+\index{register\-Symbol@{register\-Symbol}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{register\-Symbol}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::register\-Symbol (
+\begin{DoxyParamCaption}
+\item[{S\-Y\-M\-B\-O\-L\-\_\-\-I\-D}]{symbol\-I\-D, }
+\item[{bool}]{is\-Snapshot = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a5fc0688752b90e7366524b83d3a70c93}
+
+
+register\-Symbol, Register a A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D for market Data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id,System} & Unique Id for the Instrument \\
+\hline
+{\em is\-Snap\-Shot,Set} & True if Snapshot Feed is to be used and False to use T\-B\-T-\/\-Feed \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a0a40d0076984c9579847bf350628bea9}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!remove\-Instrument@{remove\-Instrument}}
+\index{remove\-Instrument@{remove\-Instrument}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{remove\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::remove\-Instrument (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a0a40d0076984c9579847bf350628bea9}
+
+
+remove\-Instrument, To remove Instrument from the context. \par
+ Removing will remove all the data relating the Instrument's Position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a526eb681e4458ff0855195dbf360e5dd}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!run@{run}}
+\index{run@{run}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::run (
+\begin{DoxyParamCaption}
+\item[{bool}]{market\-Data\-Event\-Required}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a526eb681e4458ff0855195dbf360e5dd}
+
+
+run 
+
+
+\begin{DoxyParams}{Parameters}
+{\em market\-Data\-Event\-Required} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a1845d09e0349a9988e9fc1fcb5f31940}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!send\-Cancel\-Order@{send\-Cancel\-Order}}
+\index{send\-Cancel\-Order@{send\-Cancel\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{send\-Cancel\-Order}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::send\-Cancel\-Order (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&}]{risk\-Status, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a1845d09e0349a9988e9fc1fcb5f31940}
+
+
+send\-Cancel\-Order, To Cancel Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em risk\-Status,passed} & by reference, This is the risk status for sending Canceled Order \\
+\hline
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a13e9de988513ba35eb22950c70c9f7f0}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!send\-New\-Order@{send\-New\-Order}}
+\index{send\-New\-Order@{send\-New\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{send\-New\-Order}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::send\-New\-Order (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&}]{risk\-Status, }
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{{\bf Single\-Order} $\ast$\&}]{order, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a13e9de988513ba35eb22950c70c9f7f0}
+
+
+send\-New\-Order, To Send a new Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em risk\-Status} & \\
+\hline
+{\em instrument} & \\
+\hline
+{\em order} & \\
+\hline
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a969d2c63a85582133beeb6c657727ec7}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!send\-Replace\-Order@{send\-Replace\-Order}}
+\index{send\-Replace\-Order@{send\-Replace\-Order}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{send\-Replace\-Order}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::send\-Replace\-Order (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \&}]{risk\-Status, }
+\item[{{\bf C\-O\-M\-M\-O\-N\-::\-Instrument} $\ast$}]{instrument, }
+\item[{{\bf Single\-Order} $\ast$\&}]{order, }
+\item[{bool}]{update\-Quantity = {\ttfamily true}, }
+\item[{C\-O\-M\-M\-O\-N\-::\-Instrument\-Order\-Id $\ast$}]{order\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a969d2c63a85582133beeb6c657727ec7}
+
+
+send\-Replace\-Order, To send a replace Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em risk\-Status} & \\
+\hline
+{\em instrument} & \\
+\hline
+{\em order} & \\
+\hline
+{\em update\-Quantity} & \\
+\hline
+{\em order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a214587777e22c6238afebc381069a96b}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!send\-Strategy\-Response@{send\-Strategy\-Response}}
+\index{send\-Strategy\-Response@{send\-Strategy\-Response}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{send\-Strategy\-Response}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::send\-Strategy\-Response (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Response\-Type}]{response\-Type, }
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status}]{risk\-Status, }
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Strategy\-Comment}]{strategy\-Comment = {\ttfamily CONSTANTS\-:\-:RSP\-\_\-StrategyComment\-\_\-MAX}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a214587777e22c6238afebc381069a96b}
+
+
+send\-Strategy\-Response, To send a Response to the frontend 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response\-Type,the} & response Type as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Response\-Type \\
+\hline
+{\em risk\-Status,the} & Risk Status as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Risk\-Status \\
+\hline
+{\em strategy\-Comment,the} & Strategy Comment as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Strategy\-Comment \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_abc5afbec664b4d30d6700195e4de0927}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!set\-Admin\-Token\-Id@{set\-Admin\-Token\-Id}}
+\index{set\-Admin\-Token\-Id@{set\-Admin\-Token\-Id}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{set\-Admin\-Token\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::set\-Admin\-Token\-Id (
+\begin{DoxyParamCaption}
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_abc5afbec664b4d30d6700195e4de0927}
+
+
+set\-Admin\-Token\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_afe58c09f474cdfabc70c81b51e30acca}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!set\-S\-G\-Parameters@{set\-S\-G\-Parameters}}
+\index{set\-S\-G\-Parameters@{set\-S\-G\-Parameters}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{set\-S\-G\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::set\-S\-G\-Parameters (
+\begin{DoxyParamCaption}
+\item[{{\bf Strategy\-Parameters} $\ast$}]{params}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_afe58c09f474cdfabc70c81b51e30acca}
+
+
+set\-S\-G\-Parameters, To set the pointer to \hyperlink{class_a_p_i2_1_1_strategy_parameters}{Strategy\-Parameters} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em params,Pointer} & to \hyperlink{class_a_p_i2_1_1_strategy_parameters}{A\-P\-I2\-::\-Strategy\-Parameters} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a09b8988f91af279b0adab42363dad20d}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!set\-Strategy\-Comment@{set\-Strategy\-Comment}}
+\index{set\-Strategy\-Comment@{set\-Strategy\-Comment}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{set\-Strategy\-Comment}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::set\-Strategy\-Comment (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Strategy\-Comment}]{com}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a09b8988f91af279b0adab42363dad20d}
+
+
+set\-Strategy\-Comment, To set the current Startegy Comment, Whenever a strategy Response is sent to frontend, this will be the sent as the strategy Comment 
+
+
+\begin{DoxyParams}{Parameters}
+{\em com} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!start\-Algo@{start\-Algo}}
+\index{start\-Algo@{start\-Algo}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{start\-Algo}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo (
+\begin{DoxyParamCaption}
+\item[{bool}]{market\-Data\-Event\-Required}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}
+
+
+start\-Algo, function call to Start the Strategy 
+
+
+\begin{DoxyParams}{Parameters}
+{\em market\-Data\-Event\-Required,Set} & True to register for call-\/backs on Market-\/\-Data Event on registered Instruments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a082c5a756706517153acf2e4a635ae25}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!unregister\-Symbol@{unregister\-Symbol}}
+\index{unregister\-Symbol@{unregister\-Symbol}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{unregister\-Symbol}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-S\-G\-Context\-::unregister\-Symbol (
+\begin{DoxyParamCaption}
+\item[{S\-Y\-M\-B\-O\-L\-\_\-\-I\-D}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a082c5a756706517153acf2e4a635ae25}
+
+
+register\-Symbol, Un\-Register a A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D for market Data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id,System} & Unique Id for the Instrument \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{struct_a_p_i2_1_1_market_data_subscription_failed_exception}{Market\-Data\-Subscription\-Failed\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a6041b2e2653f2f7d0fd86b253abad209}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!update\-Quote@{update\-Quote}}
+\index{update\-Quote@{update\-Quote}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{update\-Quote}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::update\-Quote (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_a6041b2e2653f2f7d0fd86b253abad209}
+
+
+update\-Quote, To manually update Market Feed for all registered Instruments.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} 
+
+\begin{DoxyReturn}{Returns}
+, return True if there is a new updation in Market Data. False if no new updation. 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_abff1974dcd281fe856a0d81399d548b8}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!update\-Quote@{update\-Quote}}
+\index{update\-Quote@{update\-Quote}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{update\-Quote}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-P\-I2\-::\-S\-G\-Context\-::update\-Quote (
+\begin{DoxyParamCaption}
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_s_g_context_abff1974dcd281fe856a0d81399d548b8}
+
+
+update\-Quote, To manually update Market Feed for requested A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D.\par
+ Not required if market\-Data\-Event\-Required is set to be True while starting the strategy using \hyperlink{class_a_p_i2_1_1_s_g_context_a44cb008b60a1e0a376c6d7909bd11de2}{A\-P\-I2\-::\-S\-G\-Context\-::start\-Algo()} 
+
+\begin{DoxyReturn}{Returns}
+, return True if there is a new updation in Market Data. False if no new updation. 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_s_g_context_a6abdff23ca1cd361f618c4bf84cfec0c}{\index{A\-P\-I2\-::\-S\-G\-Context@{A\-P\-I2\-::\-S\-G\-Context}!using\-Segment@{using\-Segment}}
+\index{using\-Segment@{using\-Segment}!API2::SGContext@{A\-P\-I2\-::\-S\-G\-Context}}
+\subsubsection[{using\-Segment}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool A\-P\-I2\-::\-S\-G\-Context\-::using\-Segment (
+\begin{DoxyParamCaption}
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Exchange\-Id \&}]{exch, }
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Security\-Type \&}]{security\-Type = {\ttfamily CONSTANTS\-:\-:CMD\-\_\-SecurityType\-\_\-MAX}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_a_p_i2_1_1_s_g_context_a6abdff23ca1cd361f618c4bf84cfec0c}
+
+
+using\-Segment, To know whether a given exchange segment is being used in the strategy or not 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exch,The} & D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Exchange\-Id \\
+\hline
+{\em security\-Type,The} & D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Security\-Type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+sg\-Lib/sg\-Context.\-h\end{DoxyCompactItemize}

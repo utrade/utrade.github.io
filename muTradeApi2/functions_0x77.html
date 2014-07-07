@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -146,9 +141,9 @@ $(document).ready(function(){initNavTree('functions_0x77.html','');});
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
 <li>what()
-: <a class="el" href="struct_a_p_i2_1_1_exception_1_1_unknown_type_detected.html#ad28dd6902400245b8eb890a0c4952526">API2::Exception::UnknownTypeDetected</a>
-, <a class="el" href="struct_a_p_i2_1_1_exception_1_1_market_data_subscription_failed.html#a8fdd7c3f47885fe8690feb6032fa9815">API2::Exception::MarketDataSubscriptionFailed</a>
-, <a class="el" href="struct_a_p_i2_1_1_exception_1_1_duplicate_key_detected.html#afda937f16a024e497e3ac6d8240c7123">API2::Exception::DuplicateKeyDetected</a>
+: <a class="el" href="struct_a_p_i2_1_1_unknown_type_exception.html#a7d9f37742e3adc8c03d904c4096a0251">API2::UnknownTypeException</a>
+, <a class="el" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html#a45cbba09c414050a5d5af854895e3eac">API2::MarketDataSubscriptionFailedException</a>
+, <a class="el" href="struct_a_p_i2_1_1_duplicate_key_exception.html#a4a73163379f369311af54eaae74096ee">API2::DuplicateKeyException</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -156,7 +151,7 @@ $(document).ready(function(){initNavTree('functions_0x77.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:42 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:11 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_user_params" kind="class" prot="public">
+    <compoundname>API2::UserParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractUserParams</basecompoundref>
+    <includes refid="api2_user_commands_8h" local="no">api2UserCommands.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_user_params_1afe202f8966a4966a3e500a932e9faaad" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, BaseType * &gt;</type>
+        <definition>std::map&lt;std::string,BaseType *&gt; API2::UserParams::_userParams</definition>
+        <argsstring></argsstring>
+        <name>_userParams</name>
+        <briefdescription>
+<para>_userParams </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="25" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1aee0f71ec8d8a8f3fc113bdbbbb7c9c36" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::UserParams::CREATE_FIELD_DERIVED</definition>
+        <argsstring>(int, ApiIndex)</argsstring>
+        <name>CREATE_FIELD_DERIVED</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ApiIndex</type>
+        </param>
+        <briefdescription>
+<para>ApiIndex. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1a99f3b245caaae652926cc585182c83e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::UserParams::UserParams</definition>
+        <argsstring>(const std::string &amp;frontendDesign, const char *buf=NULL)</argsstring>
+        <name>UserParams</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>frontendDesign</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>API2_UserParams. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frontendDesign</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_a_p_i2_1_1_duplicate_key_exception" kindref="compound">DuplicateKeyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1a3d046f602053a684cfa7d9b27018afe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::UserParams::serialize</definition>
+        <argsstring>(char *buf, int apiIndex)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>apiIndex</declname>
+        </param>
+        <briefdescription>
+<para>serialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>apiIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1a4c04efbed71fffeda8248da31a44060d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>UserParamsError</type>
+        <definition>UserParamsError API2::UserParams::setValue</definition>
+        <argsstring>(const std::string &amp;key, const T &amp;val)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>setValue </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="58" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" bodystart="57" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1a3019a2130c8e8472eafaa7d99b235574" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>UserParamsError</type>
+        <definition>UserParamsError API2::UserParams::getValue</definition>
+        <argsstring>(const std::string &amp;key, T &amp;val)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>getValue </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="95" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" bodystart="94" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_user_params_1a84843b4c3dd79e78b63513806e70a2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::UserParams::~UserParams</definition>
+        <argsstring>()</argsstring>
+        <name>~UserParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The API2_UserParams class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>API2::UserParams</label>
+        <link refid="class_a_p_i2_1_1_user_params"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>AbstractUserParams</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>API2::UserParams</label>
+        <link refid="class_a_p_i2_1_1_user_params"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>AbstractUserParams</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="21" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" bodystart="20" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_user_params_1afe202f8966a4966a3e500a932e9faaad" prot="private" virt="non-virtual"><scope>API2::UserParams</scope><name>_userParams</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1aee0f71ec8d8a8f3fc113bdbbbb7c9c36" prot="private" virt="non-virtual"><scope>API2::UserParams</scope><name>CREATE_FIELD_DERIVED</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1a3019a2130c8e8472eafaa7d99b235574" prot="public" virt="non-virtual"><scope>API2::UserParams</scope><name>getValue</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1a3d046f602053a684cfa7d9b27018afe4" prot="public" virt="non-virtual"><scope>API2::UserParams</scope><name>serialize</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1a4c04efbed71fffeda8248da31a44060d" prot="public" virt="non-virtual"><scope>API2::UserParams</scope><name>setValue</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1a99f3b245caaae652926cc585182c83e2" prot="public" virt="non-virtual"><scope>API2::UserParams</scope><name>UserParams</name></member>
+      <member refid="class_a_p_i2_1_1_user_params_1a84843b4c3dd79e78b63513806e70a2da" prot="public" virt="non-virtual"><scope>API2::UserParams</scope><name>~UserParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

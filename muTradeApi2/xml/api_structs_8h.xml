@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="api_structs_8h" kind="file">
+    <compoundname>apiStructs.h</compoundname>
+    <includes refid="api_constants_8h" local="no">apiConstants.h</includes>
+    <includes refid="api_data_types_8h" local="no">apiDataTypes.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="sg_mkt_data_8h" local="no">sgLib/sgMktData.h</includedby>
+    <incdepgraph>
+      <node id="38">
+        <label>stdint.h</label>
+      </node>
+      <node id="40">
+        <label>string</label>
+      </node>
+      <node id="39">
+        <label>map</label>
+      </node>
+      <node id="35">
+        <label>stddef.h</label>
+      </node>
+      <node id="33">
+        <label>apiStructs.h</label>
+        <link refid="apiStructs.h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>apiConstants.h</label>
+        <link refid="api_constants_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="44">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="41">
+        <label>apiStructs.h</label>
+        <link refid="apiStructs.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" prot="public">API2::COMMON::MarketDepthWrapper</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" prot="public">API2::COMMON::MarketDataWrapper</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_c_o_m_m_o_n">API2::COMMON</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>API_STRUCTS</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>API_STRUCTS</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiConstants.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiDataTypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">COMMON</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound" tooltip="The MarketDepthWrapper class will store Bid Ask Price at particular level.">MarketDepthWrapper</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1a1becec9e7930ac9d58bfc5b97fc3c3d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1a1becec9e7930ac9d58bfc5b97fc3c3d6" kindref="member" tooltip="BidPrice.">BidPrice</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1aad5aa4ac0ade85777f86dc2e28c02bef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1aad5aa4ac0ade85777f86dc2e28c02bef" kindref="member" tooltip="BidQty.">BidQty</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1aa559382c10593c8fc7d67f7ff2f7caf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1aa559382c10593c8fc7d67f7ff2f7caf3" kindref="member" tooltip="AskPrice.">AskPrice</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1a344c0d5593f1dc199a313f4b37852fb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1a344c0d5593f1dc199a313f4b37852fb9" kindref="member" tooltip="AskQty.">AskQty</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper_1a1194255ba38a71e92dd66d8f2559fbf8" kindref="member" tooltip="toString will return formated Bid Ask Price Qty for debug purpose">toString</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound" tooltip="The MarketDataWrapper class will contain the Snapshot/TBT Market Data.">MarketDataWrapper</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1b122b65128081a91995775a898cb673" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1b122b65128081a91995775a898cb673" kindref="member" tooltip="OpenPrice.">OpenPrice</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a8a25f433bae2cc6c27b6fc2d3f98991f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a8a25f433bae2cc6c27b6fc2d3f98991f" kindref="member" tooltip="HighPrice.">HighPrice</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ac89bc672ae96141e511d0b7030c100a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ac89bc672ae96141e511d0b7030c100a2" kindref="member" tooltip="LowPrice.">LowPrice</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a5369fe88f3676fc9fcf4af3f1661aa5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a5369fe88f3676fc9fcf4af3f1661aa5f" kindref="member" tooltip="ClosePrice.">ClosePrice</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a7d2fa1fee9f8da80ffce61e543b21f87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::VOLUME<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a7d2fa1fee9f8da80ffce61e543b21f87" kindref="member" tooltip="Volume.">Volume</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a6bf5746491b0bef6456bd136f07bbbee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a6bf5746491b0bef6456bd136f07bbbee" kindref="member" tooltip="LastTradeQty.">LastTradeQty</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1bbb203c79340593e08bad234320de03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1bbb203c79340593e08bad234320de03" kindref="member" tooltip="LastTradePrice.">LastTradePrice</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ab98e717e6aaf83a98263a22af5340195" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound" tooltip="The MarketDepthWrapper class will store Bid Ask Price at particular level.">MarketDepthWrapper</ref><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ab98e717e6aaf83a98263a22af5340195" kindref="member" tooltip="MarketDepth.">MarketDepth</ref>[CONSTANTS::MarketDepthArraySize];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1abd7f1859e66f2d650efd9e45562eb507" kindref="member" tooltip="MarketDataWrapper.">MarketDataWrapper</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a301ef6d965a34ec6d4767b8b90879c2c" kindref="member" tooltip="toString will return formatted Market Picture for debug purpose">toString</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ae9fbbad2faa3ffce129b08895d616a30" kindref="member" tooltip="operator ==">operator == </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound" tooltip="The MarketDataWrapper class will contain the Snapshot/TBT Market Data.">MarketDataWrapper</ref><sp/>&amp;<sp/>a);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h"/>
+  </compounddef>
+</doxygen>

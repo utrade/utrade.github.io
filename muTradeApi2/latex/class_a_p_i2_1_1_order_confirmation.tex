@@ -1,0 +1,735 @@
+\hypertarget{class_a_p_i2_1_1_order_confirmation}{\section{A\-P\-I2\-:\-:Order\-Confirmation Class Reference}
+\label{class_a_p_i2_1_1_order_confirmation}\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+}
+
+
+The \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} class contains the Exchange Order Confirmation Message data.  
+
+
+
+
+{\ttfamily \#include $<$shared\-Response.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a8b959a4ef931b3bce6f78eb1794b0663}{\hyperlink{class_a_p_i2_1_1_order_confirmation_a8b959a4ef931b3bce6f78eb1794b0663}{Order\-Confirmation} ()}\label{class_a_p_i2_1_1_order_confirmation_a8b959a4ef931b3bce6f78eb1794b0663}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} Constructor. \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a2e41bd57155237425fc227f9ead45ba7}{void \hyperlink{class_a_p_i2_1_1_order_confirmation_a2e41bd57155237425fc227f9ead45ba7}{initialize} ()}\label{class_a_p_i2_1_1_order_confirmation_a2e41bd57155237425fc227f9ead45ba7}
+
+\begin{DoxyCompactList}\small\item\em initialize \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_ac927e0347cdc6686a89478626c979a35}{get\-Cl\-Order\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Cl\-Order\-Id To get Unique Client Order Id, sent to exchange at the time of Order Sending \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String \hyperlink{class_a_p_i2_1_1_order_confirmation_a092cb6b14b04e741f1dedd08ef5af5ab}{get\-Exchange\-Order\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Exchange\-Order\-Id To get Exchange Order Id of the Order. \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_a8d8956358d47151e1df3314a6e95aa90}{get\-Symbol\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Symbol\-Id To get unique Symbol\-I\-D, which is a unique Identifier for an Instrument in the system. \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y \hyperlink{class_a_p_i2_1_1_order_confirmation_ad43d155099d9eaa786e028bffc872fc9}{get\-Last\-Fill\-Quantity} () const 
+\begin{DoxyCompactList}\small\item\em get\-Last\-Fill\-Quantity To get Last filled quantity \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_a60b3c4bb35cf21fe9545a33d806757f4}{get\-Last\-Fill\-Price} () const 
+\begin{DoxyCompactList}\small\item\em get\-Last\-Fill\-Price To get last filled Price \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_aacc316a7bfbf7b821b7826e364b60d2c}{get\-Exchange\-Entry\-Time} () const 
+\begin{DoxyCompactList}\small\item\em get\-Exchange\-Entry\-Time To get Time of Order Entry in the exchange \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_a9b3ecf482b70d0c11f6d4fc05363668e}{get\-Exchange\-Modify\-Time} () const 
+\begin{DoxyCompactList}\small\item\em get\-Exchange\-Modify\-Time To get Time of Order Modification in the exchange \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_ac3be746c6becde4ddfeab316a41120d0}{get\-Strategy\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Strategy\-Id To get The Strategy Id to which this Order belongs to \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-I\-E\-N\-T\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_adc0c80bcf4d99437b26e482143dc4b45}{get\-Client\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Client\-Id To get the client Id for which this Order belongs \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_a7452a5686513c6ee0805716f13247e9c}{get\-Limit\-Price} () const 
+\begin{DoxyCompactList}\small\item\em get\-Limit\-Price To get Limit Price set for Order \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status \hyperlink{class_a_p_i2_1_1_order_confirmation_a5d6785788ff0b6417297b2afc185b3c9}{get\-Order\-Status} () const 
+\begin{DoxyCompactList}\small\item\em get\-Order\-Status To get the Order\-Status \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \hyperlink{class_a_p_i2_1_1_order_confirmation_a92038ac1d484df2fad5cc699e0698c4c}{get\-Order\-Mode} () const 
+\begin{DoxyCompactList}\small\item\em get\-Order\-Mode To get\-Order\-Mode (Buy/\-Sell) for the order \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y \hyperlink{class_a_p_i2_1_1_order_confirmation_acc2bb9c798b238e7fc6b7323eaa47bcf}{get\-Order\-Quantity} () const 
+\begin{DoxyCompactList}\small\item\em get\-Order\-Quantity To get th Order Quantity \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_a079670d134b29954bd78921d139c4710}{get\-Order\-Price} () const 
+\begin{DoxyCompactList}\small\item\em get\-Order\-Price To get the Order Price \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y \hyperlink{class_a_p_i2_1_1_order_confirmation_acb9b362eaf01e028846e68bdfeec3bb4}{get\-I\-O\-C\-Canceled\-Quantity} () const 
+\begin{DoxyCompactList}\small\item\em get\-I\-O\-C\-Canceled\-Quantity \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_acdadf079c62a8a29a657f261a8927e08}{get\-Original\-Cl\-Order\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Original\-Cl\-Order\-Id \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String \hyperlink{class_a_p_i2_1_1_order_confirmation_a0e7ca21c48f80d2df2f69d71d1e732d6}{get\-Trade\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Trade\-Id \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-R\-R\-O\-R\-\_\-\-C\-O\-D\-E \hyperlink{class_a_p_i2_1_1_order_confirmation_aa638e6d385ce1ddb9a4c26af6f2254bd}{get\-Error\-Code} () const 
+\begin{DoxyCompactList}\small\item\em get\-Error\-Code \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-T\-R\-A\-D\-E\-R\-\_\-\-I\-D \hyperlink{class_a_p_i2_1_1_order_confirmation_a4f2027253fd1322358ecf3a11f9c492b}{get\-Trader\-Id} () const 
+\begin{DoxyCompactList}\small\item\em get\-Trader\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a7ad42f541a28d3d09ce63fb8600ca9c7}{set\-Cl\-Order\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D cl\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Cl\-Order\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_ac53d93c019ae49913ebd9e0c199721c0}{set\-Exchange\-Order\-Id} (char exchange\-Order\-Id\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em set\-Exchange\-Order\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_ae5e62817cdc0a80f0fe205d912135126}{set\-Exchange\-Order\-Id} (std\-::string exchange\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Exchange\-Order\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_aaff6a5823a933417bb4de245e48f12e2}{set\-Symbol\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D symbol\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Symbol\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a6adc28f68e6fdd7148b259b3ec6838fd}{set\-Last\-Fill\-Quantity} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y qty)
+\begin{DoxyCompactList}\small\item\em set\-Last\-Fill\-Quantity \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a5f5e55d7d02d6d45f6a536b140fe8d46}{set\-Last\-Fill\-Price} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E price)
+\begin{DoxyCompactList}\small\item\em set\-Last\-Fill\-Price \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_ad38f4ef7be23cfa5da1f6a29b5930430}{set\-Exchange\-Entry\-Time} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E exchange\-Entry\-Time)
+\begin{DoxyCompactList}\small\item\em set\-Exchange\-Entry\-Time \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_ab94a69f628a2242c95f3dc6f044e5382}{set\-Exchange\-Modify\-Time} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E exchange\-Modify\-Time)
+\begin{DoxyCompactList}\small\item\em set\-Exchange\-Modify\-Time \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a765247f634969cae00acbe03f25e7723}{set\-Strategy\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D strategy\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Strategy\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a59c762761ec0e600a3e4cc7a3aa9cded}{set\-Client\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-I\-E\-N\-T\-\_\-\-I\-D client\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Client\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_abe10f6a4ceadb9bf7f79de449fb21729}{set\-Limit\-Price} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E limit\-Price)
+\begin{DoxyCompactList}\small\item\em set\-Limit\-Price \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a731a3c8676e9ed9f13d36e3762669d43}{set\-Order\-Status} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status order\-Status)
+\begin{DoxyCompactList}\small\item\em set\-Order\-Status \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_aa99bfe0369031b37ffe971dd6f83360f}{set\-Order\-Mode} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode order\-Mode)
+\begin{DoxyCompactList}\small\item\em set\-Order\-Mode \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a790aff62038e36957f681f7bf1b01a18}{set\-Order\-Quantity} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y quantity)
+\begin{DoxyCompactList}\small\item\em set\-Order\-Quantity \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a4acf4ab9f114698fe9f3cf4adee7045c}{set\-Order\-Price} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E price)
+\begin{DoxyCompactList}\small\item\em set\-Order\-Price \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a4b758c54de6098c38aee7a49402bd38a}{set\-I\-O\-C\-Canceled\-Quantity} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y quantity)
+\begin{DoxyCompactList}\small\item\em set\-I\-O\-C\-Canceled\-Quantity \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_aca1e77ca293afe948872e706ff7cccb9}{set\-Original\-Cl\-Order\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D original\-Cl\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Original\-Cl\-Order\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a5ace7f295f651520dfc58d8ab4a74645}{set\-Sequence\-Number} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-E\-Q\-U\-E\-N\-C\-E\-\_\-\-N\-U\-M\-B\-E\-R sequence\-Number)
+\begin{DoxyCompactList}\small\item\em set\-Sequence\-Number \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a562db0db2564d8a18e3ae6f4a7d5f409}{set\-Trade\-Id} (char trade\-Id\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em set\-Trade\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_ad9348d10f63cce30b7804daaba9b515d}{set\-Trade\-Id} (std\-::string trade\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Trade\-Id \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_a42a225988e7b4107812ffc7a23ad541f}{set\-Error\-Code} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-R\-R\-O\-R\-\_\-\-C\-O\-D\-E error\-Code)
+\begin{DoxyCompactList}\small\item\em set\-Error\-Code \end{DoxyCompactList}\item 
+void \hyperlink{class_a_p_i2_1_1_order_confirmation_af8c85eec5585dc344b9654c2c5f7935f}{set\-Trader\-Id} (D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-T\-R\-A\-D\-E\-R\-\_\-\-I\-D trader\-Id)
+\begin{DoxyCompactList}\small\item\em set\-Trader\-Id \end{DoxyCompactList}\item 
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a02ece472ddc1d59ca477db219838866a}{void \hyperlink{class_a_p_i2_1_1_order_confirmation_a02ece472ddc1d59ca477db219838866a}{dump} ()}\label{class_a_p_i2_1_1_order_confirmation_a02ece472ddc1d59ca477db219838866a}
+
+\begin{DoxyCompactList}\small\item\em dump \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} class contains the Exchange Order Confirmation Message data. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_adc0c80bcf4d99437b26e482143dc4b45}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Client\-Id@{get\-Client\-Id}}
+\index{get\-Client\-Id@{get\-Client\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Client\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-I\-E\-N\-T\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Client\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_adc0c80bcf4d99437b26e482143dc4b45}
+
+
+get\-Client\-Id To get the client Id for which this Order belongs 
+
+\begin{DoxyReturn}{Returns}
+Client\-Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-I\-E\-N\-T\-\_\-\-I\-D 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ac927e0347cdc6686a89478626c979a35}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Cl\-Order\-Id@{get\-Cl\-Order\-Id}}
+\index{get\-Cl\-Order\-Id@{get\-Cl\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Cl\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Cl\-Order\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_ac927e0347cdc6686a89478626c979a35}
+
+
+get\-Cl\-Order\-Id To get Unique Client Order Id, sent to exchange at the time of Order Sending 
+
+\begin{DoxyReturn}{Returns}
+Client\-Order\-Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_aa638e6d385ce1ddb9a4c26af6f2254bd}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Error\-Code@{get\-Error\-Code}}
+\index{get\-Error\-Code@{get\-Error\-Code}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Error\-Code}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-R\-R\-O\-R\-\_\-\-C\-O\-D\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Error\-Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_aa638e6d385ce1ddb9a4c26af6f2254bd}
+
+
+get\-Error\-Code 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_aacc316a7bfbf7b821b7826e364b60d2c}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Exchange\-Entry\-Time@{get\-Exchange\-Entry\-Time}}
+\index{get\-Exchange\-Entry\-Time@{get\-Exchange\-Entry\-Time}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Exchange\-Entry\-Time}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Exchange\-Entry\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_aacc316a7bfbf7b821b7826e364b60d2c}
+
+
+get\-Exchange\-Entry\-Time To get Time of Order Entry in the exchange 
+
+\begin{DoxyReturn}{Returns}
+Exchange\-Entry\-Time as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a9b3ecf482b70d0c11f6d4fc05363668e}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Exchange\-Modify\-Time@{get\-Exchange\-Modify\-Time}}
+\index{get\-Exchange\-Modify\-Time@{get\-Exchange\-Modify\-Time}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Exchange\-Modify\-Time}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Exchange\-Modify\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a9b3ecf482b70d0c11f6d4fc05363668e}
+
+
+get\-Exchange\-Modify\-Time To get Time of Order Modification in the exchange 
+
+\begin{DoxyReturn}{Returns}
+Exchange\-Modify\-Time as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a092cb6b14b04e741f1dedd08ef5af5ab}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Exchange\-Order\-Id@{get\-Exchange\-Order\-Id}}
+\index{get\-Exchange\-Order\-Id@{get\-Exchange\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Exchange\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String A\-P\-I2\-::\-Order\-Confirmation\-::get\-Exchange\-Order\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a092cb6b14b04e741f1dedd08ef5af5ab}
+
+
+get\-Exchange\-Order\-Id To get Exchange Order Id of the Order. 
+
+\begin{DoxyReturn}{Returns}
+exchange\-Order\-Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_acb9b362eaf01e028846e68bdfeec3bb4}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-I\-O\-C\-Canceled\-Quantity@{get\-I\-O\-C\-Canceled\-Quantity}}
+\index{get\-I\-O\-C\-Canceled\-Quantity@{get\-I\-O\-C\-Canceled\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-I\-O\-C\-Canceled\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y A\-P\-I2\-::\-Order\-Confirmation\-::get\-I\-O\-C\-Canceled\-Quantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_acb9b362eaf01e028846e68bdfeec3bb4}
+
+
+get\-I\-O\-C\-Canceled\-Quantity 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a60b3c4bb35cf21fe9545a33d806757f4}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Last\-Fill\-Price@{get\-Last\-Fill\-Price}}
+\index{get\-Last\-Fill\-Price@{get\-Last\-Fill\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Last\-Fill\-Price}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Last\-Fill\-Price (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a60b3c4bb35cf21fe9545a33d806757f4}
+
+
+get\-Last\-Fill\-Price To get last filled Price 
+
+\begin{DoxyReturn}{Returns}
+Last\-Fill\-Price as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ad43d155099d9eaa786e028bffc872fc9}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Last\-Fill\-Quantity@{get\-Last\-Fill\-Quantity}}
+\index{get\-Last\-Fill\-Quantity@{get\-Last\-Fill\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Last\-Fill\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y A\-P\-I2\-::\-Order\-Confirmation\-::get\-Last\-Fill\-Quantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_ad43d155099d9eaa786e028bffc872fc9}
+
+
+get\-Last\-Fill\-Quantity To get Last filled quantity 
+
+\begin{DoxyReturn}{Returns}
+Last\-Fill\-Quantity as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a7452a5686513c6ee0805716f13247e9c}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Limit\-Price@{get\-Limit\-Price}}
+\index{get\-Limit\-Price@{get\-Limit\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Limit\-Price}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Limit\-Price (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a7452a5686513c6ee0805716f13247e9c}
+
+
+get\-Limit\-Price To get Limit Price set for Order 
+
+\begin{DoxyReturn}{Returns}
+Limit\-Price as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a92038ac1d484df2fad5cc699e0698c4c}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Order\-Mode@{get\-Order\-Mode}}
+\index{get\-Order\-Mode@{get\-Order\-Mode}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Order\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode A\-P\-I2\-::\-Order\-Confirmation\-::get\-Order\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a92038ac1d484df2fad5cc699e0698c4c}
+
+
+get\-Order\-Mode To get\-Order\-Mode (Buy/\-Sell) for the order 
+
+\begin{DoxyReturn}{Returns}
+Order\-Mode as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a079670d134b29954bd78921d139c4710}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Order\-Price@{get\-Order\-Price}}
+\index{get\-Order\-Price@{get\-Order\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Order\-Price}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E A\-P\-I2\-::\-Order\-Confirmation\-::get\-Order\-Price (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a079670d134b29954bd78921d139c4710}
+
+
+get\-Order\-Price To get the Order Price 
+
+\begin{DoxyReturn}{Returns}
+Order\-Price as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_acc2bb9c798b238e7fc6b7323eaa47bcf}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Order\-Quantity@{get\-Order\-Quantity}}
+\index{get\-Order\-Quantity@{get\-Order\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Order\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y A\-P\-I2\-::\-Order\-Confirmation\-::get\-Order\-Quantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_acc2bb9c798b238e7fc6b7323eaa47bcf}
+
+
+get\-Order\-Quantity To get th Order Quantity 
+
+\begin{DoxyReturn}{Returns}
+Order\-Quantity as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a5d6785788ff0b6417297b2afc185b3c9}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Order\-Status@{get\-Order\-Status}}
+\index{get\-Order\-Status@{get\-Order\-Status}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Order\-Status}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status A\-P\-I2\-::\-Order\-Confirmation\-::get\-Order\-Status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a5d6785788ff0b6417297b2afc185b3c9}
+
+
+get\-Order\-Status To get the Order\-Status 
+
+\begin{DoxyReturn}{Returns}
+returns Order\-Status as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_acdadf079c62a8a29a657f261a8927e08}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Original\-Cl\-Order\-Id@{get\-Original\-Cl\-Order\-Id}}
+\index{get\-Original\-Cl\-Order\-Id@{get\-Original\-Cl\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Original\-Cl\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Original\-Cl\-Order\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_acdadf079c62a8a29a657f261a8927e08}
+
+
+get\-Original\-Cl\-Order\-Id 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ac3be746c6becde4ddfeab316a41120d0}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Strategy\-Id@{get\-Strategy\-Id}}
+\index{get\-Strategy\-Id@{get\-Strategy\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Strategy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Strategy\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_ac3be746c6becde4ddfeab316a41120d0}
+
+
+get\-Strategy\-Id To get The Strategy Id to which this Order belongs to 
+
+\begin{DoxyReturn}{Returns}
+Strategy\-Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a8d8956358d47151e1df3314a6e95aa90}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Symbol\-Id@{get\-Symbol\-Id}}
+\index{get\-Symbol\-Id@{get\-Symbol\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Symbol\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Symbol\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a8d8956358d47151e1df3314a6e95aa90}
+
+
+get\-Symbol\-Id To get unique Symbol\-I\-D, which is a unique Identifier for an Instrument in the system. 
+
+\begin{DoxyReturn}{Returns}
+Symbol\-Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a0e7ca21c48f80d2df2f69d71d1e732d6}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Trade\-Id@{get\-Trade\-Id}}
+\index{get\-Trade\-Id@{get\-Trade\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Trade\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String A\-P\-I2\-::\-Order\-Confirmation\-::get\-Trade\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a0e7ca21c48f80d2df2f69d71d1e732d6}
+
+
+get\-Trade\-Id 
+
+\begin{DoxyReturn}{Returns}
+Trade Id as A\-P\-I2\-::\-D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-String 
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a4f2027253fd1322358ecf3a11f9c492b}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!get\-Trader\-Id@{get\-Trader\-Id}}
+\index{get\-Trader\-Id@{get\-Trader\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{get\-Trader\-Id}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-T\-R\-A\-D\-E\-R\-\_\-\-I\-D A\-P\-I2\-::\-Order\-Confirmation\-::get\-Trader\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_a_p_i2_1_1_order_confirmation_a4f2027253fd1322358ecf3a11f9c492b}
+
+
+get\-Trader\-Id 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a59c762761ec0e600a3e4cc7a3aa9cded}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Client\-Id@{set\-Client\-Id}}
+\index{set\-Client\-Id@{set\-Client\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Client\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Client\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-I\-E\-N\-T\-\_\-\-I\-D}]{client\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a59c762761ec0e600a3e4cc7a3aa9cded}
+
+
+set\-Client\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a7ad42f541a28d3d09ce63fb8600ca9c7}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Cl\-Order\-Id@{set\-Cl\-Order\-Id}}
+\index{set\-Cl\-Order\-Id@{set\-Cl\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Cl\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Cl\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D}]{cl\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a7ad42f541a28d3d09ce63fb8600ca9c7}
+
+
+set\-Cl\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cl\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a42a225988e7b4107812ffc7a23ad541f}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Error\-Code@{set\-Error\-Code}}
+\index{set\-Error\-Code@{set\-Error\-Code}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Error\-Code}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Error\-Code (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-R\-R\-O\-R\-\_\-\-C\-O\-D\-E}]{error\-Code}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a42a225988e7b4107812ffc7a23ad541f}
+
+
+set\-Error\-Code 
+
+
+\begin{DoxyParams}{Parameters}
+{\em error\-Code} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ad38f4ef7be23cfa5da1f6a29b5930430}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Exchange\-Entry\-Time@{set\-Exchange\-Entry\-Time}}
+\index{set\-Exchange\-Entry\-Time@{set\-Exchange\-Entry\-Time}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Exchange\-Entry\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Exchange\-Entry\-Time (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E}]{exchange\-Entry\-Time}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_ad38f4ef7be23cfa5da1f6a29b5930430}
+
+
+set\-Exchange\-Entry\-Time 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exchange\-Entry\-Time} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ab94a69f628a2242c95f3dc6f044e5382}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Exchange\-Modify\-Time@{set\-Exchange\-Modify\-Time}}
+\index{set\-Exchange\-Modify\-Time@{set\-Exchange\-Modify\-Time}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Exchange\-Modify\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Exchange\-Modify\-Time (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-E\-X\-C\-H\-A\-N\-G\-E\-\_\-\-T\-I\-M\-E}]{exchange\-Modify\-Time}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_ab94a69f628a2242c95f3dc6f044e5382}
+
+
+set\-Exchange\-Modify\-Time 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exchange\-Modify\-Time} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ac53d93c019ae49913ebd9e0c199721c0}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Exchange\-Order\-Id@{set\-Exchange\-Order\-Id}}
+\index{set\-Exchange\-Order\-Id@{set\-Exchange\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Exchange\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Exchange\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{char}]{exchange\-Order\-Id\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_ac53d93c019ae49913ebd9e0c199721c0}
+
+
+set\-Exchange\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exchange\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ae5e62817cdc0a80f0fe205d912135126}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Exchange\-Order\-Id@{set\-Exchange\-Order\-Id}}
+\index{set\-Exchange\-Order\-Id@{set\-Exchange\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Exchange\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Exchange\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{exchange\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_ae5e62817cdc0a80f0fe205d912135126}
+
+
+set\-Exchange\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exchange\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a4b758c54de6098c38aee7a49402bd38a}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-I\-O\-C\-Canceled\-Quantity@{set\-I\-O\-C\-Canceled\-Quantity}}
+\index{set\-I\-O\-C\-Canceled\-Quantity@{set\-I\-O\-C\-Canceled\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-I\-O\-C\-Canceled\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-I\-O\-C\-Canceled\-Quantity (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y}]{quantity}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a4b758c54de6098c38aee7a49402bd38a}
+
+
+set\-I\-O\-C\-Canceled\-Quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quantity} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a5f5e55d7d02d6d45f6a536b140fe8d46}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Last\-Fill\-Price@{set\-Last\-Fill\-Price}}
+\index{set\-Last\-Fill\-Price@{set\-Last\-Fill\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Last\-Fill\-Price}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Last\-Fill\-Price (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E}]{price}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a5f5e55d7d02d6d45f6a536b140fe8d46}
+
+
+set\-Last\-Fill\-Price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a6adc28f68e6fdd7148b259b3ec6838fd}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Last\-Fill\-Quantity@{set\-Last\-Fill\-Quantity}}
+\index{set\-Last\-Fill\-Quantity@{set\-Last\-Fill\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Last\-Fill\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Last\-Fill\-Quantity (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y}]{qty}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a6adc28f68e6fdd7148b259b3ec6838fd}
+
+
+set\-Last\-Fill\-Quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_abe10f6a4ceadb9bf7f79de449fb21729}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Limit\-Price@{set\-Limit\-Price}}
+\index{set\-Limit\-Price@{set\-Limit\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Limit\-Price}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Limit\-Price (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E}]{limit\-Price}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_abe10f6a4ceadb9bf7f79de449fb21729}
+
+
+set\-Limit\-Price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em limit\-Price} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_aa99bfe0369031b37ffe971dd6f83360f}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Order\-Mode@{set\-Order\-Mode}}
+\index{set\-Order\-Mode@{set\-Order\-Mode}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Order\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Order\-Mode (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode}]{order\-Mode}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_aa99bfe0369031b37ffe971dd6f83360f}
+
+
+set\-Order\-Mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Mode} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a4acf4ab9f114698fe9f3cf4adee7045c}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Order\-Price@{set\-Order\-Price}}
+\index{set\-Order\-Price@{set\-Order\-Price}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Order\-Price}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Order\-Price (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E}]{price}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a4acf4ab9f114698fe9f3cf4adee7045c}
+
+
+set\-Order\-Price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a790aff62038e36957f681f7bf1b01a18}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Order\-Quantity@{set\-Order\-Quantity}}
+\index{set\-Order\-Quantity@{set\-Order\-Quantity}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Order\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Order\-Quantity (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y}]{quantity}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a790aff62038e36957f681f7bf1b01a18}
+
+
+set\-Order\-Quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quantity} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a731a3c8676e9ed9f13d36e3762669d43}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Order\-Status@{set\-Order\-Status}}
+\index{set\-Order\-Status@{set\-Order\-Status}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Order\-Status}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Order\-Status (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Status}]{order\-Status}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a731a3c8676e9ed9f13d36e3762669d43}
+
+
+set\-Order\-Status 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order\-Status} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_aca1e77ca293afe948872e706ff7cccb9}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Original\-Cl\-Order\-Id@{set\-Original\-Cl\-Order\-Id}}
+\index{set\-Original\-Cl\-Order\-Id@{set\-Original\-Cl\-Order\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Original\-Cl\-Order\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Original\-Cl\-Order\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-L\-O\-R\-D\-E\-R\-\_\-\-I\-D}]{original\-Cl\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_aca1e77ca293afe948872e706ff7cccb9}
+
+
+set\-Original\-Cl\-Order\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em original\-Cl\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a5ace7f295f651520dfc58d8ab4a74645}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Sequence\-Number@{set\-Sequence\-Number}}
+\index{set\-Sequence\-Number@{set\-Sequence\-Number}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Sequence\-Number}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Sequence\-Number (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-E\-Q\-U\-E\-N\-C\-E\-\_\-\-N\-U\-M\-B\-E\-R}]{sequence\-Number}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a5ace7f295f651520dfc58d8ab4a74645}
+
+
+set\-Sequence\-Number 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sequence\-Number} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a765247f634969cae00acbe03f25e7723}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Strategy\-Id@{set\-Strategy\-Id}}
+\index{set\-Strategy\-Id@{set\-Strategy\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Strategy\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Strategy\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-T\-R\-A\-T\-E\-G\-Y\-\_\-\-I\-D}]{strategy\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a765247f634969cae00acbe03f25e7723}
+
+
+set\-Strategy\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_aaff6a5823a933417bb4de245e48f12e2}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Symbol\-Id@{set\-Symbol\-Id}}
+\index{set\-Symbol\-Id@{set\-Symbol\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Symbol\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Symbol\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-Y\-M\-B\-O\-L\-\_\-\-I\-D}]{symbol\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_aaff6a5823a933417bb4de245e48f12e2}
+
+
+set\-Symbol\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_a562db0db2564d8a18e3ae6f4a7d5f409}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Trade\-Id@{set\-Trade\-Id}}
+\index{set\-Trade\-Id@{set\-Trade\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Trade\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Trade\-Id (
+\begin{DoxyParamCaption}
+\item[{char}]{trade\-Id\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_a562db0db2564d8a18e3ae6f4a7d5f409}
+
+
+set\-Trade\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em trade\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_ad9348d10f63cce30b7804daaba9b515d}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Trade\-Id@{set\-Trade\-Id}}
+\index{set\-Trade\-Id@{set\-Trade\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Trade\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Trade\-Id (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{trade\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_ad9348d10f63cce30b7804daaba9b515d}
+
+
+set\-Trade\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em trade\-Id} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_p_i2_1_1_order_confirmation_af8c85eec5585dc344b9654c2c5f7935f}{\index{A\-P\-I2\-::\-Order\-Confirmation@{A\-P\-I2\-::\-Order\-Confirmation}!set\-Trader\-Id@{set\-Trader\-Id}}
+\index{set\-Trader\-Id@{set\-Trader\-Id}!API2::OrderConfirmation@{A\-P\-I2\-::\-Order\-Confirmation}}
+\subsubsection[{set\-Trader\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Confirmation\-::set\-Trader\-Id (
+\begin{DoxyParamCaption}
+\item[{D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-T\-R\-A\-D\-E\-R\-\_\-\-I\-D}]{trader\-Id}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_order_confirmation_af8c85eec5585dc344b9654c2c5f7935f}
+
+
+set\-Trader\-Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em trader\-Id} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+shared\-Response.\-h\end{DoxyCompactItemize}

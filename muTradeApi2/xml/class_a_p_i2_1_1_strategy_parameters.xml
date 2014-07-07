@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_strategy_parameters" kind="class" prot="public">
+    <compoundname>API2::StrategyParameters</compoundname>
+    <includes refid="sg_api_parameters_8h" local="no">sgApiParameters.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_strategy_parameters_1a5c9e2ede8bd448ecf1cd083fb4c164a1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::StrategyParameters::_clientId</definition>
+        <argsstring></argsstring>
+        <name>_clientId</name>
+        <briefdescription>
+<para>_clientId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="32" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_strategy_parameters_1aecdc3adfd18c23b78beca308095a2e19" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* API2::StrategyParameters::_info</definition>
+        <argsstring></argsstring>
+        <name>_info</name>
+        <briefdescription>
+<para>_info </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="37" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_strategy_parameters_1a2d758363bfe8cfe044c37f7154160195" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int API2::StrategyParameters::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+<para>_id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="41" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_strategy_parameters_1a6a7c4d4c3e6cae23741c87732e89689a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* API2::StrategyParameters::getInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getInfo</name>
+        <briefdescription>
+<para>getInfo, Provides the Strategy Parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_strategy_parameters_1ad7f5051101186f72e9b9e265b49905c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::StrategyParameters::getClientId</definition>
+        <argsstring>()</argsstring>
+        <name>getClientId</name>
+        <briefdescription>
+<para>getClientId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_strategy_parameters_1ab03303184656b38f0fd352a21c4b9928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::StrategyParameters::getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+<para>getId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound">StrategyParameters</ref> class provides the Basic Strategy Parameters, StrategyId and ClientId.<linebreak/>
+ Stratgy Parameters are provided by <ref refid="class_a_p_i2_1_1_strategy_parameters_1a6a7c4d4c3e6cae23741c87732e89689a" kindref="member">StrategyParameters::getInfo()</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" line="10" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgApiParameters.h" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1a5c9e2ede8bd448ecf1cd083fb4c164a1" prot="protected" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>_clientId</name></member>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1a2d758363bfe8cfe044c37f7154160195" prot="protected" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>_id</name></member>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1aecdc3adfd18c23b78beca308095a2e19" prot="protected" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>_info</name></member>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1ad7f5051101186f72e9b9e265b49905c3" prot="public" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>getClientId</name></member>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1ab03303184656b38f0fd352a21c4b9928" prot="public" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>getId</name></member>
+      <member refid="class_a_p_i2_1_1_strategy_parameters_1a6a7c4d4c3e6cae23741c87732e89689a" prot="public" virt="non-virtual"><scope>API2::StrategyParameters</scope><name>getInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="shared_response_8h" kind="file">
+    <compoundname>sharedResponse.h</compoundname>
+    <includes refid="api_data_types_8h" local="no">apiDataTypes.h</includes>
+    <includes refid="shared_commands_8h" local="no">sharedCommands.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="sg_common_8h" local="no">sgLib/sgCommon.h</includedby>
+    <includedby refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includedby>
+    <incdepgraph>
+      <node id="150">
+        <label>stdint.h</label>
+      </node>
+      <node id="152">
+        <label>string</label>
+      </node>
+      <node id="151">
+        <label>map</label>
+      </node>
+      <node id="148">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>sharedResponse.h</label>
+        <link refid="sharedResponse.h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="156">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="157">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>sharedResponse.h</label>
+        <link refid="sharedResponse.h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_a_p_i2_1_1_order_confirmation" prot="public">API2::OrderConfirmation</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SHARED_RESPONSE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SHARED_RESPONSE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiDataTypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedCommands.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OrderConfirmationImpl;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_a_p_i2_1_1_order_confirmation" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>OrderConfirmationImpl<sp/>*pimpl;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a8b959a4ef931b3bce6f78eb1794b0663" kindref="member" tooltip="OrderConfirmation Constructor.">OrderConfirmation</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a2e41bd57155237425fc227f9ead45ba7" kindref="member" tooltip="initialize">initialize</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLORDER_ID<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ac927e0347cdc6686a89478626c979a35" kindref="member" tooltip="getClOrderId To get Unique Client Order Id, sent to exchange at the time of Order Sending...">getClOrderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::String<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a092cb6b14b04e741f1dedd08ef5af5ab" kindref="member" tooltip="getExchangeOrderId To get Exchange Order Id of the Order.">getExchangeOrderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::SYMBOL_ID<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a8d8956358d47151e1df3314a6e95aa90" kindref="member" tooltip="getSymbolId To get unique SymbolID, which is a unique Identifier for an Instrument in the system...">getSymbolId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ad43d155099d9eaa786e028bffc872fc9" kindref="member" tooltip="getLastFillQuantity To get Last filled quantity">getLastFillQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a60b3c4bb35cf21fe9545a33d806757f4" kindref="member" tooltip="getLastFillPrice To get last filled Price">getLastFillPrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::EXCHANGE_TIME<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1aacc316a7bfbf7b821b7826e364b60d2c" kindref="member" tooltip="getExchangeEntryTime To get Time of Order Entry in the exchange">getExchangeEntryTime</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::EXCHANGE_TIME<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a9b3ecf482b70d0c11f6d4fc05363668e" kindref="member" tooltip="getExchangeModifyTime To get Time of Order Modification in the exchange">getExchangeModifyTime</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::STRATEGY_ID<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ac3be746c6becde4ddfeab316a41120d0" kindref="member" tooltip="getStrategyId To get The Strategy Id to which this Order belongs to">getStrategyId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLIENT_ID<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1adc0c80bcf4d99437b26e482143dc4b45" kindref="member" tooltip="getClientId To get the client Id for which this Order belongs">getClientId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a7452a5686513c6ee0805716f13247e9c" kindref="member" tooltip="getLimitPrice To get Limit Price set for Order">getLimitPrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderStatus<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a5d6785788ff0b6417297b2afc185b3c9" kindref="member" tooltip="getOrderStatus To get the OrderStatus">getOrderStatus</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a92038ac1d484df2fad5cc699e0698c4c" kindref="member" tooltip="getOrderMode To getOrderMode (Buy/Sell) for the order">getOrderMode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1acc2bb9c798b238e7fc6b7323eaa47bcf" kindref="member" tooltip="getOrderQuantity To get th Order Quantity">getOrderQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a079670d134b29954bd78921d139c4710" kindref="member" tooltip="getOrderPrice To get the Order Price">getOrderPrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1acb9b362eaf01e028846e68bdfeec3bb4" kindref="member" tooltip="getIOCCanceledQuantity">getIOCCanceledQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLORDER_ID<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1acdadf079c62a8a29a657f261a8927e08" kindref="member" tooltip="getOriginalClOrderId">getOriginalClOrderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::String<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a0e7ca21c48f80d2df2f69d71d1e732d6" kindref="member" tooltip="getTradeId">getTradeId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::ERROR_CODE<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1aa638e6d385ce1ddb9a4c26af6f2254bd" kindref="member" tooltip="getErrorCode">getErrorCode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::TRADER_ID<sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a4f2027253fd1322358ecf3a11f9c492b" kindref="member" tooltip="getTraderId">getTraderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a7ad42f541a28d3d09ce63fb8600ca9c7" kindref="member" tooltip="setClOrderId">setClOrderId</ref>(DATA_TYPES::CLORDER_ID<sp/>clOrderId);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ac53d93c019ae49913ebd9e0c199721c0" kindref="member" tooltip="setExchangeOrderId">setExchangeOrderId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>exchangeOrderId[]);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ac53d93c019ae49913ebd9e0c199721c0" kindref="member" tooltip="setExchangeOrderId">setExchangeOrderId</ref>(std::string<sp/>exchangeOrderId);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1aaff6a5823a933417bb4de245e48f12e2" kindref="member" tooltip="setSymbolId">setSymbolId</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbolId);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a6adc28f68e6fdd7148b259b3ec6838fd" kindref="member" tooltip="setLastFillQuantity">setLastFillQuantity</ref>(DATA_TYPES::QTY<sp/>qty);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a5f5e55d7d02d6d45f6a536b140fe8d46" kindref="member" tooltip="setLastFillPrice">setLastFillPrice</ref>(DATA_TYPES::PRICE<sp/>price);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ad38f4ef7be23cfa5da1f6a29b5930430" kindref="member" tooltip="setExchangeEntryTime">setExchangeEntryTime</ref>(DATA_TYPES::EXCHANGE_TIME<sp/>exchangeEntryTime);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1ab94a69f628a2242c95f3dc6f044e5382" kindref="member" tooltip="setExchangeModifyTime">setExchangeModifyTime</ref>(DATA_TYPES::EXCHANGE_TIME<sp/>exchangeModifyTime);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a765247f634969cae00acbe03f25e7723" kindref="member" tooltip="setStrategyId">setStrategyId</ref>(DATA_TYPES::STRATEGY_ID<sp/>strategyId)<sp/>;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a59c762761ec0e600a3e4cc7a3aa9cded" kindref="member" tooltip="setClientId">setClientId</ref>(DATA_TYPES::CLIENT_ID<sp/>clientId);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1abe10f6a4ceadb9bf7f79de449fb21729" kindref="member" tooltip="setLimitPrice">setLimitPrice</ref>(DATA_TYPES::PRICE<sp/>limitPrice);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a731a3c8676e9ed9f13d36e3762669d43" kindref="member" tooltip="setOrderStatus">setOrderStatus</ref>(DATA_TYPES::OrderStatus<sp/>orderStatus)<sp/>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1aa99bfe0369031b37ffe971dd6f83360f" kindref="member" tooltip="setOrderMode">setOrderMode</ref>(DATA_TYPES::OrderMode<sp/>orderMode)<sp/>;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a790aff62038e36957f681f7bf1b01a18" kindref="member" tooltip="setOrderQuantity">setOrderQuantity</ref>(DATA_TYPES::QTY<sp/>quantity);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a4acf4ab9f114698fe9f3cf4adee7045c" kindref="member" tooltip="setOrderPrice">setOrderPrice</ref>(DATA_TYPES::PRICE<sp/>price)<sp/>;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a4b758c54de6098c38aee7a49402bd38a" kindref="member" tooltip="setIOCCanceledQuantity">setIOCCanceledQuantity</ref>(DATA_TYPES::QTY<sp/>quantity)<sp/>;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1aca1e77ca293afe948872e706ff7cccb9" kindref="member" tooltip="setOriginalClOrderId">setOriginalClOrderId</ref>(DATA_TYPES::CLORDER_ID<sp/>originalClOrderId);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a5ace7f295f651520dfc58d8ab4a74645" kindref="member" tooltip="setSequenceNumber">setSequenceNumber</ref>(DATA_TYPES::SEQUENCE_NUMBER<sp/>sequenceNumber);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a562db0db2564d8a18e3ae6f4a7d5f409" kindref="member" tooltip="setTradeId">setTradeId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>tradeId[]);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a562db0db2564d8a18e3ae6f4a7d5f409" kindref="member" tooltip="setTradeId">setTradeId</ref>(std::string<sp/>tradeId);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a42a225988e7b4107812ffc7a23ad541f" kindref="member" tooltip="setErrorCode">setErrorCode</ref>(DATA_TYPES::ERROR_CODE<sp/>errorCode);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1af8c85eec5585dc344b9654c2c5f7935f" kindref="member" tooltip="setTraderId">setTraderId</ref>(DATA_TYPES::TRADER_ID<sp/>traderId);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation_1a02ece472ddc1d59ca477db219838866a" kindref="member" tooltip="dump">dump</ref>();</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedResponse.h"/>
+  </compounddef>
+</doxygen>

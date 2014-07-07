@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="struct_a_p_i2_1_1_unknown_type_exception" kind="struct" prot="public">
+    <compoundname>API2::UnknownTypeException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+    <includes refid="api2_exceptions_8h" local="no">api2Exceptions.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_a_p_i2_1_1_unknown_type_exception_1a7d9f37742e3adc8c03d904c4096a0251" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* API2::UnknownTypeException::what</definition>
+        <argsstring>() const </argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>what </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" line="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_a_p_i2_1_1_unknown_type_exception" kindref="compound">UnknownTypeException</ref> struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>API2::UnknownTypeException</label>
+        <link refid="struct_a_p_i2_1_1_unknown_type_exception"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>API2::UnknownTypeException</label>
+        <link refid="struct_a_p_i2_1_1_unknown_type_exception"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" line="8" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_a_p_i2_1_1_unknown_type_exception_1a7d9f37742e3adc8c03d904c4096a0251" prot="public" virt="non-virtual"><scope>API2::UnknownTypeException</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

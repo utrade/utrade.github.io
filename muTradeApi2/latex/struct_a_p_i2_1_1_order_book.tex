@@ -1,0 +1,157 @@
+\hypertarget{struct_a_p_i2_1_1_order_book}{\section{A\-P\-I2\-:\-:Order\-Book Struct Reference}
+\label{struct_a_p_i2_1_1_order_book}\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}}
+}
+
+
+The \hyperlink{struct_a_p_i2_1_1_order_book}{Order\-Book} struct.  
+
+
+
+
+{\ttfamily \#include $<$sg\-Order\-Book\-Defines.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{struct_a_p_i2_1_1_order_book_aa316603a509b7bf795c89bfa28df21da}{insert} (C\-M\-D\-::\-Single\-Order $\ast$order)
+\begin{DoxyCompactList}\small\item\em insert \end{DoxyCompactList}\item 
+void \hyperlink{struct_a_p_i2_1_1_order_book_a13e93a941e87b42e55bbe752defce281}{insert} (\hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$order)
+\begin{DoxyCompactList}\small\item\em insert \end{DoxyCompactList}\item 
+C\-M\-D\-::\-Single\-Order $\ast$ \hyperlink{struct_a_p_i2_1_1_order_book_ae4175d74b23fbfac49409193c07f5c6d}{get\-Order} (long cl\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Order \end{DoxyCompactList}\item 
+\hyperlink{class_a_p_i2_1_1_single_order}{Single\-Order} $\ast$ \hyperlink{struct_a_p_i2_1_1_order_book_ac8cb10c78564316a10766b1180fd09b3}{get\-Api\-Order} (long cl\-Order\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Api\-Order \end{DoxyCompactList}\item 
+int \hyperlink{struct_a_p_i2_1_1_order_book_abbf637e6c979e6c4f6b40ae6bc99c9e3}{update} (\hyperlink{class_a_p_i2_1_1_order_confirmation}{Order\-Confirmation} \&confirmation, bool reconcile\-Old\-Orders=false)
+\begin{DoxyCompactList}\small\item\em update \end{DoxyCompactList}\item 
+void \hyperlink{struct_a_p_i2_1_1_order_book_a3fbef26341390640bc8168d4a4f0fc8c}{align\-Orders} (C\-M\-D\-::\-Single\-Order $\ast$order)
+\begin{DoxyCompactList}\small\item\em align\-Orders \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_a_p_i2_1_1_order_book_a5ec8c2aaa73a847f906e4811bf129389}{boost\-::unordered\-\_\-map$<$ long, \\*
+C\-M\-D\-::\-Single\-Order $\ast$ $>$ {\bfseries \-\_\-order\-Book}}\label{struct_a_p_i2_1_1_order_book_a5ec8c2aaa73a847f906e4811bf129389}
+
+\item 
+\hypertarget{struct_a_p_i2_1_1_order_book_a4d4bba97f822fab78efce908623302aa}{std\-::multimap$<$ std\-::string, \\*
+std\-::string $>$ {\bfseries \-\_\-exchange\-Order\-Id\-To\-Trade\-Id}}\label{struct_a_p_i2_1_1_order_book_a4d4bba97f822fab78efce908623302aa}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{struct_a_p_i2_1_1_order_book}{Order\-Book} struct. 
+
+\subsection{Member Function Documentation}
+\hypertarget{struct_a_p_i2_1_1_order_book_a3fbef26341390640bc8168d4a4f0fc8c}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!align\-Orders@{align\-Orders}}
+\index{align\-Orders@{align\-Orders}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{align\-Orders}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Book\-::align\-Orders (
+\begin{DoxyParamCaption}
+\item[{C\-M\-D\-::\-Single\-Order $\ast$}]{order}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_a3fbef26341390640bc8168d4a4f0fc8c}
+
+
+align\-Orders 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_a_p_i2_1_1_order_book_ac8cb10c78564316a10766b1180fd09b3}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!get\-Api\-Order@{get\-Api\-Order}}
+\index{get\-Api\-Order@{get\-Api\-Order}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{get\-Api\-Order}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Order}$\ast$ A\-P\-I2\-::\-Order\-Book\-::get\-Api\-Order (
+\begin{DoxyParamCaption}
+\item[{long}]{cl\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_ac8cb10c78564316a10766b1180fd09b3}
+
+
+get\-Api\-Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cl\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_order_book_ae4175d74b23fbfac49409193c07f5c6d}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!get\-Order@{get\-Order}}
+\index{get\-Order@{get\-Order}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{get\-Order}]{\setlength{\rightskip}{0pt plus 5cm}C\-M\-D\-::\-Single\-Order$\ast$ A\-P\-I2\-::\-Order\-Book\-::get\-Order (
+\begin{DoxyParamCaption}
+\item[{long}]{cl\-Order\-Id}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_ae4175d74b23fbfac49409193c07f5c6d}
+
+
+get\-Order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cl\-Order\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_order_book_aa316603a509b7bf795c89bfa28df21da}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!insert@{insert}}
+\index{insert@{insert}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Book\-::insert (
+\begin{DoxyParamCaption}
+\item[{C\-M\-D\-::\-Single\-Order $\ast$}]{order}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_aa316603a509b7bf795c89bfa28df21da}
+
+
+insert 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_a_p_i2_1_1_order_book_a13e93a941e87b42e55bbe752defce281}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!insert@{insert}}
+\index{insert@{insert}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void A\-P\-I2\-::\-Order\-Book\-::insert (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Order} $\ast$}]{order}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_a13e93a941e87b42e55bbe752defce281}
+
+
+insert 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_a_p_i2_1_1_order_book_abbf637e6c979e6c4f6b40ae6bc99c9e3}{\index{A\-P\-I2\-::\-Order\-Book@{A\-P\-I2\-::\-Order\-Book}!update@{update}}
+\index{update@{update}!API2::OrderBook@{A\-P\-I2\-::\-Order\-Book}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}int A\-P\-I2\-::\-Order\-Book\-::update (
+\begin{DoxyParamCaption}
+\item[{{\bf Order\-Confirmation} \&}]{confirmation, }
+\item[{bool}]{reconcile\-Old\-Orders = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_order_book_abbf637e6c979e6c4f6b40ae6bc99c9e3}
+
+
+update 
+
+
+\begin{DoxyParams}{Parameters}
+{\em confirmation} & \\
+\hline
+{\em reconcile\-Old\-Orders} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/utrade/\-Trinity/code/trunk-\/2/api2/headers/sg\-Lib/sg\-Order\-Book\-Defines.\-h\end{DoxyCompactItemize}

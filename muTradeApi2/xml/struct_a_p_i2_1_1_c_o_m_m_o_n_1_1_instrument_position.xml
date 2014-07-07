@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kind="struct" prot="public">
+    <compoundname>API2::COMMON::InstrumentPosition</compoundname>
+    <includes refid="sg_common_8h" local="no">sgCommon.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a6bd5cf326e5317a97e5bb940e7639059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::COMMON::InstrumentPosition::getOpenQty</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenQty</name>
+        <briefdescription>
+<para>getOpenQty, To get the Open Quantity i,e Buy Qty-Sell Qty </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a061e14d8ea0f660c3e742c2b306a0323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::COMMON::InstrumentPosition::getTradedQty</definition>
+        <argsstring>(const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getTradedQty</name>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getTradedQty To get Traded Quantity at requested OrderMode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DATA_TYPES::CMD_OrderMode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>traded Qty as DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a4b437e372244c4a85e8407535907ac78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderMode</type>
+        <definition>DATA_TYPES::OrderMode API2::COMMON::InstrumentPosition::getOpenSide</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenSide</name>
+        <briefdescription>
+<para>getOpenSide, To get Open Side Position, if BuyQty&gt;SellQty, returns API2::CONSTANTS::CMD_OrderMode_BUY else API2::CONSTANTS::CMD_OrderMode_SELL </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>OpenSide as DATA_TYPES::OrderMode </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a5c6d74ae6c4d08deb1d9670bbb615044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::COMMON::InstrumentPosition::getBookedPnl</definition>
+        <argsstring>()</argsstring>
+        <name>getBookedPnl</name>
+        <briefdescription>
+<para>getBookedPnl, To get Booked Pnl </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Booked PnL as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::COMMON::InstrumentPosition::getMtmPnl</definition>
+        <argsstring>(UNSIGNED_LONG ltp)</argsstring>
+        <name>getMtmPnl</name>
+        <param>
+          <type>UNSIGNED_LONG</type>
+          <declname>ltp</declname>
+        </param>
+        <briefdescription>
+<para>getMtmPnl, To get Mark to Market Pnl </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ltp</parametername>
+<parametername>Last</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>trade Price is to be provided </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Mark to Market Pnl as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a7615e0a698a69edbb9124796d6c77e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::InstrumentPosition::getAvgPrice</definition>
+        <argsstring>(const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getAvgPrice</name>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getAvgPrice, Get Average Trade Price at requested OrderMode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Average Price as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a146408733d0fbe9d8b3e565ed63a79fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UNSIGNED_LONG</type>
+        <definition>UNSIGNED_LONG API2::COMMON::InstrumentPosition::getPendingQty</definition>
+        <argsstring>(const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getPendingQty</name>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getPendingQty, To get Quantity Pending (or not filled) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position" kindref="compound">InstrumentPosition</ref> struct Provides the basic information like Open Qty, OpenSide, Traded Quantity in Buy/Sell Side, <linebreak/>
+ Average traded Price in Buy/Sell Side, Booked and Mark-To-Market Profit and loss. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" line="35" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgCommon.h" bodystart="34" bodyend="83"/>
+    <listofallmembers>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a7615e0a698a69edbb9124796d6c77e15" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getAvgPrice</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a5c6d74ae6c4d08deb1d9670bbb615044" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getBookedPnl</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getMtmPnl</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a6bd5cf326e5317a97e5bb940e7639059" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getOpenQty</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a4b437e372244c4a85e8407535907ac78" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getOpenSide</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a146408733d0fbe9d8b3e565ed63a79fc" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getPendingQty</name></member>
+      <member refid="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_1a061e14d8ea0f660c3e742c2b306a0323" prot="public" virt="non-virtual"><scope>API2::COMMON::InstrumentPosition</scope><name>getTradedQty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

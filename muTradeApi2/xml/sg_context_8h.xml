@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="sg_context_8h" kind="file">
+    <compoundname>sgContext.h</compoundname>
+    <includes refid="sg_common_8h" local="yes">sgCommon.h</includes>
+    <includes refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includes>
+    <includes refid="sg_api_parameters_8h" local="no">sgApiParameters.h</includes>
+    <includes local="no">sgDebugLogDefines.h</includes>
+    <includes local="no">baseCommands.h</includes>
+    <incdepgraph>
+      <node id="87">
+        <label>list</label>
+      </node>
+      <node id="96">
+        <label>sgSymbolDataDefines.h</label>
+        <link refid="sg_symbol_data_defines_8h_source"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sgContext.h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>stdint.h</label>
+      </node>
+      <node id="93">
+        <label>boost/date_time/gregorian/gregorian.hpp</label>
+      </node>
+      <node id="89">
+        <label>cmdDefines.h</label>
+      </node>
+      <node id="84">
+        <label>string</label>
+      </node>
+      <node id="98">
+        <label>sgApiParameters.h</label>
+        <link refid="sg_api_parameters_8h_source"/>
+      </node>
+      <node id="81">
+        <label>map</label>
+      </node>
+      <node id="92">
+        <label>stddef.h</label>
+      </node>
+      <node id="86">
+        <label>fstream</label>
+      </node>
+      <node id="90">
+        <label>apiStructs.h</label>
+        <link refid="api_structs_8h_source"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="97">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>apiConstants.h</label>
+        <link refid="api_constants_8h_source"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>baseCommands.h</label>
+      </node>
+      <node id="78">
+        <label>time.h</label>
+      </node>
+      <node id="85">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>sgDebugLogDefines.h</label>
+      </node>
+      <node id="88">
+        <label>sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>memory</label>
+      </node>
+      <node id="77">
+        <label>sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_a_p_i2_1_1_s_g_context" prot="public">API2::SGContext</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SGCONTEXT_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SGCONTEXT_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sgCommon.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedSingleOrder.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sgApiParameters.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sgDebugLogDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;baseCommands.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="keyword">class<sp/></highlight><highlight class="normal">SGContextImpl;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_a_p_i2_1_1_s_g_context" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a4d2ddbdd3e8a4a96ad52b90a1c0ef33e" kindref="member" tooltip="~SGContext A destructor">~SGContext</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>(<ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound" tooltip="The StrategyParameters class provides the Basic Strategy Parameters, StrategyId and ClientId...">StrategyParameters</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>sgName);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a01c0a9513e75bf9230c714ccbe03ce46" kindref="member" tooltip="terminateSquareOffStrategy, Called to Terminate strategy and Square-Off all Positions  Can be overrid...">terminateSquareOffStrategy</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a1958accbe8625d491878add4bf5533d2" kindref="member" tooltip="terminateStrategy, Called to Terminate Strategy  Can be overriden   Default behaviour:   1) Cancel Al...">terminateStrategy</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a639ea0f4f942043c2dbf3992d4fd8a96" kindref="member" tooltip="cancelOrders, To cancel all Orders ( Confirmed or Partial Filled )">cancelOrders</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*May<sp/>be<sp/>removed</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a8afc5581b6574466fe9fe502245b930d" kindref="member" tooltip="recoverInstrumentOrderId">recoverInstrumentOrderId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6abdff23ca1cd361f618c4bf84cfec0c" kindref="member" tooltip="usingSegment, To know whether a given exchange segment is being used in the strategy or not...">usingSegment</ref>(</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::ExchangeId<sp/>&amp;exch,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::SecurityType<sp/>&amp;securityType<sp/>=<sp/>CONSTANTS::CMD_SecurityType_MAX</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="class_a_p_i2_1_1_s_g_context_1a44cb008b60a1e0a376c6d7909bd11de2" kindref="member" tooltip="startAlgo, function call to Start the Strategy">startAlgo</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>marketDataEventRequired);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1aee86b97a48929d22d5c6afd9c5d68838" kindref="member" tooltip="getClientId, To get ClientId">getClientId</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound" tooltip="The StrategyParameters class provides the Basic Strategy Parameters, StrategyId and ClientId...">StrategyParameters</ref><sp/>*<ref refid="class_a_p_i2_1_1_s_g_context_1a653537350a6cc355bf79564b33dbba92" kindref="member" tooltip="getParams, To get StartegyParameters">getParams</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound" tooltip="The MktData class, The wrapper class for getting Market Feed for both Snapshot and Tick-By-Tick...">COMMON::MktData</ref><sp/>*<ref refid="class_a_p_i2_1_1_s_g_context_1a976152e42455f8ea52f2bdee052f3c39" kindref="member" tooltip="getUpdateMktData, This function call will return the Pointer to API2::COMMON::MktData structure after...">getUpdateMktData</ref>(SYMBOL_ID<sp/>symbolId);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound" tooltip="The MktData class, The wrapper class for getting Market Feed for both Snapshot and Tick-By-Tick...">COMMON::MktData</ref><sp/>*<ref refid="class_a_p_i2_1_1_s_g_context_1ae699404b321162a301789572fc0ebabe" kindref="member" tooltip="getMktData, This function call will return the Pointer to API2::COMMON::MktData structure   Here it w...">getMktData</ref>(SYMBOL_ID<sp/>symbolId);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a5143f1432d2b423420f6405a934ea0be" kindref="member" tooltip="getNetMTM, This function will return net Mark To Market Profit and Loss for the strategy( sum of all ...">getNetMTM</ref>();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1af6870dd712538b752eab69b935c7583b" kindref="member" tooltip="getNetBookedPnl, This function will return net Booked Profit and Loss for the strategy( sum of all In...">getNetBookedPnl</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1af8c29693539afd24c6dd420972c8871e" kindref="member" tooltip="getAddInstrument, To add a new Instrument in the strategy   The Pointer to the added Instrument is se...">getAddInstrument</ref>(<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*&amp;instrument,UNSIGNED_LONG<sp/>symbolId,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>regMktData=</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useSnapShot=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ae7ae8c2b8c3b50861706d749bcceb77a" kindref="member" tooltip="addInstrument, To add a new Instrument in the strategy  ">addInstrument</ref>(UNSIGNED_LONG<sp/>symbolId,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>regMktData=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ae7ae8c2b8c3b50861706d749bcceb77a" kindref="member" tooltip="addInstrument, To add a new Instrument in the strategy  ">addInstrument</ref>(<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>regMktData=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a456d032ab4229a08bfa237b33ffec76b" kindref="member" tooltip="getInstrumentList, To get list of all Instruments added for the requested SymbolId">getInstrumentList</ref>(std::list&lt;COMMON::Instrument<sp/>*&gt;&amp;instrumentList,<sp/>UNSIGNED_LONG<sp/>symbolId);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a0a40d0076984c9579847bf350628bea9" kindref="member" tooltip="removeInstrument, To remove Instrument from the context.   Removing will remove all the data relating...">removeInstrument</ref>(<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1aa1290b0ce36edd31bea8615555f97f05" kindref="member" tooltip="removeAllInstruments, This will remove all Instrument from the registered Instrument list...">removeAllInstruments</ref>();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a5fc0688752b90e7366524b83d3a70c93" kindref="member" tooltip="registerSymbol, Register a API2::DATA_TYPES::SYMBOL_ID for market Data">registerSymbol</ref>(SYMBOL_ID<sp/>symbolID,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSnapshot=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a082c5a756706517153acf2e4a635ae25" kindref="member" tooltip="registerSymbol, UnRegister a API2::DATA_TYPES::SYMBOL_ID for market Data">unregisterSymbol</ref>(SYMBOL_ID<sp/>symbolId);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a1af0e0e9693eb410378d1e29947ca35d" kindref="member" tooltip="unregisterAllSymbols, To unregister all Instruments for market feed.">unregisterAllSymbols</ref>();</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6041b2e2653f2f7d0fd86b253abad209" kindref="member" tooltip="updateQuote, To manually update Market Feed for all registered Instruments.  Not required if marketDa...">updateQuote</ref>();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6041b2e2653f2f7d0fd86b253abad209" kindref="member" tooltip="updateQuote, To manually update Market Feed for all registered Instruments.  Not required if marketDa...">updateQuote</ref>(UNSIGNED_LONG<sp/>symbolId);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">API2::SingleOrder</ref>*<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ae49290cac1f27ba3049f1f5f5075cc49" kindref="member" tooltip="getOrder, To get Pointer to Single Order using a clientOrderId">getOrder</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>clOrderId);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>API2::DATA_TYPES::STRATEGY_ID<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1abffd48797b85fe57108f02ad77f3c009" kindref="member" tooltip="getStrategyId, To get StartegyId of current running Strategy.">getStrategyId</ref>();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1afe58c09f474cdfabc70c81b51e30acca" kindref="member" tooltip="setSGParameters, To set the pointer to StrategyParameters">setSGParameters</ref>(<ref refid="class_a_p_i2_1_1_strategy_parameters" kindref="compound" tooltip="The StrategyParameters class provides the Basic Strategy Parameters, StrategyId and ClientId...">StrategyParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>UNSIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1af3455b23fcf0866bbd7634fff735e9b6" kindref="member" tooltip="getAdminTokenId">getAdminTokenId</ref>();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1abc5afbec664b4d30d6700195e4de0927" kindref="member" tooltip="setAdminTokenId">setAdminTokenId</ref>(UNSIGNED_LONG<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a214587777e22c6238afebc381069a96b" kindref="member" tooltip="sendStrategyResponse, To send a Response to the frontend">sendStrategyResponse</ref>(</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::ResponseType<sp/>responseType,</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::RiskStatus<sp/>riskStatus,</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::StrategyComment<sp/>strategyComment<sp/>=<sp/>CONSTANTS::RSP_StrategyComment_MAX</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6bd0841e7c06539eeaaf04e174882cda" kindref="member" tooltip="exitStrategy, To exit a strategy, terminates the Strategy thread and returns the StrategyDriver.">exitStrategy</ref>();</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>DebugLog<sp/>*<ref refid="class_a_p_i2_1_1_s_g_context_1adf0389e54a6dec09889cd219521a1b87" kindref="member" tooltip="getDebugLog, To get Pointer to the DebugLog Object, used to dump debug messages.   Sample Usage:  DEB...">getDebugLog</ref>();</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>UNSIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a7153ac0ed3d06ff7b670d2667c0878c3" kindref="member" tooltip="getPendingQty, To get Pending Quantity of an Instrument">getPendingQty</ref>(<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref>*<sp/>instrument,</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/>mode);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a7153ac0ed3d06ff7b670d2667c0878c3" kindref="member" tooltip="getPendingQty, To get Pending Quantity of an Instrument">getPendingQty</ref>(COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLORDER_ID<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a4eb246662184d5dbbfd1694279bb4b9b" kindref="member" tooltip="getClientOrderId, To get ClientOrderId of requested Order">getClientOrderId</ref>(COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderStatus<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a908e0a9ae6e276117fa661957b2cfa1f" kindref="member" tooltip="getOrderStatus, To get OrderStatus of requested Order">getOrderStatus</ref>(COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::String<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a1f069a29ffd8d51cd8bbb512f9d57406" kindref="member" tooltip="getExchangeOrderId, To get Exchange OrderId of requested Order">getExchangeOrderId</ref>(COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a526eb681e4458ff0855195dbf360e5dd" kindref="member" tooltip="run">run</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>marketDataEventRequired);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ab141f05e2a0d8a51fdadc57bf53d2cd8" kindref="member" tooltip="createNewOrder, To create a New Order for an instrument">createNewOrder</ref>(<ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</ref><sp/>*&amp;order,</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument,</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>&amp;qty=0,</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>&amp;discQty=0,</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode=CONSTANTS::CMD_OrderMode_BUY,</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderType<sp/>&amp;type<sp/>=<sp/>CONSTANTS::CMD_OrderType_LIMIT,</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderValidity<sp/>&amp;validity<sp/>=<sp/>CONSTANTS::CMD_OrderValidity_DAY,</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::ProductType<sp/>&amp;product<sp/>=<sp/>CONSTANTS::CMD_ProductType_DELIVERY,</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>&amp;price=0,</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>&amp;stopPrice=0</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a09b8988f91af279b0adab42363dad20d" kindref="member" tooltip="setStrategyComment, To set the current Startegy Comment, Whenever a strategy Response is sent to fron...">setStrategyComment</ref>(DATA_TYPES::StrategyComment<sp/>com);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a13e9de988513ba35eb22950c70c9f7f0" kindref="member" tooltip="sendNewOrder, To Send a new Order">sendNewOrder</ref>(DATA_TYPES::RiskStatus<sp/>&amp;riskStatus,</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument,</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</ref><sp/>*&amp;order,</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>COMMON::InstrumentOrderId<sp/>*orderId=0);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a969d2c63a85582133beeb6c657727ec7" kindref="member" tooltip="sendReplaceOrder, To send a replace Order">sendReplaceOrder</ref>(DATA_TYPES::RiskStatus<sp/>&amp;riskStatus,</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument,</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</ref><sp/>*&amp;order,</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateQuantity=</highlight><highlight class="keyword">true</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>COMMON::InstrumentOrderId<sp/>*orderId=0);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ae919ca5df7d0e8ecd686e5be7e24d737" kindref="member" tooltip="cancelOrder, To cancel an Order">cancelOrder</ref>(COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a639ea0f4f942043c2dbf3992d4fd8a96" kindref="member" tooltip="cancelOrders, To cancel all Orders ( Confirmed or Partial Filled )">cancelOrders</ref>();</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a1845d09e0349a9988e9fc1fcb5f31940" kindref="member" tooltip="sendCancelOrder, To Cancel Order">sendCancelOrder</ref>(DATA_TYPES::RiskStatus<sp/>&amp;riskStatus,<sp/>COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ad77850025e1e3f2b7f1dca5490126190" kindref="member" tooltip="insertNewOrderId, Creates and Inserts a new InstrumentOrderId Instance to the Instrument   for the re...">insertNewOrderId</ref>(<ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument" kindref="compound" tooltip="The Instrument class Provides all the information about Market Instrument.">COMMON::Instrument</ref><sp/>*instrument,</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>COMMON::InstrumentOrderId<sp/>*&amp;orderId,</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::OrderMode<sp/>&amp;mode);</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6f8f354555be544b381f9553d6ac05f8" kindref="member" tooltip="dumpLogOrderConfirmation. Prints OrderConfirmation fields">dumpLogOrderConfirmation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a904408111683cd8301ee1e364cd6011a" kindref="member" tooltip="dumpLogSingleOrder. Prints Single Order fields">dumpLogSingleOrder</ref>(<ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</ref><sp/>*order);</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1af669043763cb2f3b9faafd640a6c3557" kindref="member" tooltip="dumpLogInstrumentOrderId. Prints InstrumentOrderId Fields">dumpLogInstrumentOrderId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>COMMON::InstrumentOrderId<sp/>*orderId);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a8153eaa080b3a20c8e55a7c018979e0d" kindref="member" tooltip="processCurrentState Called as an event if Not configured to received marketData Event while Running A...">processCurrentState</ref>();</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a03606cff5f8b0488e6a14fd937df47a9" kindref="member" tooltip="onDerivedMarketDataEvent Called if Configured to received marketData Event while Running Algo...">onDerivedMarketDataEvent</ref>(UNSIGNED_LONG<sp/>symbolId);</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447" refid="class_a_p_i2_1_1_s_g_context_1a97093f90d86c4d3f8ca00fc6a7c593b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a97093f90d86c4d3f8ca00fc6a7c593b6" kindref="member" tooltip="processAdminCommand Called when ever a command from frontend is issued.">processAdminCommand</ref>(DATA_TYPES::CommandCategory<sp/>command){}</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/***NOTE<sp/>**<sp/>Disconnection<sp/>type<sp/>to<sp/>be<sp/>created<sp/>inside<sp/>Data_TYPES<sp/>and<sp/>constants<sp/>to<sp/>be<sp/>added<sp/>*/</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a3e87d0c000fd0770a13ce27d6ff662d4" kindref="member" tooltip="processDisconnection Called whenever a disconnection is received, disconnected entity to be determine...">processDisconnection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DATA_TYPES::CommandCategory<sp/>&amp;command);</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1afcf2afb6a7ee4528832a529e20b57f5d" kindref="member" tooltip="onModifyStrategy Called when strategy modify command is received">onModifyStrategy</ref>(AbstractUserParams<sp/>*newParams)<sp/>=0;</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a85d7ac789482c407911a66055690a76c" kindref="member" tooltip="onCommandTerminateStartegy Called when strategy receives Terminate Command from Frontend">onCommandTerminateStartegy</ref>();</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a5ec31bc87d26adcc8ad2674de078404d" kindref="member" tooltip="onCommandTerminateSqOffStrategy Called when strategy receives Terminate SqOff Command from Frontend...">onCommandTerminateSqOffStrategy</ref>();</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a0a5fe07c99f6552a5fca285d5ee4cacd" kindref="member" tooltip="onCommandPauseStartegy Called when strategy receives Pause Command from Frontend">onCommandPauseStartegy</ref>();</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a401a5daadf6b23661671a36c8de5b7e1" kindref="member" tooltip="onCommandRunStrategy Called when strategy receives Run Command from Frontend">onCommandRunStrategy</ref>();</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485" refid="class_a_p_i2_1_1_s_g_context_1a3702772e298bb872981d4dd982ccb9a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a3702772e298bb872981d4dd982ccb9a1" kindref="member" tooltip="setInitState, To Set Initial state of the algo">setInitState</ref>(){}</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight></codeline>
+<codeline lineno="493" refid="class_a_p_i2_1_1_s_g_context_1a7659de89afb69a32e1e2934d9d620429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a7659de89afb69a32e1e2934d9d620429" kindref="member" tooltip="processOrderConfirmation, Call back after OrderConfirmation Processing is done,   Not necessary to ov...">processOrderConfirmation</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation){}</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"></highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight></codeline>
+<codeline lineno="501" refid="class_a_p_i2_1_1_s_g_context_1a7aea075d2b1b88e18b0708a05ce0a60c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a7aea075d2b1b88e18b0708a05ce0a60c" kindref="member" tooltip="onNewConfirmed, Call back when a new Order gets confirmed by exchange.">onNewConfirmed</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"></highlight></codeline>
+<codeline lineno="508" refid="class_a_p_i2_1_1_s_g_context_1a3628f6c31070455a4b994e1b6e763ebe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a3628f6c31070455a4b994e1b6e763ebe" kindref="member" tooltip="onReplaceRejected, Call back when a replace order gets rejected by the exchange">onReplaceRejected</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515" refid="class_a_p_i2_1_1_s_g_context_1add684084c3684e8034cea65cb35b0b6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1add684084c3684e8034cea65cb35b0b6f" kindref="member" tooltip="onCanceled, Call back when a cancel order gets accepted by the exchange">onCanceled</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="522" refid="class_a_p_i2_1_1_s_g_context_1ae4ad928457b9cb3d5defaa44640b41d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1ae4ad928457b9cb3d5defaa44640b41d3" kindref="member" tooltip="onCancelRejected, Call back when a cancel order gets rejected by the exchange">onCancelRejected</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529" refid="class_a_p_i2_1_1_s_g_context_1a702a97361711e4454518e657d9733ab6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a702a97361711e4454518e657d9733ab6" kindref="member" tooltip="onReplaced, Call back when a Order gets replaced sucessfully at the exchange.">onReplaced</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight></codeline>
+<codeline lineno="536" refid="class_a_p_i2_1_1_s_g_context_1aa74aca215d051a9dbf1d5e8ee9c1c837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1aa74aca215d051a9dbf1d5e8ee9c1c837" kindref="member" tooltip="onNewRejected, Call back when a new order gets rejected by the exchange">onNewReject</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543" refid="class_a_p_i2_1_1_s_g_context_1af4705af6aa2806b16882028cb3b85fd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1af4705af6aa2806b16882028cb3b85fd6" kindref="member" tooltip="onIOCCanceled, Call back when an IOC order gets canceled the exchange">onIOCCanceled</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;Confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight></codeline>
+<codeline lineno="550" refid="class_a_p_i2_1_1_s_g_context_1a6731a9753ec762623eb9737aaae97432" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a6731a9753ec762623eb9737aaae97432" kindref="member" tooltip="onFilled, Call back when an order gets filled at the exchange">onFilled</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="551"><highlight class="normal"></highlight></codeline>
+<codeline lineno="557" refid="class_a_p_i2_1_1_s_g_context_1a87e382522bc0622fdbe00ff598dfecaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context_1a87e382522bc0622fdbe00ff598dfecaa" kindref="member" tooltip="onPartialFill, Call back when an order gets partially filled at the exchange">onPartialFill</ref>(<ref refid="class_a_p_i2_1_1_order_confirmation" kindref="compound" tooltip="The OrderConfirmation class contains the Exchange Order Confirmation Message data.">OrderConfirmation</ref><sp/>&amp;confirmation,<sp/>COMMON::InstrumentOrderId<sp/>*orderId){}</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"></highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*********************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="561"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------Event<sp/>Calllback<sp/>Functions--------------------//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="562"><highlight class="normal"></highlight></codeline>
+<codeline lineno="563"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>();</highlight></codeline>
+<codeline lineno="569"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>&amp;<sp/>other<sp/>);<sp/></highlight><highlight class="comment">//<sp/>non<sp/>construction-copyable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="575"><highlight class="normal"></highlight></codeline>
+<codeline lineno="580"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>&amp;<sp/>operator=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_s_g_context" kindref="compound" tooltip="The SGContext class The main class to be inherited for creating a new Strategy.">SGContext</ref>&amp;<sp/>);<sp/></highlight><highlight class="comment">//<sp/>non<sp/>copyable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight></codeline>
+<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/>SGContextImpl<sp/>*pimpl;</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"></highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="589"><highlight class="normal"></highlight></codeline>
+<codeline lineno="590"><highlight class="normal">}<sp/></highlight><highlight class="comment">//namespace<sp/><sp/>API2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SGCONTEXT_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgContext.h"/>
+  </compounddef>
+</doxygen>

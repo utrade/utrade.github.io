@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -126,8 +121,11 @@ $(document).ready(function(){initNavTree('struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_inst
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6bd5cf326e5317a97e5bb940e7639059"><td class="memItemLeft" align="right" valign="top">SIGNED_LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a6bd5cf326e5317a97e5bb940e7639059">getOpenQty</a> ()</td></tr>
-<tr class="memdesc:a6bd5cf326e5317a97e5bb940e7639059"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOpenQty, To get the Open Quantity i,e BuyQty-SellQty  <a href="#a6bd5cf326e5317a97e5bb940e7639059">More...</a><br/></td></tr>
+<tr class="memdesc:a6bd5cf326e5317a97e5bb940e7639059"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOpenQty, To get the Open Quantity i,e Buy Qty-Sell Qty  <a href="#a6bd5cf326e5317a97e5bb940e7639059">More...</a><br/></td></tr>
 <tr class="separator:a6bd5cf326e5317a97e5bb940e7639059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061e14d8ea0f660c3e742c2b306a0323"><td class="memItemLeft" align="right" valign="top">SIGNED_LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a061e14d8ea0f660c3e742c2b306a0323">getTradedQty</a> (const DATA_TYPES::OrderMode &amp;mode)</td></tr>
+<tr class="memdesc:a061e14d8ea0f660c3e742c2b306a0323"><td class="mdescLeft">&#160;</td><td class="mdescRight">getTradedQty To get Traded Quantity at requested OrderMode  <a href="#a061e14d8ea0f660c3e742c2b306a0323">More...</a><br/></td></tr>
+<tr class="separator:a061e14d8ea0f660c3e742c2b306a0323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b437e372244c4a85e8407535907ac78"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::OrderMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a4b437e372244c4a85e8407535907ac78">getOpenSide</a> ()</td></tr>
 <tr class="memdesc:a4b437e372244c4a85e8407535907ac78"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOpenSide, To get Open Side Position, if BuyQty&gt;SellQty, returns API2::CONSTANTS::CMD_OrderMode_BUY else API2::CONSTANTS::CMD_OrderMode_SELL  <a href="#a4b437e372244c4a85e8407535907ac78">More...</a><br/></td></tr>
 <tr class="separator:a4b437e372244c4a85e8407535907ac78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,9 +138,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7615e0a698a69edbb9124796d6c77e15"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::PRICE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a7615e0a698a69edbb9124796d6c77e15">getAvgPrice</a> (const DATA_TYPES::OrderMode &amp;mode)</td></tr>
 <tr class="memdesc:a7615e0a698a69edbb9124796d6c77e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">getAvgPrice, Get Average Trade Price at requested OrderMode  <a href="#a7615e0a698a69edbb9124796d6c77e15">More...</a><br/></td></tr>
 <tr class="separator:a7615e0a698a69edbb9124796d6c77e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65ed0c55c4fbcfdd3665e3673c3866ea"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::QTY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a65ed0c55c4fbcfdd3665e3673c3866ea">getQuantity</a> (const DATA_TYPES::OptionMode &amp;mode)</td></tr>
-<tr class="memdesc:a65ed0c55c4fbcfdd3665e3673c3866ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">getQuantity, to get traded Quantity at requested Ordder Mode  <a href="#a65ed0c55c4fbcfdd3665e3673c3866ea">More...</a><br/></td></tr>
-<tr class="separator:a65ed0c55c4fbcfdd3665e3673c3866ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146408733d0fbe9d8b3e565ed63a79fc"><td class="memItemLeft" align="right" valign="top">UNSIGNED_LONG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a146408733d0fbe9d8b3e565ed63a79fc">getPendingQty</a> (const DATA_TYPES::OrderMode &amp;mode)</td></tr>
 <tr class="memdesc:a146408733d0fbe9d8b3e565ed63a79fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">getPendingQty, To get Quantity Pending (or not filled)  <a href="#a146408733d0fbe9d8b3e565ed63a79fc">More...</a><br/></td></tr>
 <tr class="separator:a146408733d0fbe9d8b3e565ed63a79fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,7 +167,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Average Price as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </dd></dl>
 
 </div>
 </div>
@@ -190,7 +185,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>getBookedPnl, To get Booked Pnl </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Booked PnL as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </dd></dl>
 
 </div>
 </div>
@@ -215,7 +210,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Mark to Market Pnl as DATA_TYPES::SIGNED_LONG in paisa ( to convert in Rupee, convert to float and divide by 100) </dd></dl>
 
 </div>
 </div>
@@ -232,7 +227,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>getOpenQty, To get the Open Quantity i,e BuyQty-SellQty </p>
+<p>getOpenQty, To get the Open Quantity i,e Buy Qty-Sell Qty </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -251,7 +246,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>getOpenSide, To get Open Side Position, if BuyQty&gt;SellQty, returns API2::CONSTANTS::CMD_OrderMode_BUY else API2::CONSTANTS::CMD_OrderMode_SELL </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>OpenSide as DATA_TYPES::OrderMode </dd></dl>
 
 </div>
 </div>
@@ -280,33 +275,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a65ed0c55c4fbcfdd3665e3673c3866ea"></a>
+<a class="anchor" id="a061e14d8ea0f660c3e742c2b306a0323"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DATA_TYPES::QTY API2::COMMON::InstrumentPosition::getQuantity </td>
+          <td class="memname">SIGNED_LONG API2::COMMON::InstrumentPosition::getTradedQty </td>
           <td>(</td>
-          <td class="paramtype">const DATA_TYPES::OptionMode &amp;&#160;</td>
+          <td class="paramtype">const DATA_TYPES::OrderMode &amp;&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>getQuantity, to get traded Quantity at requested Ordder Mode </p>
+<p>getTradedQty To get Traded Quantity at requested OrderMode </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td></td></tr>
+    <tr><td class="paramname">mode</td><td>DATA_TYPES::CMD_OrderMode </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>traded Qty as DATA_TYPES::QTY </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/utrade/Trinity/code/trunk-2/api2/headers/sgLib/<a class="el" href="sg_common_8h_source.html">sgCommon.h</a></li>
+<li>sgLib/<a class="el" href="sg_common_8h_source.html">sgCommon.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -314,7 +309,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>API2</b></li><li class="navelem"><b>COMMON</b></li><li class="navelem"><a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html">InstrumentPosition</a></li>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:32 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:07 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

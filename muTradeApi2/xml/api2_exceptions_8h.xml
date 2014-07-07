@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="api2_exceptions_8h" kind="file">
+    <compoundname>api2Exceptions.h</compoundname>
+    <includes local="no">exception</includes>
+    <incdepgraph>
+      <node id="0">
+        <label>api2Exceptions.h</label>
+        <link refid="api2Exceptions.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>exception</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_a_p_i2_1_1_unknown_type_exception" prot="public">API2::UnknownTypeException</innerclass>
+    <innerclass refid="struct_a_p_i2_1_1_duplicate_key_exception" prot="public">API2::DuplicateKeyException</innerclass>
+    <innerclass refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" prot="public">API2::MarketDataSubscriptionFailedException</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>api2_Exceptions_h</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>api2_Exceptions_h</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2<sp/>{</highlight></codeline>
+<codeline lineno="8" refid="struct_a_p_i2_1_1_unknown_type_exception" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_a_p_i2_1_1_unknown_type_exception" kindref="compound" tooltip="The UnknownTypeException struct.">UnknownTypeException</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::exception<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct_a_p_i2_1_1_unknown_type_exception_1a7d9f37742e3adc8c03d904c4096a0251" kindref="member" tooltip="what">what</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="struct_a_p_i2_1_1_duplicate_key_exception" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_a_p_i2_1_1_duplicate_key_exception" kindref="compound" tooltip="The DuplicateKeyException struct.">DuplicateKeyException</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::exception<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct_a_p_i2_1_1_duplicate_key_exception_1a4a73163379f369311af54eaae74096ee" kindref="member" tooltip="what">what</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" kindref="compound" tooltip="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::exception<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception_1a45cbba09c414050a5d5af854895e3eac" kindref="member" tooltip="what">what</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h"/>
+  </compounddef>
+</doxygen>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>muTrade API: /home/utrade/Trinity/code/trunk-2/api2/headers/api2Exceptions.h Source File</title>
+<title>muTrade API: api2Exceptions.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -114,31 +109,29 @@ $(document).ready(function(){initNavTree('api2_exceptions_8h_source.html','');})
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define api2_Exceptions_h</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;exception&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span>API2 {</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span>Exception {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_exception_1_1_unknown_type_detected.html">   10</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_exception_1_1_unknown_type_detected.html" title="The UnknownTypeDetected struct.">UnknownTypeDetected</a> : <span class="keyword">public</span> std::exception {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_exception_1_1_unknown_type_detected.html#ad28dd6902400245b8eb890a0c4952526" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;};</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_exception_1_1_duplicate_key_detected.html">   22</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_exception_1_1_duplicate_key_detected.html" title="The DuplicateKeyDetected struct.">DuplicateKeyDetected</a> : <span class="keyword">public</span> std::exception {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_exception_1_1_duplicate_key_detected.html#afda937f16a024e497e3ac6d8240c7123" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_exception_1_1_market_data_subscription_failed.html">   34</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_exception_1_1_market_data_subscription_failed.html" title="The MarketDataSubscriptionFailed struct.">MarketDataSubscriptionFailed</a> : <span class="keyword">public</span> std::exception {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_exception_1_1_market_data_subscription_failed.html#a8fdd7c3f47885fe8690feb6032fa9815" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_unknown_type_exception.html">    8</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_unknown_type_exception.html" title="The UnknownTypeException struct.">UnknownTypeException</a> : <span class="keyword">public</span> std::exception {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_unknown_type_exception.html#a7d9f37742e3adc8c03d904c4096a0251" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_duplicate_key_exception.html">   20</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_duplicate_key_exception.html" title="The DuplicateKeyException struct.">DuplicateKeyException</a> : <span class="keyword">public</span> std::exception {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_duplicate_key_exception.html#a4a73163379f369311af54eaae74096ee" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html" title="The MarketDataSubscriptionFailedException struct.">MarketDataSubscriptionFailedException</a> : <span class="keyword">public</span> std::exception {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="struct_a_p_i2_1_1_market_data_subscription_failed_exception.html#a45cbba09c414050a5d5af854895e3eac" title="what">what</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span> ();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_cb3b000d78973b98f34b960da68664fc.html">api2</a></li><li class="navelem"><a class="el" href="dir_48829958fd8680aa2336c1203ebcead2.html">headers</a></li><li class="navelem"><b>api2Exceptions.h</b></li>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:25 for muTrade API by
+    <li class="navelem"><b>api2Exceptions.h</b></li>
+    <li class="footer">Generated on Mon Jul 7 2014 12:30:54 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

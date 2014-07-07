@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
       <li><a href="functions_func.html#index_a"><span>a</span></a></li>
+      <li><a href="functions_func_0x62.html#index_b"><span>b</span></a></li>
       <li><a href="functions_func_0x63.html#index_c"><span>c</span></a></li>
       <li class="current"><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
@@ -138,11 +134,29 @@ $(document).ready(function(){initNavTree('functions_func_0x64.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>DerivedType()
+: <a class="el" href="class_a_p_i2_1_1_derived_type.html#a056bbd585fca7b3882405659c85b36d8">API2::DerivedType&lt; T &gt;</a>
+</li>
+<li>deSerialize()
+: <a class="el" href="class_a_p_i2_1_1_derived_type.html#af0921a26c6979402022919535e0f168d">API2::DerivedType&lt; T &gt;</a>
+, <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#acaf6b18d9b234bd559615f081790c9c6">API2::AbstractUserParams</a>
+, <a class="el" href="class_a_p_i2_1_1_derived_type.html#a4b5c5630b2df8b85709fd1d72525c014">API2::DerivedType&lt; T &gt;</a>
+</li>
+<li>deSerializeFun()
+: <a class="el" href="class_a_p_i2_1_1_base_type.html#a61b22ca8dbcfce462770ae926c0e1896">API2::BaseType</a>
+, <a class="el" href="class_a_p_i2_1_1_derived_type.html#a8642ff2eae11343e908d2f65f083050f">API2::DerivedType&lt; T &gt;</a>
+</li>
 <li>dump()
-: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#aefb6ba524d176aa2a87adfdae54b6c85">API2::COMMON::MktData</a>
+: <a class="el" href="class_a_p_i2_1_1_base_type.html#a1601c3b7107c242a4d7fda1bd3747cb4">API2::BaseType</a>
+, <a class="el" href="class_a_p_i2_1_1_derived_type.html#ac0d22377803e953a28f69dcd468f3f0b">API2::DerivedType&lt; T &gt;</a>
+, <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#a4181644b10e101a4ac69dc0f4b723c1c">API2::AbstractUserParams</a>
+, <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#aefb6ba524d176aa2a87adfdae54b6c85">API2::COMMON::MktData</a>
 , <a class="el" href="struct_a_p_i2_1_1_symbol_static_data.html#a07b71fafcd8de5f381348df218c6fd85">API2::SymbolStaticData</a>
-, <a class="el" href="class_a_p_i2_1_1_single_order.html#adf27a836445ead05dc2c39b4dd057e7f">API2::SingleOrder</a>
 , <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a02ece472ddc1d59ca477db219838866a">API2::OrderConfirmation</a>
+, <a class="el" href="class_a_p_i2_1_1_single_order.html#adf27a836445ead05dc2c39b4dd057e7f">API2::SingleOrder</a>
+</li>
+<li>dumpImpl()
+: <a class="el" href="class_a_p_i2_1_1_derived_type.html#a1ddbd414c7531a7fa8157f2d83230379">API2::DerivedType&lt; T &gt;</a>
 </li>
 <li>dumpLogInstrumentOrderId()
 : <a class="el" href="class_a_p_i2_1_1_s_g_context.html#af669043763cb2f3b9faafd640a6c3557">API2::SGContext</a>
@@ -159,7 +173,7 @@ $(document).ready(function(){initNavTree('functions_func_0x64.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:43 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:12 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

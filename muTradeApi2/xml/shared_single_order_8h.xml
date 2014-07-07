@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="shared_single_order_8h" kind="file">
+    <compoundname>sharedSingleOrder.h</compoundname>
+    <includes refid="api_data_types_8h" local="no">apiDataTypes.h</includes>
+    <includes refid="sg_symbol_data_defines_8h" local="no">sgSymbolDataDefines.h</includes>
+    <includes refid="shared_commands_8h" local="no">sharedCommands.h</includes>
+    <includes refid="shared_response_8h" local="no">sharedResponse.h</includes>
+    <includedby refid="sg_context_8h" local="no">sgLib/sgContext.h</includedby>
+    <incdepgraph>
+      <node id="164">
+        <label>sgSymbolDataDefines.h</label>
+        <link refid="sg_symbol_data_defines_8h_source"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>stdint.h</label>
+      </node>
+      <node id="163">
+        <label>string</label>
+      </node>
+      <node id="162">
+        <label>map</label>
+      </node>
+      <node id="158">
+        <label>sharedSingleOrder.h</label>
+        <link refid="sharedSingleOrder.h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="168">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="167">
+        <label>sharedSingleOrder.h</label>
+        <link refid="sharedSingleOrder.h"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_a_p_i2_1_1_single_order" prot="public">API2::SingleOrder</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SHARED_SINGLE_ORDER_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SHARED_SINGLE_ORDER_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;apiDataTypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sgSymbolDataDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedCommands.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedResponse.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SingleOrderImpl;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_a_p_i2_1_1_single_order" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_p_i2_1_1_single_order" kindref="compound" tooltip="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>SingleOrderImpl<sp/>*pimpl;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1adf27a836445ead05dc2c39b4dd057e7f" kindref="member" tooltip="dump">dump</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order_1aa6f1357a05c284c16a78f4c201d07dfe" kindref="member" tooltip="ApiSingleOrder.">SingleOrder</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a40f1568727207de3f1e72c40d8b2081a" kindref="member" tooltip="initialize">initialize</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order_1aa6f1357a05c284c16a78f4c201d07dfe" kindref="member" tooltip="ApiSingleOrder.">SingleOrder</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbolId,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound" tooltip="The API_SymbolStaticData struct.">SymbolStaticData</ref>&amp;<sp/>staticData,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::CLIENT_ID<sp/>clientId,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/>quantity,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/>disclosedQuantity,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/>price,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/>stopPrice,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderType<sp/>type,<sp/></highlight><highlight class="comment">//<sp/>Limit,<sp/>Market,<sp/>Stop,<sp/>Stop<sp/>Limit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::ProductType<sp/>product,<sp/></highlight><highlight class="comment">//<sp/>Intraday,<sp/>Delivery</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/>mode,<sp/></highlight><highlight class="comment">//<sp/>Buy,<sp/>Sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderValidity<sp/>validity,<sp/></highlight><highlight class="comment">//<sp/>GTD,<sp/>FOK<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::TRADER_ID<sp/>traderId);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="class_a_p_i2_1_1_single_order_1a40f1568727207de3f1e72c40d8b2081a" kindref="member" tooltip="initialize">initialize</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbolId,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound" tooltip="The API_SymbolStaticData struct.">SymbolStaticData</ref>&amp;<sp/>staticData,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::CLIENT_ID<sp/>clientId,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/>quantity,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/>disclosedQuantity,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/>price,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/>stopPrice,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderType<sp/>type,<sp/></highlight><highlight class="comment">//<sp/>Limit,<sp/>Market,<sp/>Stop,<sp/>Stop<sp/>Limit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::ProductType<sp/>product,<sp/></highlight><highlight class="comment">//<sp/>Intraday,<sp/>Delivery</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/>mode,<sp/></highlight><highlight class="comment">//<sp/>Buy,<sp/>Sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::OrderValidity<sp/>validity,<sp/></highlight><highlight class="comment">//<sp/>GTD,<sp/>FOK<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DATA_TYPES::TRADER_ID<sp/>traderId);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>SIGNED_LONG<sp/><ref refid="class_a_p_i2_1_1_single_order_1aab369ee83666d5a8866b076d922162fa" kindref="member" tooltip="getExchangeSecurityId">getExchangeSecurityId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::ExchangeId<sp/><ref refid="class_a_p_i2_1_1_single_order_1aa325a9347526339cbb4f9ff74ec8dc5e" kindref="member" tooltip="getExchangeId returns Exchange ID">getExchangeId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLORDER_ID<sp/><ref refid="class_a_p_i2_1_1_single_order_1a9583a7b568a2003af1c78a006c8bebef" kindref="member" tooltip="getClOrdId To get the unique Client Order Id (unique to the system)">getClOrdId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLORDER_ID<sp/><ref refid="class_a_p_i2_1_1_single_order_1a74887309b74ccdadaa8a2965bbd0d8d1" kindref="member" tooltip="getOrigClientOrderId If the order is modified, it returns the Parent Order&amp;#39;s ClientOrderId">getOrigClientOrderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_a_p_i2_1_1_single_order_1abeb2250a5b8f177be6b57326bbd29854" kindref="member" tooltip="getExchangeOrderId It returns Exchange&amp;#39;s Order Id">getExchangeOrderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::SYMBOL_ID<sp/><ref refid="class_a_p_i2_1_1_single_order_1a64a959d8130caf531784efd0a2e59926" kindref="member" tooltip="getSymbolId To get SymbolId">getSymbolId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::CLIENT_ID<sp/><ref refid="class_a_p_i2_1_1_single_order_1aaa873364cebec88630b4ea9b512eaef8" kindref="member" tooltip="getClientId">getClientId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_single_order_1ae83e842fe2651eda4b45179da81f7d34" kindref="member" tooltip="getQuantity To get Order quantity">getQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_single_order_1adcd794066bd9c5a4ef8ac4d4dc1b64e7" kindref="member" tooltip="getDisclosedQuantity To get Disclosed Order Qty">getDisclosedQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_single_order_1a9885de5b864534cb5ee210e9ebc165de" kindref="member" tooltip="getFilledQuantity To get Filled Quantity">getFilledQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::QTY<sp/><ref refid="class_a_p_i2_1_1_single_order_1ad0eb23ff72ec36877382651aab12ebc0" kindref="member" tooltip="getOldQuantity">getOldQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_single_order_1a94e904d20765dbe9dc8f551e9131a86a" kindref="member" tooltip="getPrice To get the Limit price provided for order">getPrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_single_order_1a0056cb82362c1929781c08282c74dbb4" kindref="member" tooltip="getStopPrice To get the stop Price provided for Order">getStopPrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::EXCHANGE_TIME<sp/><ref refid="class_a_p_i2_1_1_single_order_1aef1b4d951031f241bb085ae45377ca15" kindref="member" tooltip="getExchangeEntryTime To get the Time for Order entry at Exchange">getExchangeEntryTime</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::EXCHANGE_TIME<sp/><ref refid="class_a_p_i2_1_1_single_order_1a1fdd8bbb3e497f3172466e0957fdd16f" kindref="member" tooltip="getExchangeModifyTime To get the Time for Order modification at Exchange">getExchangeModifyTime</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::TransactionType<sp/><ref refid="class_a_p_i2_1_1_single_order_1adeec84f5228d3392fed271ae20196edf" kindref="member" tooltip="getTransactionType To get thr transaction type for the Order tbd">getTransactionType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderMode<sp/><ref refid="class_a_p_i2_1_1_single_order_1aace36f50716b3e08ecc237781b3246b8" kindref="member" tooltip="getOrderMode To get the Order Mode">getOrderMode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::SecurityType<sp/><ref refid="class_a_p_i2_1_1_single_order_1a6bec3cce7cb07ed8347dbdb49e494bca" kindref="member" tooltip="getSecurityType">getSecurityType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OptionMode<sp/><ref refid="class_a_p_i2_1_1_single_order_1a5621f5611f1b007691b159fc5cdcecba" kindref="member" tooltip="getOptionMode">getOptionMode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::PRICE<sp/><ref refid="class_a_p_i2_1_1_single_order_1a06316b4f9f74b63c21342f15798e4232" kindref="member" tooltip="getOptionStrikePrice">getOptionStrikePrice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::EXPIRY_DATE<sp/><sp/><ref refid="class_a_p_i2_1_1_single_order_1a658f0353ae54bb5323a8574c3230c6ec" kindref="member" tooltip="getExpiryDate">getExpiryDate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OptionAttribute<sp/><ref refid="class_a_p_i2_1_1_single_order_1aa07bbb21fb434e99e0ad2315eb0f061d" kindref="member" tooltip="getOptionAttribute">getOptionAttribute</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderValidity<sp/><ref refid="class_a_p_i2_1_1_single_order_1a256ad70ca6364e58e9570a01171f545d" kindref="member" tooltip="getOrderValidity">getOrderValidity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::ProductType<sp/><ref refid="class_a_p_i2_1_1_single_order_1ad7dd2468cb1fedab48057cd7dd98c075" kindref="member" tooltip="getProductType">getProductType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderType<sp/><ref refid="class_a_p_i2_1_1_single_order_1aec0fe641e3bb0c9b866b2ad221a9edd1" kindref="member" tooltip="getOrderType">getOrderType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::InstrumentType<sp/><ref refid="class_a_p_i2_1_1_single_order_1afb63f5032c3ee33e1c977b3a6c3521be" kindref="member" tooltip="getInstrumentType">getInstrumentType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::SETTLEMENT_PERIOD<sp/><ref refid="class_a_p_i2_1_1_single_order_1a7009cc58bb0799fc898066ac16b29b72" kindref="member" tooltip="getSettlementPeriod">getSettlementPeriod</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::OrderStatus<sp/><ref refid="class_a_p_i2_1_1_single_order_1a7a4c30c1de34991c557cfc62fefef68b" kindref="member" tooltip="getOrderStatus">getOrderStatus</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_a_p_i2_1_1_single_order_1a705bb6400ace761dcb7b47a6eb26492c" kindref="member" tooltip="getSymbol">getSymbol</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_a_p_i2_1_1_single_order_1a7535e0a3966d49f1ddf68bd87b174be1" kindref="member" tooltip="getSeries">getSeries</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>UNSIGNED_INTEGER<sp/><ref refid="class_a_p_i2_1_1_single_order_1a20a7f85ee7070d46c5d8b815ed638839" kindref="member" tooltip="getTokenId">getTokenId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Required<sp/>for<sp/>BSE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1afa73822430c2742cd2c0a3b1d087e087" kindref="member" tooltip="getDeltaQty">getDeltaQty</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_TYPES::TRADER_ID<sp/><ref refid="class_a_p_i2_1_1_single_order_1a1721ebefc518df8a2778abae9d604d4b" kindref="member" tooltip="getTraderId">getTraderId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1abb9a1a8e18fec11a161a5cb486381666" kindref="member" tooltip="setClOrdId">setClOrdId</ref>(DATA_TYPES::CLORDER_ID<sp/>clOrdId);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a6c27c70364b6715684e915e406ec48fd" kindref="member" tooltip="setOrigClientOrderId">setOrigClientOrderId</ref>(DATA_TYPES::CLORDER_ID<sp/>origClientOrderId)<sp/>;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a411efe2e7dd4080416392a2247268528" kindref="member" tooltip="setExchangeOrderId">setExchangeOrderId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>exchangeOrderId[]);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a411efe2e7dd4080416392a2247268528" kindref="member" tooltip="setExchangeOrderId">setExchangeOrderId</ref>(std::string<sp/>exchangeOrderId);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ae0b03ccb44dd80e14ca40d5ae459ec95" kindref="member" tooltip="setSymbolId">setSymbolId</ref>(DATA_TYPES::SYMBOL_ID<sp/>symbolId);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a77a799ca5c1e545dba6fe9be6be6ecb2" kindref="member" tooltip="setClientId">setClientId</ref>(DATA_TYPES::CLIENT_ID<sp/>clientId);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a6b79cf19122fad3d1f5ae3477f4150c0" kindref="member" tooltip="setQuantity">setQuantity</ref>(DATA_TYPES::QTY<sp/>quantity)<sp/>;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a5b77b15bf65aa531d8144d056767fae0" kindref="member" tooltip="setDisclosedQuantity">setDisclosedQuantity</ref>(DATA_TYPES::QTY<sp/>disclosedQuantity);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1aa968bc7c3f74dd1b4bbf2213bc25e1af" kindref="member" tooltip="setFilledQuantity">setFilledQuantity</ref>(DATA_TYPES::QTY<sp/>filledQuantity);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ad9b9633dc4513d6d31ed09efec046fa8" kindref="member" tooltip="setOldQuantity">setOldQuantity</ref>(DATA_TYPES::QTY<sp/>oldQuantity)<sp/>;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ac7365ab0c1b59c10c3dfc79366193673" kindref="member" tooltip="setPrice">setPrice</ref>(DATA_TYPES::PRICE<sp/>price);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a6828bd5ddd00d5cfe0594afb7b5fbc13" kindref="member" tooltip="setStopPrice">setStopPrice</ref>(DATA_TYPES::PRICE<sp/>stopPrice)<sp/>;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a2c82cc5efa96cc5437c04590427f973e" kindref="member" tooltip="setOptionStrikePrice">setOptionStrikePrice</ref>(DATA_TYPES::PRICE<sp/>strikePrice)<sp/>;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a5a22afab70ba6be6b58565bf299d1388" kindref="member" tooltip="setExpiryDate">setExpiryDate</ref>(DATA_TYPES::EXPIRY_DATE<sp/>expiryDate);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ad4272f16e98d3d7071d2836e52cdbd85" kindref="member" tooltip="setExchangeEntryTime">setExchangeEntryTime</ref>(DATA_TYPES::EXCHANGE_TIME<sp/>exchangeEntryTime)<sp/>;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1aabb08f44d026b11b8cd281041817c79d" kindref="member" tooltip="setExchangeModifyTime">setExchangeModifyTime</ref>(DATA_TYPES::EXCHANGE_TIME<sp/>exchangeModifyTime)<sp/>;</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a869aef954f9ae0f0619beb28e312c988" kindref="member" tooltip="setTransactionType">setTransactionType</ref>(DATA_TYPES::TransactionType<sp/>transactionType);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a952ff552cc23a34d42f81deaa62959c8" kindref="member" tooltip="setOrderMode">setOrderMode</ref>(DATA_TYPES::OrderMode<sp/>orderMode)<sp/>;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a1fe75fe66191bee3df3f69b5d9b3dd75" kindref="member" tooltip="setSecurityType">setSecurityType</ref>(DATA_TYPES::SecurityType<sp/>securityType)<sp/>;</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a2afccefbe06b28f0e63fcf41fe500357" kindref="member" tooltip="setOptionMode">setOptionMode</ref>(DATA_TYPES::OptionMode<sp/>optionMode)<sp/>;</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a21a30501f824b4325152ffa499dc1735" kindref="member" tooltip="setOptionAttribute">setOptionAttribute</ref>(DATA_TYPES::OptionAttribute<sp/>optionAttribute)<sp/>;</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ab328771801e0f7e92115966a499495a3" kindref="member" tooltip="setOrderValidity">setOrderValidity</ref>(DATA_TYPES::OrderValidity<sp/>orderValidity)<sp/>;</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ac89c2c4e0e8c898d21c597aa44541158" kindref="member" tooltip="setProductType">setProductType</ref>(DATA_TYPES::ProductType<sp/>productType)<sp/>;</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a3626e639531ac15568b190a21a393d92" kindref="member" tooltip="setOrderType">setOrderType</ref>(DATA_TYPES::OrderType<sp/>orderType)<sp/>;</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a09d883b738c0a35077fc711adb8b0a25" kindref="member" tooltip="setInstrumentType">setInstrumentType</ref>(DATA_TYPES::InstrumentType<sp/>instrumentType)<sp/>;</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1af914d9b983de6435ba85dca1b3688b8b" kindref="member" tooltip="setSettlementPeriod">setSettlementPeriod</ref>(DATA_TYPES::SETTLEMENT_PERIOD<sp/>settlementPeriod)<sp/>;</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1aec2e0123a97684d70a1b02e4e2c42b08" kindref="member" tooltip="setOrderStatus">setOrderStatus</ref>(DATA_TYPES::OrderStatus<sp/>orderStatus)<sp/>;</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a715489ec06c7713d7df2ca7d19b31dd0" kindref="member" tooltip="setSymbol">setSymbol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*symbol<sp/>)<sp/>;</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"></highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a247f75ccdba017be3ee525e7cac919a3" kindref="member" tooltip="setSeries">setSeries</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*series)<sp/>;</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1a84b6c742e808c8897785a42f8bfcfe43" kindref="member" tooltip="setTraderId">setTraderId</ref>(DATA_TYPES::TRADER_ID<sp/>traderId);</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_p_i2_1_1_single_order_1ada2c21e8603dfff7267657f2df1ce8c6" kindref="member" tooltip="setTokenId">setTokenId</ref>(UNSIGNED_INTEGER<sp/>val)<sp/>;</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight></codeline>
+<codeline lineno="486"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="487"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="488"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h"/>
+  </compounddef>
+</doxygen>

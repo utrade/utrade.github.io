@@ -1,0 +1,133 @@
+\hypertarget{class_a_p_i2_1_1_user_params}{\section{A\-P\-I2\-:\-:User\-Params Class Reference}
+\label{class_a_p_i2_1_1_user_params}\index{A\-P\-I2\-::\-User\-Params@{A\-P\-I2\-::\-User\-Params}}
+}
+
+
+The A\-P\-I2\-\_\-\-User\-Params class.  
+
+
+
+
+{\ttfamily \#include $<$api2\-User\-Commands.\-h$>$}
+
+Inheritance diagram for A\-P\-I2\-:\-:User\-Params\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_p_i2_1_1_user_params}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_p_i2_1_1_user_params_a99f3b245caaae652926cc585182c83e2}{User\-Params} (const std\-::string \&frontend\-Design, const char $\ast$buf=N\-U\-L\-L)
+\begin{DoxyCompactList}\small\item\em A\-P\-I2\-\_\-\-User\-Params. \end{DoxyCompactList}\item 
+int \hyperlink{class_a_p_i2_1_1_user_params_a3d046f602053a684cfa7d9b27018afe4}{serialize} (char $\ast$buf, int api\-Index)
+\begin{DoxyCompactList}\small\item\em serialize \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\User\-Params\-Error \hyperlink{class_a_p_i2_1_1_user_params_a4c04efbed71fffeda8248da31a44060d}{set\-Value} (const std\-::string \&key, const T \&val)
+\begin{DoxyCompactList}\small\item\em set\-Value \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\User\-Params\-Error \hyperlink{class_a_p_i2_1_1_user_params_a3019a2130c8e8472eafaa7d99b235574}{get\-Value} (const std\-::string \&key, T \&val)
+\begin{DoxyCompactList}\small\item\em get\-Value \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The A\-P\-I2\-\_\-\-User\-Params class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_a_p_i2_1_1_user_params_a99f3b245caaae652926cc585182c83e2}{\index{A\-P\-I2\-::\-User\-Params@{A\-P\-I2\-::\-User\-Params}!User\-Params@{User\-Params}}
+\index{User\-Params@{User\-Params}!API2::UserParams@{A\-P\-I2\-::\-User\-Params}}
+\subsubsection[{User\-Params}]{\setlength{\rightskip}{0pt plus 5cm}A\-P\-I2\-::\-User\-Params\-::\-User\-Params (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{frontend\-Design, }
+\item[{const char $\ast$}]{buf = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_user_params_a99f3b245caaae652926cc585182c83e2}
+
+
+A\-P\-I2\-\_\-\-User\-Params. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frontend\-Design} & \\
+\hline
+{\em buf} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{struct_a_p_i2_1_1_duplicate_key_exception}{Duplicate\-Key\-Exception}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_p_i2_1_1_user_params_a3019a2130c8e8472eafaa7d99b235574}{\index{A\-P\-I2\-::\-User\-Params@{A\-P\-I2\-::\-User\-Params}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!API2::UserParams@{A\-P\-I2\-::\-User\-Params}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ User\-Params\-Error A\-P\-I2\-::\-User\-Params\-::get\-Value (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key, }
+\item[{T \&}]{val}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_a_p_i2_1_1_user_params_a3019a2130c8e8472eafaa7d99b235574}
+
+
+get\-Value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_user_params_a3d046f602053a684cfa7d9b27018afe4}{\index{A\-P\-I2\-::\-User\-Params@{A\-P\-I2\-::\-User\-Params}!serialize@{serialize}}
+\index{serialize@{serialize}!API2::UserParams@{A\-P\-I2\-::\-User\-Params}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}int A\-P\-I2\-::\-User\-Params\-::serialize (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{buf, }
+\item[{int}]{api\-Index}
+\end{DoxyParamCaption}
+)}}\label{class_a_p_i2_1_1_user_params_a3d046f602053a684cfa7d9b27018afe4}
+
+
+serialize 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buf} & \\
+\hline
+{\em api\-Index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_a_p_i2_1_1_user_params_a4c04efbed71fffeda8248da31a44060d}{\index{A\-P\-I2\-::\-User\-Params@{A\-P\-I2\-::\-User\-Params}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!API2::UserParams@{A\-P\-I2\-::\-User\-Params}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ User\-Params\-Error A\-P\-I2\-::\-User\-Params\-::set\-Value (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key, }
+\item[{const T \&}]{val}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_a_p_i2_1_1_user_params_a4c04efbed71fffeda8248da31a44060d}
+
+
+set\-Value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+api2\-User\-Commands.\-h\end{DoxyCompactItemize}

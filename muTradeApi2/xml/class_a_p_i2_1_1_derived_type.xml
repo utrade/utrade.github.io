@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_derived_type" kind="class" prot="public">
+    <compoundname>API2::DerivedType</compoundname>
+    <basecompoundref refid="class_a_p_i2_1_1_base_type" prot="public" virt="non-virtual">API2::BaseType</basecompoundref>
+    <includes refid="base_commands_8h" local="no">baseCommands.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a692591b6178af3308ad758e8a570688e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::DerivedType&lt; T &gt;::CREATE_FIELD</definition>
+        <argsstring>(T, Value)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type>T</type>
+        </param>
+        <param>
+          <type>Value</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1aa91578940467936bc7a65f43d499ec9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::DerivedType&lt; T &gt;::CREATE_FIELD</definition>
+        <argsstring>(UNSIGNED_INTEGER, Count)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type>UNSIGNED_INTEGER</type>
+        </param>
+        <param>
+          <type>Count</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a056bbd585fca7b3882405659c85b36d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>API2::DerivedType&lt; T &gt;::DerivedType</definition>
+        <argsstring>(const std::string &amp;type)</argsstring>
+        <name>DerivedType</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_derived_type" kindref="compound">DerivedType</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="82" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a68d4075cacb593552c94782f0fd9c522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>API2::DerivedType&lt; T &gt;::DerivedType</definition>
+        <argsstring>()</argsstring>
+        <name>DerivedType</name>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_derived_type" kindref="compound">DerivedType</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="87" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1aefe2b5f9a59fe42cfaa11325e29c06c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::printType</definition>
+        <argsstring>()</argsstring>
+        <name>printType</name>
+        <reimplements refid="class_a_p_i2_1_1_base_type_1a1095fa68c69967bf9fd295289c7b47f6">printType</reimplements>
+        <briefdescription>
+<para>printType </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="93" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a52d318a8f7b1044f2230098e01443c09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::serializeFun</definition>
+        <argsstring>(char *buf, int &amp;bytes)</argsstring>
+        <name>serializeFun</name>
+        <reimplements refid="class_a_p_i2_1_1_base_type_1a3fca51717876f50b1c9b800b3eab147a">serializeFun</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serializeFun </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="103" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a8642ff2eae11343e908d2f65f083050f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::deSerializeFun</definition>
+        <argsstring>(const char *buf, int &amp;offset)</argsstring>
+        <name>deSerializeFun</name>
+        <reimplements refid="class_a_p_i2_1_1_base_type_1a61b22ca8dbcfce462770ae926c0e1896">deSerializeFun</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerializeFun </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="113" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1ad76d9a31687ac3293bf70616b140b66b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::serialize</definition>
+        <argsstring>(const MapULong &amp;mapULong, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const MapULong &amp;</type>
+          <declname>mapULong</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mapULong</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="129" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="125" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a4b5c5630b2df8b85709fd1d72525c014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::deSerialize</definition>
+        <argsstring>(MapULong &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>MapULong &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="147" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="146" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1aa9a44ffb06a192f2c393de76f99b090d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class M</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::serialize</definition>
+        <argsstring>(const M &amp;value, char *buf, int &amp;bytes)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>const M &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>serialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="169" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="167" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1af0921a26c6979402022919535e0f168d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class M</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::deSerialize</definition>
+        <argsstring>(M &amp;val, const char *buf, int &amp;offset)</argsstring>
+        <name>deSerialize</name>
+        <param>
+          <type>M &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>deSerialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="181" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1ac0d22377803e953a28f69dcd468f3f0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <reimplements refid="class_a_p_i2_1_1_base_type_1a1601c3b7107c242a4d7fda1bd3747cb4">dump</reimplements>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="190" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a1ddbd414c7531a7fa8157f2d83230379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class M</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::dumpImpl</definition>
+        <argsstring>(const M &amp;val)</argsstring>
+        <name>dumpImpl</name>
+        <param>
+          <type>const M &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>dumpImpl </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="200" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a38490dff49a40bb45b514a040b60fbe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::dumpImpl</definition>
+        <argsstring>(const char &amp;val)</argsstring>
+        <name>dumpImpl</name>
+        <param>
+          <type>const char &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>dumpImpl </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="209" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a0b16bf6a210730e844c2bd1d7061d989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::dumpImpl</definition>
+        <argsstring>(const UNSIGNED_CHARACTER &amp;val)</argsstring>
+        <name>dumpImpl</name>
+        <param>
+          <type>const UNSIGNED_CHARACTER &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>dumpImpl </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="218" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_derived_type_1a36c7d5b71b0f2ddbad12948a024b17b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::DerivedType&lt; T &gt;::dumpImpl</definition>
+        <argsstring>(const MapULong &amp;val)</argsstring>
+        <name>dumpImpl</name>
+        <param>
+          <type>const MapULong &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>dumpImpl </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="227" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="226" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_derived_type" kindref="compound">DerivedType</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>API2::BaseType</label>
+        <link refid="class_a_p_i2_1_1_base_type"/>
+      </node>
+      <node id="6">
+        <label>API2::DerivedType&lt; T &gt;</label>
+        <link refid="class_a_p_i2_1_1_derived_type"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>API2::BaseType</label>
+        <link refid="class_a_p_i2_1_1_base_type"/>
+      </node>
+      <node id="8">
+        <label>API2::DerivedType&lt; T &gt;</label>
+        <link refid="class_a_p_i2_1_1_derived_type"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" line="69" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/baseCommands.h" bodystart="68" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_base_type_1a91077bf00ade01f2922c8503e061d711" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>BaseType</name></member>
+      <member refid="class_a_p_i2_1_1_base_type_1abace02477dc49b409d2e5cdad941e362" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>BaseType</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a692591b6178af3308ad758e8a570688e" prot="private" virt="non-virtual"><scope>API2::DerivedType</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1aa91578940467936bc7a65f43d499ec9f" prot="private" virt="non-virtual"><scope>API2::DerivedType</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a056bbd585fca7b3882405659c85b36d8" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>DerivedType</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a68d4075cacb593552c94782f0fd9c522" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>DerivedType</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a4b5c5630b2df8b85709fd1d72525c014" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>deSerialize</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1af0921a26c6979402022919535e0f168d" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>deSerialize</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a8642ff2eae11343e908d2f65f083050f" prot="public" virt="virtual"><scope>API2::DerivedType</scope><name>deSerializeFun</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1ac0d22377803e953a28f69dcd468f3f0b" prot="public" virt="virtual"><scope>API2::DerivedType</scope><name>dump</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a1ddbd414c7531a7fa8157f2d83230379" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>dumpImpl</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a38490dff49a40bb45b514a040b60fbe3" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>dumpImpl</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a0b16bf6a210730e844c2bd1d7061d989" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>dumpImpl</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a36c7d5b71b0f2ddbad12948a024b17b8" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>dumpImpl</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1aefe2b5f9a59fe42cfaa11325e29c06c8" prot="public" virt="virtual"><scope>API2::DerivedType</scope><name>printType</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1ad76d9a31687ac3293bf70616b140b66b" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>serialize</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1aa9a44ffb06a192f2c393de76f99b090d" prot="public" virt="non-virtual"><scope>API2::DerivedType</scope><name>serialize</name></member>
+      <member refid="class_a_p_i2_1_1_derived_type_1a52d318a8f7b1044f2230098e01443c09" prot="public" virt="virtual"><scope>API2::DerivedType</scope><name>serializeFun</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

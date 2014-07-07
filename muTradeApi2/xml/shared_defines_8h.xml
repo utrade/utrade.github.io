@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="shared_defines_8h" kind="file">
+    <compoundname>sharedDefines.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">map</includes>
+    <includedby refid="serialize_commands_8h" local="no">serializeCommands.h</includedby>
+    <includedby refid="api_data_types_8h" local="no">apiDataTypes.h</includedby>
+    <includedby refid="sg_common_8h" local="no">sgLib/sgCommon.h</includedby>
+    <includedby refid="shared_commands_8h" local="no">sharedCommands.h</includedby>
+    <incdepgraph>
+      <node id="135">
+        <label>stdint.h</label>
+      </node>
+      <node id="136">
+        <label>map</label>
+      </node>
+      <node id="134">
+        <label>sharedDefines.h</label>
+        <link refid="sharedDefines.h"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="138">
+        <label>serializeCommands.h</label>
+        <link refid="serialize_commands_8h_source"/>
+      </node>
+      <node id="143">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="140">
+        <label>apiStructs.h</label>
+        <link refid="api_structs_8h_source"/>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>apiDataTypes.h</label>
+        <link refid="api_data_types_8h_source"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>sharedCommands.h</label>
+        <link refid="shared_commands_8h_source"/>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>sharedDefines.h</label>
+        <link refid="sharedDefines.h"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="shared_defines_8h_1ab8b52859cfbaa8a9244688a4f3bd0252" prot="public" static="no">
+        <name>EXCHANGE_ORDERID_SIZE</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="5" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1abf472855bc1390e145ee495da3cfba19" prot="public" static="no">
+        <name>TRADEID_SIZE</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="6" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1a416be006070317140fb4076128b8f8b7" prot="public" static="no">
+        <name>SYMBOL_SIZE</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="7" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1ae0b5d77e5288c8d424f01313a2a17d81" prot="public" static="no">
+        <name>SERIES_SIZE</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="8" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1af5899c5f824a6e22da8fcf0299c9ae2c" prot="public" static="no">
+        <name>API_REQUEST_SIZE</name>
+        <initializer>200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="9" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1a0de5edd3a690881343f239fd40ffef64" prot="public" static="no">
+        <name>MARKET_DATA_DEPTH_MAX</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1ac591d0b5bac8ac673f59346213aee569" prot="public" static="no">
+        <name>stringify</name>
+        <param><defname>name</defname></param>
+        <initializer># name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="22" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1ac5dc337208d9e937f5ae29989a450f63" prot="public" static="no">
+        <name>varString</name>
+        <param><defname>name</defname></param>
+        <initializer>stringify(name)&lt;&lt;&quot;:&quot;&lt;&lt;name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="23" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1a648c9417865c67ff262d2464579481d6" prot="public" static="no">
+        <name>OMM_DUMP_LOGS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="25" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1ae8467f98255a4a559972d32a3fa712c5" prot="public" static="no">
+        <name>MKTDATA_EVENT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="26" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="shared_defines_8h_1a9a914c6eba93bd49d3d8265ed1a9e22e" prot="public" static="no">
+        <name>USE_EXCHANGE_ORDER_ID_FOR_REFERENCE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="27" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="shared_defines_8h_1a507a4b1d68a233207398ffa09ea06eb8" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t UNSIGNED_CHARACTER</definition>
+        <argsstring></argsstring>
+        <name>UNSIGNED_CHARACTER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="11" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1a5298797f32bb2b2a298abbb37ca3589b" prot="public" static="no">
+        <type>uint16_t</type>
+        <definition>typedef uint16_t UNSIGNED_SHORT</definition>
+        <argsstring></argsstring>
+        <name>UNSIGNED_SHORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="12" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1a7a9833dbd3cc03ec0258a7a9d7d737b5" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>typedef uint32_t UNSIGNED_INTEGER</definition>
+        <argsstring></argsstring>
+        <name>UNSIGNED_INTEGER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="13" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1ababdf5c2d80688c7df16f4271fa74bcb" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t UNSIGNED_LONG</definition>
+        <argsstring></argsstring>
+        <name>UNSIGNED_LONG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="14" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1a61c255cb304ba80b450ff4beada32015" prot="public" static="no">
+        <type>int64_t</type>
+        <definition>typedef int64_t SIGNED_LONG</definition>
+        <argsstring></argsstring>
+        <name>SIGNED_LONG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="15" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1a17d514765831f50e147ce057c29737e5" prot="public" static="no">
+        <type>std::map&lt; UNSIGNED_LONG, UNSIGNED_LONG &gt;</type>
+        <definition>typedef std::map&lt;UNSIGNED_LONG, UNSIGNED_LONG&gt; MapULong</definition>
+        <argsstring></argsstring>
+        <name>MapULong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="16" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="shared_defines_8h_1a451d830b6394157a500812c5687c4271" prot="public" static="no">
+        <type>MapULong::const_iterator</type>
+        <definition>typedef MapULong::const_iterator MapULongIter</definition>
+        <argsstring></argsstring>
+        <name>MapULongIter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" line="17" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SHARED_DEFINES_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SHARED_DEFINES_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXCHANGE_ORDERID_SIZE<sp/>50</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TRADEID_SIZE<sp/>50</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SYMBOL_SIZE<sp/>24</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SERIES_SIZE<sp/>20</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>API_REQUEST_SIZE<sp/>200</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint8_t<sp/>UNSIGNED_CHARACTER;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint16_t<sp/>UNSIGNED_SHORT;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/>UNSIGNED_INTEGER;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/>UNSIGNED_LONG;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int64_t<sp/>SIGNED_LONG;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;UNSIGNED_LONG,<sp/>UNSIGNED_LONG&gt;<sp/>MapULong;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>MapULong::const_iterator<sp/>MapULongIter;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MARKET_DATA_DEPTH_MAX<sp/>11</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>stringify(<sp/>name<sp/>)<sp/>#<sp/>name</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>varString(name)<sp/>stringify(name)&lt;&lt;&quot;:&quot;&lt;&lt;name</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OMM_DUMP_LOGS<sp/>1</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MKTDATA_EVENT<sp/>0</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USE_EXCHANGE_ORDER_ID_FOR_REFERENCE<sp/>1</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedDefines.h"/>
+  </compounddef>
+</doxygen>

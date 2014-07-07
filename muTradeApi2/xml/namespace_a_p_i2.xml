@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="namespace_a_p_i2" kind="namespace">
+    <compoundname>API2</compoundname>
+    <innerclass refid="struct_a_p_i2_1_1_unknown_type_exception" prot="public">API2::UnknownTypeException</innerclass>
+    <innerclass refid="struct_a_p_i2_1_1_duplicate_key_exception" prot="public">API2::DuplicateKeyException</innerclass>
+    <innerclass refid="struct_a_p_i2_1_1_market_data_subscription_failed_exception" prot="public">API2::MarketDataSubscriptionFailedException</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_user_params" prot="public">API2::UserParams</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_strategy_parameters" prot="public">API2::StrategyParameters</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_s_g_context" prot="public">API2::SGContext</innerclass>
+    <innerclass refid="struct_a_p_i2_1_1_symbol_static_data" prot="public">API2::SymbolStaticData</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_order_confirmation" prot="public">API2::OrderConfirmation</innerclass>
+    <innerclass refid="class_a_p_i2_1_1_single_order" prot="public">API2::SingleOrder</innerclass>
+    <innernamespace refid="namespace_a_p_i2_1_1_c_o_m_m_o_n">API2::COMMON</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s">API2::CONSTANTS</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s">API2::DATA_TYPES</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_serialization">API2::Serialization</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_a_p_i2_1a8b63fb64bded0f6fad5debb88c8ad61b" prot="public" static="no">
+        <name>UserParamsError</name>
+        <enumvalue id="namespace_a_p_i2_1a8b63fb64bded0f6fad5debb88c8ad61ba668183e423b0069d5dbc53bd7e31beea" prot="public">
+          <name>UserParamsError_OK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_a_p_i2_1a8b63fb64bded0f6fad5debb88c8ad61ba5a2dfa4e1490349deb6d3b4b4f5437e6" prot="public">
+          <name>UserParamsError_KeyNotFound</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_a_p_i2_1a8b63fb64bded0f6fad5debb88c8ad61baee5f1e27be992c8fb87436231bf8b32c" prot="public">
+          <name>UserParamsError_DataTypeMismatch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The API2_UserParamsError enum. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" line="11" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2UserCommands.h" bodystart="10" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" line="4"/>
+  </compounddef>
+</doxygen>

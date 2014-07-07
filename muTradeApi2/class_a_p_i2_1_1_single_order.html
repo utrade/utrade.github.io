@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -116,6 +111,11 @@ $(document).ready(function(){initNavTree('class_a_p_i2_1_1_single_order.html',''
 <div class="title">API2::SingleOrder Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="class_a_p_i2_1_1_single_order.html" title="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</a> class. This wrapper is used for sending Single Leg Orders. Usage: Create an object for This using <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ab141f05e2a0d8a51fdadc57bf53d2cd8" title="createNewOrder, To create a New Order for an instrument">API2::SGContext::createNewOrder</a>.  
+ <a href="class_a_p_i2_1_1_single_order.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="shared_single_order_8h_source.html">sharedSingleOrder.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -194,6 +194,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a5621f5611f1b007691b159fc5cdcecba"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::OptionMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_single_order.html#a5621f5611f1b007691b159fc5cdcecba">getOptionMode</a> () const </td></tr>
 <tr class="memdesc:a5621f5611f1b007691b159fc5cdcecba"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOptionMode  <a href="#a5621f5611f1b007691b159fc5cdcecba">More...</a><br/></td></tr>
 <tr class="separator:a5621f5611f1b007691b159fc5cdcecba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06316b4f9f74b63c21342f15798e4232"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::PRICE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_single_order.html#a06316b4f9f74b63c21342f15798e4232">getOptionStrikePrice</a> () const </td></tr>
+<tr class="memdesc:a06316b4f9f74b63c21342f15798e4232"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOptionStrikePrice  <a href="#a06316b4f9f74b63c21342f15798e4232">More...</a><br/></td></tr>
+<tr class="separator:a06316b4f9f74b63c21342f15798e4232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658f0353ae54bb5323a8574c3230c6ec"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::EXPIRY_DATE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_single_order.html#a658f0353ae54bb5323a8574c3230c6ec">getExpiryDate</a> () const </td></tr>
+<tr class="memdesc:a658f0353ae54bb5323a8574c3230c6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">getExpiryDate  <a href="#a658f0353ae54bb5323a8574c3230c6ec">More...</a><br/></td></tr>
+<tr class="separator:a658f0353ae54bb5323a8574c3230c6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07bbb21fb434e99e0ad2315eb0f061d"><td class="memItemLeft" align="right" valign="top">DATA_TYPES::OptionAttribute&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_p_i2_1_1_single_order.html#aa07bbb21fb434e99e0ad2315eb0f061d">getOptionAttribute</a> () const </td></tr>
 <tr class="memdesc:aa07bbb21fb434e99e0ad2315eb0f061d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOptionAttribute  <a href="#aa07bbb21fb434e99e0ad2315eb0f061d">More...</a><br/></td></tr>
 <tr class="separator:aa07bbb21fb434e99e0ad2315eb0f061d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,7 +330,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:ada2c21e8603dfff7267657f2df1ce8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">setTokenId  <a href="#ada2c21e8603dfff7267657f2df1ce8c6">More...</a><br/></td></tr>
 <tr class="separator:ada2c21e8603dfff7267657f2df1ce8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_a_p_i2_1_1_single_order.html" title="The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...">SingleOrder</a> class. This wrapper is used for sending Single Leg Orders. Usage: Create an object for This using <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ab141f05e2a0d8a51fdadc57bf53d2cd8" title="createNewOrder, To create a New Order for an instrument">API2::SGContext::createNewOrder</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a424d34ffce1d177299afb602ac1b3588"></a>
 <div class="memitem">
 <div class="memproto">
@@ -593,6 +601,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<a class="anchor" id="a658f0353ae54bb5323a8574c3230c6ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DATA_TYPES::EXPIRY_DATE API2::SingleOrder::getExpiryDate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getExpiryDate </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a9885de5b864534cb5ee210e9ebc165de"></a>
 <div class="memitem">
 <div class="memproto">
@@ -679,6 +705,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><div class="memdoc">
 
 <p>getOptionMode </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a06316b4f9f74b63c21342f15798e4232"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DATA_TYPES::PRICE API2::SingleOrder::getOptionStrikePrice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getOptionStrikePrice </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -1840,7 +1884,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/utrade/Trinity/code/trunk-2/api2/headers/<a class="el" href="shared_single_order_8h_source.html">sharedSingleOrder.h</a></li>
+<li><a class="el" href="shared_single_order_8h_source.html">sharedSingleOrder.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1848,7 +1892,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>API2</b></li><li class="navelem"><a class="el" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a></li>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:32 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:06 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

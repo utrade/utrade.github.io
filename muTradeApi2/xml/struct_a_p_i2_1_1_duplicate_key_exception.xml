@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="struct_a_p_i2_1_1_duplicate_key_exception" kind="struct" prot="public">
+    <compoundname>API2::DuplicateKeyException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+    <includes refid="api2_exceptions_8h" local="no">api2Exceptions.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_a_p_i2_1_1_duplicate_key_exception_1a4a73163379f369311af54eaae74096ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* API2::DuplicateKeyException::what</definition>
+        <argsstring>() const </argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>what </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" line="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_a_p_i2_1_1_duplicate_key_exception" kindref="compound">DuplicateKeyException</ref> struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exception</label>
+      </node>
+      <node id="0">
+        <label>API2::DuplicateKeyException</label>
+        <link refid="struct_a_p_i2_1_1_duplicate_key_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>exception</label>
+      </node>
+      <node id="2">
+        <label>API2::DuplicateKeyException</label>
+        <link refid="struct_a_p_i2_1_1_duplicate_key_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/api2Exceptions.h" bodystart="20" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_a_p_i2_1_1_duplicate_key_exception_1a4a73163379f369311af54eaae74096ee" prot="public" virt="non-virtual"><scope>API2::DuplicateKeyException</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

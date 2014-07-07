@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['what',['what',['../struct_a_p_i2_1_1_exception_1_1_unknown_type_detected.html#ad28dd6902400245b8eb890a0c4952526',1,'API2::Exception::UnknownTypeDetected::what()'],['../struct_a_p_i2_1_1_exception_1_1_duplicate_key_detected.html#afda937f16a024e497e3ac6d8240c7123',1,'API2::Exception::DuplicateKeyDetected::what()'],['../struct_a_p_i2_1_1_exception_1_1_market_data_subscription_failed.html#a8fdd7c3f47885fe8690feb6032fa9815',1,'API2::Exception::MarketDataSubscriptionFailed::what()']]]
+  ['what',['what',['../struct_a_p_i2_1_1_unknown_type_exception.html#a7d9f37742e3adc8c03d904c4096a0251',1,'API2::UnknownTypeException::what()'],['../struct_a_p_i2_1_1_duplicate_key_exception.html#a4a73163379f369311af54eaae74096ee',1,'API2::DuplicateKeyException::what()'],['../struct_a_p_i2_1_1_market_data_subscription_failed_exception.html#a45cbba09c414050a5d5af854895e3eac',1,'API2::MarketDataSubscriptionFailedException::what()']]]
 ];

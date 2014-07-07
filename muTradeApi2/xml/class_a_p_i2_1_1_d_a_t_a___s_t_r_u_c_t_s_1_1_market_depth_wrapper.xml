@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper" kind="class" prot="public">
+    <compoundname>API2::DATA_STRUCTS::MarketDepthWrapper</compoundname>
+    <includes refid="api_structs_8h" local="no">apiStructs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a0a60bed450829e4094a3fd8c9b858ea4" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::DATA_STRUCTS::MarketDepthWrapper::BidPrice</definition>
+        <argsstring></argsstring>
+        <name>BidPrice</name>
+        <briefdescription>
+<para>BidPrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a1ddd72106819617a4d61df0419b53392" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::DATA_STRUCTS::MarketDepthWrapper::BidQty</definition>
+        <argsstring></argsstring>
+        <name>BidQty</name>
+        <briefdescription>
+<para>BidQty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="25" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1af20b95067c076a751e75211106ff31d3" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::DATA_STRUCTS::MarketDepthWrapper::AskPrice</definition>
+        <argsstring></argsstring>
+        <name>AskPrice</name>
+        <briefdescription>
+<para>AskPrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="30" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1aff614968e92a8d32a846fed67612a2e9" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::DATA_STRUCTS::MarketDepthWrapper::AskQty</definition>
+        <argsstring></argsstring>
+        <name>AskQty</name>
+        <briefdescription>
+<para>AskQty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="35" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a5fb322bdea13469db53983e36b2691fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string API2::DATA_STRUCTS::MarketDepthWrapper::toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+<para>toString will return formated Bid Ask Price Qty for debug purpose </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper" kindref="compound">MarketDepthWrapper</ref> class will store Bid Ask Price at particular level. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="14" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="13" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1af20b95067c076a751e75211106ff31d3" prot="public" virt="non-virtual"><scope>API2::DATA_STRUCTS::MarketDepthWrapper</scope><name>AskPrice</name></member>
+      <member refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1aff614968e92a8d32a846fed67612a2e9" prot="public" virt="non-virtual"><scope>API2::DATA_STRUCTS::MarketDepthWrapper</scope><name>AskQty</name></member>
+      <member refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a0a60bed450829e4094a3fd8c9b858ea4" prot="public" virt="non-virtual"><scope>API2::DATA_STRUCTS::MarketDepthWrapper</scope><name>BidPrice</name></member>
+      <member refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a1ddd72106819617a4d61df0419b53392" prot="public" virt="non-virtual"><scope>API2::DATA_STRUCTS::MarketDepthWrapper</scope><name>BidQty</name></member>
+      <member refid="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper_1a5fb322bdea13469db53983e36b2691fe" prot="public" virt="non-virtual"><scope>API2::DATA_STRUCTS::MarketDepthWrapper</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

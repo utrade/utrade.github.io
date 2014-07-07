@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kind="class" prot="public">
+    <compoundname>API2::COMMON::MarketDataWrapper</compoundname>
+    <includes refid="api_structs_8h" local="no">apiStructs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1b122b65128081a91995775a898cb673" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MarketDataWrapper::OpenPrice</definition>
+        <argsstring></argsstring>
+        <name>OpenPrice</name>
+        <briefdescription>
+<para>OpenPrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="54" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a8a25f433bae2cc6c27b6fc2d3f98991f" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MarketDataWrapper::HighPrice</definition>
+        <argsstring></argsstring>
+        <name>HighPrice</name>
+        <briefdescription>
+<para>HighPrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="59" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ac89bc672ae96141e511d0b7030c100a2" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MarketDataWrapper::LowPrice</definition>
+        <argsstring></argsstring>
+        <name>LowPrice</name>
+        <briefdescription>
+<para>LowPrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="64" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a5369fe88f3676fc9fcf4af3f1661aa5f" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MarketDataWrapper::ClosePrice</definition>
+        <argsstring></argsstring>
+        <name>ClosePrice</name>
+        <briefdescription>
+<para>ClosePrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="69" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a7d2fa1fee9f8da80ffce61e543b21f87" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::VOLUME</type>
+        <definition>DATA_TYPES::VOLUME API2::COMMON::MarketDataWrapper::Volume</definition>
+        <argsstring></argsstring>
+        <name>Volume</name>
+        <briefdescription>
+<para>Volume. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="74" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a6bf5746491b0bef6456bd136f07bbbee" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MarketDataWrapper::LastTradeQty</definition>
+        <argsstring></argsstring>
+        <name>LastTradeQty</name>
+        <briefdescription>
+<para>LastTradeQty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="79" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1bbb203c79340593e08bad234320de03" prot="public" static="no" mutable="no">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MarketDataWrapper::LastTradePrice</definition>
+        <argsstring></argsstring>
+        <name>LastTradePrice</name>
+        <briefdescription>
+<para>LastTradePrice. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="84" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ab98e717e6aaf83a98263a22af5340195" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound">MarketDepthWrapper</ref></type>
+        <definition>MarketDepthWrapper API2::COMMON::MarketDataWrapper::MarketDepth[CONSTANTS::MarketDepthArraySize]</definition>
+        <argsstring>[CONSTANTS::MarketDepthArraySize]</argsstring>
+        <name>MarketDepth</name>
+        <briefdescription>
+<para>MarketDepth. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="89" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1abd7f1859e66f2d650efd9e45562eb507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MarketDataWrapper::MarketDataWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>MarketDataWrapper</name>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound">MarketDataWrapper</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a301ef6d965a34ec6d4767b8b90879c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string API2::COMMON::MarketDataWrapper::toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+<para>toString will return formatted Market Picture for debug purpose </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ae9fbbad2faa3ffce129b08895d616a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::COMMON::MarketDataWrapper::operator==</definition>
+        <argsstring>(const MarketDataWrapper &amp;a)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound">MarketDataWrapper</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>operator == </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound">MarketDataWrapper</ref> class will contain the Snapshot/TBT Market Data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>API2::COMMON::MarketDataWrapper</label>
+        <link refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>MarketDepth</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>API2::COMMON::MarketDepthWrapper</label>
+        <link refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" line="48" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiStructs.h" bodystart="47" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a5369fe88f3676fc9fcf4af3f1661aa5f" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>ClosePrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a8a25f433bae2cc6c27b6fc2d3f98991f" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>HighPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1bbb203c79340593e08bad234320de03" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>LastTradePrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a6bf5746491b0bef6456bd136f07bbbee" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>LastTradeQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ac89bc672ae96141e511d0b7030c100a2" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>LowPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1abd7f1859e66f2d650efd9e45562eb507" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>MarketDataWrapper</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ab98e717e6aaf83a98263a22af5340195" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>MarketDepth</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a1b122b65128081a91995775a898cb673" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>OpenPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1ae9fbbad2faa3ffce129b08895d616a30" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>operator==</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a301ef6d965a34ec6d4767b8b90879c2c" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>toString</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper_1a7d2fa1fee9f8da80ffce61e543b21f87" prot="public" virt="non-virtual"><scope>API2::COMMON::MarketDataWrapper</scope><name>Volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kind="class" prot="public">
+    <compoundname>API2::COMMON::MktData</compoundname>
+    <includes refid="sg_mkt_data_8h" local="no">sgMktData.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ad5201c9910632bdf2ccc2b200c48e57b" prot="private" static="no" mutable="no">
+        <type>DATA_TYPES::SYMBOL_ID</type>
+        <definition>DATA_TYPES::SYMBOL_ID API2::COMMON::MktData::_symbolId</definition>
+        <argsstring></argsstring>
+        <name>_symbolId</name>
+        <briefdescription>
+<para>_symbolId </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="24" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a1074658a69841629850699bed14874a4" prot="private" static="no" mutable="no">
+        <type>TBTDATA::SymbolData *</type>
+        <definition>TBTDATA::SymbolData* API2::COMMON::MktData::_tbtData</definition>
+        <argsstring></argsstring>
+        <name>_tbtData</name>
+        <briefdescription>
+<para>_tbtData </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="45" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a0c1af27438afe191ce75f25518a3138a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MktData::CREATE_FIELD</definition>
+        <argsstring>(COMMON::MarketDataWrapper, Quote)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper" kindref="compound">COMMON::MarketDataWrapper</ref></type>
+        </param>
+        <param>
+          <type>Quote</type>
+        </param>
+        <briefdescription>
+<para>Quote. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aee18cd4672d02b552532570f364b23a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MktData::CREATE_FIELD</definition>
+        <argsstring>(bool, IsSnapShot)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>IsSnapShot</type>
+        </param>
+        <briefdescription>
+<para>IsSnapShot, If Set true, will provide Snapshot Data, else Tick-By-Tick Data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a766303c78afc1aa9272f18d82acf84d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MktData::CREATE_FIELD</definition>
+        <argsstring>(int, multiplier)</argsstring>
+        <name>CREATE_FIELD</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>multiplier</type>
+        </param>
+        <briefdescription>
+<para>multiplier </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac3e587a0e729aff1d1d8aedc5a22d4b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getPrice</definition>
+        <argsstring>(const COMMON::MarketDepthWrapper &amp;wrapper, const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getPrice</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound">COMMON::MarketDepthWrapper</ref> &amp;</type>
+          <declname>wrapper</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wrapper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a53df0af11e3f75469daf284042b47d6b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MktData::getQty</definition>
+        <argsstring>(const COMMON::MarketDepthWrapper &amp;wrapper, const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getQty</name>
+        <param>
+          <type>const <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper" kindref="compound">COMMON::MarketDepthWrapper</ref> &amp;</type>
+          <declname>wrapper</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getQty </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wrapper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a97889a30ff8a73e50080d944b4833db8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::COMMON::MktData::updateTbt</definition>
+        <argsstring>()</argsstring>
+        <name>updateTbt</name>
+        <briefdescription>
+<para>updateTbt </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac645be368e01258bd43aa5228b8b7f00" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::COMMON::MktData::updateMcl</definition>
+        <argsstring>()</argsstring>
+        <name>updateMcl</name>
+        <briefdescription>
+<para>updateMcl </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8211f710536b63d9314b784b1ee7fbd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getOpenPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenPrice</name>
+        <briefdescription>
+<para>getOpenPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a5e19df584bf4ab79a98ffd56bb10c1ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getHighPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getHighPrice</name>
+        <briefdescription>
+<para>getHighPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a1356652aa23866fd25bcaadda01d8889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getLowPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getLowPrice</name>
+        <briefdescription>
+<para>getLowPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a575943cc7e3a507003973f96e9eb1b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getClosePrice</definition>
+        <argsstring>()</argsstring>
+        <name>getClosePrice</name>
+        <briefdescription>
+<para>getClosePrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aaf5521f2f0225420a1a630c77c9e586f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::VOLUME</type>
+        <definition>DATA_TYPES::VOLUME API2::COMMON::MktData::getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <briefdescription>
+<para>getVolume </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab153a1910684543f3482e8cb3118c919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MktData::getLastTradeQty</definition>
+        <argsstring>()</argsstring>
+        <name>getLastTradeQty</name>
+        <briefdescription>
+<para>getLastTradeQty </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a77c7ab13a4bcd33586d534b9170503f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getLastTradePrice</definition>
+        <argsstring>()</argsstring>
+        <name>getLastTradePrice</name>
+        <briefdescription>
+<para>getLastTradePrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1acc6ba70aa24dae69330b05285f22942d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getPrice</definition>
+        <argsstring>(size_t position, const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getPrice</name>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8fdd8238abfb949a3c70b6c742a7e2f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MktData::getQty</definition>
+        <argsstring>(size_t position, const DATA_TYPES::OrderMode &amp;mode)</argsstring>
+        <name>getQty</name>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const DATA_TYPES::OrderMode &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>getQty </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a162e50a3d866561b2143dbd260d68bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getBidPrice</definition>
+        <argsstring>(size_t pos)</argsstring>
+        <name>getBidPrice</name>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>getBidPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a4cdac77ae6e740962ac4bf67cda226f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MktData::getBidQty</definition>
+        <argsstring>(size_t pos)</argsstring>
+        <name>getBidQty</name>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>getBidQty </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab986bba84db8307d955aa31bdd327e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::COMMON::MktData::getAskPrice</definition>
+        <argsstring>(size_t pos)</argsstring>
+        <name>getAskPrice</name>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>getAskPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac7e2e92d87bd2645a719c8dd51246fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::COMMON::MktData::getAskQty</definition>
+        <argsstring>(size_t pos)</argsstring>
+        <name>getAskQty</name>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>getAskQty </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a10582f954576088dd45580b7aef78a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::COMMON::MktData::subscribe</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbol, bool isSnapshot)</argsstring>
+        <name>subscribe</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbol</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSnapshot</declname>
+        </param>
+        <briefdescription>
+<para>subscribe </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isSnapshot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a7f5dceb2456e460d7c21604985e1eecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::COMMON::MktData::unsubscribe</definition>
+        <argsstring>()</argsstring>
+        <name>unsubscribe</name>
+        <briefdescription>
+<para>unsubscribe </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a794cd4472c438d19b21f93d610295508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MktData::MktData</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbolId, bool isSnapshot=true)</argsstring>
+        <name>MktData</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSnapshot</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">MktData</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isSnapshot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aafe0dedd9f7a4f0e611253f5f9a1980b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::COMMON::MktData::~MktData</definition>
+        <argsstring>()</argsstring>
+        <name>~MktData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a052019c5bc3e099d4806c3f666d855e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool API2::COMMON::MktData::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+<para>update </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8dc2f4c75526506d70d3149a5212d17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::COMMON::MktData::operator()</definition>
+        <argsstring>()</argsstring>
+        <name>operator()</name>
+        <briefdescription>
+<para>operator () </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aefb6ba524d176aa2a87adfdae54b6c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::COMMON::MktData::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="214"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data" kindref="compound">MktData</ref> class, The wrapper class for getting Market Feed for both Snapshot and Tick-By-Tick. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" line="19" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgMktData.h" bodystart="18" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ad5201c9910632bdf2ccc2b200c48e57b" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>_symbolId</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a1074658a69841629850699bed14874a4" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>_tbtData</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a0c1af27438afe191ce75f25518a3138a" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aee18cd4672d02b552532570f364b23a7" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a766303c78afc1aa9272f18d82acf84d8" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>CREATE_FIELD</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aefb6ba524d176aa2a87adfdae54b6c85" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>dump</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab986bba84db8307d955aa31bdd327e22" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getAskPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac7e2e92d87bd2645a719c8dd51246fa2" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getAskQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a162e50a3d866561b2143dbd260d68bb4" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getBidPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a4cdac77ae6e740962ac4bf67cda226f1" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getBidQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a575943cc7e3a507003973f96e9eb1b52" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getClosePrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a5e19df584bf4ab79a98ffd56bb10c1ae" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getHighPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a77c7ab13a4bcd33586d534b9170503f4" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getLastTradePrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ab153a1910684543f3482e8cb3118c919" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getLastTradeQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a1356652aa23866fd25bcaadda01d8889" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getLowPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8211f710536b63d9314b784b1ee7fbd6" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getOpenPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac3e587a0e729aff1d1d8aedc5a22d4b5" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1acc6ba70aa24dae69330b05285f22942d" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getPrice</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a53df0af11e3f75469daf284042b47d6b" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8fdd8238abfb949a3c70b6c742a7e2f7" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getQty</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aaf5521f2f0225420a1a630c77c9e586f" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>getVolume</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a794cd4472c438d19b21f93d610295508" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>MktData</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a8dc2f4c75526506d70d3149a5212d17f" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>operator()</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a10582f954576088dd45580b7aef78a32" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>subscribe</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a7f5dceb2456e460d7c21604985e1eecd" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>unsubscribe</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a052019c5bc3e099d4806c3f666d855e0" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>update</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1ac645be368e01258bd43aa5228b8b7f00" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>updateMcl</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1a97889a30ff8a73e50080d944b4833db8" prot="private" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>updateTbt</name></member>
+      <member refid="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data_1aafe0dedd9f7a4f0e611253f5f9a1980b" prot="public" virt="non-virtual"><scope>API2::COMMON::MktData</scope><name>~MktData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>muTrade API: /home/utrade/Trinity/code/trunk-2/api2/headers/sgLib/sgMktData.h Source File</title>
+<title>muTrade API: sgLib/sgMktData.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -129,7 +124,7 @@ $(document).ready(function(){initNavTree('sg_mkt_data_8h_source.html','');});
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    DATA_TYPES::SYMBOL_ID _symbolId;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    CREATE_FIELD( <a class="code" href="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_data_wrapper.html" title="The MarketDataWrapper class will contain the Snapshot/TBT Market Data.">DATA_STRUCTS::MarketDataWrapper</a>, Quote);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    CREATE_FIELD( <a class="code" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper.html" title="The MarketDataWrapper class will contain the Snapshot/TBT Market Data.">COMMON::MarketDataWrapper</a>, Quote);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    CREATE_FIELD( <span class="keywordtype">bool</span>, IsSnapShot);</div>
@@ -138,10 +133,10 @@ $(document).ready(function(){initNavTree('sg_mkt_data_8h_source.html','');});
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    TBTDATA::SymbolData *_tbtData;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    DATA_TYPES::PRICE  getPrice(<span class="keyword">const</span> <a class="code" href="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper.html" title="The MarketDepthWrapper class will store Bid Ask Price at particular level.">DATA_STRUCTS::MarketDepthWrapper</a> &amp;wrapper,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    DATA_TYPES::PRICE  getPrice(<span class="keyword">const</span> <a class="code" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper.html" title="The MarketDepthWrapper class will store Bid Ask Price at particular level.">COMMON::MarketDepthWrapper</a> &amp;wrapper,</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                <span class="keyword">const</span> DATA_TYPES::OrderMode &amp; mode);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    DATA_TYPES::QTY  getQty(<span class="keyword">const</span> <a class="code" href="class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_depth_wrapper.html" title="The MarketDepthWrapper class will store Bid Ask Price at particular level.">DATA_STRUCTS::MarketDepthWrapper</a> &amp;wrapper,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    DATA_TYPES::QTY  getQty(<span class="keyword">const</span> <a class="code" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_depth_wrapper.html" title="The MarketDepthWrapper class will store Bid Ask Price at particular level.">COMMON::MarketDepthWrapper</a> &amp;wrapper,</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                            <span class="keyword">const</span> DATA_TYPES::OrderMode &amp; mode);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> updateTbt();</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
@@ -204,8 +199,8 @@ $(document).ready(function(){initNavTree('sg_mkt_data_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_cb3b000d78973b98f34b960da68664fc.html">api2</a></li><li class="navelem"><a class="el" href="dir_48829958fd8680aa2336c1203ebcead2.html">headers</a></li><li class="navelem"><a class="el" href="dir_1d909918de7ec9aa34254d994c23a81a.html">sgLib</a></li><li class="navelem"><b>sgMktData.h</b></li>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:26 for muTrade API by
+    <li class="navelem"><a class="el" href="dir_6f48b04a977457c563cbef409e7c75cb.html">sgLib</a></li><li class="navelem"><b>sgMktData.h</b></li>
+    <li class="footer">Generated on Mon Jul 7 2014 12:30:56 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

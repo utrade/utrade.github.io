@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['volume',['Volume',['../class_a_p_i2_1_1_d_a_t_a___s_t_r_u_c_t_s_1_1_market_data_wrapper.html#ab6b0b076e2b2138b23f0c1b6b0ea21ae',1,'API2::DATA_STRUCTS::MarketDataWrapper']]]
+  ['volume',['Volume',['../class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper.html#a7d2fa1fee9f8da80ffce61e543b21f87',1,'API2::COMMON::MarketDataWrapper']]]
 ];

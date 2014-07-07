@@ -1,0 +1,160 @@
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position}{\section{A\-P\-I2\-:\-:C\-O\-M\-M\-O\-N\-:\-:Instrument\-Position Struct Reference}
+\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position}\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+}
+
+
+The \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position}{Instrument\-Position} struct Provides the basic information like Open Qty, Open\-Side, Traded Quantity in Buy/\-Sell Side, \par
+ Average traded Price in Buy/\-Sell Side, Booked and Mark-\/\-To-\/\-Market Profit and loss.  
+
+
+
+
+{\ttfamily \#include $<$sg\-Common.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a6bd5cf326e5317a97e5bb940e7639059}{get\-Open\-Qty} ()
+\begin{DoxyCompactList}\small\item\em get\-Open\-Qty, To get the Open Quantity i,e Buy Qty-\/\-Sell Qty \end{DoxyCompactList}\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a061e14d8ea0f660c3e742c2b306a0323}{get\-Traded\-Qty} (const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&mode)
+\begin{DoxyCompactList}\small\item\em get\-Traded\-Qty To get Traded Quantity at requested Order\-Mode \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a4b437e372244c4a85e8407535907ac78}{get\-Open\-Side} ()
+\begin{DoxyCompactList}\small\item\em get\-Open\-Side, To get Open Side Position, if Buy\-Qty$>$Sell\-Qty, returns A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y else A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-S\-E\-L\-L \end{DoxyCompactList}\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a5c6d74ae6c4d08deb1d9670bbb615044}{get\-Booked\-Pnl} ()
+\begin{DoxyCompactList}\small\item\em get\-Booked\-Pnl, To get Booked Pnl \end{DoxyCompactList}\item 
+S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8}{get\-Mtm\-Pnl} (U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G ltp)
+\begin{DoxyCompactList}\small\item\em get\-Mtm\-Pnl, To get Mark to Market Pnl \end{DoxyCompactList}\item 
+D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a7615e0a698a69edbb9124796d6c77e15}{get\-Avg\-Price} (const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&mode)
+\begin{DoxyCompactList}\small\item\em get\-Avg\-Price, Get Average Trade Price at requested Order\-Mode \end{DoxyCompactList}\item 
+U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a146408733d0fbe9d8b3e565ed63a79fc}{get\-Pending\-Qty} (const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&mode)
+\begin{DoxyCompactList}\small\item\em get\-Pending\-Qty, To get Quantity Pending (or not filled) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position}{Instrument\-Position} struct Provides the basic information like Open Qty, Open\-Side, Traded Quantity in Buy/\-Sell Side, \par
+ Average traded Price in Buy/\-Sell Side, Booked and Mark-\/\-To-\/\-Market Profit and loss. 
+
+\subsection{Member Function Documentation}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a7615e0a698a69edbb9124796d6c77e15}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Avg\-Price@{get\-Avg\-Price}}
+\index{get\-Avg\-Price@{get\-Avg\-Price}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Avg\-Price}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-P\-R\-I\-C\-E A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Avg\-Price (
+\begin{DoxyParamCaption}
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&}]{mode}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a7615e0a698a69edbb9124796d6c77e15}
+
+
+get\-Avg\-Price, Get Average Trade Price at requested Order\-Mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Average Price as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G in paisa ( to convert in Rupee, convert to float and divide by 100) 
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a5c6d74ae6c4d08deb1d9670bbb615044}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Booked\-Pnl@{get\-Booked\-Pnl}}
+\index{get\-Booked\-Pnl@{get\-Booked\-Pnl}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Booked\-Pnl}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Booked\-Pnl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a5c6d74ae6c4d08deb1d9670bbb615044}
+
+
+get\-Booked\-Pnl, To get Booked Pnl 
+
+\begin{DoxyReturn}{Returns}
+Booked Pn\-L as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G in paisa ( to convert in Rupee, convert to float and divide by 100) 
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Mtm\-Pnl@{get\-Mtm\-Pnl}}
+\index{get\-Mtm\-Pnl@{get\-Mtm\-Pnl}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Mtm\-Pnl}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Mtm\-Pnl (
+\begin{DoxyParamCaption}
+\item[{U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G}]{ltp}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8}
+
+
+get\-Mtm\-Pnl, To get Mark to Market Pnl 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ltp,Last} & trade Price is to be provided \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Mark to Market Pnl as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G in paisa ( to convert in Rupee, convert to float and divide by 100) 
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a6bd5cf326e5317a97e5bb940e7639059}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Open\-Qty@{get\-Open\-Qty}}
+\index{get\-Open\-Qty@{get\-Open\-Qty}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Open\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Open\-Qty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a6bd5cf326e5317a97e5bb940e7639059}
+
+
+get\-Open\-Qty, To get the Open Quantity i,e Buy Qty-\/\-Sell Qty 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a4b437e372244c4a85e8407535907ac78}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Open\-Side@{get\-Open\-Side}}
+\index{get\-Open\-Side@{get\-Open\-Side}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Open\-Side}]{\setlength{\rightskip}{0pt plus 5cm}D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Open\-Side (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a4b437e372244c4a85e8407535907ac78}
+
+
+get\-Open\-Side, To get Open Side Position, if Buy\-Qty$>$Sell\-Qty, returns A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-B\-U\-Y else A\-P\-I2\-::\-C\-O\-N\-S\-T\-A\-N\-T\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode\-\_\-\-S\-E\-L\-L 
+
+\begin{DoxyReturn}{Returns}
+Open\-Side as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode 
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a146408733d0fbe9d8b3e565ed63a79fc}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Pending\-Qty@{get\-Pending\-Qty}}
+\index{get\-Pending\-Qty@{get\-Pending\-Qty}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Pending\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}U\-N\-S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Pending\-Qty (
+\begin{DoxyParamCaption}
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&}]{mode}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a146408733d0fbe9d8b3e565ed63a79fc}
+
+
+get\-Pending\-Qty, To get Quantity Pending (or not filled) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a061e14d8ea0f660c3e742c2b306a0323}{\index{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}!get\-Traded\-Qty@{get\-Traded\-Qty}}
+\index{get\-Traded\-Qty@{get\-Traded\-Qty}!API2::COMMON::InstrumentPosition@{A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position}}
+\subsubsection[{get\-Traded\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}S\-I\-G\-N\-E\-D\-\_\-\-L\-O\-N\-G A\-P\-I2\-::\-C\-O\-M\-M\-O\-N\-::\-Instrument\-Position\-::get\-Traded\-Qty (
+\begin{DoxyParamCaption}
+\item[{const D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Order\-Mode \&}]{mode}
+\end{DoxyParamCaption}
+)}}\label{struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position_a061e14d8ea0f660c3e742c2b306a0323}
+
+
+get\-Traded\-Qty To get Traded Quantity at requested Order\-Mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-C\-M\-D\-\_\-\-Order\-Mode \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+traded Qty as D\-A\-T\-A\-\_\-\-T\-Y\-P\-E\-S\-::\-Q\-T\-Y 
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+sg\-Lib/sg\-Common.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,2169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s" kind="namespace">
+    <compoundname>API2::CONSTANTS</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a2e829b995b29e6eae2a045d3b9783c15" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t API2::CONSTANTS::MarketDepthArraySize</definition>
+        <argsstring></argsstring>
+        <name>MarketDepthArraySize</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>MarketDepthArraySize. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="12" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad7b3c95da03c96c844c4c48725aec8b6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_PENDING</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_PENDING</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_PENDING. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="17" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a1a4186eea73171ac414e2d435ad65f2c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_CONFIRMED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_CONFIRMED</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_CONFIRMED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="22" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a098de1aca54ee225d536d1ee413d2237" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_FILLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_FILLED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_FILLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="27" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a2baed4cad149a0113cac16983a645abe" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_CANCELED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_CANCELED</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_CANCELED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="32" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5e10becfdc925eff405c0451f9431287" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_REPLACED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_REPLACED</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_REPLACED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="37" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1add2ba33b48cf650ff99f63eb4440c540" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_NEW_REJECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_NEW_REJECTED</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_NEW_REJECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="42" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a97b85b79e187e0adf7cf0cdcf8c21757" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_CANCEL_REJECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_CANCEL_REJECTED</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_CANCEL_REJECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="47" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a2802c686a3e91c0d34447560bb82f981" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_REPLACE_REJECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_REPLACE_REJECTED</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_REPLACE_REJECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="52" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1acfde46a65daef54c85fd49db47d6285b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_FROZEN</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_FROZEN</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_FROZEN. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="57" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a92eb211f6897744f3da3610eca26b6f6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_MARKET_TO_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_MARKET_TO_LIMIT</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_MARKET_TO_LIMIT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="62" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac02fd1a2486894cd4aa8564745e1dd4a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_TRIGGERED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_TRIGGERED</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_TRIGGERED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="67" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab361bf1ac7e608c20229e5ba1f02c3c0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_PARTIALLY_FILLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_PARTIALLY_FILLED</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_PARTIALLY_FILLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="72" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac3390a25c5df6defd1c70c75bea44659" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_CANCELED_OF_IOC</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_CANCELED_OF_IOC</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_CANCELED_OF_IOC. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="77" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a00f136afaaead9c35a06e8dd068792de" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_OrderStatus_RMS_REJECT</definition>
+        <argsstring></argsstring>
+        <name>RSP_OrderStatus_RMS_REJECT</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+<para>RSP_OrderStatus_RMS_REJECT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="82" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a705ef67ea8e92eeeb4865bac99752da6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_CIRCUIT_LIMIT_BREACH</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_CIRCUIT_LIMIT_BREACH</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_CIRCUIT_LIMIT_BREACH. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="90" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afb123f5f2356dc6ca856c0d9da4f38b0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_HEDGE_MARKET_ORDER_CANCELLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_HEDGE_MARKET_ORDER_CANCELLED</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_HEDGE_MARKET_ORDER_CANCELLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="95" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af7cdd13792d919e34283ce040c4bef11" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MAX_TRADABLE_LOTS_REACHED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MAX_TRADABLE_LOTS_REACHED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_MAX_TRADABLE_LOTS_REACHED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="100" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a0d8406af5e77ec1dfcff9f7275bd9943" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_RMS_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_RMS_FAILURE</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_RMS_FAILURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="105" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a277108318da3ab2dab549513d262e172" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_USER_INPUT</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_USER_INPUT</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_USER_INPUT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="110" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a640cf34ff83ce0e0c8a1ff3f44c0b0ae" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_SECOND_LEG_PRICE_CHECK_FAIL</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_SECOND_LEG_PRICE_CHECK_FAIL</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_SECOND_LEG_PRICE_CHECK_FAIL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="115" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aeb7310072856abc4512f0db92277a15e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_WRONG_REF_PRICE_IN_CASE_OF_STOCKS</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_WRONG_REF_PRICE_IN_CASE_OF_STOCKS</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_WRONG_REF_PRICE_IN_CASE_OF_STOCKS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="120" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a607b2d40628baed4014b473d6f1447d7" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PRICE_OF_HEDGING_INSTRUMENT_CALCULATED_ZERO</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PRICE_OF_HEDGING_INSTRUMENT_CALCULATED_ZERO</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PRICE_OF_HEDGING_INSTRUMENT_CALCULATED_ZERO. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="125" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac804fc1744baf9558dd980f868c66490" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MARKET_DATA_ORDER_INST_NOT_FOUND</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MARKET_DATA_ORDER_INST_NOT_FOUND</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_MARKET_DATA_ORDER_INST_NOT_FOUND. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="130" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afc9245700ac4939b116e13c944acd4db" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_DELTA_CALCULATED_ZERO</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_DELTA_CALCULATED_ZERO</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_DELTA_CALCULATED_ZERO. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="135" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a99e928bb6c4f682694947121d1b63ec8" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PRICE_DIFFERENCE_IS_GREATER_THAN_TOTAL_SPREAD</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PRICE_DIFFERENCE_IS_GREATER_THAN_TOTAL_SPREAD</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PRICE_DIFFERENCE_IS_GREATER_THAN_TOTAL_SPREAD. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="140" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac6a0ee9452c368fdd4ed3287e52b064b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_SELL_PRICE_SMALLER_THAN_BEST_BID_OR_BUY_PRICE_GREATER_THAN_BEST_ASK</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_SELL_PRICE_SMALLER_THAN_BEST_BID_OR_BUY_PRICE_GREATER_THAN_BEST_ASK</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_SELL_PRICE_SMALLER_THAN_BEST_BID_OR_BUY_PRICE_GREATER_THAN_BEST_ASK. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="145" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a53b545f3991aaca1474abd384305e95d" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MARKET_DATA_HEDGE_INST_NOT_FOUND</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MARKET_DATA_HEDGE_INST_NOT_FOUND</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_MARKET_DATA_HEDGE_INST_NOT_FOUND. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="150" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a7b6a905b90fd1335dff8cd45fd2477eb" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_EXCHANGE_DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_EXCHANGE_DISCONNECTED</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_EXCHANGE_DISCONNECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="155" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae186b98e2a613896537f91e38f184394" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_ORDER_FROZEN</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_ORDER_FROZEN</name>
+        <initializer>= 14</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_ORDER_FROZEN. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="160" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1acf452eecd5c251ca9fa2300a757eb744" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_FIRST_LEG_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_FIRST_LEG_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_FIRST_LEG_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="165" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a922cba82f61a237592020817887f0f21" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_SECOND_LEG_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_SECOND_LEG_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_SECOND_LEG_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="170" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a931fde210cba8641e75969da4d306e11" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_IDLE_TIMER_EXPIRED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_IDLE_TIMER_EXPIRED</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_IDLE_TIMER_EXPIRED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="175" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afb09ae78ff03185b0bb36d7f523e21ec" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_CLOSED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_CLOSED</name>
+        <initializer>= 18</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_CLOSED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="180" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa17fdebf90f4202fe09d5f346ce33b1c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_EXIST</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_EXIST</name>
+        <initializer>= 19</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_ORDER_NOT_FILLED_OPEN_POSITIONS_EXIST. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="185" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a2c1f4bcbc9d20605e37aa687b565d865" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_STRATEGY_COMPLETED_SUCCESSFULLY</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_STRATEGY_COMPLETED_SUCCESSFULLY</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_COMPLETED_SUCCESSFULLY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="190" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a663a0606ec700cbf84f86f48b1848a9c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MARKET_MAKING_ORDER_LOTS_REDUCED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MARKET_MAKING_ORDER_LOTS_REDUCED</name>
+        <initializer>= 21</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_MARKET_MAKING_ORDER_LOTS_REDUCED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="195" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a6d6bc0f1ca50faee999206acc2e45933" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MARKET_MAKING_REFERENCE_PRICE_PROTECTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MARKET_MAKING_REFERENCE_PRICE_PROTECTION_FAILED</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_MARKET_MAKING_REFERENCE_PRICE_PROTECTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="200" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae7446c5bb60250d2b72d15415a0ba322" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_UNKNOWN_STATE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_UNKNOWN_STATE</name>
+        <initializer>= 23</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_UNKNOWN_STATE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="205" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5a679ab554e41c4e3781df80fe94866f" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_THIRD_LEG_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_THIRD_LEG_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 24</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_THIRD_LEG_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="210" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a78197d28d3c44c403663ce6363badf4a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_ORDER_NOT_FILLED_OR_PARTIALLY_FILLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_ORDER_NOT_FILLED_OR_PARTIALLY_FILLED</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_ORDER_NOT_FILLED_OR_PARTIALLY_FILLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="215" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a4799d3fc940d2d1d6ac57166fcd4ec6e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_SPREAD_NOT_FAVOURABLE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_SPREAD_NOT_FAVOURABLE</name>
+        <initializer>= 26</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_SPREAD_NOT_FAVOURABLE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="220" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab3de64ecba6c9e66516881de31d7ce11" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TRADES_COMPLETED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TRADES_COMPLETED</name>
+        <initializer>= 27</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TRADES_COMPLETED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="225" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a25dd15f592684242100ee3d6a0a64fc5" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 28</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="230" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5aea3ab03b40a948d10f9fcb25f7c397" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TBTFO_DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TBTFO_DISCONNECTED</name>
+        <initializer>= 29</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TBTFO_DISCONNECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="235" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a824f689eddccff50d2d2aeda19fd2a7f" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TBTCM_DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TBTCM_DISCONNECTED</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TBTCM_DISCONNECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="240" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a0bde93b4308faa440fe4386b88996d4e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TURNOVER_ROUNDS_COMPLETED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TURNOVER_ROUNDS_COMPLETED</name>
+        <initializer>= 31</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TURNOVER_ROUNDS_COMPLETED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="245" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad0592a6a779c011c5e13b7ccd8647644" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_CURRENT_TIME_GREATER_THAN_ACTIVATION</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_CURRENT_TIME_GREATER_THAN_ACTIVATION</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_CURRENT_TIME_GREATER_THAN_ACTIVATION. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="250" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a4b6e5a673aa493ac769678558ee52314" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TERMINATE_SPREAD_BREACHED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TERMINATE_SPREAD_BREACHED</name>
+        <initializer>= 33</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TERMINATE_SPREAD_BREACHED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="255" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a194e2869c167c5cde8bff3c37c7cc97c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_SYNTHETIC_POSITION_NOT_FILLED_OR_PARTIALLY_FILLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_SYNTHETIC_POSITION_NOT_FILLED_OR_PARTIALLY_FILLED</name>
+        <initializer>= 34</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_SYNTHETIC_POSITION_NOT_FILLED_OR_PARTIALLY_FILLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="260" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac2bb568a55018159bdeabb78c6f3ff8a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_FOURTH_LEG_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_FOURTH_LEG_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 35</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_FOURTH_LEG_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="265" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a23f1590794da84daedf5b75ba0a1d89e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_UNDERLYING_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_UNDERLYING_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 36</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_UNDERLYING_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="270" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad0a23e1ecd1a9f4b90efa46e85dc8233" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_HEDGING_TBT_SUBSCRIPTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_HEDGING_TBT_SUBSCRIPTION_FAILED</name>
+        <initializer>= 37</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_HEDGING_TBT_SUBSCRIPTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="275" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a0bc7a6241904d46fdf0bf7b554e85271" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_FIRST_SQUARE_OFF_WITH_TIMER_NOT_FILLED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_FIRST_SQUARE_OFF_WITH_TIMER_NOT_FILLED</name>
+        <initializer>= 38</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_FIRST_SQUARE_OFF_WITH_TIMER_NOT_FILLED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="280" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac40c6e5597db8df14d80ad2288845ebd" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_STRATEGY_VERSION_DIFFERS</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_STRATEGY_VERSION_DIFFERS</name>
+        <initializer>= 39</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_VERSION_DIFFERS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="285" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad2c9307a1851575b5581fcf37f22a24b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_ERROR_STATE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_ERROR_STATE</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_ERROR_STATE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="290" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a249de447793c913cbef1eed533ed84c2" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_TARGET_ACHIEVED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_TARGET_ACHIEVED</name>
+        <initializer>= 41</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_TARGET_ACHIEVED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="295" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abc621b1db8ad2fcfa015b573c83a7e5a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_STRATEGY_TERMINATING</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_STRATEGY_TERMINATING</name>
+        <initializer>= 42</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_STRATEGY_TERMINATING. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="301" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afbbbe82049ebf75670a3b7372861fd8f" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_STOP_LOSS_HIT</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_STOP_LOSS_HIT</name>
+        <initializer>= 43</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_STOP_LOSS_HIT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="306" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a17811f2829b76bd058cd440272baad12" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_MAX_CYCLES_COMPLETED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_MAX_CYCLES_COMPLETED</name>
+        <initializer>= 44</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_MAX_CYCLES_COMPLETED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="311" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a22807b039c3f589260216cfa735646b8" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_PAIRS_RESTORE_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_PAIRS_RESTORE_FAILED</name>
+        <initializer>= 45</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_PAIRS_RESTORE_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="316" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a9843c5ba83f006ed1b99e0f028fb6cb6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_TBTCDS_DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_TBTCDS_DISCONNECTED</name>
+        <initializer>= 46</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_TBTCDS_DISCONNECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="321" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a261daa7024947c59761d27e1914c5312" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_INCREASE_COUNTER</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_INCREASE_COUNTER</name>
+        <initializer>= 47</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_INCREASE_COUNTER. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="326" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a935085d37db93d466956a10747ebe8e1" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_FORCE_TERMINATE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_FORCE_TERMINATE</name>
+        <initializer>= 48</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_FORCE_TERMINATE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="331" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a1e7026c36d83fe59edbb400c7d8a13a6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_STRATEGY_ALREADY_TERMINATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_STRATEGY_ALREADY_TERMINATED</name>
+        <initializer>= 49</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_ALREADY_TERMINATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="336" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae2fe97bf281c867b8d75abe722e78512" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_STRATEGY_ERROR_STATE</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_STRATEGY_ERROR_STATE</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_ERROR_STATE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="341" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a74f839b15f335562010098aa3a01d8bd" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_STRATEGY_API_NOT_FOUND</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_STRATEGY_API_NOT_FOUND</name>
+        <initializer>= 51</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_API_NOT_FOUND. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="346" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad170d54e5d6c2d6a576a16cb2a3707f6" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_StrategyComment_MAX</definition>
+        <argsstring></argsstring>
+        <name>RSP_StrategyComment_MAX</name>
+        <initializer>= 52</initializer>
+        <briefdescription>
+<para>RSP_StrategyComment_STRATEGY_END. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="351" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a413aebbf198edb713c9f452539284b7a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_SUCCESS</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_SUCCESS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="360" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abddedad0a8e39662a1fbe38c6022ffce" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_FAILURE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_FAILURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="365" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a13eafa3bf38ee57f50ada9e189f401d0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_TERMINATE_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_TERMINATE_SUCCESS</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_TERMINATE_SUCCESS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="370" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac64ab26c04de8c23a8ffae8edc7e292f" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_TERMINATE_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_TERMINATE_FAILURE</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_TERMINATE_FAILURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="375" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a62958dc2931c89b61bdfd85f0d2779fb" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_TERMINATE_SQUAREOFF_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_TERMINATE_SQUAREOFF_SUCCESS</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_TERMINATE_SQUAREOFF_SUCCESS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="380" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad09792793ef21e8f0a3076a770f07b8a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_TERMINATE_SQUAREOFF_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_TERMINATE_SQUAREOFF_FAILURE</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_TERMINATE_SQUAREOFF_FAILURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="385" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af3109635e103bf780a89695bfc76e918" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_PAUSE_STRATEGY_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_PAUSE_STRATEGY_SUCCESS</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_PAUSE_STRATEGY_SUCCESS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="390" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae8d816dd0fd9966176148a9079805bb3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_PAUSE_STRATEGY_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_PAUSE_STRATEGY_FAILURE</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_PAUSE_STRATEGY_FAILURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="395" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abf0a4c37487793c2d21df40bd0e8b1bd" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_STRATEGY_RUNNING</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_STRATEGY_RUNNING</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_STRATEGY_RUNNING. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="400" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a7e67c8c7fbd5aa3ddbc85b5c915b63e3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_TERMINATE_SPREAD_BREACHED</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_TERMINATE_SPREAD_BREACHED</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_TERMINATE_SPREAD_BREACHED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="405" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af5b4ae16b3a89ef6b0e573853a1c58f0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_ALGO_NOT_ALLOWED</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_ALGO_NOT_ALLOWED</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_ALGO_NOT_ALLOWED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="410" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5976fd49aaf1bdaa60dbed23a618ec3e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_INCREASE_COUNTER</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_INCREASE_COUNTER</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_INCREASE_COUNTER. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="415" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a7a641d538af5a81a6b4009a329451106" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_STRATEGY_ALREADY_TERMINATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_STRATEGY_ALREADY_TERMINATED</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_STRATEGY_ALREADY_TERMINATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="420" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab9893b7726ed92f05d8c1f6061485359" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseType_STRATEGY_API_NOT_FOUND</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseType_STRATEGY_API_NOT_FOUND</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+<para>RSP_ResponseType_STRATEGY_API_NOT_FOUND. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="425" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a8f364a2f936e7b3be486bd321b495cc0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_SUCCESS</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_SUCCESS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="433" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a307e8a2a55b756d837d0b56d77d07955" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_WRONG_QUANTITY</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_WRONG_QUANTITY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_WRONG_QUANTITY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="438" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa5664e054b5cc9a1fc50b7ff77fc31db" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_NOT_CONFIGURED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_NOT_CONFIGURED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_NOT_CONFIGURED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="443" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abec5364154570d9c1b67bce3e449cc13" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_SINGLE_ORDER_QTY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_SINGLE_ORDER_QTY_VIOLATED</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_SINGLE_ORDER_QTY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="448" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a6979eccae1ac0b51baa33edd1ff0ae04" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_SINGLE_ORDER_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_SINGLE_ORDER_VALUE_VIOLATED</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_SINGLE_ORDER_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="453" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a6ac58286a495024603c857d74fb66464" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_TOTAL_BUY_QUANTITY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_TOTAL_BUY_QUANTITY_VIOLATED</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_TOTAL_BUY_QUANTITY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="458" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a16b06a83df331c558e596da4d651cf53" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_TOTAL_BUY_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_TOTAL_BUY_VALUE_VIOLATED</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_TOTAL_BUY_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="463" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a00293a87dc39b49231d311950f8f4b17" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_TOTAL_SELL_QUANTITY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_TOTAL_SELL_QUANTITY_VIOLATED</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_TOTAL_SELL_QUANTITY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="468" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac512e6f2c48c9cc8aaafe0a5c21c1fe3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_TOTAL_SELL_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_TOTAL_SELL_VALUE_VIOLATED</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_TOTAL_SELL_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="473" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a45676fb75a4bb56971a3893f45b351a1" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_NET_QUANTITY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_NET_QUANTITY_VIOLATED</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_NET_QUANTITY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="478" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a30333d9a674e1140077136731ec88c01" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_NET_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_NET_VALUE_VIOLATED</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_NET_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="483" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa2362afc65f195977d2b105a62522e8b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_PRICE_PROTECTION_CHECK_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_PRICE_PROTECTION_CHECK_VIOLATED</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_PRICE_PROTECTION_CHECK_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="488" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5a24a5253be48ed7229c4b4db46c80e5" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_MTM_LOSS_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_MTM_LOSS_VIOLATED</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_MTM_LOSS_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="493" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1acad1229ba2ddc26972f33e876bcb47d0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX_ORDERS_PER_SECOND_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX_ORDERS_PER_SECOND_VIOLATED</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX_ORDERS_PER_SECOND_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="498" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab8a4f9f984098f5461a3586787d236f3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_EXCHANGE_DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_EXCHANGE_DISCONNECTED</name>
+        <initializer>= 14</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_EXCHANGE_DISCONNECTED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="503" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae40b404ee4c058c48280e6d9eee1affc" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_QUANTITY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_QUANTITY_VIOLATED</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_QUANTITY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="508" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1add4efa2642cacc71aed6e03edf5d2a56" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_VALUE_VIOLATED</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_OUTSTANDING_TOTAL_BUY_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="513" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad1d5e11e240b93cc8370631a74ae58a8" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_QUANTITY_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_QUANTITY_VIOLATED</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_QUANTITY_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="518" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a495306b972b9f67b8d4e7cbcb3c53648" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_VALUE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_VALUE_VIOLATED</name>
+        <initializer>= 18</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_OUTSTANDING_TOTAL_SELL_VALUE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="523" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afdb769d889923f2973a3bdf5f99f3b3e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_INDEX_PROTECTION_NSE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_INDEX_PROTECTION_NSE_VIOLATED</name>
+        <initializer>= 19</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_INDEX_PROTECTION_NSE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="528" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a1c6cd8c92c7944c1af55872775d42d1e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_INDEX_PROTECTION_BSE_VIOLATED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_INDEX_PROTECTION_BSE_VIOLATED</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_INDEX_PROTECTION_BSE_VIOLATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="533" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a92f2142c01859e26dfec7e6559bc2cc3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_QTY</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_QTY</name>
+        <initializer>= 21</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_QTY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="538" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a9ad1b6ee287a9fd78d8e647fb51acae8" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_VALUE</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_VALUE</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_BUY_VALUE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="543" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a36b02b3442b4d8a893fdb9e4d588b712" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_QTY</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_QTY</name>
+        <initializer>= 23</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_QTY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="548" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a02abaa2fe86558fe14c0d87006941f55" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_VALUE</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_VALUE</name>
+        <initializer>= 24</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_SECURITY_LIMITS_VIOLATED_SELL_VALUE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="553" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa423d3c6e46b7b1f9bcaffe568793862" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_TRADER_OR_CLIENT_MARGIN_INSUFFICIENT</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_TRADER_OR_CLIENT_MARGIN_INSUFFICIENT</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_TRADER_OR_CLIENT_MARGIN_INSUFFICIENT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="558" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ad2941a45c9e81d776c2584cfadcf2186" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MEMBER_NSE_MARGIN_INSUFFICIENT</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MEMBER_NSE_MARGIN_INSUFFICIENT</name>
+        <initializer>= 26</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MEMBER_NSE_MARGIN_INSUFFICIENT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="563" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abd7be3b44ef3e456cdd65b1774fb719e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MEMBER_BSE_MARGIN_INSUFFICIENT</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MEMBER_BSE_MARGIN_INSUFFICIENT</name>
+        <initializer>= 27</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MEMBER_BSE_MARGIN_INSUFFICIENT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="568" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa7d2ab47303a68c1ea4ab4cbb7f36611" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_PRICE_NOT_WITHIN_CIRCUIT_RANGE</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_PRICE_NOT_WITHIN_CIRCUIT_RANGE</name>
+        <initializer>= 28</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_PRICE_NOT_WITHIN_CIRCUIT_RANGE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="573" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae0612ae2674bac0f7ca06aaf807ca82c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_CLOSE_PRICE_PROTECTION_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_CLOSE_PRICE_PROTECTION_FAILED</name>
+        <initializer>= 29</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_CLOSE_PRICE_PROTECTION_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="578" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a570204f76be63904fe5c65a3a827eaed" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_BAD_TRADE_PRICE_CHECK_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_BAD_TRADE_PRICE_CHECK_FAILED</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_BAD_TRADE_PRICE_CHECK_FAILED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="583" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a854a9a62ab2ebcd8853eabc2b9ebba7e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MARKET_NOT_OPEN</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MARKET_NOT_OPEN</name>
+        <initializer>= 31</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MARKET_NOT_OPEN. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="588" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a054c1e8e932339b44bf435f2b785ecc2" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_RiskStatus_MAX</definition>
+        <argsstring></argsstring>
+        <name>RSP_RiskStatus_MAX</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+<para>RSP_RiskStatus_MAX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="593" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abc6162c3a5fb463de2a7efd9dccdb5ba" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseCategory_API2_REQUEST</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseCategory_API2_REQUEST</name>
+        <initializer>= 47</initializer>
+        <briefdescription>
+<para>RSP_ResponseCategory_API2_REQUEST. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="604" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a50248ba42b9fc3484f7dff2c2d7c95b7" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::RSP_ResponseCategory_API2_STRATEGY</definition>
+        <argsstring></argsstring>
+        <name>RSP_ResponseCategory_API2_STRATEGY</name>
+        <initializer>= 48</initializer>
+        <briefdescription>
+<para>RSP_ResponseCategory_API2_STRATEGY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="609" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a156252ac069b96a8a13c4e8201c97a96" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderMode_BUY</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderMode_BUY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_OrderMode_BUY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="620" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a00fa1d92f620f8697792c8fadebe41ee" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderMode_SELL</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderMode_SELL</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_OrderMode_SELL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="625" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ac3587ce22adf7e11ba0e0d804f27dbe0" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_BSE</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_BSE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_BSE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="636" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a14ea20a8a991df37b628b5441fa7626a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_NSE</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_NSE</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_NSE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="641" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5ad762c3ff7878208774ea7ff5c2ca82" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_ESMNSE</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_ESMNSE</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_ESMNSE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="646" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a838648bf037ed6b002988570f388944b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_SGX</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_SGX</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_SGX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="651" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a1ff3dde4f2108cdf215d4826c391226c" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_NSECDS</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_NSECDS</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_NSECDS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="656" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a9e5e1761b4443cf5c70410f54fb24795" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_BSEETI</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_BSEETI</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_BSEETI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="661" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af0f16d83727cec85c33d126ef7c35366" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ExchangeId_CFH</definition>
+        <argsstring></argsstring>
+        <name>CMD_ExchangeId_CFH</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+<para>CMD_ExchangeId_CFH. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="666" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab8c3173343cc5fb5cb3ee9ae6a13000b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_SecurityType_COMMON_STOCK</definition>
+        <argsstring></argsstring>
+        <name>CMD_SecurityType_COMMON_STOCK</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_SecurityType_COMMON_STOCK. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="677" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5e9d80291f6a2e148aa79e30dde12686" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_SecurityType_FUTURE</definition>
+        <argsstring></argsstring>
+        <name>CMD_SecurityType_FUTURE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_SecurityType_FUTURE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="682" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afa8fea4e778178b0451163bcf590fd54" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_SecurityType_OPTION</definition>
+        <argsstring></argsstring>
+        <name>CMD_SecurityType_OPTION</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_SecurityType_OPTION. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="687" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="687" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a04f7be60eabb77a2bfca506db5524fba" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_SecurityType_MAX</definition>
+        <argsstring></argsstring>
+        <name>CMD_SecurityType_MAX</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>CMD_SecurityType_MAX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="692" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af1f786cf2c9d473aad67db9fb2e9bd39" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderType_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderType_LIMIT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_OrderType_LIMIT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="701" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a69de0efac5664e186ba01e49156fe962" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderType_MARKET</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderType_MARKET</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_OrderType_MARKET. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="706" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5d1693591baf930e454581c8993dc00d" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderType_STOP_LIMIT</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderType_STOP_LIMIT</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_OrderType_STOP_LIMIT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="711" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5bdda0971af358db067d35b2d400edf2" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderType_STOP</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderType_STOP</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>CMD_OrderType_STOP. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="716" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1abe67e3271ef8b3546d65df80cedaa94f" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderValidity_DAY</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderValidity_DAY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_OrderValidity_DAY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="726" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae7aa3330d32d4d7c02ae3583286cd871" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderValidity_IOC</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderValidity_IOC</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_OrderValidity_IOC. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="731" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a13d2bb97559e9a32d4ea068daa362c4b" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OrderValidity_FOK</definition>
+        <argsstring></argsstring>
+        <name>CMD_OrderValidity_FOK</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_OrderValidity_FOK. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="736" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a5d9fb9dd7072b4f72573ce5aca5b9057" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OptionMode_PUT</definition>
+        <argsstring></argsstring>
+        <name>CMD_OptionMode_PUT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_OptionMode_PUT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="746" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a08c91cad9895a9d7a5c6a0b567e01fae" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OptionMode_CALL</definition>
+        <argsstring></argsstring>
+        <name>CMD_OptionMode_CALL</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_OptionMode_CALL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="751" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa22d3967d078dfe9d2e5701c7e1567e8" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OptionAttribute_AMERICAN</definition>
+        <argsstring></argsstring>
+        <name>CMD_OptionAttribute_AMERICAN</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_OptionAttribute_AMERICAN. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="763" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a9452abe1d9e0898ec4a70addc787aedc" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_OptionAttribute_EUROPEAN</definition>
+        <argsstring></argsstring>
+        <name>CMD_OptionAttribute_EUROPEAN</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_OptionAttribute_EUROPEAN. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="768" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a558d076330cc14e5c45771414ed2c83e" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ProductType_DELIVERY</definition>
+        <argsstring></argsstring>
+        <name>CMD_ProductType_DELIVERY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_ProductType_DELIVERY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="779" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="779" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1af78682343b4218e7196999b1185d1f8a" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_ProductType_INTRADAY</definition>
+        <argsstring></argsstring>
+        <name>CMD_ProductType_INTRADAY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_ProductType_INTRADAY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="784" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="784" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a830ed235fa9485ea0bd68c865809a932" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_InstrumentType_INDEX</definition>
+        <argsstring></argsstring>
+        <name>CMD_InstrumentType_INDEX</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_InstrumentType_INDEX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="795" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae4090b59a5700786ea394ea638f16c69" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_InstrumentType_STOCK</definition>
+        <argsstring></argsstring>
+        <name>CMD_InstrumentType_STOCK</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_InstrumentType_STOCK. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="800" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab9dca9ed40782eadbec7a089951fc111" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_InstrumentType_CURRENCY</definition>
+        <argsstring></argsstring>
+        <name>CMD_InstrumentType_CURRENCY</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_InstrumentType_CURRENCY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="805" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afc3da544d60fcbb7ceb2d8dd522377ad" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_InstrumentType_IRD</definition>
+        <argsstring></argsstring>
+        <name>CMD_InstrumentType_IRD</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>CMD_InstrumentType_IRD. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="810" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ae10e53922150a35c8e90b82dd2d6e412" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_InstrumentType_IVX</definition>
+        <argsstring></argsstring>
+        <name>CMD_InstrumentType_IVX</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>CMD_InstrumentType_IVX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="815" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1ab0526affcee06d9a50c4ecae310c9073" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_TransactionType_NEW</definition>
+        <argsstring></argsstring>
+        <name>CMD_TransactionType_NEW</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>CMD_TransactionType_NEW. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="826" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1afe9c329e2882513357764d338bcf15db" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_TransactionType_MODIFY</definition>
+        <argsstring></argsstring>
+        <name>CMD_TransactionType_MODIFY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>CMD_TransactionType_MODIFY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="831" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a8840e101bfb7a0df236c3cd678e4be12" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_TransactionType_CANCEL</definition>
+        <argsstring></argsstring>
+        <name>CMD_TransactionType_CANCEL</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>CMD_TransactionType_CANCEL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="836" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1aa9a24dad779baa3ffd56a86d8d5e4cef" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_TransactionType_MAX</definition>
+        <argsstring></argsstring>
+        <name>CMD_TransactionType_MAX</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>CMD_TransactionType_MAX. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="841" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a834f7a0f67096594d99b8c9873e118e3" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_CommandCategory_API2_REQUEST</definition>
+        <argsstring></argsstring>
+        <name>CMD_CommandCategory_API2_REQUEST</name>
+        <initializer>= 68</initializer>
+        <briefdescription>
+<para>CMD_CommandCategory_API2_REQUEST. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="852" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_a_p_i2_1_1_c_o_n_s_t_a_n_t_s_1a7e2a48105e81dbf870c467ed7f10d7ae" prot="public" static="no" mutable="no">
+        <type>const unsigned short</type>
+        <definition>const unsigned short API2::CONSTANTS::CMD_CommandCategory_API2_STRATEGY</definition>
+        <argsstring></argsstring>
+        <name>CMD_CommandCategory_API2_STRATEGY</name>
+        <initializer>= 69</initializer>
+        <briefdescription>
+<para>CMD_CommandCategory_API2_STRATEGY. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="857" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" bodystart="857" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiConstants.h" line="7"/>
+  </compounddef>
+</doxygen>

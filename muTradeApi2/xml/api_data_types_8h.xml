@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="api_data_types_8h" kind="file">
+    <compoundname>apiDataTypes.h</compoundname>
+    <includes refid="shared_defines_8h" local="no">sharedDefines.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="api_structs_8h" local="no">apiStructs.h</includedby>
+    <includedby refid="shared_response_8h" local="no">sharedResponse.h</includedby>
+    <includedby refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>stdint.h</label>
+      </node>
+      <node id="25">
+        <label>string</label>
+      </node>
+      <node id="24">
+        <label>map</label>
+      </node>
+      <node id="21">
+        <label>apiDataTypes.h</label>
+        <link refid="apiDataTypes.h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>sharedDefines.h</label>
+        <link refid="shared_defines_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="30">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="27">
+        <label>apiStructs.h</label>
+        <link refid="api_structs_8h_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>apiDataTypes.h</label>
+        <link refid="apiDataTypes.h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>sharedResponse.h</label>
+        <link refid="shared_response_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>sgLib/sgMktData.h</label>
+        <link refid="sg_mkt_data_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <innernamespace refid="namespace_a_p_i2_1_1_d_a_t_a___t_y_p_e_s">API2::DATA_TYPES</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>API_DATA_TYPES</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>API_DATA_TYPES</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;sharedDefines.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">DATA_TYPES</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>SIGNED_LONG<sp/>PRICE;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>SIGNED_LONG<sp/>QTY;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>SIGNED_LONG<sp/>VOLUME;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>SIGNED_LONG<sp/>SYMBOL_ID;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>CLORDER_ID;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>EXCHANGE_TIME;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>STRATEGY_ID;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>CLIENT_ID;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>DEPTH_POSITION;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>EXCHANGE_TIME;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>SEQUENCE_NUMBER;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>SIGNED_LONG<sp/>TRADER_ID;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_LONG<sp/>ERROR_CODE;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_INTEGER<sp/>EXPIRY_DATE;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_CHARACTER<sp/>ENUM;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_CHARACTER<sp/>SETTLEMENT_PERIOD;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OrderStatus;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>StrategyComment;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>ResponseType;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>RiskStatus;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>ResponseCategory;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OrderMode;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>ExchangeId;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>SecurityType;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OrderType;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OrderValidity;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>ProductType;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OptionMode;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>OptionAttribute;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>InstrumentType;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>TransactionType;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>UNSIGNED_SHORT<sp/>CommandCategory;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::string<sp/>String;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/apiDataTypes.h"/>
+  </compounddef>
+</doxygen>

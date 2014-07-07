@@ -20,12 +20,6 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-});
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -38,6 +32,7 @@
    <div id="projectname">muTrade API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
+   <div id="projectbrief">Low-Latency HFT API based in C++</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
       <li><a href="functions_func.html#index_a"><span>a</span></a></li>
+      <li><a href="functions_func_0x62.html#index_b"><span>b</span></a></li>
       <li><a href="functions_func_0x63.html#index_c"><span>c</span></a></li>
       <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
@@ -143,9 +139,6 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 </li>
 <li>getAdminTokenId()
 : <a class="el" href="class_a_p_i2_1_1_s_g_context.html#af3455b23fcf0866bbd7634fff735e9b6">API2::SGContext</a>
-</li>
-<li>getApiOrder()
-: <a class="el" href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">API2::OrderBook</a>
 </li>
 <li>getAskPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#ab986bba84db8307d955aa31bdd327e22">API2::COMMON::MktData</a>
@@ -213,6 +206,9 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 </li>
 <li>getExchangeSecurityId()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#aab369ee83666d5a8866b076d922162fa">API2::SingleOrder</a>
+</li>
+<li>getExpiryDate()
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#a658f0353ae54bb5323a8574c3230c6ec">API2::SingleOrder</a>
 </li>
 <li>getFilledQuantity()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a9885de5b864534cb5ee210e9ebc165de">API2::SingleOrder</a>
@@ -289,9 +285,11 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 <li>getOptionMode()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a5621f5611f1b007691b159fc5cdcecba">API2::SingleOrder</a>
 </li>
+<li>getOptionStrikePrice()
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#a06316b4f9f74b63c21342f15798e4232">API2::SingleOrder</a>
+</li>
 <li>getOrder()
 : <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ae49290cac1f27ba3049f1f5f5075cc49">API2::SGContext</a>
-, <a class="el" href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">API2::OrderBook</a>
 </li>
 <li>getOrderMode()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#aace36f50716b3e08ecc237781b3246b8">API2::SingleOrder</a>
@@ -341,8 +339,7 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a8fdd8238abfb949a3c70b6c742a7e2f7">API2::COMMON::MktData</a>
 </li>
 <li>getQuantity()
-: <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a65ed0c55c4fbcfdd3665e3673c3866ea">API2::COMMON::InstrumentPosition</a>
-, <a class="el" href="class_a_p_i2_1_1_single_order.html#ae83e842fe2651eda4b45179da81f7d34">API2::SingleOrder</a>
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#ae83e842fe2651eda4b45179da81f7d34">API2::SingleOrder</a>
 </li>
 <li>getSecurityType()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a6bec3cce7cb07ed8347dbdb49e494bca">API2::SingleOrder</a>
@@ -360,19 +357,22 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a0056cb82362c1929781c08282c74dbb4">API2::SingleOrder</a>
 </li>
 <li>getStrategyId()
-: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ac3be746c6becde4ddfeab316a41120d0">API2::OrderConfirmation</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#abffd48797b85fe57108f02ad77f3c009">API2::SGContext</a>
+: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#abffd48797b85fe57108f02ad77f3c009">API2::SGContext</a>
+, <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ac3be746c6becde4ddfeab316a41120d0">API2::OrderConfirmation</a>
 </li>
 <li>getSymbol()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a705bb6400ace761dcb7b47a6eb26492c">API2::SingleOrder</a>
 </li>
 <li>getSymbolId()
-: <a class="el" href="class_a_p_i2_1_1_single_order.html#a64a959d8130caf531784efd0a2e59926">API2::SingleOrder</a>
-, <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a8d8956358d47151e1df3314a6e95aa90">API2::OrderConfirmation</a>
+: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a8d8956358d47151e1df3314a6e95aa90">API2::OrderConfirmation</a>
+, <a class="el" href="class_a_p_i2_1_1_single_order.html#a64a959d8130caf531784efd0a2e59926">API2::SingleOrder</a>
 , <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument.html#a76b20f2b97286709e9dc005020ace814">API2::COMMON::Instrument</a>
 </li>
 <li>getTokenId()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a20a7f85ee7070d46c5d8b815ed638839">API2::SingleOrder</a>
+</li>
+<li>getTradedQty()
+: <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a061e14d8ea0f660c3e742c2b306a0323">API2::COMMON::InstrumentPosition</a>
 </li>
 <li>getTradeId()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a0e7ca21c48f80d2df2f69d71d1e732d6">API2::OrderConfirmation</a>
@@ -399,7 +399,7 @@ $(document).ready(function(){initNavTree('functions_func_0x67.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 5 2014 20:38:43 for muTrade API by
+    <li class="footer">Generated on Mon Jul 7 2014 12:31:12 for muTrade API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -1,0 +1,1671 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_a_p_i2_1_1_single_order" kind="class" prot="public" abstract="yes">
+    <compoundname>API2::SingleOrder</compoundname>
+    <includes refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_p_i2_1_1_single_order_1a5c965cc06d7934c742d4e512eeb29ab7" prot="private" static="no" mutable="no">
+        <type>SingleOrderImpl *</type>
+        <definition>SingleOrderImpl* API2::SingleOrder::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="24" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1adf27a836445ead05dc2c39b4dd057e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void API2::SingleOrder::dump</definition>
+        <argsstring>()=0</argsstring>
+        <name>dump</name>
+        <briefdescription>
+<para>dump </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aa6f1357a05c284c16a78f4c201d07dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SingleOrder::SingleOrder</definition>
+        <argsstring>()</argsstring>
+        <name>SingleOrder</name>
+        <briefdescription>
+<para>ApiSingleOrder. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a40f1568727207de3f1e72c40d8b2081a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+<para>initialize </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a424d34ffce1d177299afb602ac1b3588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>API2::SingleOrder::SingleOrder</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbolId, SymbolStaticData &amp;staticData, DATA_TYPES::CLIENT_ID clientId, DATA_TYPES::QTY quantity, DATA_TYPES::QTY disclosedQuantity, DATA_TYPES::PRICE price, DATA_TYPES::PRICE stopPrice, DATA_TYPES::OrderType type, DATA_TYPES::ProductType product, DATA_TYPES::OrderMode mode, DATA_TYPES::OrderValidity validity, DATA_TYPES::TRADER_ID traderId)</argsstring>
+        <name>SingleOrder</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound">SymbolStaticData</ref> &amp;</type>
+          <declname>staticData</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::CLIENT_ID</type>
+          <declname>clientId</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>quantity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>disclosedQuantity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>stopPrice</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::ProductType</type>
+          <declname>product</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderMode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderValidity</type>
+          <declname>validity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::TRADER_ID</type>
+          <declname>traderId</declname>
+        </param>
+        <briefdescription>
+<para>ApiSingleOrder. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>staticData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clientId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>disclosedQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>product</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>validity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>traderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a75ec4c26d9fbe24655e858b3a19c34a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::SingleOrder::initialize</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbolId, SymbolStaticData &amp;staticData, DATA_TYPES::CLIENT_ID clientId, DATA_TYPES::QTY quantity, DATA_TYPES::QTY disclosedQuantity, DATA_TYPES::PRICE price, DATA_TYPES::PRICE stopPrice, DATA_TYPES::OrderType type, DATA_TYPES::ProductType product, DATA_TYPES::OrderMode mode, DATA_TYPES::OrderValidity validity, DATA_TYPES::TRADER_ID traderId)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound">SymbolStaticData</ref> &amp;</type>
+          <declname>staticData</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::CLIENT_ID</type>
+          <declname>clientId</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>quantity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>disclosedQuantity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>stopPrice</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::ProductType</type>
+          <declname>product</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderMode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::OrderValidity</type>
+          <declname>validity</declname>
+        </param>
+        <param>
+          <type>DATA_TYPES::TRADER_ID</type>
+          <declname>traderId</declname>
+        </param>
+        <briefdescription>
+<para>initialize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>staticData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clientId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>disclosedQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stopPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>product</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>validity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>traderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aab369ee83666d5a8866b076d922162fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>SIGNED_LONG</type>
+        <definition>SIGNED_LONG API2::SingleOrder::getExchangeSecurityId</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeSecurityId</name>
+        <briefdescription>
+<para>getExchangeSecurityId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ExchangeSecurityId </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aa325a9347526339cbb4f9ff74ec8dc5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::ExchangeId</type>
+        <definition>DATA_TYPES::ExchangeId API2::SingleOrder::getExchangeId</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeId</name>
+        <briefdescription>
+<para>getExchangeId returns Exchange ID </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::ExchangeId </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a9583a7b568a2003af1c78a006c8bebef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLORDER_ID</type>
+        <definition>DATA_TYPES::CLORDER_ID API2::SingleOrder::getClOrdId</definition>
+        <argsstring>() const </argsstring>
+        <name>getClOrdId</name>
+        <briefdescription>
+<para>getClOrdId To get the unique Client Order Id (unique to the system) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::CLORDER_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a74887309b74ccdadaa8a2965bbd0d8d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLORDER_ID</type>
+        <definition>DATA_TYPES::CLORDER_ID API2::SingleOrder::getOrigClientOrderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrigClientOrderId</name>
+        <briefdescription>
+<para>getOrigClientOrderId If the order is modified, it returns the Parent Order&apos;s ClientOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::CLORDER_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1abeb2250a5b8f177be6b57326bbd29854" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* API2::SingleOrder::getExchangeOrderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeOrderId</name>
+        <briefdescription>
+<para>getExchangeOrderId It returns Exchange&apos;s Order Id </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>const char pointer to ExchangeOrderId </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a64a959d8130caf531784efd0a2e59926" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::SYMBOL_ID</type>
+        <definition>DATA_TYPES::SYMBOL_ID API2::SingleOrder::getSymbolId</definition>
+        <argsstring>() const </argsstring>
+        <name>getSymbolId</name>
+        <briefdescription>
+<para>getSymbolId To get SymbolId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aaa873364cebec88630b4ea9b512eaef8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::CLIENT_ID</type>
+        <definition>DATA_TYPES::CLIENT_ID API2::SingleOrder::getClientId</definition>
+        <argsstring>() const </argsstring>
+        <name>getClientId</name>
+        <briefdescription>
+<para>getClientId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::CLIENT_ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ae83e842fe2651eda4b45179da81f7d34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::SingleOrder::getQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getQuantity</name>
+        <briefdescription>
+<para>getQuantity To get Order quantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1adcd794066bd9c5a4ef8ac4d4dc1b64e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::SingleOrder::getDisclosedQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getDisclosedQuantity</name>
+        <briefdescription>
+<para>getDisclosedQuantity To get Disclosed Order Qty </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a9885de5b864534cb5ee210e9ebc165de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::SingleOrder::getFilledQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getFilledQuantity</name>
+        <briefdescription>
+<para>getFilledQuantity To get Filled Quantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::QTY </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ad0eb23ff72ec36877382651aab12ebc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::QTY</type>
+        <definition>DATA_TYPES::QTY API2::SingleOrder::getOldQuantity</definition>
+        <argsstring>() const </argsstring>
+        <name>getOldQuantity</name>
+        <briefdescription>
+<para>getOldQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a94e904d20765dbe9dc8f551e9131a86a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::SingleOrder::getPrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getPrice</name>
+        <briefdescription>
+<para>getPrice To get the Limit price provided for order </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::PRICE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a0056cb82362c1929781c08282c74dbb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::SingleOrder::getStopPrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getStopPrice</name>
+        <briefdescription>
+<para>getStopPrice To get the stop Price provided for Order </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::PRICE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aef1b4d951031f241bb085ae45377ca15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::EXCHANGE_TIME</type>
+        <definition>DATA_TYPES::EXCHANGE_TIME API2::SingleOrder::getExchangeEntryTime</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeEntryTime</name>
+        <briefdescription>
+<para>getExchangeEntryTime To get the Time for Order entry at Exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::EXCHANGE_TIME (epoch_time) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a1fdd8bbb3e497f3172466e0957fdd16f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::EXCHANGE_TIME</type>
+        <definition>DATA_TYPES::EXCHANGE_TIME API2::SingleOrder::getExchangeModifyTime</definition>
+        <argsstring>() const </argsstring>
+        <name>getExchangeModifyTime</name>
+        <briefdescription>
+<para>getExchangeModifyTime To get the Time for Order modification at Exchange </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>API2::DATA_TYPES::EXCHANGE_TIME </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1adeec84f5228d3392fed271ae20196edf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::TransactionType</type>
+        <definition>DATA_TYPES::TransactionType API2::SingleOrder::getTransactionType</definition>
+        <argsstring>() const </argsstring>
+        <name>getTransactionType</name>
+        <briefdescription>
+<para>getTransactionType To get thr transaction type for the Order tbd </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The API2::DATA_TYPES::Transaction_TYPE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aace36f50716b3e08ecc237781b3246b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderMode</type>
+        <definition>DATA_TYPES::OrderMode API2::SingleOrder::getOrderMode</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderMode</name>
+        <briefdescription>
+<para>getOrderMode To get the Order Mode </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a6bec3cce7cb07ed8347dbdb49e494bca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::SecurityType</type>
+        <definition>DATA_TYPES::SecurityType API2::SingleOrder::getSecurityType</definition>
+        <argsstring>() const </argsstring>
+        <name>getSecurityType</name>
+        <briefdescription>
+<para>getSecurityType </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a5621f5611f1b007691b159fc5cdcecba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OptionMode</type>
+        <definition>DATA_TYPES::OptionMode API2::SingleOrder::getOptionMode</definition>
+        <argsstring>() const </argsstring>
+        <name>getOptionMode</name>
+        <briefdescription>
+<para>getOptionMode </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a06316b4f9f74b63c21342f15798e4232" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::PRICE</type>
+        <definition>DATA_TYPES::PRICE API2::SingleOrder::getOptionStrikePrice</definition>
+        <argsstring>() const </argsstring>
+        <name>getOptionStrikePrice</name>
+        <briefdescription>
+<para>getOptionStrikePrice </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a658f0353ae54bb5323a8574c3230c6ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::EXPIRY_DATE</type>
+        <definition>DATA_TYPES::EXPIRY_DATE API2::SingleOrder::getExpiryDate</definition>
+        <argsstring>() const </argsstring>
+        <name>getExpiryDate</name>
+        <briefdescription>
+<para>getExpiryDate </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aa07bbb21fb434e99e0ad2315eb0f061d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OptionAttribute</type>
+        <definition>DATA_TYPES::OptionAttribute API2::SingleOrder::getOptionAttribute</definition>
+        <argsstring>() const </argsstring>
+        <name>getOptionAttribute</name>
+        <briefdescription>
+<para>getOptionAttribute </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a256ad70ca6364e58e9570a01171f545d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderValidity</type>
+        <definition>DATA_TYPES::OrderValidity API2::SingleOrder::getOrderValidity</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderValidity</name>
+        <briefdescription>
+<para>getOrderValidity </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ad7dd2468cb1fedab48057cd7dd98c075" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::ProductType</type>
+        <definition>DATA_TYPES::ProductType API2::SingleOrder::getProductType</definition>
+        <argsstring>() const </argsstring>
+        <name>getProductType</name>
+        <briefdescription>
+<para>getProductType </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aec0fe641e3bb0c9b866b2ad221a9edd1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderType</type>
+        <definition>DATA_TYPES::OrderType API2::SingleOrder::getOrderType</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderType</name>
+        <briefdescription>
+<para>getOrderType </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1afb63f5032c3ee33e1c977b3a6c3521be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::InstrumentType</type>
+        <definition>DATA_TYPES::InstrumentType API2::SingleOrder::getInstrumentType</definition>
+        <argsstring>() const </argsstring>
+        <name>getInstrumentType</name>
+        <briefdescription>
+<para>getInstrumentType </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a7009cc58bb0799fc898066ac16b29b72" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::SETTLEMENT_PERIOD</type>
+        <definition>DATA_TYPES::SETTLEMENT_PERIOD API2::SingleOrder::getSettlementPeriod</definition>
+        <argsstring>() const </argsstring>
+        <name>getSettlementPeriod</name>
+        <briefdescription>
+<para>getSettlementPeriod </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a7a4c30c1de34991c557cfc62fefef68b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::OrderStatus</type>
+        <definition>DATA_TYPES::OrderStatus API2::SingleOrder::getOrderStatus</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrderStatus</name>
+        <briefdescription>
+<para>getOrderStatus </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a705bb6400ace761dcb7b47a6eb26492c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* API2::SingleOrder::getSymbol</definition>
+        <argsstring>() const </argsstring>
+        <name>getSymbol</name>
+        <briefdescription>
+<para>getSymbol </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a7535e0a3966d49f1ddf68bd87b174be1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* API2::SingleOrder::getSeries</definition>
+        <argsstring>() const </argsstring>
+        <name>getSeries</name>
+        <briefdescription>
+<para>getSeries </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a20a7f85ee7070d46c5d8b815ed638839" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UNSIGNED_INTEGER</type>
+        <definition>UNSIGNED_INTEGER API2::SingleOrder::getTokenId</definition>
+        <argsstring>() const </argsstring>
+        <name>getTokenId</name>
+        <briefdescription>
+<para>getTokenId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1afa73822430c2742cd2c0a3b1d087e087" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int API2::SingleOrder::getDeltaQty</definition>
+        <argsstring>() const </argsstring>
+        <name>getDeltaQty</name>
+        <briefdescription>
+<para>getDeltaQty </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a1721ebefc518df8a2778abae9d604d4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DATA_TYPES::TRADER_ID</type>
+        <definition>DATA_TYPES::TRADER_ID API2::SingleOrder::getTraderId</definition>
+        <argsstring>() const </argsstring>
+        <name>getTraderId</name>
+        <briefdescription>
+<para>getTraderId </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1abb9a1a8e18fec11a161a5cb486381666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setClOrdId</definition>
+        <argsstring>(DATA_TYPES::CLORDER_ID clOrdId)</argsstring>
+        <name>setClOrdId</name>
+        <param>
+          <type>DATA_TYPES::CLORDER_ID</type>
+          <declname>clOrdId</declname>
+        </param>
+        <briefdescription>
+<para>setClOrdId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clOrdId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a6c27c70364b6715684e915e406ec48fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOrigClientOrderId</definition>
+        <argsstring>(DATA_TYPES::CLORDER_ID origClientOrderId)</argsstring>
+        <name>setOrigClientOrderId</name>
+        <param>
+          <type>DATA_TYPES::CLORDER_ID</type>
+          <declname>origClientOrderId</declname>
+        </param>
+        <briefdescription>
+<para>setOrigClientOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>origClientOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a411efe2e7dd4080416392a2247268528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setExchangeOrderId</definition>
+        <argsstring>(char exchangeOrderId[])</argsstring>
+        <name>setExchangeOrderId</name>
+        <param>
+          <type>char</type>
+          <declname>exchangeOrderId</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>setExchangeOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ae1a322de9808b4b4eb8755c34fafdf99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setExchangeOrderId</definition>
+        <argsstring>(std::string exchangeOrderId)</argsstring>
+        <name>setExchangeOrderId</name>
+        <param>
+          <type>std::string</type>
+          <declname>exchangeOrderId</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeOrderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeOrderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ae0b03ccb44dd80e14ca40d5ae459ec95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setSymbolId</definition>
+        <argsstring>(DATA_TYPES::SYMBOL_ID symbolId)</argsstring>
+        <name>setSymbolId</name>
+        <param>
+          <type>DATA_TYPES::SYMBOL_ID</type>
+          <declname>symbolId</declname>
+        </param>
+        <briefdescription>
+<para>setSymbolId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbolId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a77a799ca5c1e545dba6fe9be6be6ecb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setClientId</definition>
+        <argsstring>(DATA_TYPES::CLIENT_ID clientId)</argsstring>
+        <name>setClientId</name>
+        <param>
+          <type>DATA_TYPES::CLIENT_ID</type>
+          <declname>clientId</declname>
+        </param>
+        <briefdescription>
+<para>setClientId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clientId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a6b79cf19122fad3d1f5ae3477f4150c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY quantity)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+<para>setQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a5b77b15bf65aa531d8144d056767fae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setDisclosedQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY disclosedQuantity)</argsstring>
+        <name>setDisclosedQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>disclosedQuantity</declname>
+        </param>
+        <briefdescription>
+<para>setDisclosedQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disclosedQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aa968bc7c3f74dd1b4bbf2213bc25e1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setFilledQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY filledQuantity)</argsstring>
+        <name>setFilledQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>filledQuantity</declname>
+        </param>
+        <briefdescription>
+<para>setFilledQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filledQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ad9b9633dc4513d6d31ed09efec046fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOldQuantity</definition>
+        <argsstring>(DATA_TYPES::QTY oldQuantity)</argsstring>
+        <name>setOldQuantity</name>
+        <param>
+          <type>DATA_TYPES::QTY</type>
+          <declname>oldQuantity</declname>
+        </param>
+        <briefdescription>
+<para>setOldQuantity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>oldQuantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ac7365ab0c1b59c10c3dfc79366193673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setPrice</definition>
+        <argsstring>(DATA_TYPES::PRICE price)</argsstring>
+        <name>setPrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>setPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a6828bd5ddd00d5cfe0594afb7b5fbc13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setStopPrice</definition>
+        <argsstring>(DATA_TYPES::PRICE stopPrice)</argsstring>
+        <name>setStopPrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>stopPrice</declname>
+        </param>
+        <briefdescription>
+<para>setStopPrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stopPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a2c82cc5efa96cc5437c04590427f973e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOptionStrikePrice</definition>
+        <argsstring>(DATA_TYPES::PRICE strikePrice)</argsstring>
+        <name>setOptionStrikePrice</name>
+        <param>
+          <type>DATA_TYPES::PRICE</type>
+          <declname>strikePrice</declname>
+        </param>
+        <briefdescription>
+<para>setOptionStrikePrice </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strikePrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a5a22afab70ba6be6b58565bf299d1388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setExpiryDate</definition>
+        <argsstring>(DATA_TYPES::EXPIRY_DATE expiryDate)</argsstring>
+        <name>setExpiryDate</name>
+        <param>
+          <type>DATA_TYPES::EXPIRY_DATE</type>
+          <declname>expiryDate</declname>
+        </param>
+        <briefdescription>
+<para>setExpiryDate </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>expiryDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ad4272f16e98d3d7071d2836e52cdbd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setExchangeEntryTime</definition>
+        <argsstring>(DATA_TYPES::EXCHANGE_TIME exchangeEntryTime)</argsstring>
+        <name>setExchangeEntryTime</name>
+        <param>
+          <type>DATA_TYPES::EXCHANGE_TIME</type>
+          <declname>exchangeEntryTime</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeEntryTime </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeEntryTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aabb08f44d026b11b8cd281041817c79d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setExchangeModifyTime</definition>
+        <argsstring>(DATA_TYPES::EXCHANGE_TIME exchangeModifyTime)</argsstring>
+        <name>setExchangeModifyTime</name>
+        <param>
+          <type>DATA_TYPES::EXCHANGE_TIME</type>
+          <declname>exchangeModifyTime</declname>
+        </param>
+        <briefdescription>
+<para>setExchangeModifyTime </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exchangeModifyTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a869aef954f9ae0f0619beb28e312c988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setTransactionType</definition>
+        <argsstring>(DATA_TYPES::TransactionType transactionType)</argsstring>
+        <name>setTransactionType</name>
+        <param>
+          <type>DATA_TYPES::TransactionType</type>
+          <declname>transactionType</declname>
+        </param>
+        <briefdescription>
+<para>setTransactionType </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transactionType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a952ff552cc23a34d42f81deaa62959c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOrderMode</definition>
+        <argsstring>(DATA_TYPES::OrderMode orderMode)</argsstring>
+        <name>setOrderMode</name>
+        <param>
+          <type>DATA_TYPES::OrderMode</type>
+          <declname>orderMode</declname>
+        </param>
+        <briefdescription>
+<para>setOrderMode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a1fe75fe66191bee3df3f69b5d9b3dd75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setSecurityType</definition>
+        <argsstring>(DATA_TYPES::SecurityType securityType)</argsstring>
+        <name>setSecurityType</name>
+        <param>
+          <type>DATA_TYPES::SecurityType</type>
+          <declname>securityType</declname>
+        </param>
+        <briefdescription>
+<para>setSecurityType </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>securityType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a2afccefbe06b28f0e63fcf41fe500357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOptionMode</definition>
+        <argsstring>(DATA_TYPES::OptionMode optionMode)</argsstring>
+        <name>setOptionMode</name>
+        <param>
+          <type>DATA_TYPES::OptionMode</type>
+          <declname>optionMode</declname>
+        </param>
+        <briefdescription>
+<para>setOptionMode </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>optionMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a21a30501f824b4325152ffa499dc1735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOptionAttribute</definition>
+        <argsstring>(DATA_TYPES::OptionAttribute optionAttribute)</argsstring>
+        <name>setOptionAttribute</name>
+        <param>
+          <type>DATA_TYPES::OptionAttribute</type>
+          <declname>optionAttribute</declname>
+        </param>
+        <briefdescription>
+<para>setOptionAttribute </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>optionAttribute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ab328771801e0f7e92115966a499495a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOrderValidity</definition>
+        <argsstring>(DATA_TYPES::OrderValidity orderValidity)</argsstring>
+        <name>setOrderValidity</name>
+        <param>
+          <type>DATA_TYPES::OrderValidity</type>
+          <declname>orderValidity</declname>
+        </param>
+        <briefdescription>
+<para>setOrderValidity </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderValidity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ac89c2c4e0e8c898d21c597aa44541158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setProductType</definition>
+        <argsstring>(DATA_TYPES::ProductType productType)</argsstring>
+        <name>setProductType</name>
+        <param>
+          <type>DATA_TYPES::ProductType</type>
+          <declname>productType</declname>
+        </param>
+        <briefdescription>
+<para>setProductType </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>productType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="436"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a3626e639531ac15568b190a21a393d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOrderType</definition>
+        <argsstring>(DATA_TYPES::OrderType orderType)</argsstring>
+        <name>setOrderType</name>
+        <param>
+          <type>DATA_TYPES::OrderType</type>
+          <declname>orderType</declname>
+        </param>
+        <briefdescription>
+<para>setOrderType </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="442"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a09d883b738c0a35077fc711adb8b0a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setInstrumentType</definition>
+        <argsstring>(DATA_TYPES::InstrumentType instrumentType)</argsstring>
+        <name>setInstrumentType</name>
+        <param>
+          <type>DATA_TYPES::InstrumentType</type>
+          <declname>instrumentType</declname>
+        </param>
+        <briefdescription>
+<para>setInstrumentType </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>instrumentType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="448"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1af914d9b983de6435ba85dca1b3688b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setSettlementPeriod</definition>
+        <argsstring>(DATA_TYPES::SETTLEMENT_PERIOD settlementPeriod)</argsstring>
+        <name>setSettlementPeriod</name>
+        <param>
+          <type>DATA_TYPES::SETTLEMENT_PERIOD</type>
+          <declname>settlementPeriod</declname>
+        </param>
+        <briefdescription>
+<para>setSettlementPeriod </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settlementPeriod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1aec2e0123a97684d70a1b02e4e2c42b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setOrderStatus</definition>
+        <argsstring>(DATA_TYPES::OrderStatus orderStatus)</argsstring>
+        <name>setOrderStatus</name>
+        <param>
+          <type>DATA_TYPES::OrderStatus</type>
+          <declname>orderStatus</declname>
+        </param>
+        <briefdescription>
+<para>setOrderStatus </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orderStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="460"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a715489ec06c7713d7df2ca7d19b31dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setSymbol</definition>
+        <argsstring>(const char *symbol)</argsstring>
+        <name>setSymbol</name>
+        <param>
+          <type>const char *</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+<para>setSymbol </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a247f75ccdba017be3ee525e7cac919a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setSeries</definition>
+        <argsstring>(const char *series)</argsstring>
+        <name>setSeries</name>
+        <param>
+          <type>const char *</type>
+          <declname>series</declname>
+        </param>
+        <briefdescription>
+<para>setSeries </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>series</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1a84b6c742e808c8897785a42f8bfcfe43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setTraderId</definition>
+        <argsstring>(DATA_TYPES::TRADER_ID traderId)</argsstring>
+        <name>setTraderId</name>
+        <param>
+          <type>DATA_TYPES::TRADER_ID</type>
+          <declname>traderId</declname>
+        </param>
+        <briefdescription>
+<para>setTraderId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>traderId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_p_i2_1_1_single_order_1ada2c21e8603dfff7267657f2df1ce8c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void API2::SingleOrder::setTokenId</definition>
+        <argsstring>(UNSIGNED_INTEGER val)</argsstring>
+        <name>setTokenId</name>
+        <param>
+          <type>UNSIGNED_INTEGER</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>setTokenId </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="484"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_a_p_i2_1_1_single_order" kindref="compound">SingleOrder</ref> class. This wrapper is used for sending Single Leg Orders. Usage: Create an object for This using <ref refid="class_a_p_i2_1_1_s_g_context_1ab141f05e2a0d8a51fdadc57bf53d2cd8" kindref="member">API2::SGContext::createNewOrder</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" line="20" bodyfile="/home/utrade/Trinity/code/trunk-2/futfut/includes/sharedSingleOrder.h" bodystart="19" bodyend="486"/>
+    <listofallmembers>
+      <member refid="class_a_p_i2_1_1_single_order_1adf27a836445ead05dc2c39b4dd057e7f" prot="public" virt="pure-virtual"><scope>API2::SingleOrder</scope><name>dump</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aaa873364cebec88630b4ea9b512eaef8" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getClientId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a9583a7b568a2003af1c78a006c8bebef" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getClOrdId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1afa73822430c2742cd2c0a3b1d087e087" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getDeltaQty</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1adcd794066bd9c5a4ef8ac4d4dc1b64e7" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getDisclosedQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aef1b4d951031f241bb085ae45377ca15" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExchangeEntryTime</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aa325a9347526339cbb4f9ff74ec8dc5e" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExchangeId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a1fdd8bbb3e497f3172466e0957fdd16f" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExchangeModifyTime</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1abeb2250a5b8f177be6b57326bbd29854" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aab369ee83666d5a8866b076d922162fa" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExchangeSecurityId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a658f0353ae54bb5323a8574c3230c6ec" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getExpiryDate</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a9885de5b864534cb5ee210e9ebc165de" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getFilledQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1afb63f5032c3ee33e1c977b3a6c3521be" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getInstrumentType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ad0eb23ff72ec36877382651aab12ebc0" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOldQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aa07bbb21fb434e99e0ad2315eb0f061d" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOptionAttribute</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a5621f5611f1b007691b159fc5cdcecba" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOptionMode</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a06316b4f9f74b63c21342f15798e4232" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOptionStrikePrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aace36f50716b3e08ecc237781b3246b8" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOrderMode</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a7a4c30c1de34991c557cfc62fefef68b" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOrderStatus</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aec0fe641e3bb0c9b866b2ad221a9edd1" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOrderType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a256ad70ca6364e58e9570a01171f545d" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOrderValidity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a74887309b74ccdadaa8a2965bbd0d8d1" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getOrigClientOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a94e904d20765dbe9dc8f551e9131a86a" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getPrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ad7dd2468cb1fedab48057cd7dd98c075" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getProductType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ae83e842fe2651eda4b45179da81f7d34" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a6bec3cce7cb07ed8347dbdb49e494bca" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getSecurityType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a7535e0a3966d49f1ddf68bd87b174be1" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getSeries</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a7009cc58bb0799fc898066ac16b29b72" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getSettlementPeriod</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a0056cb82362c1929781c08282c74dbb4" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getStopPrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a705bb6400ace761dcb7b47a6eb26492c" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getSymbol</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a64a959d8130caf531784efd0a2e59926" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getSymbolId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a20a7f85ee7070d46c5d8b815ed638839" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getTokenId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a1721ebefc518df8a2778abae9d604d4b" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getTraderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1adeec84f5228d3392fed271ae20196edf" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>getTransactionType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a40f1568727207de3f1e72c40d8b2081a" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>initialize</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a75ec4c26d9fbe24655e858b3a19c34a9" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>initialize</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a5c965cc06d7934c742d4e512eeb29ab7" prot="private" virt="non-virtual"><scope>API2::SingleOrder</scope><name>pimpl</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a77a799ca5c1e545dba6fe9be6be6ecb2" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setClientId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1abb9a1a8e18fec11a161a5cb486381666" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setClOrdId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a5b77b15bf65aa531d8144d056767fae0" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setDisclosedQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ad4272f16e98d3d7071d2836e52cdbd85" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setExchangeEntryTime</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aabb08f44d026b11b8cd281041817c79d" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setExchangeModifyTime</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a411efe2e7dd4080416392a2247268528" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ae1a322de9808b4b4eb8755c34fafdf99" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setExchangeOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a5a22afab70ba6be6b58565bf299d1388" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setExpiryDate</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aa968bc7c3f74dd1b4bbf2213bc25e1af" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setFilledQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a09d883b738c0a35077fc711adb8b0a25" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setInstrumentType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ad9b9633dc4513d6d31ed09efec046fa8" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOldQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a21a30501f824b4325152ffa499dc1735" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOptionAttribute</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a2afccefbe06b28f0e63fcf41fe500357" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOptionMode</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a2c82cc5efa96cc5437c04590427f973e" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOptionStrikePrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a952ff552cc23a34d42f81deaa62959c8" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOrderMode</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aec2e0123a97684d70a1b02e4e2c42b08" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOrderStatus</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a3626e639531ac15568b190a21a393d92" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOrderType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ab328771801e0f7e92115966a499495a3" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOrderValidity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a6c27c70364b6715684e915e406ec48fd" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setOrigClientOrderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ac7365ab0c1b59c10c3dfc79366193673" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setPrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ac89c2c4e0e8c898d21c597aa44541158" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setProductType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a6b79cf19122fad3d1f5ae3477f4150c0" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setQuantity</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a1fe75fe66191bee3df3f69b5d9b3dd75" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setSecurityType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a247f75ccdba017be3ee525e7cac919a3" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setSeries</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1af914d9b983de6435ba85dca1b3688b8b" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setSettlementPeriod</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a6828bd5ddd00d5cfe0594afb7b5fbc13" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setStopPrice</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a715489ec06c7713d7df2ca7d19b31dd0" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setSymbol</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ae0b03ccb44dd80e14ca40d5ae459ec95" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setSymbolId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1ada2c21e8603dfff7267657f2df1ce8c6" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setTokenId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a84b6c742e808c8897785a42f8bfcfe43" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setTraderId</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a869aef954f9ae0f0619beb28e312c988" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>setTransactionType</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1aa6f1357a05c284c16a78f4c201d07dfe" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>SingleOrder</name></member>
+      <member refid="class_a_p_i2_1_1_single_order_1a424d34ffce1d177299afb602ac1b3588" prot="public" virt="non-virtual"><scope>API2::SingleOrder</scope><name>SingleOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

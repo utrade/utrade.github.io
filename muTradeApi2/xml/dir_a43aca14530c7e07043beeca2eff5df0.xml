@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dir_a43aca14530c7e07043beeca2eff5df0" kind="dir">
+    <compoundname>/home/utrade/Trinity/code/trunk-2/futfut/includes</compoundname>
+    <innerdir refid="dir_63288fdbe077e8b046e9783cc5d536b4">/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib</innerdir>
+    <innerfile refid="api2_exceptions_8h">api2Exceptions.h</innerfile>
+    <innerfile refid="api2_user_commands_8h">api2UserCommands.h</innerfile>
+    <innerfile refid="api_constants_8h">apiConstants.h</innerfile>
+    <innerfile refid="api_data_types_8h">apiDataTypes.h</innerfile>
+    <innerfile refid="api_structs_8h">apiStructs.h</innerfile>
+    <innerfile refid="base_commands_8h">baseCommands.h</innerfile>
+    <innerfile refid="serialize_commands_8h">serializeCommands.h</innerfile>
+    <innerfile refid="shared_commands_8h">sharedCommands.h</innerfile>
+    <innerfile refid="shared_defines_8h">sharedDefines.h</innerfile>
+    <innerfile refid="shared_response_8h">sharedResponse.h</innerfile>
+    <innerfile refid="shared_single_order_8h">sharedSingleOrder.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/"/>
+  </compounddef>
+</doxygen>

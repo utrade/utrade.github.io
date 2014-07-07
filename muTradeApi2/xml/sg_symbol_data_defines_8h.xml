@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="sg_symbol_data_defines_8h" kind="file">
+    <compoundname>sgSymbolDataDefines.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="sg_common_8h" local="no">sgLib/sgCommon.h</includedby>
+    <includedby refid="shared_single_order_8h" local="no">sharedSingleOrder.h</includedby>
+    <incdepgraph>
+      <node id="118">
+        <label>sgLib/sgSymbolDataDefines.h</label>
+        <link refid="sgSymbolDataDefines.h"/>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="120">
+        <label>sgLib/sgSymbolDataDefines.h</label>
+        <link refid="sgSymbolDataDefines.h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>sgLib/sgContext.h</label>
+        <link refid="sg_context_8h_source"/>
+      </node>
+      <node id="123">
+        <label>sharedSingleOrder.h</label>
+        <link refid="shared_single_order_8h_source"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>sgLib/sgCommon.h</label>
+        <link refid="sg_common_8h_source"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_a_p_i2_1_1_symbol_static_data" prot="public">API2::SymbolStaticData</innerclass>
+    <innernamespace refid="namespace_a_p_i2">API2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SG_SYMBOL_DATA_DEFINESH</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SG_SYMBOL_DATA_DEFINESH</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">API2<sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="struct_a_p_i2_1_1_symbol_static_data" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_a_p_i2_1_1_symbol_static_data" kindref="compound" tooltip="The API_SymbolStaticData struct.">SymbolStaticData</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="struct_a_p_i2_1_1_symbol_static_data_1a89420b9c2d781cd16fd43faa01edd014" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a89420b9c2d781cd16fd43faa01edd014" kindref="member" tooltip="marketId">marketId</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="struct_a_p_i2_1_1_symbol_static_data_1a346f41eae161558bd9e76c945f5a84eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a346f41eae161558bd9e76c945f5a84eb" kindref="member" tooltip="securityId">securityId</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="struct_a_p_i2_1_1_symbol_static_data_1a130e9b7d4c4b0adafb85ad196031d6ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a130e9b7d4c4b0adafb85ad196031d6ed" kindref="member" tooltip="symbol">symbol</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="struct_a_p_i2_1_1_symbol_static_data_1a7be09e8ee8f02b8abe44aebe1d4a8aa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a7be09e8ee8f02b8abe44aebe1d4a8aa9" kindref="member" tooltip="securityType">securityType</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="struct_a_p_i2_1_1_symbol_static_data_1a18007d0742e90640aea50d299954d771" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a18007d0742e90640aea50d299954d771" kindref="member" tooltip="scripName">scripName</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="struct_a_p_i2_1_1_symbol_static_data_1a76a2935e930075691fe0db69809a59ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a76a2935e930075691fe0db69809a59ad" kindref="member" tooltip="groupName">groupName</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="struct_a_p_i2_1_1_symbol_static_data_1a2bfdd16ce191e722e6fffa507a734a89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a2bfdd16ce191e722e6fffa507a734a89" kindref="member" tooltip="maturityYearmon">maturityYearmon</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="struct_a_p_i2_1_1_symbol_static_data_1add7ecc3468f973a995fba0e043840d8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1add7ecc3468f973a995fba0e043840d8c" kindref="member" tooltip="maturityDay">maturityDay</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="struct_a_p_i2_1_1_symbol_static_data_1aa54ffeca8c5a56e2ed366a22365a4f8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1aa54ffeca8c5a56e2ed366a22365a4f8a" kindref="member" tooltip="optionMode">optionMode</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct_a_p_i2_1_1_symbol_static_data_1ab739d8b9668dd297bf1bc0db596f018e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1ab739d8b9668dd297bf1bc0db596f018e" kindref="member" tooltip="optionAttribute">optionAttribute</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="struct_a_p_i2_1_1_symbol_static_data_1a9367d90fa114992ba08df34d526d5d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a9367d90fa114992ba08df34d526d5d5f" kindref="member" tooltip="timeElapsedBse">timeElapsedBse</ref>;</highlight><highlight class="comment">//un</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="struct_a_p_i2_1_1_symbol_static_data_1ae7b83f77daaf19818c519c33cc69c01c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1ae7b83f77daaf19818c519c33cc69c01c" kindref="member" tooltip="timeElapsedNse">timeElapsedNse</ref>;</highlight><highlight class="comment">//un</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="struct_a_p_i2_1_1_symbol_static_data_1a22c77b88766cbfa82992037960f873a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a22c77b88766cbfa82992037960f873a0" kindref="member" tooltip="instrumentType">instrumentType</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="struct_a_p_i2_1_1_symbol_static_data_1a99b31e957c49137d25da5db1a50b6a38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a99b31e957c49137d25da5db1a50b6a38" kindref="member" tooltip="strikePrice">strikePrice</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="struct_a_p_i2_1_1_symbol_static_data_1aec76a85e37759fad4c76f987a35e8013" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1aec76a85e37759fad4c76f987a35e8013" kindref="member" tooltip="noDelivery">noDelivery</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="struct_a_p_i2_1_1_symbol_static_data_1a9ff0bb6b69d83bb67acc6f95de2c9174" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a9ff0bb6b69d83bb67acc6f95de2c9174" kindref="member" tooltip="marketLot">marketLot</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="struct_a_p_i2_1_1_symbol_static_data_1ad3500151e30f2bf6b2f0b432827a4a99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1ad3500151e30f2bf6b2f0b432827a4a99" kindref="member" tooltip="tickSize">tickSize</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="struct_a_p_i2_1_1_symbol_static_data_1acfd902f02faa050ccffe562a39226647" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1acfd902f02faa050ccffe562a39226647" kindref="member" tooltip="suspended">suspended</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="struct_a_p_i2_1_1_symbol_static_data_1acf3a126860815033610095a1ae3d0a97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1acf3a126860815033610095a1ae3d0a97" kindref="member" tooltip="avmFlag">avmFlag</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="struct_a_p_i2_1_1_symbol_static_data_1aaba3bbb295f09ae1f9684088d78506f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1aaba3bbb295f09ae1f9684088d78506f1" kindref="member" tooltip="avmBuyMargin">avmBuyMargin</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="struct_a_p_i2_1_1_symbol_static_data_1a48d65db76074d4944d654152f99aeaea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a48d65db76074d4944d654152f99aeaea" kindref="member" tooltip="avmSellMargin">avmSellMargin</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="struct_a_p_i2_1_1_symbol_static_data_1afa802ea60e35b764f191adc471027eaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1afa802ea60e35b764f191adc471027eaf" kindref="member" tooltip="spanMargin">spanMargin</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="struct_a_p_i2_1_1_symbol_static_data_1a1031357524a5983bc061c69d30abd5c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a1031357524a5983bc061c69d30abd5c4" kindref="member" tooltip="exposureMargin">exposureMargin</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="struct_a_p_i2_1_1_symbol_static_data_1a75bb50fdb1d72e456b45adffed3545ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a75bb50fdb1d72e456b45adffed3545ce" kindref="member" tooltip="settlementType">settlementType</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="struct_a_p_i2_1_1_symbol_static_data_1a49d3933b9a3d9785393fad2ccbc96860" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a49d3933b9a3d9785393fad2ccbc96860" kindref="member" tooltip="isinNumber">isinNumber</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="struct_a_p_i2_1_1_symbol_static_data_1a1b0693e0c4d0a262b8fe1d09702a0194" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a1b0693e0c4d0a262b8fe1d09702a0194" kindref="member" tooltip="haircut">haircut</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="struct_a_p_i2_1_1_symbol_static_data_1adfd310479425bef20910b763a4d355a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1adfd310479425bef20910b763a4d355a1" kindref="member" tooltip="bcastFlag">bcastFlag</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="struct_a_p_i2_1_1_symbol_static_data_1a1d5b87bc3f923de4a0edea226816d7c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a1d5b87bc3f923de4a0edea226816d7c4" kindref="member" tooltip="mktPicBcastFlag">mktPicBcastFlag</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="struct_a_p_i2_1_1_symbol_static_data_1a35e67a465cbb7c509a204bb3b61765cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a35e67a465cbb7c509a204bb3b61765cb" kindref="member" tooltip="productCode">productCode</ref>;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="struct_a_p_i2_1_1_symbol_static_data_1aee9b3ceff5b2e836a08a11013126fa52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1aee9b3ceff5b2e836a08a11013126fa52" kindref="member" tooltip="underlyingId">underlyingId</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>SymbolId</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="struct_a_p_i2_1_1_symbol_static_data_1a472f5fbdd843f4ed795eb185d6f75a28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a472f5fbdd843f4ed795eb185d6f75a28" kindref="member" tooltip="is_auction_eligible">is_auction_eligible</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="struct_a_p_i2_1_1_symbol_static_data_1a713d24246789d1c2162498e084e7bb8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a713d24246789d1c2162498e084e7bb8d" kindref="member" tooltip="hi_52_wk">hi_52_wk</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="struct_a_p_i2_1_1_symbol_static_data_1a24630a05fb861c173b798070e9ab96d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a24630a05fb861c173b798070e9ab96d2" kindref="member" tooltip="lo_52_wk">lo_52_wk</ref>;</highlight><highlight class="comment">//new</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="struct_a_p_i2_1_1_symbol_static_data_1ab9215bde7f0f352dffd599a05db87c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1ab9215bde7f0f352dffd599a05db87c9e" kindref="member" tooltip="lowerBandPrice">lowerBandPrice</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="struct_a_p_i2_1_1_symbol_static_data_1a9c1ebb725b17b0908408ff462b64acb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a9c1ebb725b17b0908408ff462b64acb1" kindref="member" tooltip="upperBandPrice">upperBandPrice</ref>;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="struct_a_p_i2_1_1_symbol_static_data_1ada5ac23aa7596dec098fa482e0bf5dc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1ada5ac23aa7596dec098fa482e0bf5dc0" kindref="member" tooltip="freezeQuantity">freezeQuantity</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="struct_a_p_i2_1_1_symbol_static_data_1a0f93c2fb95f2623ca5826a5fb705a8f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a0f93c2fb95f2623ca5826a5fb705a8f3" kindref="member" tooltip="closePrice">closePrice</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="struct_a_p_i2_1_1_symbol_static_data_1a7cddd330b1a2fad9f4113488ba0839ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a7cddd330b1a2fad9f4113488ba0839ba" kindref="member" tooltip="symbolId">symbolId</ref>;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="struct_a_p_i2_1_1_symbol_static_data_1a32fecd3d7339e805752719516154c977" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a32fecd3d7339e805752719516154c977" kindref="member" tooltip="scripPrecision">scripPrecision</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="struct_a_p_i2_1_1_symbol_static_data_1aa2e596d4cbc7828ecc96e9ab55c86f54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1aa2e596d4cbc7828ecc96e9ab55c86f54" kindref="member" tooltip="symbolAlias">symbolAlias</ref>;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a5ef1fdea553d2b4671968a7f8c4e4ec6" kindref="member" tooltip="API_SymbolStaticData.">SymbolStaticData</ref>();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_a_p_i2_1_1_symbol_static_data_1a07b71fafcd8de5f381348df218c6fd85" kindref="member" tooltip="dump">dump</ref>();</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/utrade/Trinity/code/trunk-2/futfut/includes/sgLib/sgSymbolDataDefines.h"/>
+  </compounddef>
+</doxygen>
