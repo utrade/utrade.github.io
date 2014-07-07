@@ -1,6 +1,9 @@
 var NAVTREE =
 [
   [ "muTrade API", "index.html", [
+    [ "muTrade API Version 2.0", "index.html", [
+      [ "Links", "index.html#External", null ]
+    ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Index", "classes.html", null ],

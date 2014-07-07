@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mutrade_20api_20version_202_2e0',['muTrade API Version 2.0',['../index.html',1,'']]],
   ['marketdatasubscriptionfailedexception',['MarketDataSubscriptionFailedException',['../struct_a_p_i2_1_1_market_data_subscription_failed_exception.html',1,'API2']]],
   ['marketdatawrapper',['MarketDataWrapper',['../class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper.html',1,'API2::COMMON']]],
   ['marketdatawrapper',['MarketDataWrapper',['../class_a_p_i2_1_1_c_o_m_m_o_n_1_1_market_data_wrapper.html#abd7f1859e66f2d650efd9e45562eb507',1,'API2::COMMON::MarketDataWrapper']]],
