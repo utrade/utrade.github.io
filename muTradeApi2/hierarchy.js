@@ -1,10 +1,7 @@
 var hierarchy =
 [
-    [ "API2::AbstractUserParams", "class_a_p_i2_1_1_abstract_user_params.html", [
+    [ "AbstractUserParams", null, [
       [ "API2::UserParams", "class_a_p_i2_1_1_user_params.html", null ]
-    ] ],
-    [ "API2::BaseType", "class_a_p_i2_1_1_base_type.html", [
-      [ "API2::DerivedType< T >", "class_a_p_i2_1_1_derived_type.html", null ]
     ] ],
     [ "exception", null, [
       [ "API2::DuplicateKeyException", "struct_a_p_i2_1_1_duplicate_key_exception.html", null ],

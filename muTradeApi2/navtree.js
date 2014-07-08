@@ -1,7 +1,8 @@
 var NAVTREE =
 [
-  [ "muTrade API", "index.html", [
+  [ "API", "index.html", [
     [ "muTrade API Version 2.0", "index.html", [
+      [ "Introduction", "index.html#Introduction", null ],
       [ "Links", "index.html#External", null ]
     ] ],
     [ "Classes", null, [
@@ -23,7 +24,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_a_p_i2_1_1_single_order.html#ac7365ab0c1b59c10c3dfc79366193673"
+"class_a_p_i2_1_1_user_params.html#a99f3b245caaae652926cc585182c83e2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

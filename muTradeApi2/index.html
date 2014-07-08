@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>muTrade API: muTrade API Version 2.0</title>
+<title>API: muTrade API Version 2.0</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,11 +28,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">muTrade API
+   <div id="projectname">API
    &#160;<span id="projectnumber">Version 2.0</span>
    </div>
-   <div id="projectbrief">Low-Latency HFT API based in C++</div>
+   <div id="projectbrief">Low-Latency HFT API</div>
   </td>
  </tr>
  </tbody>
@@ -100,17 +101,24 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">muTrade API Version 2.0 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="External"></a>
+<div class="textblock"><h1><a class="anchor" id="Introduction"></a>
+Introduction</h1>
+<p>uTrade’s API 2.0 provides algo infrastructure, which allows you to create your own latency sensitive strategies and host them in uTrade's infrastructure in exchange co-location or non co-location environment.</p>
+<p>New custom strategies can be integrated and run in the platform on the fly with no effect on the already running strategies. They can be run from the same front-end. The user can also use any uTrade's inbuilt arbitrage, market making, and various other strategies through the same platform.</p>
+<p>Risk Management features is also available, same as the trading platform.</p>
+<p>Custom strategy can be run with both TBT and snapshot feed. Latest data (order book) is provided to the strategy on request-basis.</p>
+<h1><a class="anchor" id="External"></a>
 Links</h1>
-<h1><a href="http://utrade.github.io/muTradeApi2/brochure.html">User Manual</a></h1>
-<h1><a href="http://utrade.github.io/muTradeApi2/strategyFlow.html">Strategy Flow</a></h1>
-<h1><a href="https://github.com/utrade/utrade.github.io/tree/master/futfut">Sample Strategy</a></h1>
+<p><a href="http://utrade.github.io/muTradeApi2/brochure.html">User Manual</a><br/>
+ <a href="http://utrade.github.io/muTradeApi2/strategyFlow.pdf">Strategy Flow</a><br/>
+ <a href="https://github.com/utrade/utrade.github.io/tree/master/futfut">Sample Strategy</a><br/>
+ </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 7 2014 18:21:04 for muTrade API by
+    <li class="footer">Generated on Tue Jul 8 2014 10:43:43 for API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
