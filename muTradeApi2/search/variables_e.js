@@ -3,6 +3,8 @@ var searchData=
   ['scripname',['scripName',['../struct_a_p_i2_1_1_symbol_static_data.html#a18007d0742e90640aea50d299954d771',1,'API2::SymbolStaticData']]],
   ['scripprecision',['scripPrecision',['../struct_a_p_i2_1_1_symbol_static_data.html#a32fecd3d7339e805752719516154c977',1,'API2::SymbolStaticData']]],
   ['securityid',['securityId',['../struct_a_p_i2_1_1_symbol_static_data.html#a346f41eae161558bd9e76c945f5a84eb',1,'API2::SymbolStaticData']]],
+  ['securityid1',['securityId1',['../struct_a_p_i2_1_1_symbol_static_data.html#ae830fc1aa75647eb2471d93f0cc473b0',1,'API2::SymbolStaticData']]],
+  ['securityid2',['securityId2',['../struct_a_p_i2_1_1_symbol_static_data.html#aca3ba495f38d9b84210c95a1a398a551',1,'API2::SymbolStaticData']]],
   ['securitytype',['securityType',['../struct_a_p_i2_1_1_symbol_static_data.html#a7be09e8ee8f02b8abe44aebe1d4a8aa9',1,'API2::SymbolStaticData']]],
   ['settlementtype',['settlementType',['../struct_a_p_i2_1_1_symbol_static_data.html#a75bb50fdb1d72e456b45adffed3545ce',1,'API2::SymbolStaticData']]],
   ['spanmargin',['spanMargin',['../struct_a_p_i2_1_1_symbol_static_data.html#afa802ea60e35b764f191adc471027eaf',1,'API2::SymbolStaticData']]],

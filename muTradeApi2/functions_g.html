@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>muTrade API: Class Members</title>
+<title>API: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,11 +28,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">muTrade API
-   &#160;<span id="projectnumber">Version 2.0</span>
+   <div id="projectname">API
+   &#160;<span id="projectnumber">Version 2.0.1</span>
    </div>
-   <div id="projectbrief">Low-Latency HFT API based in C++</div>
+   <div id="projectbrief">Low-Latency HFT API</div>
   </td>
  </tr>
  </tbody>
@@ -128,7 +129,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -141,11 +142,11 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>getAddInstrument()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#af8c29693539afd24c6dd420972c8871e">API2::SGContext</a>
+<li>getAccountDetails()
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#afadeb331004a603ecc949b3e0a440b69">API2::SingleOrder</a>
 </li>
 <li>getAdminTokenId()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#af3455b23fcf0866bbd7634fff735e9b6">API2::SGContext</a>
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#abcd32429f78ecbddda733219138e70d3">API2::AbstractUserParams</a>
 </li>
 <li>getApiOrder()
 : <a class="el" href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">API2::OrderBook</a>
@@ -156,11 +157,14 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getAskQty()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#ac7e2e92d87bd2645a719c8dd51246fa2">API2::COMMON::MktData</a>
 </li>
+<li>getAverageOhlcPrice()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a0159b1488d789ee3182397d4601290d1">API2::COMMON::OhlcQuote</a>
+</li>
 <li>getAvgPrice()
 : <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a7615e0a698a69edbb9124796d6c77e15">API2::COMMON::InstrumentPosition</a>
 </li>
 <li>getBaseTypeVector()
-: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_user_params_reader.html#a9cc443d71857f44c3b0361e80afb9206">API2::COMMON::UserParamsReader</a>
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_user_params_reader.html#a7a98420c78b664ed5acc965a63c78b09">API2::COMMON::UserParamsReader</a>
 </li>
 <li>getBidPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a162e50a3d866561b2143dbd260d68bb4">API2::COMMON::MktData</a>
@@ -172,13 +176,10 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a5c6d74ae6c4d08deb1d9670bbb615044">API2::COMMON::InstrumentPosition</a>
 </li>
 <li>getClientId()
-: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#adc0c80bcf4d99437b26e482143dc4b45">API2::OrderConfirmation</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#aee86b97a48929d22d5c6afd9c5d68838">API2::SGContext</a>
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#a9f50140f0f4eb8de0a56c5da6a7aa2b6">API2::AbstractUserParams</a>
+, <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#adc0c80bcf4d99437b26e482143dc4b45">API2::OrderConfirmation</a>
 , <a class="el" href="class_a_p_i2_1_1_single_order.html#aaa873364cebec88630b4ea9b512eaef8">API2::SingleOrder</a>
 , <a class="el" href="class_a_p_i2_1_1_strategy_parameters.html#ad7f5051101186f72e9b9e265b49905c3">API2::StrategyParameters</a>
-</li>
-<li>getClientOrderId()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a4eb246662184d5dbbfd1694279bb4b9b">API2::SGContext</a>
 </li>
 <li>getClOrderId()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ac927e0347cdc6686a89478626c979a35">API2::OrderConfirmation</a>
@@ -188,9 +189,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 </li>
 <li>getClosePrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a575943cc7e3a507003973f96e9eb1b52">API2::COMMON::MktData</a>
-</li>
-<li>getDebugLog()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#adf0389e54a6dec09889cd219521a1b87">API2::SGContext</a>
+, <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a621a3f2c0356974755ce3429bcd39543">API2::COMMON::OhlcQuote</a>
 </li>
 <li>getDeltaQty()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#afa73822430c2742cd2c0a3b1d087e087">API2::SingleOrder</a>
@@ -214,7 +213,6 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 </li>
 <li>getExchangeOrderId()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a092cb6b14b04e741f1dedd08ef5af5ab">API2::OrderConfirmation</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a1f069a29ffd8d51cd8bbb512f9d57406">API2::SGContext</a>
 , <a class="el" href="class_a_p_i2_1_1_single_order.html#abeb2250a5b8f177be6b57326bbd29854">API2::SingleOrder</a>
 </li>
 <li>getExchangeSecurityId()
@@ -223,11 +221,15 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getExpiryDate()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a658f0353ae54bb5323a8574c3230c6ec">API2::SingleOrder</a>
 </li>
+<li>getExpiryDate1()
+: <a class="el" href="class_a_p_i2_1_1_spread_order.html#ac8d224e5bd3d2177f8823f8617437824">API2::SpreadOrder</a>
+</li>
 <li>getFilledQuantity()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a9885de5b864534cb5ee210e9ebc165de">API2::SingleOrder</a>
 </li>
 <li>getHighPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a5e19df584bf4ab79a98ffd56bb10c1ae">API2::COMMON::MktData</a>
+, <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a111d299dc28b881939f956d56acf40db">API2::COMMON::OhlcQuote</a>
 </li>
 <li>getId()
 : <a class="el" href="class_a_p_i2_1_1_strategy_parameters.html#ab03303184656b38f0fd352a21c4b9928">API2::StrategyParameters</a>
@@ -235,20 +237,36 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getInfo()
 : <a class="el" href="class_a_p_i2_1_1_strategy_parameters.html#a6a7c4d4c3e6cae23741c87732e89689a">API2::StrategyParameters</a>
 </li>
-<li>getInstrumentList()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a456d032ab4229a08bfa237b33ffec76b">API2::SGContext</a>
-</li>
 <li>getInstrumentType()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#afb63f5032c3ee33e1c977b3a6c3521be">API2::SingleOrder</a>
 </li>
 <li>getIOCCanceledQuantity()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#acb9b362eaf01e028846e68bdfeec3bb4">API2::OrderConfirmation</a>
 </li>
+<li>getIsSnapShot()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a80deddfe5c9467772c0c306b97d25478">API2::COMMON::MktData</a>
+</li>
+<li>getKeyValueString()
+: <a class="el" href="class_a_p_i2_1_1_base_type.html#af6d715781ffd9219265e57034fe86863">API2::BaseType</a>
+, <a class="el" href="class_a_p_i2_1_1_derived_type.html#ad5495aa4836229960ab2ccc26462064a">API2::DerivedType&lt; T &gt;</a>
+</li>
+<li>getKeyValueStringImpl()
+: <a class="el" href="class_a_p_i2_1_1_derived_type.html#ad51612954518f3f85095dd047a50ff90">API2::DerivedType&lt; T &gt;</a>
+</li>
 <li>getLastFillPrice()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a60b3c4bb35cf21fe9545a33d806757f4">API2::OrderConfirmation</a>
 </li>
+<li>getLastFillPrice1()
+: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a4a0593fb86a693b1c33fbb776e46006c">API2::OrderConfirmation</a>
+</li>
+<li>getLastFillPrice2()
+: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#aad27dfdcbe895a5653a16b37f6e37b7c">API2::OrderConfirmation</a>
+</li>
 <li>getLastFillQuantity()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ad43d155099d9eaa786e028bffc872fc9">API2::OrderConfirmation</a>
+</li>
+<li>getLastProcessTimestamp()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a854a64b0a6bbe1c1cb4455cfc65e6eca">API2::COMMON::OhlcQuote</a>
 </li>
 <li>getLastQuotedPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument.html#ac6727da5584746a474938d42ede3b82a">API2::COMMON::Instrument</a>
@@ -265,26 +283,25 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getLimitPrice()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a7452a5686513c6ee0805716f13247e9c">API2::OrderConfirmation</a>
 </li>
+<li>getLocationId()
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#a46d51447170ecd519419f79641aac1c9">API2::SingleOrder</a>
+</li>
 <li>getLowPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a1356652aa23866fd25bcaadda01d8889">API2::COMMON::MktData</a>
-</li>
-<li>getMktData()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ae699404b321162a301789572fc0ebabe">API2::SGContext</a>
+, <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a509bc1f6df8ef4028da91ba9ba8371a7">API2::COMMON::OhlcQuote</a>
 </li>
 <li>getMtmPnl()
 : <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a29f4a14b3b1e6d9e7bdcd38b6b4ec2f8">API2::COMMON::InstrumentPosition</a>
 </li>
-<li>getNetBookedPnl()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#af6870dd712538b752eab69b935c7583b">API2::SGContext</a>
-</li>
-<li>getNetMTM()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a5143f1432d2b423420f6405a934ea0be">API2::SGContext</a>
+<li>getmultiplier()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a5eaedadc0d7d9b64333959727f7c4f27">API2::COMMON::MktData</a>
 </li>
 <li>getOldQuantity()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#ad0eb23ff72ec36877382651aab12ebc0">API2::SingleOrder</a>
 </li>
 <li>getOpenPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#a8211f710536b63d9314b784b1ee7fbd6">API2::COMMON::MktData</a>
+, <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_ohlc_quote.html#a3240fb867cfa5f7ef2d79671d32b0344">API2::COMMON::OhlcQuote</a>
 </li>
 <li>getOpenQty()
 : <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a6bd5cf326e5317a97e5bb940e7639059">API2::COMMON::InstrumentPosition</a>
@@ -303,7 +320,10 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 </li>
 <li>getOrder()
 : <a class="el" href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">API2::OrderBook</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ae49290cac1f27ba3049f1f5f5075cc49">API2::SGContext</a>
+</li>
+<li>getOrderCategory()
+: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a2dda2e79aed33332603ead32608781ec">API2::OrderConfirmation</a>
+, <a class="el" href="class_a_p_i2_1_1_single_order.html#ae82f3f170b10184f949bdfcee04d48d6">API2::SingleOrder</a>
 </li>
 <li>getOrderMode()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a92038ac1d484df2fad5cc699e0698c4c">API2::OrderConfirmation</a>
@@ -317,7 +337,6 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 </li>
 <li>getOrderStatus()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#a5d6785788ff0b6417297b2afc185b3c9">API2::OrderConfirmation</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a908e0a9ae6e276117fa661957b2cfa1f">API2::SGContext</a>
 , <a class="el" href="class_a_p_i2_1_1_single_order.html#a7a4c30c1de34991c557cfc62fefef68b">API2::SingleOrder</a>
 </li>
 <li>getOrderType()
@@ -332,15 +351,14 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getOriginalClOrderId()
 : <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#acdadf079c62a8a29a657f261a8927e08">API2::OrderConfirmation</a>
 </li>
-<li>getParams()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a653537350a6cc355bf79564b33dbba92">API2::SGContext</a>
-</li>
 <li>getPendingQty()
 : <a class="el" href="struct_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument_position.html#a146408733d0fbe9d8b3e565ed63a79fc">API2::COMMON::InstrumentPosition</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a3e769f6514bc235a16c7495b9d8c70e9">API2::SGContext</a>
 </li>
 <li>getPosition()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument.html#a1da59722fd5bb50700be03771b03c2bb">API2::COMMON::Instrument</a>
+</li>
+<li>getPositionString()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument.html#a76111d143d32a19bff488470495b45ee">API2::COMMON::Instrument</a>
 </li>
 <li>getPrice()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#acc6ba70aa24dae69330b05285f22942d">API2::COMMON::MktData</a>
@@ -355,14 +373,26 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getQuantity()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#ae83e842fe2651eda4b45179da81f7d34">API2::SingleOrder</a>
 </li>
+<li>getQuote()
+: <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_mkt_data.html#ae43df3b5a2f80e1d92d8daab21edb589">API2::COMMON::MktData</a>
+</li>
+<li>getRefAccountDetails()
+: <a class="el" href="class_a_p_i2_1_1_single_order.html#a8e0fb6295d93c3528357022ae4ecc0ce">API2::SingleOrder</a>
+</li>
 <li>getSecurityType()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a6bec3cce7cb07ed8347dbdb49e494bca">API2::SingleOrder</a>
+</li>
+<li>getSequenceNumber()
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#a9c3d09b506725206a74e40902a8b71b9">API2::AbstractUserParams</a>
 </li>
 <li>getSeries()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a7535e0a3966d49f1ddf68bd87b174be1">API2::SingleOrder</a>
 </li>
 <li>getSettlementPeriod()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a7009cc58bb0799fc898066ac16b29b72">API2::SingleOrder</a>
+</li>
+<li>getSpreadOrder()
+: <a class="el" href="struct_a_p_i2_1_1_order_book.html#adb690ec5afeeb0cd6a4a9694c48291d3">API2::OrderBook</a>
 </li>
 <li>getStaticData()
 : <a class="el" href="class_a_p_i2_1_1_c_o_m_m_o_n_1_1_instrument.html#a8cac1a5b65b1356e27d2b49e0f70247f">API2::COMMON::Instrument</a>
@@ -371,8 +401,20 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a0056cb82362c1929781c08282c74dbb4">API2::SingleOrder</a>
 </li>
 <li>getStrategyId()
-: <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ac3be746c6becde4ddfeab316a41120d0">API2::OrderConfirmation</a>
-, <a class="el" href="class_a_p_i2_1_1_s_g_context.html#abffd48797b85fe57108f02ad77f3c009">API2::SGContext</a>
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#aed5ef05484d456b468157eec30c928ce">API2::AbstractUserParams</a>
+, <a class="el" href="class_a_p_i2_1_1_order_confirmation.html#ac3be746c6becde4ddfeab316a41120d0">API2::OrderConfirmation</a>
+</li>
+<li>getStrategyVersion()
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#ade1712f1d1beaee24ed93478daa8f8fc">API2::AbstractUserParams</a>
+</li>
+<li>getStrConfirmation()
+: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a7c33e7742796297636e5e9ed777328fa">API2::SGContext</a>
+</li>
+<li>getStrOrderId()
+: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ac47770d21600ed4ad969258301d5f6f8">API2::SGContext</a>
+</li>
+<li>getStrSingleOrder()
+: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#ad9c5dff47034f0b09285be5094f498b0">API2::SGContext</a>
 </li>
 <li>getSymbol()
 : <a class="el" href="class_a_p_i2_1_1_single_order.html#a705bb6400ace761dcb7b47a6eb26492c">API2::SingleOrder</a>
@@ -396,10 +438,8 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 , <a class="el" href="class_a_p_i2_1_1_single_order.html#a1721ebefc518df8a2778abae9d604d4b">API2::SingleOrder</a>
 </li>
 <li>getTransactionType()
-: <a class="el" href="class_a_p_i2_1_1_single_order.html#adeec84f5228d3392fed271ae20196edf">API2::SingleOrder</a>
-</li>
-<li>getUpdateMktData()
-: <a class="el" href="class_a_p_i2_1_1_s_g_context.html#a976152e42455f8ea52f2bdee052f3c39">API2::SGContext</a>
+: <a class="el" href="class_a_p_i2_1_1_abstract_user_params.html#a931f717a8bdf5ad28bd4c7f8e106da3c">API2::AbstractUserParams</a>
+, <a class="el" href="class_a_p_i2_1_1_single_order.html#adeec84f5228d3392fed271ae20196edf">API2::SingleOrder</a>
 </li>
 <li>getValue()
 : <a class="el" href="class_a_p_i2_1_1_user_params.html#a3019a2130c8e8472eafaa7d99b235574">API2::UserParams</a>
@@ -419,7 +459,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 7 2014 18:02:01 for muTrade API by
+    <li class="footer">Generated on Thu Sep 25 2014 16:32:35 for API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

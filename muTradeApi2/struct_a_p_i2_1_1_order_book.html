@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>muTrade API: API2::OrderBook Struct Reference</title>
+<title>API: API2::OrderBook Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,11 +28,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">muTrade API
-   &#160;<span id="projectnumber">Version 2.0</span>
+   <div id="projectname">API
+   &#160;<span id="projectnumber">Version 2.0.1</span>
    </div>
-   <div id="projectbrief">Low-Latency HFT API based in C++</div>
+   <div id="projectbrief">Low-Latency HFT API</div>
   </td>
  </tr>
  </tbody>
@@ -94,7 +95,7 @@ $(document).ready(function(){initNavTree('struct_a_p_i2_1_1_order_book.html','')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -126,9 +127,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13e93a941e87b42e55bbe752defce281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_order_book.html#a13e93a941e87b42e55bbe752defce281">insert</a> (<a class="el" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a> *order)</td></tr>
 <tr class="memdesc:a13e93a941e87b42e55bbe752defce281"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert  <a href="#a13e93a941e87b42e55bbe752defce281">More...</a><br/></td></tr>
 <tr class="separator:a13e93a941e87b42e55bbe752defce281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b2fc3b10333fb1656e130974eebb0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59b2fc3b10333fb1656e130974eebb0b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (CMD::SpreadOrder *order)</td></tr>
+<tr class="separator:a59b2fc3b10333fb1656e130974eebb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4175d74b23fbfac49409193c07f5c6d"><td class="memItemLeft" align="right" valign="top">CMD::SingleOrder *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">getOrder</a> (long clOrderId)</td></tr>
 <tr class="memdesc:ae4175d74b23fbfac49409193c07f5c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getOrder  <a href="#ae4175d74b23fbfac49409193c07f5c6d">More...</a><br/></td></tr>
 <tr class="separator:ae4175d74b23fbfac49409193c07f5c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb690ec5afeeb0cd6a4a9694c48291d3"><td class="memItemLeft" align="right" valign="top">CMD::SpreadOrder *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_order_book.html#adb690ec5afeeb0cd6a4a9694c48291d3">getSpreadOrder</a> (long clOrderId)</td></tr>
+<tr class="memdesc:adb690ec5afeeb0cd6a4a9694c48291d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getSpreadOrder  <a href="#adb690ec5afeeb0cd6a4a9694c48291d3">More...</a><br/></td></tr>
+<tr class="separator:adb690ec5afeeb0cd6a4a9694c48291d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8cb10c78564316a10766b1180fd09b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">getApiOrder</a> (long clOrderId)</td></tr>
 <tr class="memdesc:ac8cb10c78564316a10766b1180fd09b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getApiOrder  <a href="#ac8cb10c78564316a10766b1180fd09b3">More...</a><br/></td></tr>
 <tr class="separator:ac8cb10c78564316a10766b1180fd09b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +152,10 @@ Public Attributes</h2></td></tr>
 boost::unordered_map&lt; long, <br class="typebreak"/>
 CMD::SingleOrder * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_orderBook</b></td></tr>
 <tr class="separator:a5ec8c2aaa73a847f906e4811bf129389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03d29d23dae81022bad3a188e0bfc62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa03d29d23dae81022bad3a188e0bfc62"></a>
+boost::unordered_map&lt; long, <br class="typebreak"/>
+CMD::SpreadOrder * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_spreadOrderBook</b></td></tr>
+<tr class="separator:aa03d29d23dae81022bad3a188e0bfc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d4bba97f822fab78efce908623302aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d4bba97f822fab78efce908623302aa"></a>
 std::multimap&lt; std::string, <br class="typebreak"/>
 std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_exchangeOrderIdToTradeId</b></td></tr>
@@ -217,6 +228,31 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_exchange
 </div><div class="memdoc">
 
 <p>getOrder </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clOrderId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="adb690ec5afeeb0cd6a4a9694c48291d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CMD::SpreadOrder* API2::OrderBook::getSpreadOrder </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>clOrderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getSpreadOrder </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">clOrderId</td><td></td></tr>
@@ -312,7 +348,7 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_exchange
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>L:/trunk-2/futfut/includes/sgLib/<a class="el" href="sg_order_book_defines_8h_source.html">sgOrderBookDefines.h</a></li>
+<li>api_includes/<a class="el" href="sg_order_book_defines_8h_source.html">sgOrderBookDefines.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -320,7 +356,7 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_exchange
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>API2</b></li><li class="navelem"><a class="el" href="struct_a_p_i2_1_1_order_book.html">OrderBook</a></li>
-    <li class="footer">Generated on Mon Jul 7 2014 18:01:57 for muTrade API by
+    <li class="footer">Generated on Thu Sep 25 2014 16:32:30 for API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

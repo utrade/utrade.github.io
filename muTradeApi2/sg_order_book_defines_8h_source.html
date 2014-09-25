@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>muTrade API: L:/trunk-2/futfut/includes/sgLib/sgOrderBookDefines.h Source File</title>
+<title>API: api_includes/sgOrderBookDefines.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,11 +28,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">muTrade API
-   &#160;<span id="projectnumber">Version 2.0</span>
+   <div id="projectname">API
+   &#160;<span id="projectnumber">Version 2.0.1</span>
    </div>
-   <div id="projectbrief">Low-Latency HFT API based in C++</div>
+   <div id="projectbrief">Low-Latency HFT API</div>
   </td>
  </tr>
  </tbody>
@@ -91,7 +92,7 @@ $(document).ready(function(){initNavTree('sg_order_book_defines_8h_source.html',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -110,48 +111,55 @@ $(document).ready(function(){initNavTree('sg_order_book_defines_8h_source.html',
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;boost/unordered_map.hpp&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span>CMD {</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>SingleOrder;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>API2   {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="struct_a_p_i2_1_1_order_book.html">   16</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_order_book.html">OrderBook</a></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">insert</a>(CMD::SingleOrder* order);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">insert</a>(<a class="code" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a>* order);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    CMD::SingleOrder* <a class="code" href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">getOrder</a>(<span class="keywordtype">long</span> clOrderId);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a>* <a class="code" href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">getApiOrder</a>(<span class="keywordtype">long</span> clOrderId);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#abbf637e6c979e6c4f6b40ae6bc99c9e3">update</a>(<a class="code" href="class_a_p_i2_1_1_order_confirmation.html">OrderConfirmation</a>&amp; confirmation, <span class="keywordtype">bool</span> reconcileOldOrders = <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#a3fbef26341390640bc8168d4a4f0fc8c">alignOrders</a>(CMD::SingleOrder * order);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// Client order Id to order mapping</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    boost::unordered_map&lt;long, CMD::SingleOrder*&gt; _orderBook;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">//boost::unordered_map&lt;long, CMD::ThreeLegOrder*&gt; _orderBookThreeLeg;</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// ExchangeOrderId to TradeId mapping -- used in reconcilation to find duplicate fills</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::multimap&lt;std::string, std::string&gt; _exchangeOrderIdToTradeId;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keyword">class </span>SingleOrder;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keyword">class </span>SpreadOrder;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>API2   {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="struct_a_p_i2_1_1_order_book.html">   17</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="struct_a_p_i2_1_1_order_book.html">OrderBook</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">insert</a>(CMD::SingleOrder* order);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">insert</a>(<a class="code" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a>* order);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">insert</a>(CMD::SpreadOrder* order);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    CMD::SingleOrder* <a class="code" href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">getOrder</a>(<span class="keywordtype">long</span> clOrderId);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    CMD::SpreadOrder* <a class="code" href="struct_a_p_i2_1_1_order_book.html#adb690ec5afeeb0cd6a4a9694c48291d3">getSpreadOrder</a>(<span class="keywordtype">long</span> clOrderId);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="class_a_p_i2_1_1_single_order.html">SingleOrder</a>* <a class="code" href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">getApiOrder</a>(<span class="keywordtype">long</span> clOrderId);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#abbf637e6c979e6c4f6b40ae6bc99c9e3">update</a>(<a class="code" href="class_a_p_i2_1_1_order_confirmation.html">OrderConfirmation</a>&amp; confirmation, <span class="keywordtype">bool</span> reconcileOldOrders = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="struct_a_p_i2_1_1_order_book.html#a3fbef26341390640bc8168d4a4f0fc8c">alignOrders</a>(CMD::SingleOrder * order);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Client order Id to order mapping</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    boost::unordered_map&lt;long, CMD::SingleOrder*&gt; _orderBook;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    boost::unordered_map&lt;long, CMD::SpreadOrder*&gt; _spreadOrderBook;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">//boost::unordered_map&lt;long, CMD::ThreeLegOrder*&gt; _orderBookThreeLeg;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// ExchangeOrderId to TradeId mapping -- used in reconcilation to find duplicate fills</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::multimap&lt;std::string, std::string&gt; _exchangeOrderIdToTradeId;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  };</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="struct_a_p_i2_1_1_order_book_html_adb690ec5afeeb0cd6a4a9694c48291d3"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#adb690ec5afeeb0cd6a4a9694c48291d3">API2::OrderBook::getSpreadOrder</a></div><div class="ttdeci">CMD::SpreadOrder * getSpreadOrder(long clOrderId)</div><div class="ttdoc">getSpreadOrder </div></div>
 <div class="ttc" id="struct_a_p_i2_1_1_order_book_html_a3fbef26341390640bc8168d4a4f0fc8c"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#a3fbef26341390640bc8168d4a4f0fc8c">API2::OrderBook::alignOrders</a></div><div class="ttdeci">void alignOrders(CMD::SingleOrder *order)</div><div class="ttdoc">alignOrders </div></div>
-<div class="ttc" id="struct_a_p_i2_1_1_order_book_html"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html">API2::OrderBook</a></div><div class="ttdoc">The OrderBook struct. </div><div class="ttdef"><b>Definition:</b> sgOrderBookDefines.h:16</div></div>
+<div class="ttc" id="struct_a_p_i2_1_1_order_book_html"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html">API2::OrderBook</a></div><div class="ttdoc">The OrderBook struct. </div><div class="ttdef"><b>Definition:</b> sgOrderBookDefines.h:17</div></div>
 <div class="ttc" id="struct_a_p_i2_1_1_order_book_html_abbf637e6c979e6c4f6b40ae6bc99c9e3"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#abbf637e6c979e6c4f6b40ae6bc99c9e3">API2::OrderBook::update</a></div><div class="ttdeci">int update(OrderConfirmation &amp;confirmation, bool reconcileOldOrders=false)</div><div class="ttdoc">update </div></div>
 <div class="ttc" id="struct_a_p_i2_1_1_order_book_html_ac8cb10c78564316a10766b1180fd09b3"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#ac8cb10c78564316a10766b1180fd09b3">API2::OrderBook::getApiOrder</a></div><div class="ttdeci">SingleOrder * getApiOrder(long clOrderId)</div><div class="ttdoc">getApiOrder </div></div>
 <div class="ttc" id="class_a_p_i2_1_1_order_confirmation_html"><div class="ttname"><a href="class_a_p_i2_1_1_order_confirmation.html">API2::OrderConfirmation</a></div><div class="ttdoc">The OrderConfirmation class contains the Exchange Order Confirmation Message data. </div><div class="ttdef"><b>Definition:</b> sharedResponse.h:15</div></div>
 <div class="ttc" id="struct_a_p_i2_1_1_order_book_html_ae4175d74b23fbfac49409193c07f5c6d"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#ae4175d74b23fbfac49409193c07f5c6d">API2::OrderBook::getOrder</a></div><div class="ttdeci">CMD::SingleOrder * getOrder(long clOrderId)</div><div class="ttdoc">getOrder </div></div>
 <div class="ttc" id="struct_a_p_i2_1_1_order_book_html_aa316603a509b7bf795c89bfa28df21da"><div class="ttname"><a href="struct_a_p_i2_1_1_order_book.html#aa316603a509b7bf795c89bfa28df21da">API2::OrderBook::insert</a></div><div class="ttdeci">void insert(CMD::SingleOrder *order)</div><div class="ttdoc">insert </div></div>
-<div class="ttc" id="class_a_p_i2_1_1_single_order_html"><div class="ttname"><a href="class_a_p_i2_1_1_single_order.html">API2::SingleOrder</a></div><div class="ttdoc">The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...</div><div class="ttdef"><b>Definition:</b> sharedSingleOrder.h:19</div></div>
+<div class="ttc" id="class_a_p_i2_1_1_single_order_html"><div class="ttname"><a href="class_a_p_i2_1_1_single_order.html">API2::SingleOrder</a></div><div class="ttdoc">The SingleOrder class. This wrapper is used for sending Single Leg Orders. Usage: Create an object fo...</div><div class="ttdef"><b>Definition:</b> sharedSingleOrder.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7c236acd6cf180ae899ed020f12a7294.html">futfut</a></li><li class="navelem"><a class="el" href="dir_a43aca14530c7e07043beeca2eff5df0.html">includes</a></li><li class="navelem"><a class="el" href="dir_63288fdbe077e8b046e9783cc5d536b4.html">sgLib</a></li><li class="navelem"><b>sgOrderBookDefines.h</b></li>
-    <li class="footer">Generated on Mon Jul 7 2014 18:01:53 for muTrade API by
+    <li class="navelem"><a class="el" href="dir_985c1bc86de6baf3f08446a43b6911a6.html">api_includes</a></li><li class="navelem"><b>sgOrderBookDefines.h</b></li>
+    <li class="footer">Generated on Thu Sep 25 2014 16:32:26 for API by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
