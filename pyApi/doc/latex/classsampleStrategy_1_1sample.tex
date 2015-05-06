@@ -1,0 +1,231 @@
+\hypertarget{classsampleStrategy_1_1sample}{
+\section{sampleStrategy::sample Class Reference}
+\label{classsampleStrategy_1_1sample}\index{sampleStrategy::sample@{sampleStrategy::sample}}
+}
+Inheritance diagram for sampleStrategy::sample::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classsampleStrategy_1_1sample}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a9181fa2dc3d56ebe267718817dbc6941}{\_\-\_\-init\_\-\_\-}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a412c1e16766e2af518a879c781dfb70c}{onInitEvent}
+\begin{DoxyCompactList}\small\item\em Strategy's first event. \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_afba39e39a71fd78abc113b6bdcbd0c7e}{onCMDModifyStrategy}
+\begin{DoxyCompactList}\small\item\em no \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_aae075263f0648af98b9222b1f099bda0}{onCMDTerminateStartegy}
+\begin{DoxyCompactList}\small\item\em no \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_add6cff726b92c0b035ffe094989b5dbb}{onCMDTerminateSqOffStrategy}
+\begin{DoxyCompactList}\small\item\em no \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_a3295ea611070075a0b28065e0d60cd4c}{onMarketDataEvent}
+\begin{DoxyCompactList}\small\item\em Event when new market data is received. \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_ab8d041be41bfa4e69b0a4953fc81458b}{onOhlcTimeOutEvent}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a0f8cc6ff13892e5a0c15abc506de2d24}{onConfirmed}
+\begin{DoxyCompactList}\small\item\em On confirmation of order with orderid specified in it's argument. \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_a796c72e272e1fa82e689b587cf7f7ab5}{onReplaced}
+\begin{DoxyCompactList}\small\item\em When the order with unique id : OrderId gets successfully replaced. \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_a66bfb1076effa11ba4cb0f50e7252290}{onReplaceRejected}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_ac7e089095ad3d2c32e459776fc188e65}{onCancelRejected}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_acb840933b56f5e6f81c04ea71d18d189}{onNewRejected}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a6f7c61fc31347e89aa9a0e5b130abc9d}{onIOCCancelled}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_ac4878fc8589f35e622c2b31b79691c84}{onFilled}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a222fca1c338ee3514e9e74d640721898}{onPartialFill}
+\item 
+def \hyperlink{classsampleStrategy_1_1sample_a0dadfb1a2a74b910362bfeb1d5564185}{onMarketToLimit}
+\begin{DoxyCompactList}\small\item\em order converted from market to limit \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_af7a376b4e20ecd8bc87e339f53b8f932}{onFrozen}
+\begin{DoxyCompactList}\small\item\em when the order with id : OrderId gets frozen in the exchange \item\end{DoxyCompactList}\item 
+def \hyperlink{classsampleStrategy_1_1sample_a4cee019e70ecc59d7c8f6d3332674e3b}{onTimerEvent}
+\begin{DoxyCompactList}\small\item\em occurs after a periodic time interval as asked by the user \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsampleStrategy_1_1sample_af77b1aa404dd23099c1304660aba21c7}{f}
+\item 
+\hyperlink{classsampleStrategy_1_1sample_a16b54cb178bab35f6749e1264512c246}{TradeInstrument}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsampleStrategy_1_1sample_a9181fa2dc3d56ebe267718817dbc6941}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!\_\-\_\-init\_\-\_\-@{\_\-\_\-init\_\-\_\-}}
+\index{\_\-\_\-init\_\-\_\-@{\_\-\_\-init\_\-\_\-}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{\_\-\_\-init\_\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::\_\-\_\-init\_\-\_\- ( {\em self}, \/   {\em tokenId})}}
+\label{classsampleStrategy_1_1sample_a9181fa2dc3d56ebe267718817dbc6941}
+\begin{DoxyVerb}The constructor\end{DoxyVerb}
+ 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_ac6fcdf08165af5413c9883bf68dcd23b}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_ac7e089095ad3d2c32e459776fc188e65}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onCancelRejected@{onCancelRejected}}
+\index{onCancelRejected@{onCancelRejected}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onCancelRejected}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onCancelRejected ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_ac7e089095ad3d2c32e459776fc188e65}
+\hypertarget{classsampleStrategy_1_1sample_afba39e39a71fd78abc113b6bdcbd0c7e}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onCMDModifyStrategy@{onCMDModifyStrategy}}
+\index{onCMDModifyStrategy@{onCMDModifyStrategy}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onCMDModifyStrategy}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onCMDModifyStrategy ( {\em self})}}
+\label{classsampleStrategy_1_1sample_afba39e39a71fd78abc113b6bdcbd0c7e}
+
+
+no 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_af8fb22d6864e7c61a61f94cf963746e5}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_add6cff726b92c0b035ffe094989b5dbb}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onCMDTerminateSqOffStrategy@{onCMDTerminateSqOffStrategy}}
+\index{onCMDTerminateSqOffStrategy@{onCMDTerminateSqOffStrategy}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onCMDTerminateSqOffStrategy}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onCMDTerminateSqOffStrategy ( {\em self})}}
+\label{classsampleStrategy_1_1sample_add6cff726b92c0b035ffe094989b5dbb}
+
+
+no 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a8b35516aaa2a7f1940ad86191e022b8e}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_aae075263f0648af98b9222b1f099bda0}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onCMDTerminateStartegy@{onCMDTerminateStartegy}}
+\index{onCMDTerminateStartegy@{onCMDTerminateStartegy}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onCMDTerminateStartegy}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onCMDTerminateStartegy ( {\em self})}}
+\label{classsampleStrategy_1_1sample_aae075263f0648af98b9222b1f099bda0}
+
+
+no 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_aeb2e0e2196645380512c59f9752efb5e}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a0f8cc6ff13892e5a0c15abc506de2d24}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onConfirmed@{onConfirmed}}
+\index{onConfirmed@{onConfirmed}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onConfirmed}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onConfirmed ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a0f8cc6ff13892e5a0c15abc506de2d24}
+
+
+On confirmation of order with orderid specified in it's argument. 
+\begin{DoxyParams}{Parameters}
+\item[{\em OrderId}]unique id for each order placed \end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a2d99ec0bbe867655ed7f9373812d7a56}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_ac4878fc8589f35e622c2b31b79691c84}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onFilled@{onFilled}}
+\index{onFilled@{onFilled}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onFilled}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onFilled ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_ac4878fc8589f35e622c2b31b79691c84}
+\hypertarget{classsampleStrategy_1_1sample_af7a376b4e20ecd8bc87e339f53b8f932}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onFrozen@{onFrozen}}
+\index{onFrozen@{onFrozen}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onFrozen}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onFrozen ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_af7a376b4e20ecd8bc87e339f53b8f932}
+
+
+when the order with id : OrderId gets frozen in the exchange 
+\begin{DoxyParams}{Parameters}
+\item[{\em OrderId}]id of the order which is frozen in the market \end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a40cb69958575c0a0a7e435d3ac0fe9f9}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a412c1e16766e2af518a879c781dfb70c}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onInitEvent@{onInitEvent}}
+\index{onInitEvent@{onInitEvent}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onInitEvent}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onInitEvent ( {\em self})}}
+\label{classsampleStrategy_1_1sample_a412c1e16766e2af518a879c781dfb70c}
+
+
+Strategy's first event. 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a8accc7202088d5163a9bffa940961713}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a6f7c61fc31347e89aa9a0e5b130abc9d}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onIOCCancelled@{onIOCCancelled}}
+\index{onIOCCancelled@{onIOCCancelled}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onIOCCancelled}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onIOCCancelled ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a6f7c61fc31347e89aa9a0e5b130abc9d}
+\hypertarget{classsampleStrategy_1_1sample_a3295ea611070075a0b28065e0d60cd4c}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onMarketDataEvent@{onMarketDataEvent}}
+\index{onMarketDataEvent@{onMarketDataEvent}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onMarketDataEvent}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onMarketDataEvent ( {\em self}, \/   {\em InstrumentId})}}
+\label{classsampleStrategy_1_1sample_a3295ea611070075a0b28065e0d60cd4c}
+
+
+Event when new market data is received. 
+\begin{DoxyParams}{Parameters}
+\item[{\em InstrumentId}]symbolic representation of the instrument being traded \end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_aea61c58829beb5f5e4bfa3355da9a23b}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a0dadfb1a2a74b910362bfeb1d5564185}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onMarketToLimit@{onMarketToLimit}}
+\index{onMarketToLimit@{onMarketToLimit}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onMarketToLimit}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onMarketToLimit ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a0dadfb1a2a74b910362bfeb1d5564185}
+
+
+order converted from market to limit 
+\begin{DoxyParams}{Parameters}
+\item[{\em OrderId}]id of the order converted \end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_ab15e441859c93390410973beb565872a}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_acb840933b56f5e6f81c04ea71d18d189}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onNewRejected@{onNewRejected}}
+\index{onNewRejected@{onNewRejected}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onNewRejected}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onNewRejected ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_acb840933b56f5e6f81c04ea71d18d189}
+\hypertarget{classsampleStrategy_1_1sample_ab8d041be41bfa4e69b0a4953fc81458b}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onOhlcTimeOutEvent@{onOhlcTimeOutEvent}}
+\index{onOhlcTimeOutEvent@{onOhlcTimeOutEvent}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onOhlcTimeOutEvent}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onOhlcTimeOutEvent ( {\em self})}}
+\label{classsampleStrategy_1_1sample_ab8d041be41bfa4e69b0a4953fc81458b}
+\begin{DoxyVerb}
+\end{DoxyVerb}
+ 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_aa94a2228807baeaab027108dc663675e}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a222fca1c338ee3514e9e74d640721898}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onPartialFill@{onPartialFill}}
+\index{onPartialFill@{onPartialFill}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onPartialFill}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onPartialFill ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a222fca1c338ee3514e9e74d640721898}
+\hypertarget{classsampleStrategy_1_1sample_a796c72e272e1fa82e689b587cf7f7ab5}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onReplaced@{onReplaced}}
+\index{onReplaced@{onReplaced}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onReplaced}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onReplaced ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a796c72e272e1fa82e689b587cf7f7ab5}
+
+
+When the order with unique id : OrderId gets successfully replaced. 
+\begin{DoxyParams}{Parameters}
+\item[{\em OrderId}]unique id of the order replaced \end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a85a80a9afefdf345a46c520fad9b5138}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a66bfb1076effa11ba4cb0f50e7252290}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onReplaceRejected@{onReplaceRejected}}
+\index{onReplaceRejected@{onReplaceRejected}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onReplaceRejected}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onReplaceRejected ( {\em self}, \/   {\em OrderId})}}
+\label{classsampleStrategy_1_1sample_a66bfb1076effa11ba4cb0f50e7252290}
+\hypertarget{classsampleStrategy_1_1sample_a4cee019e70ecc59d7c8f6d3332674e3b}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!onTimerEvent@{onTimerEvent}}
+\index{onTimerEvent@{onTimerEvent}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{onTimerEvent}]{\setlength{\rightskip}{0pt plus 5cm}def sampleStrategy::sample::onTimerEvent ( {\em self})}}
+\label{classsampleStrategy_1_1sample_a4cee019e70ecc59d7c8f6d3332674e3b}
+
+
+occurs after a periodic time interval as asked by the user 
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_add6aa61bb18c2c3a4de459865fe83f62}{muTradePyBase::CustomStrategy}.
+
+\subsection{Member Data Documentation}
+\hypertarget{classsampleStrategy_1_1sample_af77b1aa404dd23099c1304660aba21c7}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!f@{f}}
+\index{f@{f}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf sampleStrategy::sample::f}}}
+\label{classsampleStrategy_1_1sample_af77b1aa404dd23099c1304660aba21c7}
+
+
+Reimplemented from \hyperlink{classmuTradePyBase_1_1CustomStrategy_a6cd3aa3febbc8ad76120b43a7663301f}{muTradePyBase::CustomStrategy}.\hypertarget{classsampleStrategy_1_1sample_a16b54cb178bab35f6749e1264512c246}{
+\index{sampleStrategy::sample@{sampleStrategy::sample}!TradeInstrument@{TradeInstrument}}
+\index{TradeInstrument@{TradeInstrument}!sampleStrategy::sample@{sampleStrategy::sample}}
+\subsubsection[{TradeInstrument}]{\setlength{\rightskip}{0pt plus 5cm}{\bf sampleStrategy::sample::TradeInstrument}}}
+\label{classsampleStrategy_1_1sample_a16b54cb178bab35f6749e1264512c246}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{sampleStrategy_8py}{sampleStrategy.py}\end{DoxyCompactItemize}
