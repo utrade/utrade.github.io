@@ -1,0 +1,34 @@
+package src;
+public class ExchangeId {
+	public static final int ExchangeId_DONTUSETHIS = 0;
+	public static final int ExchangeId_BSE = 1;
+	public static final int ExchangeId_NSE = 2;
+	public static final int ExchangeId_ESMNSE = 3;
+	public static final int ExchangeId_SGX = 4;
+	public static final int ExchangeId_NSECDS = 5;
+	public static final int ExchangeId_BSEETI = 6;
+	public static final int ExchangeId_CFH = 7;
+	public static final int ExchangeId_MAREX = 8;
+	public static final int ExchangeId_MCX = 9;
+	public static final int ExchangeId_DGCX = 10;
+	public static final int ExchangeId_DGCXCD = 11;
+	public static final int ExchangeId_LME = 12;
+	public static final int ExchangeId_CME = 13;
+	public static final int ExchangeId_CFFEX = 14;
+	public static final int ExchangeId_CZCE = 15;
+	public static final int ExchangeId_DCE = 16;
+	public static final int ExchangeId_SHFE = 17;
+	public static final int ExchangeId_SGXCUR = 18;
+	public static final int ExchangeId_NASDAQ = 19;
+	public static final int ExchangeId_NYSE = 20;
+	public static final int ExchangeId_ARCA = 21;
+	public static final int ExchangeId_ONE = 22;
+	public static final int ExchangeId_SMART = 23;
+	public static final int ExchangeId_NASDAQOM = 24;
+	public static final int ExchangeId_ISE = 25;
+	public static final int ExchangeId_GLOBEX = 26;
+	public static final int ExchangeId_ECBOT = 27;
+	public static final int ExchangeId_IDEALPRO = 28;
+	public static final int ExchangeId_EXOTIC = 29;
+	public static final int ExchangeId_MAX = 30;
+}
