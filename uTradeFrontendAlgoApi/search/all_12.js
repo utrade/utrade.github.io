@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['updateaccountdetail',['updateAccountDetail',['../class_base_strategy_wrapper.html#ab28e67772d5998c5c108c7c23d7cab33',1,'BaseStrategyWrapper::updateAccountDetail()'],['../class_a_p_i_wrapper.html#a2d005e58b4f4feb3e33e88777f9b2eaa',1,'APIWrapper::updateAccountDetail()']]],
+  ['updateaccountdetailonedit',['updateAccountDetailOnEdit',['../class_base_strategy_wrapper.html#a89a249c7b6ad168a4d9d67478fdcf659',1,'BaseStrategyWrapper']]],
+  ['updateadditionalvaluesinportfolio',['updateAdditionalValuesInPortfolio',['../class_a_p_i_wrapper.html#a21b6b99d11a4ec9583265d5939b2053d',1,'APIWrapper']]],
+  ['updatecustomdbvaluesonloadold',['updateCustomDbValuesOnLoadOld',['../class_a_p_i_wrapper.html#a54049a7c09a3922829cdbc09c6c2e3b0',1,'APIWrapper']]],
+  ['updatecustomvaluesinuionmodify',['updateCustomValuesInUiOnModify',['../class_a_p_i_wrapper.html#a618e1ab873df561ffe0662332365f1c7',1,'APIWrapper']]],
+  ['updatedisablecolumnscolor',['updateDisableColumnsColor',['../class_a_p_i_wrapper.html#a48f227b99acbf84012bfbeda4cc4fd7a',1,'APIWrapper']]],
+  ['updateeditablefieldcolor',['updateEditableFieldColor',['../class_a_p_i_wrapper.html#a8ec2b20d7b676e60137a0f3909dec6b0',1,'APIWrapper']]],
+  ['updatefieldsonloadold',['updateFieldsOnLoadOld',['../class_a_p_i_wrapper.html#a11cf62b1833123d1aab3ac527c163c84',1,'APIWrapper']]],
+  ['updatenonportfoliodbparams',['updateNonPortfolioDbParams',['../class_a_p_i_wrapper.html#a028ad59b01c905355239898c2671f437',1,'APIWrapper']]],
+  ['updateoldstrategyid',['updateOldStrategyId',['../class_a_p_i_wrapper.html#a4f6a9eb3530c2a45c4990ace80e5a0e6',1,'APIWrapper']]],
+  ['updateremainingfeilds',['updateRemainingFeilds',['../class_a_p_i_wrapper.html#a6616af93176e1c5523bbd799eab52c5b',1,'APIWrapper']]],
+  ['updateremainingqty',['updateRemainingQty',['../class_a_p_i_wrapper.html#aae9697b9b00bcb45fed0e352317b0a4d',1,'APIWrapper']]],
+  ['updateresponse',['updateResponse',['../class_base_strategy_wrapper.html#ad1228c67cbf2d3cfdbbce34afea8fadb',1,'BaseStrategyWrapper']]],
+  ['updatesidqty',['updateSidQty',['../class_a_p_i_wrapper.html#a48271fea939f573651a414ac84a6d241',1,'APIWrapper']]],
+  ['updatespreadinportfolio',['updateSpreadInPortfolio',['../class_base_strategy_wrapper.html#a8690eda9c28caebebc903fe8cf5d1742',1,'BaseStrategyWrapper']]],
+  ['updatesqlrecordonedit',['updateSqlRecordOnEdit',['../class_base_strategy_wrapper.html#a521e16594df277f7ecb9f45df23b1a9a',1,'BaseStrategyWrapper']]],
+  ['updatestrategydefaultvalues',['updateStrategyDefaultValues',['../class_a_p_i_wrapper.html#ad5c5d78de4a37cef83c4500855edb20e',1,'APIWrapper']]],
+  ['updatestrategystate',['updateStrategyState',['../class_base_strategy_wrapper.html#a446aaa794042b580429fe3f605f62a2d',1,'BaseStrategyWrapper']]],
+  ['updatestrategyvsuhedgeportfoliomap',['updateStrategyVsUhedgePortfolioMap',['../class_base_strategy_wrapper.html#a87c8a3cc309c374637b9fb85c454d618',1,'BaseStrategyWrapper']]],
+  ['updatesymbolidsdetail',['updateSymbolIdsDetail',['../class_a_p_i_wrapper.html#a7d160fa9f2569de3d7392821c574ae30',1,'APIWrapper']]],
+  ['updatetableview',['updateTableView',['../class_base_strategy_wrapper.html#a653583c15302e65deaffb8a11bb220f5',1,'BaseStrategyWrapper::updateTableView()'],['../class_common_methods_wrapper.html#a1ec9c8ce92984ec6d6e50447c96369d8',1,'CommonMethodsWrapper::updateTableView()']]],
+  ['updatetrades',['updateTrades',['../class_a_p_i_wrapper.html#ad47f18c0bbc06a77426face0157630fe',1,'APIWrapper']]]
+];
