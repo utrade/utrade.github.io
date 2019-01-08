@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,46 +26,122 @@
           background-color: #F8F8FF
           }
 
-			#hzbar{
-			 background-color:#80e5ff;
-			 padding:5px;
-			}
-			#hzbar h3{
+      #hzbar{
+       background-color:#80e5ff;
+       padding:5px;
+      }
+      #hzbar h3{
 
-			  font-weight:bold;
-			}
-			 
-			 ul{
-			   margin-top:5px;
-			 }
-			 ul li{
-			   font-size:18px;
-			 }
-			 
-			 li a{
-			  text-decoration:none
-			 }
+        font-weight:bold;
+      }
+       
+       ul{
+         margin-top:5px;
+       }
+       ul li{
+         font-size:20px;
+
+       }
+       
+       
+       li p{
+        font-size:16px;
+        margin-left:8px;
+        margin-top:5px;
+        font-family: "Times New Roman", Times, serif;
+        padding:5px;
+       }
+       li a{
+        font-weight: bold
+       }
        
     </style>
   </head>
+
+
+
+
+
+
+
+
   <body>
   <div class="container">
     <div class="page-header">
        <img src="./logo.png"/>
        <h1>uTrade Solutions Pvt. Ltd.</h1>
     </div>
-	
-	<div id="hzbar">
-	  <h3>uTrade API Links</h3>
-	</div>
   
-  <ul>
-  <li><a href="http://utrade.github.io/muTradeApi2/">uTrade Algo API Ver 2.0</a></li>
-  <li><a href="http://utrade.github.io/muTradeApi2Checklist/API2.0_Development_Checklist.pdf">uTrade Algo API Ver 2.0 Check List</a></li>
-  <li><a href="http://utrade.github.io/uTradeFrontendAlgoApi/">uTrade Frontend Algo API Ver 1.0.0.0</a></li>
-  <li><a href="http://utrade.github.io/mutradedma/uTrade_HFT_DMA_FIX_API_Documentation.pdf">uTrade FIX based Direct Market Access (DMA) API Ver 1.0.0. </a></li>
-  <li><a href="http://utrade.github.io/uTradeDotNetAPI/">uTrade Dot Net API Ver 1.0.0.0</a></li>
-  <li><a href="https://github.com/utrade/muTradeApi2/tree/master/uTradeOpenSourceAlgos/">uTrade Open Source Algos</a></li>
+  <div id="hzbar">
+    <h3>uTrade API Links</h3>
+  </div>
+
+
+
+
+  
+  
+   <!---starting of main contenet -->
+
+    <ul>
+     <li>
+
+
+       <h4>uTrade Algo API</h4>
+
+          <ul>
+            <li>
+              <a href="http://utrade.github.io/muTradeApi2/">uTrade Back-end Algo API Ver 2.0 (C++, Linux)</a>
+               <p>Back-end Algo API provides algo infrastructure, which allows user to create their own latency sensitive strategies and host them in uTrade's infrastructure in exchange co-location or non co-location environment.
+				  New custom strategies can be integrated and run in the platform on the fly with no effect on the already running strategies. They can be run from the same front-end.
+				  Automatic front-end will be created on the basis of template passed. User can also develop their own customized front-end algo form for which Qt, C++ based api is available.
+				  Risk Management features is also available, same as the trading platform. Custom strategy can be run with both TBT and snapshot feed. Latest data (order book) is provided to the strategy on request-basis.</p>
+            </li>
+
+            <li>
+                <a href="http://utrade.github.io/uTradeFrontendAlgoApi/">uTrade Frontend Algo API Ver 1.0.0.0 (Qt, C++)</a>
+                <p>
+                uTrade Front-end API provides infrastructure, which allows user to create and modify their own latency sensitive front-end strategies and host them in uTrade's infrastructure in exchange co-location or non co-location environment.
+Back-end strategies also needs to be developed, which is fully compatible with front-end and user can run it in conjunction with front-end.
+Benefit of developing front-end strategies is that user can add infinite level of customization in user's interface as per requirement and business needs.
+New custom strategies can be integrated and run in the platform on the fly with no effect on the already running strategies. They can be added and run from the same front-end. Risk Management features is also available, same as the trading platform.
+User can send data to and receive response from back-end using the declared function or can define them on their own.
+Custom strategy can be run with both TBT and snapshot feed. Latest data (order book) is provided to the strategy on request-basis.</p>
+            </li>
+          </ul>
+
+
+      
+
+    <li>
+       <a href="http://utrade.github.io/mutradedma/uTrade_HFT_DMA_FIX_API_Documentation.pdf">uTrade FIX based Direct Market Access (DMA) API Ver 1.0.0.0 (FIX 4.2)</a>
+
+       <p>This API describes the FIX specification in order to gain access to the uTrade's High Frequency Trading System (μTrade).
+The Financial Information eXchange (FIX) Protocol is a message-based standard developed to facilitate the electronic exchange of information related to financial instruments transactions.
+Further details can be retrieved from <a href="http://www.fixprotocol.org">here</a>. The FIX specification supported is FIX 4.2. The FIX messages described in the API include only the
+required tags and a subset of the optional tags from the FIX standard for the relevant messages. Other optional tags from the FIX standard are not used. FIX messages and their fields are described in this document along with their description.
+In order to handle multi-leg orders some non-standard custom messages have been defined.</p>
+    </li>
+
+
+    <li>
+      <a href="http://utrade.github.io/uTradeDotNetAPI/">uTrade Dot Net API Ver 1.0.0.0</a>
+
+      <p>uTrade Dot Net API provides infrastructure to interact with algo and retail trading back-end server using easy to use and efficient api method calls based out of Microsoft .Net technologies.
+It allows user to create their own latency sensitive strategies and single order placement method calls in uTrade's infrastructure in exchange co-location or non co-location environment.
+New custom front-end and strategies can be integrated and run in the platform on the fly with no effect on the already running strategies. Risk Management features is also available, same as the trading platform.
+Custom strategy can be run with snapshot feed for now. Latest data (order book) is provided to the strategy on request and subscription basis.</p>
+    </li>
+
+
+    <li>
+      <a href="https://github.com/utrade/muTradeApi2/tree/master/uTradeOpenSourceAlgos/">uTrade Open Source Algos</a>
+
+      <p>uTrade launched some open source algos which are all developed on back-end and front-end api infrastructure. User can use these algos logic as it is or with minor modification as per business needs.
+These algos can also be referred for in-house development of other algos as they demonstrates most of the features available with uTrade api.
+<br>Disclaimer : uTrade is not taking any responsibility of loss occurred due to these algos as source already shared. So, user has to test at their end and necessary modifications may be required by user to run in production environment.</br></p>
+    </li>
+
   </ul>
 
 </div>
