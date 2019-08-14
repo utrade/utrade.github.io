@@ -29,12 +29,15 @@ var classu_trade_dot_net_object_1_1_cu_trade_response =
     [ "LoginResponse", "classu_trade_dot_net_object_1_1_cu_trade_response.html#ac56621be6588aa65ee7d85cf9d463b35", null ],
     [ "LogoutResponse", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a3a816a85a8a4c164bc46fd5e25bc4a49", null ],
     [ "MarketStatusNotify", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a5b0ab6c827bbec847fa498abc85b7649", null ],
-    [ "OldTradingDataUpdateComplete", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a211b5111f7873dc759c10fd16dc7e08c", null ],
+    [ "OpenOrders", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a9f4759e0903e3fabec91613b1d7cd98a", null ],
+    [ "OpenOrdersEnd", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a964defa59e90f17d62ef9426fa41650b", null ],
+    [ "OpenOrdersStart", "classu_trade_dot_net_object_1_1_cu_trade_response.html#abf8266d2a991eef616460231ad6c3aa6", null ],
     [ "OrderBookSnapQuote", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a22e819aa6e83b4bdb7898840ec55b92f", null ],
-    [ "OrderHistory", "classu_trade_dot_net_object_1_1_cu_trade_response.html#aba9be717c17b28e9ee3f83fba9d8b9a2", null ],
     [ "OrderUpdate", "classu_trade_dot_net_object_1_1_cu_trade_response.html#afd76fd1dae20719da3429af5675ad759", null ],
     [ "ScripMasterDataUpdateComplete", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a4f4097c6f7d2d4d7cbaeb11852ff5d93", null ],
     [ "SendRmsLimits", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a3deb4057526d671c18d6c5c530094e64", null ],
     [ "SendSecurityInfo", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a8687fce8d71d87bb1205e604f43f7f1b", null ],
-    [ "TradeHistory", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a2277616f1ecba192b06f526d17e646bd", null ]
+    [ "TradeHistory", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a1776e494366b77dcfc3ae48e45ab4850", null ],
+    [ "TradeHistoryEnd", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a2b33c9a270b2794d994649131ddd049f", null ],
+    [ "TradeHistoryStart", "classu_trade_dot_net_object_1_1_cu_trade_response.html#a07d560b1785cf53a7571ae2862e1e248", null ]
 ];

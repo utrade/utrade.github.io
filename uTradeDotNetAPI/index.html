@@ -28,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="5477561 - Copy.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dot API Reference Manual
    &#160;<span id="projectnumber">Version 1.0.0.0</span>
@@ -100,6 +100,70 @@ $(document).ready(function(){initNavTree('index.html','');});
 <h2>Data Flow Note </h2>
 <p>Multiple threads will be active after user will be connected to market as it will help system to perform efficiently. All requests including order and market data will be placed in main thread. Response for orders and other requests</p>
 <p>will be received in seperate thread. So, user need to take care of resources accordingly. For market data dispatch, there will be seperate thread.</p>
+<p>There are 2 threads through which client application will receive updates :- </p>
+<p>T1 : it will provide online snapshot data. </p>
+<p>T2 : it will provide responses for different client application requests. </p>
+<h2>Request-Response Flow Note </h2>
+<p>Request is accepted by the dll in the thread created by the user application. </p>
+<p><b> Note : </b> Response will be given seperately, the function only returns whether request accepted successfully or not. </p>
+<p>Response for requests such as GetOpenOrders, and notification for order updates such as Order Partially filled (onOrderUpdate, fillReport) will be provided in seperate threads, so client application need to handle the responses and notifications such that synchronization and locking is there for updating resources if any. </p>
+<p>Order updates : <br />
+</p><ul>
+<li>Order book snapshots will be sent to client application whenever there is an update in the snapshot : this is provided through onOrderUpdate. <br />
+</li>
+<li>The snapshot if updated will be sent after configurable amount of time from dll to client application (minimum 0.5 sec). <br />
+</li>
+<li>The snapshot will contain all the orders that have updated during the interval. </li>
+</ul>
+<p>E.g. <br />
+ Assuming O1, O2 and O3 as orders request by the client. <br />
+</p><ul>
+<li>O1 gets confirmed at time t1. <br />
+</li>
+<li>O2 gets confirmed at time t1 + 0.1 s. <br />
+</li>
+<li>O1 gets partially filled at time t1 + 0.15s. <br />
+</li>
+<li>O3 gets modified at time t1 + 0.2 s. <br />
+</li>
+<li>O1 gets partially filled at time t1 + 0.25s. </li>
+</ul>
+<p>Then at t1 + 0.5s, client application will receive the snapshot containing <br />
+</p><ul>
+<li>O1 : Partially filled (Order Price, Order Qty, Total filled qty). <br />
+</li>
+<li>O2 : Confirmed (Order Price, Order Qty). <br />
+</li>
+<li>O3 : Replaced (Replaced Order Price, Replaced Order Qty). </li>
+</ul>
+<p>Through onOrderUpdate callbacks, so here 3 callbacks will be received in thread T1. <br />
+ Order updates will contain Order Price, Order Qty, Total Filled qty etc. </p>
+<p>Trade Reports : <br />
+</p><ul>
+<li>Trade book snapshots will be sent to client application whenever there is an update in the trades, this is provided through FillReport. <br />
+</li>
+<li>The snapshot if updated will be sent after configurable amount of time from dll to client application (minimum 0.5 sec). <br />
+</li>
+<li>The snapshot will contain all the trades that have been done during the interval. </li>
+</ul>
+<p>In the above example <br />
+</p><ul>
+<li>At t1 + 0.5s, client application will receive the trade snapshot containing. <br />
+</li>
+<li>O1 : Partially filled (Last Filled Price, Last Filled Qty). <br />
+</li>
+<li>O1 : Partially filled (Last Filled Price, Last Filled Qty). </li>
+</ul>
+<p>Through fillReport callbacks, so here 2 callbacks will be received in thread T1. </p>
+<p><b> Note : </b> All fills will be received seperately, but all transactions may not be received, like in the above example, only 1 O1 update received, but both trades are received. <br />
+ Order update will contain - Fully Filled, New Reject, Canceled, RMS Reject and will contain one Order Update for life cycle completion. <br />
+ Order update and fill report both will contain entry for Partial Fill. </p>
+<p>E.g. for the working thread T2 <br />
+</p><ul>
+<li>API Client request for all the clients which are mapped to the dealer by invoking the method GetAccounts(). <br />
+</li>
+<li>The response of the client will be process in thread T2 and the callback method will be invoked GetAccountsStart(), GetAllAccounts()and GetAccountsEnd(). </li>
+</ul>
 <h2>Error handling and codes </h2>
 <p>Every request or method call will return an integer value which will be 0 or 1. 0 - Failure, 1 - Success. In case of failure, user can call getLastErrorCode or getLastErrorStr for exact error code. Refer error codes for more detail.</p>
 <h2>Symbology </h2>

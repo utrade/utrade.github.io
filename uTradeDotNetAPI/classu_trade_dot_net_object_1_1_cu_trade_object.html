@@ -28,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="rsz_image.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="5477561 - Copy.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dot API Reference Manual
    &#160;<span id="projectnumber">Version 1.0.0.0</span>
@@ -100,9 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1797aa8b1a5fa59cb9f7ec3943b613c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#ad1797aa8b1a5fa59cb9f7ec3943b613c">CuTradeObject</a> (<a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_response.html">CuTradeResponse</a>^ responsePtr)</td></tr>
 <tr class="memdesc:ad1797aa8b1a5fa59cb9f7ec3943b613c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html">CuTradeObject</a> class constructor.  <a href="#ad1797aa8b1a5fa59cb9f7ec3943b613c">More...</a><br /></td></tr>
 <tr class="separator:ad1797aa8b1a5fa59cb9f7ec3943b613c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026aab25542c8fe52347ea97e33845ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a026aab25542c8fe52347ea97e33845ad">Initialize</a> (String^ serverHost, long serverPort, String^ rmsHost, long rmsPort, String^ tcpFeedHost, long tcpFeedPort, bool updateOldData, bool updateTradesOnly, bool updateScripMaster, int recordsToRequest, bool scripMasterCompression, bool enableLogs, short logLevel, String^ logFileName)</td></tr>
-<tr class="memdesc:a026aab25542c8fe52347ea97e33845ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize - This will initialize all required fields with appropriate values. InitializeFromFile can be used as an alternative of this method.  <a href="#a026aab25542c8fe52347ea97e33845ad">More...</a><br /></td></tr>
-<tr class="separator:a026aab25542c8fe52347ea97e33845ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305b9db84e103d81c79b27e23ee3eac5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a305b9db84e103d81c79b27e23ee3eac5">Initialize</a> (String^ serverHost, long serverPort, String^ rmsHost, long rmsPort, String^ tcpFeedHost, long tcpFeedPort, String^ dmsHost, long dmsPort, bool updateScripMaster, int recordsToRequest, bool scripMasterCompression)</td></tr>
+<tr class="memdesc:a305b9db84e103d81c79b27e23ee3eac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize - This will initialize all required fields with appropriate values. InitializeFromFile can be used as an alternative of this method.  <a href="#a305b9db84e103d81c79b27e23ee3eac5">More...</a><br /></td></tr>
+<tr class="separator:a305b9db84e103d81c79b27e23ee3eac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7efa46db365d83464d69bd946ddf14a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#ac7efa46db365d83464d69bd946ddf14a">InitializeFromFile</a> (String^ fileName)</td></tr>
 <tr class="memdesc:ac7efa46db365d83464d69bd946ddf14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">InitializeFromFile - This will initialize all required fields with appropriate values after reading from file provided. Initialize can be used as an alternative of this method.  <a href="#ac7efa46db365d83464d69bd946ddf14a">More...</a><br /></td></tr>
 <tr class="separator:ac7efa46db365d83464d69bd946ddf14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,46 +122,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adcf3b2051d55f09676f91c1eda7fa56e"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetVersion - Response routine is GetVersion with version string as parameter.  <a href="#adcf3b2051d55f09676f91c1eda7fa56e">More...</a><br /></td></tr>
 <tr class="separator:adcf3b2051d55f09676f91c1eda7fa56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062829eafc99ee15dd12aeaf8a9f279f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a062829eafc99ee15dd12aeaf8a9f279f">GetAccounts</a> ()</td></tr>
-<tr class="memdesc:a062829eafc99ee15dd12aeaf8a9f279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetAccounts - Provides accounts mapped with logged in dealer. Response routines are GetAccountsStart, GetAccountsEnd and GetAllAccounts.  <a href="#a062829eafc99ee15dd12aeaf8a9f279f">More...</a><br /></td></tr>
+<tr class="memdesc:a062829eafc99ee15dd12aeaf8a9f279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetAccounts - Provides accounts mapped with logged in dealer. Response routines are GetAccountsStart, GetAllAccounts, ..., GetAllAccounts and GetAccountsEnd.  <a href="#a062829eafc99ee15dd12aeaf8a9f279f">More...</a><br /></td></tr>
 <tr class="separator:a062829eafc99ee15dd12aeaf8a9f279f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c7e0ea069e5c34eecb6bc1b51f87b8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a7c7e0ea069e5c34eecb6bc1b51f87b8f">GetExchanges</a> ()</td></tr>
-<tr class="memdesc:a7c7e0ea069e5c34eecb6bc1b51f87b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetExchnages - Provides exchanges which are connected at the moment. Response routines are GetExchangesStart, GetExchangesEnd and GetExchanges.  <a href="#a7c7e0ea069e5c34eecb6bc1b51f87b8f">More...</a><br /></td></tr>
+<tr class="memdesc:a7c7e0ea069e5c34eecb6bc1b51f87b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetExchnages - Provides exchanges which are connected at the moment. Response routines are GetExchangesStart, GetExchanges, ..., GetExchanges and GetExchangesEnd.  <a href="#a7c7e0ea069e5c34eecb6bc1b51f87b8f">More...</a><br /></td></tr>
 <tr class="separator:a7c7e0ea069e5c34eecb6bc1b51f87b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13201d95d8e93e4f9401bb86eb3121e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a13201d95d8e93e4f9401bb86eb3121e1">GetSymbols</a> (String^ exchange, String^ scripUpdateTime)</td></tr>
-<tr class="memdesc:a13201d95d8e93e4f9401bb86eb3121e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetSymbols - This will give list of symbols and their data like market lot, tick size, expiry etc. Response routines are GetAllSymbolsStart, GetAllSymbolsEnd and GetAllSymbols.  <a href="#a13201d95d8e93e4f9401bb86eb3121e1">More...</a><br /></td></tr>
+<tr class="memdesc:a13201d95d8e93e4f9401bb86eb3121e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetSymbols - This will give list of symbols and their data like market lot, tick size, expiry etc. Response routines are GetAllSymbolsStart, GetAllSymbols, ..., GetAllSymbols and GetAllSymbolsEnd.  <a href="#a13201d95d8e93e4f9401bb86eb3121e1">More...</a><br /></td></tr>
 <tr class="separator:a13201d95d8e93e4f9401bb86eb3121e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad860d47e733a9cb17c381d6656ea037"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#aad860d47e733a9cb17c381d6656ea037">PlaceOrder</a> (String^ exchange, String^ accountId, String^ duration, String^ custFirm, String^ product, String^ ordType, String^ trdSymbol, String^ transType, long quantity, double price, double triggerPrice, long discQuantity, String^ strategyCode, String^ warehouseLoc, String^ guiOrdId, String^ guiOrgOrdId, String^ PCode, String^ basketId, String^ waveId, String^ lineId, String^ uniqueKey, long classification, String^ strategyId, String^ trgSeqNo, long mktProtectionPrice, String^ token, double tickUpSqrOff, double tickDownStopLoss, double trailingTickStopLoss, long tickSize, String^ ltpOrAtp, String^ sqrOffAbsOrTick, String^ SLAbsOrTick, String^ trailTickYesNo, String^ vendorCode, String^ GTDValidity, String^ loginSource, String^ strategyCategory, String^ flagToAddCategory)</td></tr>
-<tr class="memdesc:aad860d47e733a9cb17c381d6656ea037"><td class="mdescLeft">&#160;</td><td class="mdescRight">PlaceOrder - This method should be invoked for placing a new single order. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received.  <a href="#aad860d47e733a9cb17c381d6656ea037">More...</a><br /></td></tr>
+<tr class="memdesc:aad860d47e733a9cb17c381d6656ea037"><td class="mdescLeft">&#160;</td><td class="mdescRight">PlaceOrder - This method should be invoked for placing a new single order. Response routines are OrderUpdate when any status of order received from exchange. For trade, FillReport will be received.  <a href="#aad860d47e733a9cb17c381d6656ea037">More...</a><br /></td></tr>
 <tr class="separator:aad860d47e733a9cb17c381d6656ea037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc8ae84d9ae768a43ed0b3b7488652e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#afc8ae84d9ae768a43ed0b3b7488652e7">ModifyOrder</a> (String^ hftOrdNum, double price, long quantity, long discQuantity, String^ ordType, double triggerPrice, String^ ordDuration, String^ guiOrdId, String^ guiOrgOrdId, String^ trgSeqNo, long mktProtectionPrice, String^ GTDValidity)</td></tr>
-<tr class="memdesc:afc8ae84d9ae768a43ed0b3b7488652e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ModifyOrder - This method should be invoked for modifying an existing single order. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received.  <a href="#afc8ae84d9ae768a43ed0b3b7488652e7">More...</a><br /></td></tr>
+<tr class="memdesc:afc8ae84d9ae768a43ed0b3b7488652e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ModifyOrder - This method should be invoked for modifying an existing single order. Response routines are OrderUpdate when any status of order received from exchange. For trade, FillReport will be received,.  <a href="#afc8ae84d9ae768a43ed0b3b7488652e7">More...</a><br /></td></tr>
 <tr class="separator:afc8ae84d9ae768a43ed0b3b7488652e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dd246b70c502b12e46283cc3d2a0b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a99dd246b70c502b12e46283cc3d2a0b7">CancelOrder</a> (String^ hftOrdNum, String^ guiOrdId, String^ guiOrgOrdId, String^ trgSeqNo)</td></tr>
 <tr class="memdesc:a99dd246b70c502b12e46283cc3d2a0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">CancelOrder - This method should be invoked for cancelling an existing single order. Response routine is OrderUpdate when any status of order received from exchange.  <a href="#a99dd246b70c502b12e46283cc3d2a0b7">More...</a><br /></td></tr>
 <tr class="separator:a99dd246b70c502b12e46283cc3d2a0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8816f3c786175eb2206563025e9ba795"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a8816f3c786175eb2206563025e9ba795">GetOrderHistory</a> (String^ hftOrderNo)</td></tr>
-<tr class="memdesc:a8816f3c786175eb2206563025e9ba795"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetOrderHistory will provide history of order with given order number. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received.  <a href="#a8816f3c786175eb2206563025e9ba795">More...</a><br /></td></tr>
-<tr class="separator:a8816f3c786175eb2206563025e9ba795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a760beabb9f947f32fa4a3f2397f7ca2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a760beabb9f947f32fa4a3f2397f7ca2f">GetOpenOrders</a> ()</td></tr>
-<tr class="memdesc:a760beabb9f947f32fa4a3f2397f7ca2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetOpenOrders will provide all open orders at the moment for logged in dealer. Response routines is OrderUpdate.  <a href="#a760beabb9f947f32fa4a3f2397f7ca2f">More...</a><br /></td></tr>
+<tr class="memdesc:a760beabb9f947f32fa4a3f2397f7ca2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetOpenOrders will request for all open orders at the moment for logged in dealer. Response routine is OpenOrdersStart(), OpenOrders(), ..., OpenOrders() and OpenOrdersEnd() which will provide the response containing open orders corresponding to the request.  <a href="#a760beabb9f947f32fa4a3f2397f7ca2f">More...</a><br /></td></tr>
 <tr class="separator:a760beabb9f947f32fa4a3f2397f7ca2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb4587b906b9a625f4bfd039071732e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a2eb4587b906b9a625f4bfd039071732e">GetTradeHistory</a> ()</td></tr>
-<tr class="memdesc:a2eb4587b906b9a625f4bfd039071732e"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetTradeHistory provides all trades for logged in dealer. Response routines is FillReport.  <a href="#a2eb4587b906b9a625f4bfd039071732e">More...</a><br /></td></tr>
+<tr class="memdesc:a2eb4587b906b9a625f4bfd039071732e"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetTradeHistory provides all trades for logged in dealer. Response routine is TradeHistoryStart(), TradeHistory(), ..., TradeHistory() and TradeHistoryEnd() which will provide the response containing traded orders corresponding to the request.  <a href="#a2eb4587b906b9a625f4bfd039071732e">More...</a><br /></td></tr>
 <tr class="separator:a2eb4587b906b9a625f4bfd039071732e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad748e370bed096e84ba2917d6a96f0b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#ad748e370bed096e84ba2917d6a96f0b1">GetPositions</a> (String^ account, String^ exchange, String^ symbol, String^ product)</td></tr>
-<tr class="memdesc:ad748e370bed096e84ba2917d6a96f0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetPositions.  <a href="#ad748e370bed096e84ba2917d6a96f0b1">More...</a><br /></td></tr>
+<tr class="memdesc:ad748e370bed096e84ba2917d6a96f0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetPositions provides the position for client for particular exchange and symbol. Response routines is GetPositionsStart, GetAllPositions and GetPositionsEnd.  <a href="#ad748e370bed096e84ba2917d6a96f0b1">More...</a><br /></td></tr>
 <tr class="separator:ad748e370bed096e84ba2917d6a96f0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdced5a89c75ff20db3f247a682c7cc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#acdced5a89c75ff20db3f247a682c7cc7">UpdateScripMasterData</a> ()</td></tr>
-<tr class="memdesc:acdced5a89c75ff20db3f247a682c7cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">UpdateScripMasterData updates all scrip master data from backend and caches at client side for fast access. Response routine ScripMasterDataUpdateComplete will be called.  <a href="#acdced5a89c75ff20db3f247a682c7cc7">More...</a><br /></td></tr>
+<tr class="memdesc:acdced5a89c75ff20db3f247a682c7cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">UpdateScripMasterData updates all scrip master data from backend and caches at DLL for fast access. Response routine ScripMasterDataUpdateComplete will be called.  <a href="#acdced5a89c75ff20db3f247a682c7cc7">More...</a><br /></td></tr>
 <tr class="separator:acdced5a89c75ff20db3f247a682c7cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acea4d770c18c21a8e800695505ea7077"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#acea4d770c18c21a8e800695505ea7077">UpdateOldTradingData</a> ()</td></tr>
-<tr class="memdesc:acea4d770c18c21a8e800695505ea7077"><td class="mdescLeft">&#160;</td><td class="mdescRight">UpdateOldTradingData updates all trading data from backend and caches at client side for fast access. Response routine OldTradingDataUpdateComplete will be called.  <a href="#acea4d770c18c21a8e800695505ea7077">More...</a><br /></td></tr>
-<tr class="separator:acea4d770c18c21a8e800695505ea7077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3307d0a628f0e6014734bb6f63f43a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#aa3307d0a628f0e6014734bb6f63f43a1">SecurityInfo</a> (String^ symbol, String^ exchange)</td></tr>
-<tr class="memdesc:aa3307d0a628f0e6014734bb6f63f43a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">SecurityInfo.  <a href="#aa3307d0a628f0e6014734bb6f63f43a1">More...</a><br /></td></tr>
+<tr class="memdesc:aa3307d0a628f0e6014734bb6f63f43a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">SecurityInfo - This method provides the security information like market lot, precision etc. Response routine GetSecurityInfoStart, SendSecurityInfo and GetSecurityInfoEnd will be called.  <a href="#aa3307d0a628f0e6014734bb6f63f43a1">More...</a><br /></td></tr>
 <tr class="separator:aa3307d0a628f0e6014734bb6f63f43a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a203fc38a91d010778f449716911dd2d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a203fc38a91d010778f449716911dd2d0">GetScripDetails</a> (String^ exchange, String^ symbol)</td></tr>
-<tr class="memdesc:a203fc38a91d010778f449716911dd2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetScripDetails - This will give current snapshot of market data and market depth of requested symbol. Response routines are OrderBookSanpQuote , GetMarketData, GetIndexData.  <a href="#a203fc38a91d010778f449716911dd2d0">More...</a><br /></td></tr>
+<tr class="memdesc:a203fc38a91d010778f449716911dd2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetScripDetails - This will give current snapshot of market data and market depth of requested symbol. Response routines are OrderBookSanpQuote, GetMarketData, GetIndexData.  <a href="#a203fc38a91d010778f449716911dd2d0">More...</a><br /></td></tr>
 <tr class="separator:a203fc38a91d010778f449716911dd2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5da36c670ab909c238fba45ddafb3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a5a5da36c670ab909c238fba45ddafb3a">GetIndexData</a> (String^ indexName, String^ exchange)</td></tr>
 <tr class="memdesc:a5a5da36c670ab909c238fba45ddafb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetIndexData - This will give current index value of requested index. Response routines is GetIndexData.  <a href="#a5a5da36c670ab909c238fba45ddafb3a">More...</a><br /></td></tr>
@@ -179,17 +173,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35c5835e0f20850f60ef159d3ce66901"><td class="mdescLeft">&#160;</td><td class="mdescRight">SubscribeIndex - This method should be invoked for each and every index for which user want to receive index data.  <a href="#a35c5835e0f20850f60ef159d3ce66901">More...</a><br /></td></tr>
 <tr class="separator:a35c5835e0f20850f60ef159d3ce66901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d676f0a738a4d3ebf208b3ef4449e2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a7d676f0a738a4d3ebf208b3ef4449e2f">GetRmsLimits</a> (String^ sourceUserId, String^ accountId, String^ segment, String^ exchange, String^ product)</td></tr>
-<tr class="memdesc:a7d676f0a738a4d3ebf208b3ef4449e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetRmsLimits.  <a href="#a7d676f0a738a4d3ebf208b3ef4449e2f">More...</a><br /></td></tr>
+<tr class="memdesc:a7d676f0a738a4d3ebf208b3ef4449e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetRmsLimits - Not supported in this version, will be defined in API 2.0.  <a href="#a7d676f0a738a4d3ebf208b3ef4449e2f">More...</a><br /></td></tr>
 <tr class="separator:a7d676f0a738a4d3ebf208b3ef4449e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8afaba3e2d97d58b9c1311848ca9321"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#ad8afaba3e2d97d58b9c1311848ca9321">GetLastErrorCode</a> ()</td></tr>
 <tr class="memdesc:ad8afaba3e2d97d58b9c1311848ca9321"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetLastErrorCode.  <a href="#ad8afaba3e2d97d58b9c1311848ca9321">More...</a><br /></td></tr>
 <tr class="separator:ad8afaba3e2d97d58b9c1311848ca9321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64dc47e4a5945a67ada25f7c3372739b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a64dc47e4a5945a67ada25f7c3372739b">GetLastErrorStr</a> ()</td></tr>
-<tr class="memdesc:a64dc47e4a5945a67ada25f7c3372739b"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetLastErrorStr.  <a href="#a64dc47e4a5945a67ada25f7c3372739b">More...</a><br /></td></tr>
-<tr class="separator:a64dc47e4a5945a67ada25f7c3372739b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb4734134028ed66566a9190a610369"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a5bb4734134028ed66566a9190a610369">GetErrorStr</a> (int errorCode)</td></tr>
-<tr class="memdesc:a5bb4734134028ed66566a9190a610369"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetErrorStr.  <a href="#a5bb4734134028ed66566a9190a610369">More...</a><br /></td></tr>
-<tr class="separator:a5bb4734134028ed66566a9190a610369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53153339df3e2373c7e6225aa6d7020"><td class="memItemLeft" align="right" valign="top">String ^&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#aa53153339df3e2373c7e6225aa6d7020">GetLastErrorStr</a> ()</td></tr>
+<tr class="memdesc:aa53153339df3e2373c7e6225aa6d7020"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetLastErrorStr.  <a href="#aa53153339df3e2373c7e6225aa6d7020">More...</a><br /></td></tr>
+<tr class="separator:aa53153339df3e2373c7e6225aa6d7020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3cd1e1441f01bca6596a52a14df426"><td class="memItemLeft" align="right" valign="top">String ^&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a3d3cd1e1441f01bca6596a52a14df426">GetErrorStr</a> (int errorCode)</td></tr>
+<tr class="memdesc:a3d3cd1e1441f01bca6596a52a14df426"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetErrorStr.  <a href="#a3d3cd1e1441f01bca6596a52a14df426">More...</a><br /></td></tr>
+<tr class="separator:a3d3cd1e1441f01bca6596a52a14df426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad1797aa8b1a5fa59cb9f7ec3943b613c"></a>
@@ -259,12 +253,19 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>CancelOrder - This method should be invoked for cancelling an existing single order. Response routine is OrderUpdate when any status of order received from exchange. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<ul>
+<li>Note : Update of all the states for the order may or may not be received <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">hftOrdNum</td><td></td></tr>
+    <tr><td class="paramname">hftOrdNum</td><td>- ExchangeOrderId of the order </td></tr>
+    <tr><td class="paramname">guiOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">guiOrgOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">trgSeqNo</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -304,8 +305,8 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">userName</td><td></td></tr>
-    <tr><td class="paramname">Old</td><td>password </td></tr>
-    <tr><td class="paramname">New</td><td>password </td></tr>
+    <tr><td class="paramname">OldPassword</td><td></td></tr>
+    <tr><td class="paramname">NewPassword</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -328,19 +329,19 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetAccounts - Provides accounts mapped with logged in dealer. Response routines are GetAccountsStart, GetAccountsEnd and GetAllAccounts. </p>
+<p>GetAccounts - Provides accounts mapped with logged in dealer. Response routines are GetAccountsStart, GetAllAccounts, ..., GetAllAccounts and GetAccountsEnd. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
 </div>
-<a id="a5bb4734134028ed66566a9190a610369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bb4734134028ed66566a9190a610369">&#9670;&nbsp;</a></span>GetErrorStr()</h2>
+<a id="a3d3cd1e1441f01bca6596a52a14df426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3cd1e1441f01bca6596a52a14df426">&#9670;&nbsp;</a></span>GetErrorStr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String uTradeDotNetObject::CuTradeObject::GetErrorStr </td>
+          <td class="memname">String ^ uTradeDotNetObject::CuTradeObject::GetErrorStr </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>errorCode</em></td><td>)</td>
@@ -352,7 +353,7 @@ Public Member Functions</h2></td></tr>
 <p>GetErrorStr. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">error</td><td>code </td></tr>
+    <tr><td class="paramname">errorCode</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -375,7 +376,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetExchnages - Provides exchanges which are connected at the moment. Response routines are GetExchangesStart, GetExchangesEnd and GetExchanges. </p>
+<p>GetExchnages - Provides exchanges which are connected at the moment. Response routines are GetExchangesStart, GetExchanges, ..., GetExchanges and GetExchangesEnd. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
@@ -409,8 +410,8 @@ Public Member Functions</h2></td></tr>
 <p>GetIndexData - This will give current index value of requested index. Response routines is GetIndexData. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Index</td><td>Name </td></tr>
-    <tr><td class="paramname">Exchange</td><td></td></tr>
+    <tr><td class="paramname">IndexName</td><td>- Index Name </td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -437,7 +438,7 @@ Public Member Functions</h2></td></tr>
 <p>GetIndexNames - This will give list of indexes associated or available for requested exchange. Response routines is GetIndexName. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -461,18 +462,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>GetLastErrorCode. </p>
-<dl class="section return"><dt>Returns</dt><dd>Last error code, Refer error codes for more detail </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LastErrorCode - Refer error codes for more detail </dd></dl>
 
 </div>
 </div>
-<a id="a64dc47e4a5945a67ada25f7c3372739b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64dc47e4a5945a67ada25f7c3372739b">&#9670;&nbsp;</a></span>GetLastErrorStr()</h2>
+<a id="aa53153339df3e2373c7e6225aa6d7020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53153339df3e2373c7e6225aa6d7020">&#9670;&nbsp;</a></span>GetLastErrorStr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String uTradeDotNetObject::CuTradeObject::GetLastErrorStr </td>
+          <td class="memname">String ^ uTradeDotNetObject::CuTradeObject::GetLastErrorStr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -481,7 +482,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>GetLastErrorStr. </p>
-<dl class="section return"><dt>Returns</dt><dd>Last error string, Refer error codes for more detail </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LastErrorString - Refer error codes for more detail </dd></dl>
 
 </div>
 </div>
@@ -504,7 +505,7 @@ Public Member Functions</h2></td></tr>
 <p>GetMarketStatus - To get current market status, Response routine is MarketStatusNotify. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -527,34 +528,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetOpenOrders will provide all open orders at the moment for logged in dealer. Response routines is OrderUpdate. </p>
-<dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
-
-</div>
-</div>
-<a id="a8816f3c786175eb2206563025e9ba795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8816f3c786175eb2206563025e9ba795">&#9670;&nbsp;</a></span>GetOrderHistory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int uTradeDotNetObject::CuTradeObject::GetOrderHistory </td>
-          <td>(</td>
-          <td class="paramtype">String^&#160;</td>
-          <td class="paramname"><em>hftOrderNo</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>GetOrderHistory will provide history of order with given order number. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">hftOrderNo</td><td>- set 0 if user want to get all order's history </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>GetOpenOrders will request for all open orders at the moment for logged in dealer. Response routine is OpenOrdersStart(), OpenOrders(), ..., OpenOrders() and OpenOrdersEnd() which will provide the response containing open orders corresponding to the request. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
@@ -564,9 +538,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int uTradeDotNetObject::CuTradeObject::GetPositions </td>
@@ -598,20 +569,15 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>GetPositions. </p>
+<p>GetPositions provides the position for client for particular exchange and symbol. Response routines is GetPositionsStart, GetAllPositions and GetPositionsEnd. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">account</td><td></td></tr>
-    <tr><td class="paramname">exchange</td><td></td></tr>
-    <tr><td class="paramname">symbol</td><td></td></tr>
-    <tr><td class="paramname">product</td><td></td></tr>
+    <tr><td class="paramname">account</td><td>- Client Id like PRO, Client1 etc </td></tr>
+    <tr><td class="paramname">exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
+    <tr><td class="paramname">symbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
+    <tr><td class="paramname">product</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
   </table>
   </dd>
 </dl>
@@ -671,11 +637,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>GetRmsLimits. </p>
+<p>GetRmsLimits - Not supported in this version, will be defined in API 2.0. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">User</td><td>Id </td></tr>
-    <tr><td class="paramname">Account</td><td>Id </td></tr>
+    <tr><td class="paramname">UserId</td><td></td></tr>
+    <tr><td class="paramname">AccountId</td><td></td></tr>
     <tr><td class="paramname">Segment</td><td></td></tr>
     <tr><td class="paramname">Exchange</td><td></td></tr>
     <tr><td class="paramname">Product</td><td></td></tr>
@@ -712,11 +678,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetScripDetails - This will give current snapshot of market data and market depth of requested symbol. Response routines are OrderBookSanpQuote , GetMarketData, GetIndexData. </p>
+<p>GetScripDetails - This will give current snapshot of market data and market depth of requested symbol. Response routines are OrderBookSanpQuote, GetMarketData, GetIndexData. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
-    <tr><td class="paramname">Symbol</td><td></td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
+    <tr><td class="paramname">Symbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -750,11 +716,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetSymbols - This will give list of symbols and their data like market lot, tick size, expiry etc. Response routines are GetAllSymbolsStart, GetAllSymbolsEnd and GetAllSymbols. </p>
+<p>GetSymbols - This will give list of symbols and their data like market lot, tick size, expiry etc. Response routines are GetAllSymbolsStart, GetAllSymbols, ..., GetAllSymbols and GetAllSymbolsEnd. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Exchange</td><td></td></tr>
-    <tr><td class="paramname">scrip</td><td>Update Time </td></tr>
+    <tr><td class="paramname">scripUpdateTime</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
   </table>
   </dd>
 </dl>
@@ -777,7 +743,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>GetTradeHistory provides all trades for logged in dealer. Response routines is FillReport. </p>
+<p>GetTradeHistory provides all trades for logged in dealer. Response routine is TradeHistoryStart(), TradeHistory(), ..., TradeHistory() and TradeHistoryEnd() which will provide the response containing traded orders corresponding to the request. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
@@ -802,8 +768,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a026aab25542c8fe52347ea97e33845ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a026aab25542c8fe52347ea97e33845ad">&#9670;&nbsp;</a></span>Initialize()</h2>
+<a id="a305b9db84e103d81c79b27e23ee3eac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a305b9db84e103d81c79b27e23ee3eac5">&#9670;&nbsp;</a></span>Initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -847,14 +813,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>updateOldData</em>, </td>
+          <td class="paramtype">String^&#160;</td>
+          <td class="paramname"><em>dmsHost</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>updateTradesOnly</em>, </td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>dmsPort</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -872,25 +838,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>scripMasterCompression</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enableLogs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">short&#160;</td>
-          <td class="paramname"><em>logLevel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String^&#160;</td>
-          <td class="paramname"><em>logFileName</em>&#160;</td>
+          <td class="paramname"><em>scripMasterCompression</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -903,20 +851,17 @@ Public Member Functions</h2></td></tr>
 <p>Initialize - This will initialize all required fields with appropriate values. InitializeFromFile can be used as an alternative of this method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Server</td><td>Host Ip </td></tr>
-    <tr><td class="paramname">Server</td><td>Port </td></tr>
-    <tr><td class="paramname">RMS</td><td>Host Ip </td></tr>
-    <tr><td class="paramname">RMS</td><td>Port </td></tr>
-    <tr><td class="paramname">Tcp</td><td>Feed Host Ip </td></tr>
-    <tr><td class="paramname">Tcp</td><td>Feed Host Port </td></tr>
-    <tr><td class="paramname">update</td><td>Old trading data </td></tr>
-    <tr><td class="paramname">update</td><td>open orders and trades only </td></tr>
-    <tr><td class="paramname">update</td><td>scrip master data </td></tr>
-    <tr><td class="paramname">Records</td><td>To Request </td></tr>
-    <tr><td class="paramname">ScripMaster</td><td>Compression </td></tr>
-    <tr><td class="paramname">Enable</td><td>Logs </td></tr>
-    <tr><td class="paramname">Log</td><td>Level </td></tr>
-    <tr><td class="paramname">Log</td><td>File Name </td></tr>
+    <tr><td class="paramname">ServerHostIp</td><td></td></tr>
+    <tr><td class="paramname">ServerPort</td><td></td></tr>
+    <tr><td class="paramname">RMSHostIp</td><td></td></tr>
+    <tr><td class="paramname">RMSPort</td><td></td></tr>
+    <tr><td class="paramname">TcpFeedHostIp</td><td></td></tr>
+    <tr><td class="paramname">TcpFeedHostPort</td><td></td></tr>
+    <tr><td class="paramname">DMSHostIp</td><td></td></tr>
+    <tr><td class="paramname">DMSPort</td><td></td></tr>
+    <tr><td class="paramname">updateScripMaster</td><td></td></tr>
+    <tr><td class="paramname">RecordsToRequest</td><td></td></tr>
+    <tr><td class="paramname">ScripMasterCompression</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -943,7 +888,7 @@ Public Member Functions</h2></td></tr>
 <p>InitializeFromFile - This will initialize all required fields with appropriate values after reading from file provided. Initialize can be used as an alternative of this method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">File</td><td>Name </td></tr>
+    <tr><td class="paramname">FileName</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1095,13 +1040,28 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ModifyOrder - This method should be invoked for modifying an existing single order. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>ModifyOrder - This method should be invoked for modifying an existing single order. Response routines are OrderUpdate when any status of order received from exchange. For trade, FillReport will be received,. </p>
+<ul>
+<li>Note : Update of all the states for the order may or may not be received <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">hftOrdNum</td><td></td></tr>
+    <tr><td class="paramname">hftOrdNum</td><td>- ExchangeOrderId of the order </td></tr>
+    <tr><td class="paramname">price</td><td>- Modified Price </td></tr>
+    <tr><td class="paramname">quantity</td><td>- Modified Quantity </td></tr>
+    <tr><td class="paramname">discQuantity</td><td>- Modified Disclosed Quantity </td></tr>
+    <tr><td class="paramname">ordType</td><td>- Modified Order Type of the order like MKT(Market), L(Limit) etc </td></tr>
+    <tr><td class="paramname">triggerPrice</td><td>- Modified StopPrice of the order </td></tr>
+    <tr><td class="paramname">ordDuration</td><td>- Modified OrderValidity of the order like Day, IOC etc </td></tr>
+    <tr><td class="paramname">guiOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">guiOrgOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">trgSeqNo</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">mktProtectionPrice</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">GTDValidity</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -1353,52 +1313,55 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>PlaceOrder - This method should be invoked for placing a new single order. Response routines are OrderUpdate when any status of order received from exchange except fill. For trade, FillReport will be received. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>PlaceOrder - This method should be invoked for placing a new single order. Response routines are OrderUpdate when any status of order received from exchange. For trade, FillReport will be received. </p>
+<ul>
+<li>Note : Update of all the states for the order may or may not be received <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">exchange</td><td></td></tr>
-    <tr><td class="paramname">accountId</td><td></td></tr>
-    <tr><td class="paramname">duration</td><td></td></tr>
-    <tr><td class="paramname">custFirm</td><td></td></tr>
-    <tr><td class="paramname">product</td><td></td></tr>
-    <tr><td class="paramname">ordType</td><td></td></tr>
-    <tr><td class="paramname">trdSymbol</td><td></td></tr>
-    <tr><td class="paramname">transType</td><td></td></tr>
-    <tr><td class="paramname">quantity</td><td></td></tr>
-    <tr><td class="paramname">price</td><td></td></tr>
-    <tr><td class="paramname">triggerPrice</td><td></td></tr>
-    <tr><td class="paramname">discQuantity</td><td></td></tr>
-    <tr><td class="paramname">strategyCode</td><td></td></tr>
-    <tr><td class="paramname">warehouseLoc</td><td></td></tr>
-    <tr><td class="paramname">guiOrdId</td><td></td></tr>
-    <tr><td class="paramname">guiOrgOrdId</td><td></td></tr>
-    <tr><td class="paramname">PCode</td><td></td></tr>
-    <tr><td class="paramname">basketId</td><td></td></tr>
-    <tr><td class="paramname">waveId</td><td></td></tr>
-    <tr><td class="paramname">lineId</td><td></td></tr>
-    <tr><td class="paramname">uniqueKey</td><td></td></tr>
-    <tr><td class="paramname">classification</td><td></td></tr>
-    <tr><td class="paramname">strategyId</td><td></td></tr>
-    <tr><td class="paramname">trgSeqNo</td><td></td></tr>
-    <tr><td class="paramname">mktProtectionPrice</td><td></td></tr>
-    <tr><td class="paramname">token</td><td></td></tr>
-    <tr><td class="paramname">tickUpSqrOff</td><td></td></tr>
-    <tr><td class="paramname">tickDownStopLoss</td><td></td></tr>
-    <tr><td class="paramname">trailingTickStopLoss</td><td></td></tr>
-    <tr><td class="paramname">tickSize</td><td></td></tr>
-    <tr><td class="paramname">ltpOrAtp</td><td></td></tr>
-    <tr><td class="paramname">sqrOffAbsOrTick</td><td></td></tr>
-    <tr><td class="paramname">SLAbsOrTick</td><td></td></tr>
-    <tr><td class="paramname">trailTickYesNo</td><td></td></tr>
-    <tr><td class="paramname">vendorCode</td><td></td></tr>
-    <tr><td class="paramname">GTDValidity</td><td></td></tr>
-    <tr><td class="paramname">loginSource</td><td></td></tr>
-    <tr><td class="paramname">strategyCategory</td><td></td></tr>
-    <tr><td class="paramname">flagToAddCategory</td><td></td></tr>
+    <tr><td class="paramname">exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
+    <tr><td class="paramname">accountId</td><td>- Client ID of the order </td></tr>
+    <tr><td class="paramname">duration</td><td>- OrderValidity of the order like Day, IOC etc </td></tr>
+    <tr><td class="paramname">custFirm</td><td>- Account type of the order P(proprietary) and C(customer) </td></tr>
+    <tr><td class="paramname">product</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">ordType</td><td>- Order Type of the order like MKT(Market), L(Limit) etc </td></tr>
+    <tr><td class="paramname">trdSymbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
+    <tr><td class="paramname">transType</td><td>- Transaction Type like B(Buy) or S(Sell) </td></tr>
+    <tr><td class="paramname">quantity</td><td>- Order Quantity </td></tr>
+    <tr><td class="paramname">price</td><td>- Order Price </td></tr>
+    <tr><td class="paramname">triggerPrice</td><td>- StopPrice of the order </td></tr>
+    <tr><td class="paramname">discQuantity</td><td>- Disclosed Quantity </td></tr>
+    <tr><td class="paramname">strategyCode</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">warehouseLoc</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">guiOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">guiOrgOrdId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">PCode</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">basketId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">waveId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">lineId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">uniqueKey</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">classification</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">strategyId</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">trgSeqNo</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">mktProtectionPrice</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">token</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">tickUpSqrOff</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">tickDownStopLoss</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">trailingTickStopLoss</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">tickSize</td><td>- Not required for now, will be defined in API 2.0, can be passed as 0 </td></tr>
+    <tr><td class="paramname">ltpOrAtp</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">sqrOffAbsOrTick</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">SLAbsOrTick</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">trailTickYesNo</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">vendorCode</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">GTDValidity</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">loginSource</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">strategyCategory</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
+    <tr><td class="paramname">flagToAddCategory</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -1428,11 +1391,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>SecurityInfo. </p>
+<p>SecurityInfo - This method provides the security information like market lot, precision etc. Response routine GetSecurityInfoStart, SendSecurityInfo and GetSecurityInfoEnd will be called. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Symbol</td><td></td></tr>
-    <tr><td class="paramname">Exchange</td><td></td></tr>
+    <tr><td class="paramname">Symbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -1475,9 +1438,9 @@ Public Member Functions</h2></td></tr>
 <p>Subscribe - This method should be invoked for each and every symbol for which user wish to receive market data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
-    <tr><td class="paramname">Symbol</td><td></td></tr>
-    <tr><td class="paramname">Subscribe</td><td>flag Quote = 1, Session Change = 2, Notice = 3, Index = 4, Open Interest = 5, Auction Update = 6, Aggregate Quote = 7 </td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
+    <tr><td class="paramname">Symbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
+    <tr><td class="paramname">Subscribeflag</td><td>- Quote = 1, Session Change = 2, Notice = 3, Index = 4, Open Interest = 5, Auction Update = 6, Aggregate Quote = 7 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1504,7 +1467,7 @@ Public Member Functions</h2></td></tr>
 <p>SubscribeIndex - This method should be invoked for each and every index for which user want to receive index data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
   </table>
   </dd>
 </dl>
@@ -1547,32 +1510,12 @@ Public Member Functions</h2></td></tr>
 <p>Unsubscribe - This method should be invoked for each and every symbol for which user do not user to receive market data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Exchange</td><td></td></tr>
-    <tr><td class="paramname">Symbol</td><td></td></tr>
-    <tr><td class="paramname">Unsubscribe</td><td>flag Quote = 1, Session Change = 2, Notice = 3, Index = 4, Open Interest = 5, Auction Update = 6, Aggregate Quote = 7 </td></tr>
+    <tr><td class="paramname">Exchange</td><td>- Exchange Id Symbology like NSEFO, BSEFO etc </td></tr>
+    <tr><td class="paramname">Symbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
+    <tr><td class="paramname">Unsubscribeflag</td><td>- Quote = 1, Session Change = 2, Notice = 3, Index = 4, Open Interest = 5, Auction Update = 6, Aggregate Quote = 7 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
-
-</div>
-</div>
-<a id="acea4d770c18c21a8e800695505ea7077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acea4d770c18c21a8e800695505ea7077">&#9670;&nbsp;</a></span>UpdateOldTradingData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int uTradeDotNetObject::CuTradeObject::UpdateOldTradingData </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>UpdateOldTradingData updates all trading data from backend and caches at client side for fast access. Response routine OldTradingDataUpdateComplete will be called. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
@@ -1592,7 +1535,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>UpdateScripMasterData updates all scrip master data from backend and caches at client side for fast access. Response routine ScripMasterDataUpdateComplete will be called. </p>
+<p>UpdateScripMasterData updates all scrip master data from backend and caches at DLL for fast access. Response routine ScripMasterDataUpdateComplete will be called. </p>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
 
 </div>
