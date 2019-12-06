@@ -158,12 +158,23 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p><b> Note : </b> All fills will be received seperately, but all transactions may not be received, like in the above example, only 1 O1 update received, but both trades are received. <br />
  Order update will contain - Fully Filled, New Reject, Canceled, RMS Reject and will contain one Order Update for life cycle completion. <br />
  Order update and fill report both will contain entry for Partial Fill. </p>
+<p><b> Note : </b> If there is a trade then two callbacks will be generated FillReport and OrderUpdate for e.g. <br />
+</p><ul>
+<li>Client C1 place a buy order of 100 qty on symbol XYZ. <br />
+</li>
+<li>Client C2 place a (MARKET) sell order of 20 qty on symbol XYZ. </li>
+</ul>
+<p>Then Client C1 will received an OrderUpdate(PARTIAL-FILL) with (20 filled, 80 pending) qty and FillReport with 20 qty filled. <br />
+ Where Client C2 will received an OrderUpdate(FILLED) with (20 filled, 00 pending) qty and FillReport with 20 qty filled. <br />
+ To get all the states of an order override OrderUpdate and for trade orderride FillReport (Can override both methods at once) </p>
 <p>E.g. for the working thread T2 <br />
 </p><ul>
 <li>API Client request for all the clients which are mapped to the dealer by invoking the method GetAccounts(). <br />
 </li>
 <li>The response of the client will be process in thread T2 and the callback method will be invoked GetAccountsStart(), GetAllAccounts()and GetAccountsEnd(). </li>
 </ul>
+<p>Note : When user login to HFT then it will bring offline confirmations from DMS and these offline confirmations will not get any callback </p>
+<p>these offline confirmations can access through GetOpenOrders() and GetTradeHistory() methods, after completing offline confirmations it will request to begin online data. </p>
 <h2>Error handling and codes </h2>
 <p>Every request or method call will return an integer value which will be 0 or 1. 0 - Failure, 1 - Success. In case of failure, user can call getLastErrorCode or getLastErrorStr for exact error code. Refer error codes for more detail.</p>
 <h2>Symbology </h2>

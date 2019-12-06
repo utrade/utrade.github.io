@@ -3,6 +3,7 @@ var classu_trade_dot_net_object_1_1_cu_trade_object =
     [ "CuTradeObject", "classu_trade_dot_net_object_1_1_cu_trade_object.html#ad1797aa8b1a5fa59cb9f7ec3943b613c", null ],
     [ "CancelOrder", "classu_trade_dot_net_object_1_1_cu_trade_object.html#a99dd246b70c502b12e46283cc3d2a0b7", null ],
     [ "ChangePassword", "classu_trade_dot_net_object_1_1_cu_trade_object.html#adb23bffa1b698449352c7781360c5a22", null ],
+    [ "GenerateGuiOrderId", "classu_trade_dot_net_object_1_1_cu_trade_object.html#a7923ec2b8b17fb2706e1d80000b7bc6f", null ],
     [ "GetAccounts", "classu_trade_dot_net_object_1_1_cu_trade_object.html#a062829eafc99ee15dd12aeaf8a9f279f", null ],
     [ "GetErrorStr", "classu_trade_dot_net_object_1_1_cu_trade_object.html#a3d3cd1e1441f01bca6596a52a14df426", null ],
     [ "GetExchanges", "classu_trade_dot_net_object_1_1_cu_trade_object.html#a7c7e0ea069e5c34eecb6bc1b51f87b8f", null ],

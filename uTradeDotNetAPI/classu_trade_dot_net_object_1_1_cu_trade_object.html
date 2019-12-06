@@ -184,6 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d3cd1e1441f01bca6596a52a14df426"><td class="memItemLeft" align="right" valign="top">String ^&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a3d3cd1e1441f01bca6596a52a14df426">GetErrorStr</a> (int errorCode)</td></tr>
 <tr class="memdesc:a3d3cd1e1441f01bca6596a52a14df426"><td class="mdescLeft">&#160;</td><td class="mdescRight">GetErrorStr.  <a href="#a3d3cd1e1441f01bca6596a52a14df426">More...</a><br /></td></tr>
 <tr class="separator:a3d3cd1e1441f01bca6596a52a14df426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7923ec2b8b17fb2706e1d80000b7bc6f"><td class="memItemLeft" align="right" valign="top">String ^&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classu_trade_dot_net_object_1_1_cu_trade_object.html#a7923ec2b8b17fb2706e1d80000b7bc6f">GenerateGuiOrderId</a> ()</td></tr>
+<tr class="memdesc:a7923ec2b8b17fb2706e1d80000b7bc6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GenerateGuiOrderId.  <a href="#a7923ec2b8b17fb2706e1d80000b7bc6f">More...</a><br /></td></tr>
+<tr class="separator:a7923ec2b8b17fb2706e1d80000b7bc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad1797aa8b1a5fa59cb9f7ec3943b613c"></a>
@@ -311,6 +314,30 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 - request sent successufully, 0 - failure </dd></dl>
+
+</div>
+</div>
+<a id="a7923ec2b8b17fb2706e1d80000b7bc6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7923ec2b8b17fb2706e1d80000b7bc6f">&#9670;&nbsp;</a></span>GenerateGuiOrderId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String ^ uTradeDotNetObject::CuTradeObject::GenerateGuiOrderId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GenerateGuiOrderId. </p>
+<dl class="section return"><dt>Returns</dt><dd>- Return a unique Gui order Id which can be used in tracking the order.<ul>
+<li>If order Id generation fails it will return empty string.</li>
+<li>Note : Need to send a unique order Id when placing new order. </li>
+</ul>
+</dd></dl>
 
 </div>
 </div>

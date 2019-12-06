@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['generateguiorderid',['GenerateGuiOrderId',['../classu_trade_dot_net_object_1_1_cu_trade_object.html#a7923ec2b8b17fb2706e1d80000b7bc6f',1,'uTradeDotNetObject::CuTradeObject']]],
   ['getaccounts',['GetAccounts',['../classu_trade_dot_net_object_1_1_cu_trade_object.html#a062829eafc99ee15dd12aeaf8a9f279f',1,'uTradeDotNetObject::CuTradeObject']]],
   ['getaccountsend',['GetAccountsEnd',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a493ea3edaf4be900a7b93410bcad4fde',1,'uTradeDotNetObject::CuTradeResponse']]],
   ['getaccountsstart',['GetAccountsStart',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#ad223345a9e792a2b8592bb41937c7b27',1,'uTradeDotNetObject::CuTradeResponse']]],
