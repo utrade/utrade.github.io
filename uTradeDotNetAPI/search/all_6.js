@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['openorders',['OpenOrders',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#af5a4023913359e53991e1bf6bf706938',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['openordersend',['OpenOrdersEnd',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a964defa59e90f17d62ef9426fa41650b',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['openordersstart',['OpenOrdersStart',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#abf8266d2a991eef616460231ad6c3aa6',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['orderbooksnapquote',['OrderBookSnapQuote',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a22e819aa6e83b4bdb7898840ec55b92f',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['orderupdate',['OrderUpdate',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a06eb1b713d19269b88a7c6081b600165',1,'uTradeDotNetObject::CuTradeResponse']]]
+  ['marketdatadllstatus',['MarketDataDllStatus',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a277e338172c867d156e33c4bc3e41912',1,'uTradeDotNetObject::CuTradeResponse']]],
+  ['marketstatusnotify',['MarketStatusNotify',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a5b0ab6c827bbec847fa498abc85b7649',1,'uTradeDotNetObject::CuTradeResponse']]],
+  ['modifyorder',['ModifyOrder',['../classu_trade_dot_net_object_1_1_cu_trade_object.html#afc8ae84d9ae768a43ed0b3b7488652e7',1,'uTradeDotNetObject::CuTradeObject']]]
 ];

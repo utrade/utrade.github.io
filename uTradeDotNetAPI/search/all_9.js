@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['tradehistory',['TradeHistory',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a1776e494366b77dcfc3ae48e45ab4850',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['tradehistoryend',['TradeHistoryEnd',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a2b33c9a270b2794d994649131ddd049f',1,'uTradeDotNetObject::CuTradeResponse']]],
-  ['tradehistorystart',['TradeHistoryStart',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a07d560b1785cf53a7571ae2862e1e248',1,'uTradeDotNetObject::CuTradeResponse']]]
+  ['reqgetmarketdata',['ReqGetMarketData',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#afc9bf651cfb3447b30410c4461fc3074',1,'uTradeDotNetObject::CuTradeResponse']]],
+  ['reqorderbooksnapquote',['ReqOrderBookSnapQuote',['../classu_trade_dot_net_object_1_1_cu_trade_response.html#a39ad9944930ee9e3aba39566df8f276e',1,'uTradeDotNetObject::CuTradeResponse']]]
 ];

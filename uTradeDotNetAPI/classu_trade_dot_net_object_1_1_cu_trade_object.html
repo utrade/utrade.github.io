@@ -334,8 +334,7 @@ Public Member Functions</h2></td></tr>
 
 <p>GenerateGuiOrderId. </p>
 <dl class="section return"><dt>Returns</dt><dd>- Return a unique Gui order Id which can be used in tracking the order.<ul>
-<li>If order Id generation fails it will return empty string.</li>
-<li>Note : Need to send a unique order Id when placing new order. </li>
+<li>If order Id generation fails it will return empty string. </li>
 </ul>
 </dd></dl>
 
@@ -1349,7 +1348,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">duration</td><td>- OrderValidity of the order like Day, IOC etc </td></tr>
     <tr><td class="paramname">custFirm</td><td>- Account type of the order P(proprietary) and C(customer) </td></tr>
     <tr><td class="paramname">product</td><td>- Not required for now, will be defined in API 2.0, can be passed as empty string </td></tr>
-    <tr><td class="paramname">ordType</td><td>- Order Type of the order like MKT(Market), L(Limit) etc </td></tr>
+    <tr><td class="paramname">ordType</td><td>- Order Type of the order like MKT(Market), L(Limit), SL(Stoploss limit), SL-M(Stoploss market) </td></tr>
     <tr><td class="paramname">trdSymbol</td><td>- Symbol Id Symbology like AXISBANK-EQ, AXISBANK29NOVFUT etc </td></tr>
     <tr><td class="paramname">transType</td><td>- Transaction Type like B(Buy) or S(Sell) </td></tr>
     <tr><td class="paramname">quantity</td><td>- Order Quantity </td></tr>
